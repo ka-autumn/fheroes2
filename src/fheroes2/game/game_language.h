@@ -52,7 +52,8 @@ namespace fheroes2
         Ukrainian,
         Vietnamese,
         SimplifiedChinese,
-        TraditionalChinese
+        TraditionalChinese,
+        Japanese
     };
 
     enum class CodePage : uint8_t

@@ -179,9 +179,10 @@ namespace
         return isValid;
     }
 
-    bool isChineseLanguage( const fheroes2::SupportedLanguage language )
+    bool isCjkLanguage( const fheroes2::SupportedLanguage language )
     {
-        return language == fheroes2::SupportedLanguage::SimplifiedChinese || language == fheroes2::SupportedLanguage::TraditionalChinese;
+        return language == fheroes2::SupportedLanguage::SimplifiedChinese || language == fheroes2::SupportedLanguage::TraditionalChinese
+               || language == fheroes2::SupportedLanguage::Japanese;
     }
 
     bool hasHighBitByte( const std::string_view text )
@@ -208,7 +209,7 @@ namespace
         }
 
         const fheroes2::SupportedLanguage textLanguage = language.value_or( fheroes2::getCurrentLanguage() );
-        if ( isChineseLanguage( textLanguage ) ) {
+        if ( isCjkLanguage( textLanguage ) ) {
             return true;
         }
 

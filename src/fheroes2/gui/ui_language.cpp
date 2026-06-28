@@ -78,11 +78,15 @@ namespace
             { "zh_tw", fheroes2::SupportedLanguage::TraditionalChinese },
             { "zh-tw", fheroes2::SupportedLanguage::TraditionalChinese },
             { "traditional chinese", fheroes2::SupportedLanguage::TraditionalChinese },
-            { "chinese traditional", fheroes2::SupportedLanguage::TraditionalChinese } };
+            { "chinese traditional", fheroes2::SupportedLanguage::TraditionalChinese },
+            { "ja", fheroes2::SupportedLanguage::Japanese },
+            { "jp", fheroes2::SupportedLanguage::Japanese },
+            { "japanese", fheroes2::SupportedLanguage::Japanese } };
 
-    bool isChineseLanguage( const fheroes2::SupportedLanguage language )
+    bool isCjkLanguage( const fheroes2::SupportedLanguage language )
     {
-        return language == fheroes2::SupportedLanguage::SimplifiedChinese || language == fheroes2::SupportedLanguage::TraditionalChinese;
+        return language == fheroes2::SupportedLanguage::SimplifiedChinese || language == fheroes2::SupportedLanguage::TraditionalChinese
+               || language == fheroes2::SupportedLanguage::Japanese;
     }
 }
 
@@ -127,7 +131,7 @@ namespace fheroes2
 
     bool isLanguageSupportedForRendering( const SupportedLanguage language )
     {
-        if ( !isChineseLanguage( language ) ) {
+        if ( !isCjkLanguage( language ) ) {
             return true;
         }
 
@@ -152,7 +156,7 @@ namespace fheroes2
                                                              SupportedLanguage::Hungarian,  SupportedLanguage::Czech,      SupportedLanguage::Danish,
                                                              SupportedLanguage::Slovak,     SupportedLanguage::Vietnamese, SupportedLanguage::Greek,
                                                              SupportedLanguage::Esperanto,  SupportedLanguage::SimplifiedChinese,
-                                                             SupportedLanguage::TraditionalChinese };
+                                                             SupportedLanguage::TraditionalChinese, SupportedLanguage::Japanese };
 
         for ( const SupportedLanguage language : possibleLanguages ) {
             if ( language != resourceLanguage && isLanguageSupportedForRendering( language ) ) {
@@ -236,6 +240,8 @@ namespace fheroes2
             return _( "Simplified Chinese" );
         case SupportedLanguage::TraditionalChinese:
             return _( "Traditional Chinese" );
+        case SupportedLanguage::Japanese:
+            return _( "Japanese" );
         default:
             // Did you add a new language? Please add the code to handle it.
             assert( 0 );
@@ -296,6 +302,8 @@ namespace fheroes2
             return "zh_CN";
         case SupportedLanguage::TraditionalChinese:
             return "zh_TW";
+        case SupportedLanguage::Japanese:
+            return "ja";
         default:
             // Did you add a new language? Please add the code to handle it.
             assert( 0 );
@@ -385,6 +393,7 @@ namespace fheroes2
             return CodePage::ISO8859_3;
         case SupportedLanguage::SimplifiedChinese:
         case SupportedLanguage::TraditionalChinese:
+        case SupportedLanguage::Japanese:
             return CodePage::UTF8;
         default:
             // Add new language handling code!

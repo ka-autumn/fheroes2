@@ -152,6 +152,7 @@ namespace
         LOCALE_HU,
         LOCALE_ID,
         LOCALE_IT,
+        LOCALE_JA,
         LOCALE_LA,
         LOCALE_LT,
         LOCALE_LV,
@@ -289,6 +290,10 @@ namespace
                                                                                   // Vietnamese
                                                                                   { "vi", LocaleType::LOCALE_VI },
                                                                                   { "vietnamese", LocaleType::LOCALE_VI },
+                                                                                  // Japanese
+                                                                                  { "ja", LocaleType::LOCALE_JA },
+                                                                                  { "jp", LocaleType::LOCALE_JA },
+                                                                                  { "japanese", LocaleType::LOCALE_JA },
                                                                                   // Simplified Chinese
                                                                                   { "zh_CN", LocaleType::LOCALE_ZH_CN },
                                                                                   { "zh_cn", LocaleType::LOCALE_ZH_CN },
@@ -647,6 +652,7 @@ const char * Translation::ngettext( const char * str, const char * plural, const
 {
     if ( current ) {
         switch ( current->getLocale() ) {
+        case LocaleType::LOCALE_JA:
         case LocaleType::LOCALE_ZH_CN:
         case LocaleType::LOCALE_ZH_TW:
             return current->ngettext( str, 0 );
