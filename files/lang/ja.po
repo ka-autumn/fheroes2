@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "SELECT"
-msgstr "選択"
+msgstr "SELECT"
 
 msgid "ABOUT"
 msgstr "情報"
@@ -34,13 +34,13 @@ msgid "ALL"
 msgstr "全て"
 
 msgid "EXIT"
-msgstr "出口"
+msgstr "EXIT"
 
 msgid "smallerButton|EXIT"
-msgstr "小さいボタン|EXIT"
+msgstr "EXIT"
 
 msgid "OKAY"
-msgstr "決定"
+msgstr "OKAY"
 
 msgid "HEROES"
 msgstr "ヒーローたち"
@@ -53,13 +53,13 @@ msgstr ""
 "城"
 
 msgid "CANCEL"
-msgstr "キャンセル"
+msgstr "CANCEL"
 
 msgid "ACCEPT"
-msgstr "受け入れる"
+msgstr "ACCEPT"
 
 msgid "DECLINE"
-msgstr "衰退"
+msgstr "DECLINE"
 
 msgid "LEARN"
 msgstr "学ぶ"
@@ -68,13 +68,13 @@ msgid "TRADE"
 msgstr "貿易"
 
 msgid "YES"
-msgstr "はい"
+msgstr "YES"
 
 msgid "NO"
-msgstr "いいえ"
+msgstr "NO"
 
 msgid "DISMISS"
-msgstr "却下する"
+msgstr "DISMISS"
 
 msgid "UPGRADE"
 msgstr "アップグレード"
@@ -575,7 +575,7 @@ msgid "Exit this menu."
 msgstr "このメニューを終了します。"
 
 msgid "Okay"
-msgstr "わかった"
+msgstr "Okay"
 
 msgid "The enemy has surrendered!"
 msgstr "敵は降伏した！"
@@ -620,7 +620,7 @@ msgid "Click to restart the battle in manual mode."
 msgstr "クリックすると手動モードで戦闘が再開されます。"
 
 msgid "Restart"
-msgstr "再起動"
+msgstr "Restart"
 
 msgid "You have captured an enemy artifact!"
 msgstr "敵のアーティファクトを捕獲しました!"
@@ -676,7 +676,7 @@ msgid "Surrender"
 msgstr "降伏"
 
 msgid "Cancel"
-msgstr "キャンセル"
+msgstr "Cancel"
 
 msgid "Hero Screen"
 msgstr "ヒーロー画面"
@@ -1069,7 +1069,7 @@ msgid "Start the battle."
 msgstr "戦闘を開始します。"
 
 msgid "Exit"
-msgstr "出口"
+msgstr "Exit"
 
 msgid "Reset"
 msgstr "リセット"
@@ -2819,7 +2819,7 @@ msgid "Upgrade your troops."
 msgstr "軍隊をアップグレードしてください。"
 
 msgid "Dismiss"
-msgstr "却下する"
+msgstr "解散"
 
 msgid "Dismiss this army."
 msgstr "この軍隊を解散させてください。"
@@ -2922,13 +2922,13 @@ msgid "There was an issue during saving."
 msgstr "保存中に問題が発生しました。"
 
 msgid "New Game"
-msgstr "新しいゲーム"
+msgstr "New Game"
 
 msgid "Start a single or multi-player game."
 msgstr "シングルまたはマルチプレイヤー ゲームを開始します。"
 
 msgid "Load Game"
-msgstr "ゲームをロード"
+msgstr "Load Game"
 
 msgid "Load a previously saved game."
 msgstr "以前に保存したゲームをロードします。"
@@ -2937,7 +2937,7 @@ msgid "Restart the scenario."
 msgstr "シナリオを再開します。"
 
 msgid "Save Game"
-msgstr "ゲームを保存する"
+msgstr "Save Game"
 
 msgid "Save the current game."
 msgstr "現在のゲームを保存します。"
@@ -2949,7 +2949,7 @@ msgid "Save the current game without name selection."
 msgstr "名前を選択せずに現在のゲームを保存します。"
 
 msgid "Quit"
-msgstr "終了"
+msgstr "Quit"
 
 msgid "Quit out of Heroes of Might and Magic II."
 msgstr "Heroes of Might and Magic II を終了します。"
@@ -5311,7 +5311,7 @@ msgid "Are you sure you want to quit?"
 msgstr "本当に辞めてもよろしいですか？"
 
 msgid "High Scores"
-msgstr "ハイスコア"
+msgstr "High Scores"
 
 msgid "Your Name"
 msgstr "あなたの名前"
@@ -5814,7 +5814,7 @@ msgid "Quit Heroes of Might and Magic II and return to the operating system."
 msgstr "Heroes of Might and Magic II を終了し、オペレーティング システムに戻ります。"
 
 msgid "Credits"
-msgstr "クレジット"
+msgstr "Credits"
 
 msgid "View the credits screen."
 msgstr "クレジット画面を表示します。"
@@ -8033,7 +8033,7 @@ msgid "Dismissal of %{name} the %{race} is prohibited by scenario"
 msgstr "%{name} と %{race} の解雇はシナリオにより禁止されています"
 
 msgid "Dismiss %{name} the %{race}"
-msgstr "%{name} と %{race} を却下します"
+msgstr "%{name} と %{race} を解散させます"
 
 msgid "Show previous hero"
 msgstr "前のヒーローを表示"
@@ -8653,7 +8653,7 @@ msgid "Barbarian"
 msgstr "野蛮人"
 
 msgid "Sorceress"
-msgstr "魔術師"
+msgstr "ソーサレス"
 
 msgid "Warlock"
 msgstr "ウォーロック"
