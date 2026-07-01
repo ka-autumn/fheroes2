@@ -483,16 +483,16 @@ msgstr "%{monster} 数を設定:"
 
 msgid "%{name} destroys half the enemy troops!"
 msgid_plural "%{name} destroy half the enemy troops!"
-msgstr[0] "%{name}敵軍の半分を破壊します!"
+msgstr[0] "%{name}は敵軍の半分を破壊します!"
 
 msgid "%{name} has turned off the auto combat"
-msgstr "%{name} は自動戦闘をオフにしました"
+msgstr "%{name}は自動戦闘をオフにしました"
 
 msgid "%{name} has turned on the auto combat"
-msgstr "%{name} が自動戦闘をオンにしました"
+msgstr "%{name}は自動戦闘をオンにしました"
 
 msgid "Spell failed!"
-msgstr "呪文は失敗しました！"
+msgstr "呪文は失敗しました!"
 
 msgid ""
 "The Sphere of Negation artifact is in effect for this battle, disabling all "
@@ -871,7 +871,7 @@ msgstr "クイックコンバット"
 
 msgid "The %{name} skips their turn."
 msgid_plural "The %{name} skip their turn."
-msgstr[0] "%{name} は順番をスキップします。"
+msgstr[0] "%{name}はターンをスキップします。"
 
 msgid "%{attacker} does %{damage} damage."
 msgid_plural "%{attacker} do %{damage} damage."
@@ -883,15 +883,15 @@ msgstr[0] "%{count} 体のクリーチャーが滅びます。"
 
 msgid "1 %{defender} perishes."
 msgid_plural "%{count} %{defender} perish."
-msgstr[0] "%{count} %{defender} が滅びます。"
+msgstr[0] "%{count} 体の%{defender}が滅びます。"
 
 msgid "1 soul is incorporated."
 msgid_plural "%{count} souls are incorporated."
-msgstr[0] "%{count} 個の魂が組み込まれています。"
+msgstr[0] "%{count}つの魂を取り込みます。"
 
 msgid "1 %{unit} is revived."
 msgid_plural "%{count} %{unit} are revived."
-msgstr[0] "%{count} %{unit} が復活しました。"
+msgstr[0] "%{count} 体の%{unit}が復活します。"
 
 msgid "Moved %{monster}: from [%{src}] to [%{dst}]."
 msgstr "%{monster}: [%{src}] から [%{dst}] に移動しました。"
@@ -901,13 +901,13 @@ msgid_plural "The %{name} resist the spell!"
 msgstr[0] "%{name} は呪文に抵抗します!"
 
 msgid "%{name} casts %{spell} on the %{troop}."
-msgstr "%{name} は %{spell} を %{troop} にキャストします。"
+msgstr "%{name}は%{spell}を%{troop}にキャストします。"
 
 msgid "%{name} casts %{spell}."
-msgstr "%{name} は %{spell} をキャストします。"
+msgstr "%{name}は%{spell}をキャストします。"
 
 msgid "The %{spell} does %{damage} damage to one undead creature."
-msgstr "%{spell}はアンデッド・クリーチャー1体に%{damage}のダメージを与える。"
+msgstr "%{spell}はアンデッド・クリーチャー1体に%{damage}のダメージを与えます。"
 
 msgid "The %{spell} does %{damage} damage to all undead creatures."
 msgstr "%{spell}はすべてのアンデッド・クリーチャーに%{damage}のダメージを与えます。"
@@ -916,7 +916,7 @@ msgid "The %{spell} does %{damage} damage, %{count} creatures perish."
 msgstr "%{spell}は%{damage}のダメージを与え、%{count}のクリーチャーが滅びます。"
 
 msgid "The %{spell} does %{damage} damage."
-msgstr "%{spell} は %{damage} のダメージを与えます。"
+msgstr "%{spell}は%{damage}のダメージを与えます。"
 
 msgid "The %{spell} does %{damage} damage to one living creature."
 msgstr "%{spell}は1匹の生き物に%{damage}のダメージを与えます。"
@@ -926,11 +926,11 @@ msgstr "%{spell}はすべての生き物に%{damage}のダメージを与えま�
 
 msgid "The %{attacker}'s attack blinds the %{target}!"
 msgid_plural "The %{attacker}' attack blinds the %{target}!"
-msgstr[0] "%{attacker}' の攻撃で %{target} の目が見えなくなりました!"
+msgstr[0] "%{attacker}の攻撃で%{target}の目が見えなくなります!"
 
 msgid "The %{attacker}'s gaze turns the %{target} to stone!"
 msgid_plural "The %{attacker}' gaze turns the %{target} to stone!"
-msgstr[0] "%{attacker} の視線は %{target} を石に変えます!"
+msgstr[0] "%{attacker}の視線は%{target}を石に変えます!"
 
 msgid "The %{attacker}'s curse falls upon the %{target}!"
 msgid_plural "The %{attacker}' curse falls upon the %{target}!"
@@ -938,27 +938,27 @@ msgstr[0] "%{attacker}の呪いが%{target}に降りかかります!"
 
 msgid "The %{target} is paralyzed by the %{attacker}!"
 msgid_plural "The %{target} are paralyzed by the %{attacker}!"
-msgstr[0] "%{target} は %{attacker} によって麻痺しています。"
+msgstr[0] "%{target}は%{attacker}によって麻痺しています!"
 
 msgid "The %{attacker} dispels all good spells on your %{target}!"
 msgid_plural "The %{attacker} dispel all good spells on your %{target}!"
-msgstr[0] "%{attacker} はあなたの %{target} にかかるすべての良い呪文を打ち消します!"
+msgstr[0] "%{attacker}はあなたの%{target}にかかるすべての良い呪文を打ち消します!"
 
 msgid "The %{attacker} casts %{spell} on the %{target}!"
 msgid_plural "The %{attacker} cast %{spell} on the %{target}!"
-msgstr[0] "%{attacker} は %{target} に %{spell} をキャストしました。"
+msgstr[0] "%{attacker}は%{target}に%{spell}をキャストします!"
 
 msgid "Bad luck descends on the %{attacker}."
-msgstr "%{attacker} に不運が降りかかります。"
+msgstr "%{attacker}に不運が降りかかります。"
 
 msgid "Good luck shines on the %{attacker}."
-msgstr "%{attacker} には幸運が輝きます。"
+msgstr "%{attacker}には幸運が輝きます。"
 
 msgid "High morale enables the %{monster} to attack again."
-msgstr "高い士気により、%{monster} は再び攻撃することができます。"
+msgstr "高い士気により、%{monster}は再び攻撃することができます。"
 
 msgid "Low morale causes the %{monster} to freeze in panic."
-msgstr "士気の低下により、%{monster} はパニックに陥って固まってしまいます。"
+msgstr "士気の低下により、%{monster}はパニックに陥って固まってしまいます。"
 
 msgid "%{tower} does %{damage} damage."
 msgstr "%{tower}は%{damage}のダメージを与えます。"
@@ -967,7 +967,7 @@ msgid "The mirror image is created."
 msgstr "鏡像が作成されます。"
 
 msgid "The mirror image is destroyed!"
-msgstr "鏡像が崩れる！"
+msgstr "鏡像が破壊されます!"
 
 msgid "Are you sure you want to interrupt the auto combat mode?"
 msgstr "自動戦闘モードを中断してもよろしいですか?"
@@ -1127,7 +1127,7 @@ msgstr "%{name} は破壊されます。"
 
 msgid "%{count} %{name} rises from the dead!"
 msgid_plural "%{count} %{name} rise from the dead!"
-msgstr[0] "%{count} %{name} 死から甦れ！"
+msgstr[0] "%{count} %{name}が死から蘇ります!"
 
 msgid "Dwarven Alliance"
 msgstr "ドワーフ同盟"
