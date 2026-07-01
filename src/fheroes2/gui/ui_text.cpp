@@ -825,14 +825,42 @@ namespace
         return alpha;
     }
 
-    // SDL_ttf renders every glyph onto a surface spanning the font's full ascent-to-descent height (row 0 is
-    // always the font's ascent line, not the individual glyph's ink top), so the glyph sprite only needs to
-    // cancel out the top padding added around the rendered pixels; no per-glyph metrics are needed here.
-    // (The previous implementation re-derived a position from the glyph's own maxY, which double-counted the
-    // ascent-relative offset already baked into the surface and pushed CJK glyphs down by roughly that amount.)
-    int32_t getCjkGlyphVerticalOffset( const int32_t paddingTop )
+    // The bitmap ASCII font's baseline row is baked into its sprites on a per-character basis and isn't exposed
+    // as a single constant, so measure it once per font size from a reference capital letter that has neither
+    // an ascender overshoot nor a descender: its bottom ink row is exactly the baseline.
+    int32_t getBitmapBaselineRow( const fheroes2::FontSize fontSize )
     {
-        return -paddingTop;
+        static std::map<fheroes2::FontSize, int32_t> cache;
+        if ( const auto iter = cache.find( fontSize ); iter != cache.end() ) {
+            return iter->second;
+        }
+
+        const fheroes2::FontCharHandler charHandler( fheroes2::FontType( fontSize, fheroes2::FontColor::WHITE ) );
+        const fheroes2::Sprite & sprite = charHandler.getSprite( 'A' );
+
+        int32_t inkMaxY = 0;
+        for ( int32_t row = 0; row < sprite.height(); ++row ) {
+            for ( int32_t col = 0; col < sprite.width(); ++col ) {
+                if ( sprite.transform()[row * sprite.width() + col] == 0 ) {
+                    inkMaxY = row;
+                }
+            }
+        }
+
+        const int32_t baseline = sprite.y() + inkMaxY;
+        cache.try_emplace( fontSize, baseline );
+        return baseline;
+    }
+
+    // SDL_ttf renders every glyph onto a surface spanning the font's full ascent-to-descent height (row 0 is
+    // always the font's ascent line), so the glyph's baseline sits at surface row `ascent`. Anchor that row to
+    // the bitmap ASCII font's own baseline row so mixed CJK/ASCII text (e.g. a trailing ":" or an embedded
+    // "fheroes2") shares one baseline, instead of just cancelling the sprite's top padding: CJK ideographs
+    // commonly extend a few pixels below the Latin baseline, and lining up ascent-tops only (the previous fix)
+    // left CJK text visibly sitting lower than the surrounding ASCII text.
+    int32_t getCjkGlyphVerticalOffset( TTF_Font * font, const fheroes2::FontSize fontSize, const int32_t paddingTop )
+    {
+        return getBitmapBaselineRow( fontSize ) - paddingTop - TTF_FontAscent( font );
     }
 
     void addCjkButtonOffsetContour( fheroes2::Sprite & input, const fheroes2::Point & contourOffset, const uint8_t colorId )
@@ -1193,7 +1221,7 @@ namespace
                 SDL_UnlockSurface( surface.get() );
             }
 
-            glyph.sprite.setPosition( minX - paddingLeft, getCjkGlyphVerticalOffset( paddingTop ) );
+            glyph.sprite.setPosition( minX - paddingLeft, getCjkGlyphVerticalOffset( font, fontType.size, paddingTop ) );
             applyCjkButtonGlyphEffects( glyph.sprite, fontType );
 
             glyph.advance = advance + getCjkGlyphExtraAdvance( fontType, codePoint );
