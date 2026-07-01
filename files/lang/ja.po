@@ -2314,7 +2314,7 @@ msgid "Cave"
 msgstr "洞窟"
 
 msgid "Crypt"
-msgstr "地下室"
+msgstr "地下墓所"
 
 msgid "Nest"
 msgstr "ネスト"
@@ -2341,13 +2341,13 @@ msgid "Library"
 msgstr "図書館"
 
 msgid "Orchard"
-msgstr "オーチャード"
+msgstr "果樹園"
 
 msgid "Habitat"
 msgstr "生息地"
 
 msgid "Pen"
-msgstr "ペン"
+msgstr "囲い"
 
 msgid "Foundry"
 msgstr "鋳物工場"
@@ -2389,10 +2389,10 @@ msgid "Upg. Pyramid"
 msgstr "アップグレードピラミッド"
 
 msgid "Mansion"
-msgstr "マンション"
+msgstr "邸宅"
 
 msgid "Upg. Mansion"
-msgstr "アップグレードマンション"
+msgstr "アップグレード邸宅"
 
 msgid "Mausoleum"
 msgstr "霊廟"
@@ -2469,7 +2469,7 @@ msgstr "虹は防御ユニットの幸運を 2 増加させます。"
 
 msgid ""
 "The Crystal Garden increases production of Sprites by %{count} per week."
-msgstr "クリスタル ガーデンでは、スプライトの生産量が週あたり %{count} 増加します。"
+msgstr "クリスタルガーデンでは、スプライトの生産量が週あたり %{count} 増加します。"
 
 msgid "The Dungeon increases the income of the town by %{count} gold per day."
 msgstr "ダンジョンにより、町の収入が 1 日あたり %{count} ゴールド増加します。"
@@ -2509,7 +2509,7 @@ msgid "Shipyard"
 msgstr "造船所"
 
 msgid "Well"
-msgstr "良い"
+msgstr "井戸"
 
 msgid "Statue"
 msgstr "像"
@@ -2527,7 +2527,7 @@ msgid "Tent"
 msgstr "テント"
 
 msgid "Captain's Quarters"
-msgstr "船長室"
+msgstr "キャプテンの間"
 
 msgid "Mage Guild, Level 1"
 msgstr "魔術師ギルド、レベル 1"
@@ -2602,7 +2602,7 @@ msgstr "材料と金が入手可能であれば、テントは城を建設する
 msgid ""
 "The Captain's Quarters provides a captain to assist in the castle's defense "
 "when no hero is present."
-msgstr "キャプテンズ クォーターズでは、ヒーローが不在の場合に城の防衛を支援するキャプテンを配置します。"
+msgstr "キャプテンの間では、ヒーローが不在の場合に城の防衛を支援するキャプテンを配置します。"
 
 msgid ""
 "The Mage Guild allows heroes to learn spells and replenish their spell "
@@ -2946,7 +2946,7 @@ msgid "Quick Save"
 msgstr "クイックセーブ"
 
 msgid "Save the current game without name selection."
-msgstr "名前を選択せず​​に現在のゲームを保存します。"
+msgstr "名前を選択せずに現在のゲームを保存します。"
 
 msgid "Quit"
 msgstr "終了"
@@ -5820,7 +5820,7 @@ msgid "View the credits screen."
 msgstr "クレジット画面を表示します。"
 
 msgid "View the high scores screen."
-msgstr "ハイスコ​​ア画面を表示します。"
+msgstr "ハイスコア画面を表示します。"
 
 msgid "Create new or modify existing maps."
 msgstr "新しいマップを作成するか、既存のマップを変更します。"
@@ -7313,7 +7313,7 @@ msgstr "あなたは硫黄鉱山の支配権を獲得します。 1 日あたり
 msgid ""
 "You gain control of a crystal mine. It will provide you with %{count} unit "
 "of crystal per day."
-msgstr "あなたは水晶鉱山の制御を獲得します。 1 日あたり %{count} ユニットのクリスタルを提供します。"
+msgstr "あなたは水晶鉱山の制御を獲得します。 1 日あたり %{count} ユニットの水晶を提供します。"
 
 msgid ""
 "You gain control of a gem mine. It will provide you with %{count} unit of "
@@ -8894,7 +8894,7 @@ msgid "Sulfur Mine"
 msgstr "硫黄鉱山"
 
 msgid "Crystal Mine"
-msgstr "クリスタル鉱山"
+msgstr "水晶鉱山"
 
 msgid "Gems Mine"
 msgstr "宝石鉱山"
@@ -9910,7 +9910,7 @@ msgid ""
 msgstr "%{name} はヒーローの攻撃スキルと防御スキルをそれぞれ %{count} 増加させます。"
 
 msgid "Ultimate Shield"
-msgstr "アルティメットシールド"
+msgstr "究極の盾"
 
 msgid ""
 "The %{name} increases the hero's spell power and knowledge by %{count} each."
@@ -9924,10 +9924,10 @@ msgid ""
 msgstr "%{name} はヒーローの各基本スキルを %{count} ポイント増加させます。"
 
 msgid "Ultimate Crown"
-msgstr "アルティメットクラウン"
+msgstr "究極の王冠"
 
 msgid "Golden Goose"
-msgstr "ゴールデングース"
+msgstr "黄金のガチョウ"
 
 msgid "The %{name} brings in an income of %{count} gold per day."
 msgstr "%{name} は 1 日あたり %{count} ゴールドの収入をもたらします。"
@@ -9968,7 +9968,7 @@ msgid ""
 msgstr "焼けた魔女の残骸の横には、複雑なデザインの美しいブローチが横たわっています。慎重に死体に近づき、ブローチを在庫に追加します。"
 
 msgid "Medal of Valor"
-msgstr "勇気のメダル"
+msgstr "武勇のメダル"
 
 msgid "The %{name} increases the morale of the hero's army by %{count}."
 msgstr "%{name} は英雄の軍隊の士気を %{count} 増加させます。"
@@ -10026,7 +10026,7 @@ msgid ""
 msgstr "突然の嵐の中、稲妻が木に落ち、木が裂けました。木の中に謎のメイスを見つけます。"
 
 msgid "Armored Gauntlets of Protection"
-msgstr "アーマード・プロテクション・ガントレット"
+msgstr "守護のガントレット"
 
 msgid "The %{name} increase the hero's defense skill by %{count}."
 msgstr "%{name} はヒーローの防御スキルを %{count} 増加させます。"
@@ -10037,7 +10037,7 @@ msgid ""
 msgstr "悪名高き黒騎士に遭遇！厳しい決闘が引き分けに終わった後、ナイトは敬意を表して、鎧を着たガントレットをあなたに提供します。"
 
 msgid "Defender Helm of Protection"
-msgstr "ディフェンダー・プロテクション・ヘルム"
+msgstr "守護のヘルム"
 
 msgid ""
 "A glint of golden light catches your eye. Upon further investigation, you "
@@ -10066,7 +10066,7 @@ msgid ""
 msgstr "古代の城壁都市の廃墟を歩いていると、都市を破壊するための道具、精巧に作られたバリスタを見つけます。"
 
 msgid "Stealth Shield of Protection"
-msgstr "ステルス・オブ・プロテクション・シールド"
+msgstr "守護のステルスシールド"
 
 msgid ""
 "A stone statue of a warrior holds a silver shield. As you remove the shield,"
@@ -10185,7 +10185,7 @@ msgstr ""
 "遊牧民の商人がゴブリンの部族からの保護を求めています。あなたを助けるために、彼は最も柔らかい革で作られた精巧に作られた一足のブーツをあなたに与えます。よく見ると、革に魅力的な古代の彫刻が刻まれているのがわかります。"
 
 msgid "Traveler's Boots of Mobility"
-msgstr "トラベラーズブーツ オブ モビリティ"
+msgstr "機動性のトラベラーブーツ"
 
 msgid ""
 "Discovering a pair of beautifully beaded boots made from the finest and "
@@ -10206,7 +10206,7 @@ msgid ""
 msgstr "旅の商人は、安全に通行できるように、輝く銀の毛皮でできたウサギの足を提供します。商人はそのお守りは戦運が上がると説明する。"
 
 msgid "Golden Horseshoe"
-msgstr "ゴールデンホースシュー"
+msgstr "黄金の蹄鉄"
 
 msgid ""
 "An ensnared Unicorn whinnies in fright. Murmuring soothing words, you set "
@@ -10232,7 +10232,7 @@ msgid ""
 msgstr "枯れて乾燥した植物の真ん中に、驚くべきことに、健康な緑の四つ葉のクローバーを見つけます。"
 
 msgid "True Compass of Mobility"
-msgstr "モビリティの真の羅針盤"
+msgstr "機動性の真の羅針盤"
 
 msgid "The %{name} increases the hero's movement on land and sea."
 msgstr "%{name} は陸と海での主人公の移動力を高めます。"
@@ -10243,7 +10243,7 @@ msgid ""
 msgstr "発明家を名乗る老人から、最新の発明を試してほしいと頼まれます。それから彼はあなたにコンパスを渡します。"
 
 msgid "Sailor's Astrolabe of Mobility"
-msgstr "船員の機動性アストロラーベ"
+msgstr "機動性の船員のアストロラーベ"
 
 msgid "The %{name} increases the hero's movement on sea."
 msgstr "%{name} は海上での主人公の移動力を高めます。"
@@ -10505,7 +10505,7 @@ msgstr ""
 "つの頭を持つヒドラとの戦いの現場に引き込まれます。あなたのタイムリーな介入により、戦いはその男に有利に傾き、彼は報酬として、彼が戦いに備えて心を落ち着かせるために使用していたペンダントをあなたに与えます。"
 
 msgid "Seeing-eye Pendant"
-msgstr "盲導犬ペンダント"
+msgstr "視力のペンダント"
 
 msgid "The %{name} makes all of the hero's troops immune to blindness spells."
 msgstr "%{name} により、ヒーローの軍隊はすべて失明呪文の影響を受けなくなります。"
@@ -10559,7 +10559,7 @@ msgstr ""
 "あなたは、反対方向に旅行している古い魔法使いの友人に会いました。彼はあなたに贈り物を贈ります。それは、味方に対するディスペル魔法の呪文の使用を防ぐ杖です。"
 
 msgid "Golden Bow"
-msgstr "ゴールデンボウ"
+msgstr "黄金の弓"
 
 msgid ""
 "The %{name} eliminates the %{count} percent penalty for the hero's troops "
@@ -10705,7 +10705,7 @@ msgid "Endless Pouch of Gems"
 msgstr "無限の宝石の袋"
 
 msgid "The %{name} provides %{count} unit of gems per day."
-msgstr "%{name} は 1 日あたり %{count} ユニットのジェムを提供します。"
+msgstr "%{name} は 1 日あたり %{count} ユニットの宝石を提供します。"
 
 msgid ""
 "A short rainstorm brings forth a rainbow...and you can see the end of it. "
@@ -10743,7 +10743,7 @@ msgstr ""
 "あなたは、対人間用の武器を製造しているゴブリンの武器鍛冶場を見つけました。ものすごい叫び声を上げて、あなたとあなたの軍隊は彼らの野営地に急降下し、彼らを追い払います。探索すると、鉄が尽きない魔法の鉱石カートが見つかりました。"
 
 msgid "Endless Pouch of Crystal"
-msgstr "無限のクリスタルポーチ"
+msgstr "無限の水晶の袋"
 
 msgid ""
 "Taking shelter from a storm in a small cave, you notice a small patch of "
@@ -10751,10 +10751,10 @@ msgid ""
 "original crystal grows the lost piece back. You decide to stuff the entire "
 "patch into a pouch and take it with you."
 msgstr ""
-"小さな洞窟で嵐から避難していると、隅に小さな水晶の塊があることに気づきました。不思議なことに、あなたは破片を切り離すと、元のクリスタルが失われた破片を成長させて元に戻すことに気づきました。あなたはパッチ全体をポーチに詰めて持ち歩くことにしました。"
+"小さな洞窟で嵐から避難していると、隅に小さな水晶の塊があることに気づきました。不思議なことに、あなたは破片を切り離すと、元の水晶が失われた破片を成長させて元に戻すことに気づきました。あなたはパッチ全体をポーチに詰めて持ち歩くことにしました。"
 
 msgid "The %{name} provides %{count} unit of crystal per day."
-msgstr "%{name} は 1 日あたり %{count} ユニットのクリスタルを提供します。"
+msgstr "%{name} は 1 日あたり %{count} ユニットの水晶を提供します。"
 
 msgid "Spiked Helm"
 msgstr "スパイクヘルム"
@@ -10928,7 +10928,7 @@ msgstr ""
 "あなたは、ハチミツ酒を食べて体を強化しているジプシーのキャラバンに遭遇します。彼らはあなたを呼び寄せて、「ラーマ・ブタを踊れることを証明したら、ご褒美をあげます」と言います。分からないかもしれませんが、とにかく試してみてください。彼らはヒステリックに笑いますが、あなたの勇気を賞賛し、水晶玉を与えます。"
 
 msgid "Heart of Fire"
-msgstr "ハート・オブ・ファイア"
+msgstr "火の心"
 
 msgid ""
 "The %{name} provides %{count} percent protection from fire, but doubles the "
@@ -11028,7 +11028,7 @@ msgstr ""
 "あなたは、逃亡した牝馬を捕まえる農民を手伝うために立ち止まりました。感謝の気持ちを表すために、彼はあなたに小さな球体を手渡します。掴んだ瞬間、手足から魔力が抜けていくのを感じる……。"
 
 msgid "Staff of Wizardry"
-msgstr "ウィザードリィのスタッフ"
+msgstr "ウィザードリィの杖"
 
 msgid "The %{name} boosts the hero's spell power by %{count}."
 msgstr "%{name} はヒーローの呪文パワーを %{count} 増加させます。"
@@ -11067,7 +11067,7 @@ msgstr ""
 "ゴールドを払え、さもなければアンデュランの剣がその場であなたを殺すでしょう。」あなたは拒否します。トロルはベルトにぶら下げた剣を掴み、苦痛の叫び声を上げて逃げ出した。伝説の剣を手に取り、あなたは、中途半端なトロルが鋭利な物の間違った端を掴む傾向があることに感謝します。"
 
 msgid "Spade of Necromancy"
-msgstr "ネクロマンシーのスペード"
+msgstr "死霊術のシャベル"
 
 msgid "The %{name} gives the hero increased necromancy skill."
 msgstr "%{name} は主人公に強化された死霊術スキルを与えます。"
@@ -11077,7 +11077,7 @@ msgid ""
 " you discover it to be the enchanted shovel of the Gravediggers, long "
 "thought lost by mortals."
 msgstr ""
-"近くの土の山に汚れたシャベルが突っ込まれていた。調査すると、それが定命の者によって失われたと長い間考えられていた、墓掘り人の魔法のシ​​ャベルであることがわかります。"
+"近くの土の山に汚れたシャベルが突っ込まれていた。調査すると、それが定命の者によって失われたと長い間考えられていた、墓掘り人の魔法のシャベルであることがわかります。"
 
 msgid "spellBonus|selected by user"
 msgstr "スペルボーナス|ユーザーが選択"
@@ -11095,7 +11095,7 @@ msgid "Sulfur"
 msgstr "硫黄"
 
 msgid "Crystal"
-msgstr "結晶"
+msgstr "水晶"
 
 msgid "Gems"
 msgstr "宝石"
