@@ -43,7 +43,7 @@ msgid "OKAY"
 msgstr "OKAY"
 
 msgid "HEROES"
-msgstr "ヒーローたち"
+msgstr "勇者たち"
 
 msgid ""
 "TOWNS/\n"
@@ -287,7 +287,7 @@ msgstr ""
 "キャンペーン"
 
 msgid "editorMainMenu|BACK"
-msgstr "エディタメインメニュー|戻る"
+msgstr "戻る"
 
 msgid ""
 "newMap|FROM\n"
@@ -297,7 +297,7 @@ msgstr ""
 "スクラッチ"
 
 msgid "newMap|RANDOM"
-msgstr "新しいマップ|ランダム"
+msgstr "ランダム"
 
 msgid "DIFFICULTY"
 msgstr "困難"
@@ -327,7 +327,7 @@ msgstr ""
 "L"
 
 msgid "army|Few"
-msgstr "軍隊|少数"
+msgstr "少数"
 
 msgid "Warrior"
 msgstr "戦士"
@@ -412,34 +412,34 @@ msgstr ""
 "%{monster}"
 
 msgid "army|Several"
-msgstr "軍隊|いくつか"
+msgstr "いくつか"
 
 msgid "army|Pack"
-msgstr "軍隊|パック"
+msgstr "パック"
 
 msgid "army|Lots"
-msgstr "軍隊|たくさん"
+msgstr "たくさん"
 
 msgid "army|Horde"
-msgstr "軍隊|大群"
+msgstr "大群"
 
 msgid "army|Throng"
-msgstr "軍隊|群衆"
+msgstr "群衆"
 
 msgid "army|Swarm"
-msgstr "軍隊|群れ"
+msgstr "群れ"
 
 msgid "army|Zounds"
-msgstr "軍隊|ゾンズ"
+msgstr "ゾンズ"
 
 msgid "army|Legion"
-msgstr "軍隊|軍団"
+msgstr "軍団"
 
 msgid "All %{race} troops +1"
 msgstr "%{race} 個の軍隊すべて +1"
 
 msgid "NeutralRaceTroops|Neutral"
-msgstr "中立レース部隊|中立"
+msgstr "中立"
 
 msgid "Troops of %{count} alignments -%{penalty}"
 msgstr "%{count} 部隊の部隊 - %{penalty}"
@@ -514,7 +514,7 @@ msgstr "戦闘ごとに召喚できるエレメンタルは 1 種類のみです
 msgid ""
 "There is no open space adjacent to your hero where you can summon an "
 "Elemental to."
-msgstr "ヒーローの隣にエレメンタルを召喚できる空きスペースはありません。"
+msgstr "勇者の隣にエレメンタルを召喚できる空きスペースはありません。"
 
 msgid ""
 "The Moat interrupts any movement through it and reduces the defense skill of"
@@ -522,10 +522,10 @@ msgid ""
 msgstr "堀はそこを通るあらゆる動きを妨害し、その中にいる軍隊の防御スキルを%{count}低下させます。"
 
 msgid "battleAnimation|Speed: %{speed}"
-msgstr "戦闘アニメーション|スピード: %{speed}"
+msgstr "スピード: %{speed}"
 
 msgid "battleAnimation|Speed"
-msgstr "戦闘アニメーション|スピード"
+msgstr "スピード"
 
 msgid "Interface"
 msgstr "インタフェース"
@@ -679,7 +679,7 @@ msgid "Cancel"
 msgstr "Cancel"
 
 msgid "Hero Screen"
-msgstr "ヒーロー画面"
+msgstr "勇者画面"
 
 msgid "Captain's Options"
 msgstr "船長のオプション"
@@ -698,7 +698,7 @@ msgid ""
 "for you to recruit again, however, the hero will have only a novice hero's "
 "forces."
 msgstr ""
-"ヒーローを撤退させ、クリーチャーを放棄してください。あなたのヒーローは再び募集することができますが、ヒーローは初心者ヒーローの部隊のみを持っています。"
+"勇者を撤退させ、クリーチャーを放棄してください。あなたの勇者は再び募集することができますが、勇者は初心者勇者の部隊のみを持っています。"
 
 msgid ""
 "Surrendering costs gold. However if you pay the ransom, the hero and all of "
@@ -706,10 +706,10 @@ msgid ""
 "of surrender is half of the total cost of the non-temporary troops remaining"
 " in the army."
 msgstr ""
-"降伏にはゴールドがかかります。ただし、身代金を支払った場合、ヒーローとその生き残ったすべての生き物は再び募集できるようになります。降伏費用は、軍に残留する非臨時部隊の総費用の半分です。"
+"降伏にはゴールドがかかります。ただし、身代金を支払った場合、勇者とその生き残ったすべての生き物は再び募集できるようになります。降伏費用は、軍に残留する非臨時部隊の総費用の半分です。"
 
 msgid "Open Hero Screen to view full information about the hero."
-msgstr "ヒーロー画面を開いて、ヒーローに関する完全な情報を表示します。"
+msgstr "勇者画面を開いて、勇者に関する完全な情報を表示します。"
 
 msgid "Return to the battle."
 msgstr "戦闘に戻ります。"
@@ -812,13 +812,13 @@ msgid "View Captain's options"
 msgstr "キャプテンのオプションを表示"
 
 msgid "View Hero's options"
-msgstr "ヒーローのオプションを表示"
+msgstr "勇者のオプションを表示"
 
 msgid "View opposing Captain"
 msgstr "相手のキャプテンを見る"
 
 msgid "View opposing Hero"
-msgstr "相手のヒーローを表示"
+msgstr "相手の勇者を表示"
 
 msgid "Hide logs"
 msgstr "ログを非表示にする"
@@ -864,7 +864,7 @@ msgid "The combat is resolved from the current state."
 msgstr "戦闘は現在の状態から解決されます。"
 
 msgid "quickCombat|This cannot be undone."
-msgstr "QuickCombat|これは元に戻すことはできません。"
+msgstr "これは元に戻すことはできません。"
 
 msgid "Quick Combat"
 msgstr "クイックコンバット"
@@ -1000,10 +1000,10 @@ msgid "Perish: %{min} - %{max}"
 msgstr "滅びる: %{min} - %{max}"
 
 msgid "battle_turn_order|Top"
-msgstr "Battle_turn_order|トップ"
+msgstr "トップ"
 
 msgid "battle_turn_order|Bottom"
-msgstr "Battle_turn_order|下位"
+msgstr "下位"
 
 msgid "Turn Order"
 msgstr "ターン順序"
@@ -1088,18 +1088,18 @@ msgid ""
 msgstr "戦闘は%{terrain-type}の地形で行われます。クリックして地形タイプを変更します。"
 
 msgid "Please select another hero."
-msgstr "別のヒーローを選択してください。"
+msgstr "別の勇者を選択してください。"
 
 msgid "Click to select a hero."
-msgstr "クリックしてヒーローを選択します。"
+msgstr "クリックして勇者を選択します。"
 
 msgid "Hero"
-msgstr "ヒーロー"
+msgstr "勇者"
 
 msgid ""
 "If this checkbox is checked, the defending hero is going be human-"
 "controlled."
-msgstr "このチェックボックスがチェックされている場合、防御側のヒーローは人間によって制御されます。"
+msgstr "このチェックボックスがチェックされている場合、防御側の勇者は人間によって制御されます。"
 
 msgid "%{race1} %{name1} vs %{race2} %{name2}"
 msgstr "%{race1} %{name1} 対 %{race2} %{name2}"
@@ -1175,7 +1175,7 @@ msgid "Turning Point"
 msgstr "ターニングポイント"
 
 msgid "scenarioName|Defender"
-msgstr "シナリオ名|ディフェンダー"
+msgstr "ディフェンダー"
 
 msgid "Corlagon's Defense"
 msgstr "コラゴンの防御"
@@ -1306,7 +1306,7 @@ msgid ""
 "castles and there are no more heroes left to fight."
 msgstr ""
 "アーチボルド王は、この地域にいる 3 "
-"人の敵を倒すように要求します。彼らは互いに同盟を結んでいないため、エネルギーのほとんどを仲間内で戦うことに費やします。敵の城をすべて所有し、戦うヒーローがいなくなると勝利となります。"
+"人の敵を倒すように要求します。彼らは互いに同盟を結んでいないため、エネルギーのほとんどを仲間内で戦うことに費やします。敵の城をすべて所有し、戦う勇者がいなくなると勝利となります。"
 
 msgid ""
 "You must unify the barbarian tribes of the north by conquering them. As in "
@@ -1314,7 +1314,7 @@ msgid ""
 "more resources at their disposal. You will win when you own all of the enemy"
 " castles and there are no more heroes left to fight."
 msgstr ""
-"北の野蛮な部族を征服して統一しなければなりません。前のミッションと同様に、敵はあなたに対して同盟を結んでいませんが、自由に使えるリソースが増えています。敵の城をすべて所有し、戦うヒーローがいなくなると勝利となります。"
+"北の野蛮な部族を征服して統一しなければなりません。前のミッションと同様に、敵はあなたに対して同盟を結んでいませんが、自由に使えるリソースが増えています。敵の城をすべて所有し、戦う勇者がいなくなると勝利となります。"
 
 msgid ""
 "Do-gooder wizards have taken the Necromancers' castle. You must retake it to"
@@ -1668,229 +1668,229 @@ msgid "\"The Dwarfbane!!!!, run for your lives.\""
 msgstr "「ドワーフベイン!!!!、命からがら逃げてください。」"
 
 msgid "campaignBonus|Animate Dead"
-msgstr "キャンペーンボーナス|アニメイトデッド"
+msgstr "アニメイトデッド"
 
 msgid "campaignBonus|Chain Lightning"
-msgstr "キャンペーン特典|チェインライトニング"
+msgstr "チェインライトニング"
 
 msgid "campaignBonus|Fireblast"
-msgstr "キャンペーンボーナス|ファイアブラスト"
+msgstr "ファイアブラスト"
 
 msgid "campaignBonus|Mass Curse"
-msgstr "キャンペーンボーナス|大量の呪い"
+msgstr "大量の呪い"
 
 msgid "campaignBonus|Mass Haste"
-msgstr "キャンペーンボーナス|マスヘイスト"
+msgstr "マスヘイスト"
 
 msgid "campaignBonus|Mirror Image"
-msgstr "キャンペーン特典|ミラーイメージ"
+msgstr "ミラーイメージ"
 
 msgid "campaignBonus|Resurrect"
-msgstr "キャンペーンボーナス|復活"
+msgstr "復活"
 
 msgid "campaignBonus|Steelskin"
-msgstr "キャンペーン特典|スティールスキン"
+msgstr "スティールスキン"
 
 msgid "campaignBonus|Summon Earth"
-msgstr "キャンペーン特典|地球召喚"
+msgstr "地球召喚"
 
 msgid "campaignBonus|View Heroes"
-msgstr "キャンペーンボーナス|ヒーローを見る"
+msgstr "勇者を見る"
 
 msgid "campaignBonus|Ballista"
-msgstr "キャンペーン特典|バリスタ"
+msgstr "バリスタ"
 
 msgid "campaignBonus|Black Pearl"
-msgstr "キャンペーン特典|ブラックパール"
+msgstr "ブラックパール"
 
 msgid "campaignBonus|Caster's Bracelet"
-msgstr "キャンペーン特典|キャスターのブレスレット"
+msgstr "キャスターのブレスレット"
 
 msgid "campaignBonus|Defender Helm"
-msgstr "キャンペーンボーナス|ディフェンダーヘルム"
+msgstr "ディフェンダーヘルム"
 
 msgid "campaignBonus|Breastplate"
-msgstr "キャンペーン特典|胸当て"
+msgstr "胸当て"
 
 msgid "campaignBonus|Dragon Sword"
-msgstr "キャンペーン特典|ドラゴンソード"
+msgstr "ドラゴンソード"
 
 msgid "campaignBonus|Fizbin Medal"
-msgstr "キャンペーンボーナス|フィズビンメダル"
+msgstr "フィズビンメダル"
 
 msgid "campaignBonus|Foremost Scroll"
-msgstr "キャンペーンボーナス|一番上のスクロール"
+msgstr "一番上のスクロール"
 
 msgid "campaignBonus|Gauntlets"
-msgstr "キャンペーンボーナス|ガントレット"
+msgstr "ガントレット"
 
 msgid "campaignBonus|Hideous Mask"
-msgstr "キャンペーン特典|恐ろしいマスク"
+msgstr "恐ろしいマスク"
 
 msgid "campaignBonus|Mage's Ring"
-msgstr "キャンペーン特典|魔術師の指輪"
+msgstr "魔術師の指輪"
 
 msgid "campaignBonus|Major Scroll"
-msgstr "キャンペーンボーナス|大巻物"
+msgstr "大巻物"
 
 msgid "campaignBonus|Medal of Honor"
-msgstr "キャンペーンボーナス|名誉勲章"
+msgstr "名誉勲章"
 
 msgid "campaignBonus|Medal of Valor"
-msgstr "キャンペーンボーナス|勇気のメダル"
+msgstr "勇気のメダル"
 
 msgid "campaignBonus|Minor Scroll"
-msgstr "キャンペーンボーナス|小巻"
+msgstr "小巻"
 
 msgid "campaignBonus|Nomad Boots"
-msgstr "キャンペーン特典|ノマド ブーツ"
+msgstr "ノマド ブーツ"
 
 msgid "campaignBonus|Power Axe"
-msgstr "キャンペーン特典|パワーアックス"
+msgstr "パワーアックス"
 
 msgid "campaignBonus|Spiked Shield"
-msgstr "キャンペーンボーナス|スパイクシールド"
+msgstr "スパイクシールド"
 
 msgid "campaignBonus|Stealth Shield"
-msgstr "キャンペーン特典|ステルスシールド"
+msgstr "ステルスシールド"
 
 msgid "campaignBonus|Tax Lien"
-msgstr "キャンペーンボーナス|税金先取特権"
+msgstr "税金先取特権"
 
 msgid "campaignBonus|Thunder Mace"
-msgstr "キャンペーン特典|サンダーメイス"
+msgstr "サンダーメイス"
 
 msgid "campaignBonus|Traveler's Boots"
-msgstr "キャンペーン特典|トラベラーズブーツ"
+msgstr "トラベラーズブーツ"
 
 msgid "campaignBonus|White Pearl"
-msgstr "キャンペーン特典|ホワイトパール"
+msgstr "ホワイトパール"
 
 msgid "campaignBonus|Basic Archery"
-msgstr "キャンペーンボーナス|ベーシックアーチェリー"
+msgstr "ベーシックアーチェリー"
 
 msgid "campaignBonus|Advanced Archery"
-msgstr "キャンペーンボーナス|上級アーチェリー"
+msgstr "上級アーチェリー"
 
 msgid "campaignBonus|Expert Archery"
-msgstr "キャンペーンボーナス|エキスパートアーチェリー"
+msgstr "エキスパートアーチェリー"
 
 msgid "campaignBonus|Basic Ballistics"
-msgstr "キャンペーンボーナス|基本弾道"
+msgstr "基本弾道"
 
 msgid "campaignBonus|Advanced Ballistics"
-msgstr "キャンペーンボーナス|高度な弾道"
+msgstr "高度な弾道"
 
 msgid "campaignBonus|Expert Ballistics"
-msgstr "キャンペーンボーナス|エキスパート弾道学"
+msgstr "エキスパート弾道学"
 
 msgid "campaignBonus|Basic Diplomacy"
-msgstr "キャンペーンボーナス|基本的な外交"
+msgstr "基本的な外交"
 
 msgid "campaignBonus|Advanced Diplomacy"
-msgstr "キャンペーンボーナス|高度な外交"
+msgstr "高度な外交"
 
 msgid "campaignBonus|Expert Diplomacy"
-msgstr "キャンペーンボーナス|専門家外交"
+msgstr "専門家外交"
 
 msgid "campaignBonus|Basic Eagle Eye"
-msgstr "キャンペーン特典|ベーシックイーグルアイ"
+msgstr "ベーシックイーグルアイ"
 
 msgid "campaignBonus|Advanced Eagle Eye"
-msgstr "キャンペーン特典|アドバンストイーグルアイ"
+msgstr "アドバンストイーグルアイ"
 
 msgid "campaignBonus|Expert Eagle Eye"
-msgstr "キャンペーン特典|エキスパート イーグル アイ"
+msgstr "エキスパート イーグル アイ"
 
 msgid "campaignBonus|Basic Estates"
-msgstr "キャンペーンボーナス|基本不動産"
+msgstr "基本不動産"
 
 msgid "campaignBonus|Advanced Estates"
-msgstr "キャンペーンボーナス|上級エステート"
+msgstr "上級エステート"
 
 msgid "campaignBonus|Expert Estates"
-msgstr "キャンペーンボーナス|エキスパートエステート"
+msgstr "エキスパートエステート"
 
 msgid "campaignBonus|Basic Leadership"
-msgstr "キャンペーンボーナス|基本的なリーダーシップ"
+msgstr "基本的なリーダーシップ"
 
 msgid "campaignBonus|Advanced Leadership"
-msgstr "キャンペーンボーナス|高度なリーダーシップ"
+msgstr "高度なリーダーシップ"
 
 msgid "campaignBonus|Expert Leadership"
-msgstr "キャンペーンボーナス|エキスパートのリーダーシップ"
+msgstr "エキスパートのリーダーシップ"
 
 msgid "campaignBonus|Basic Logistics"
-msgstr "キャンペーンボーナス|基本的な物流"
+msgstr "基本的な物流"
 
 msgid "campaignBonus|Advanced Logistics"
-msgstr "キャンペーンボーナス|アドバンスト・ロジスティクス"
+msgstr "アドバンスト・ロジスティクス"
 
 msgid "campaignBonus|Expert Logistics"
-msgstr "キャンペーンボーナス|エキスパート物流"
+msgstr "エキスパート物流"
 
 msgid "campaignBonus|Basic Luck"
-msgstr "キャンペーンボーナス|基本運"
+msgstr "基本運"
 
 msgid "campaignBonus|Advanced Luck"
-msgstr "キャンペーンボーナス|上級運"
+msgstr "上級運"
 
 msgid "campaignBonus|Expert Luck"
-msgstr "キャンペーンボーナス|エキスパートラック"
+msgstr "エキスパートラック"
 
 msgid "campaignBonus|Basic Mysticism"
-msgstr "キャンペーンボーナス|基本的な神秘主義"
+msgstr "基本的な神秘主義"
 
 msgid "campaignBonus|Advanced Mysticism"
-msgstr "キャンペーンボーナス|高度な神秘主義"
+msgstr "高度な神秘主義"
 
 msgid "campaignBonus|Expert Mysticism"
-msgstr "キャンペーンボーナス|専門家の神秘主義"
+msgstr "専門家の神秘主義"
 
 msgid "campaignBonus|Basic Navigation"
-msgstr "キャンペーンボーナス|基本的なナビゲーション"
+msgstr "基本的なナビゲーション"
 
 msgid "campaignBonus|Advanced Navigation"
-msgstr "キャンペーンボーナス|高度なナビゲーション"
+msgstr "高度なナビゲーション"
 
 msgid "campaignBonus|Expert Navigation"
-msgstr "キャンペーンボーナス|エキスパート ナビゲーション"
+msgstr "エキスパート ナビゲーション"
 
 msgid "campaignBonus|Basic Necromancy"
-msgstr "キャンペーンボーナス|基本的な死霊術"
+msgstr "基本的な死霊術"
 
 msgid "campaignBonus|Advanced Necromancy"
-msgstr "キャンペーンボーナス|上級ネクロマンシー"
+msgstr "上級ネクロマンシー"
 
 msgid "campaignBonus|Expert Necromancy"
-msgstr "キャンペーンボーナス|エキスパートネクロマンシー"
+msgstr "エキスパートネクロマンシー"
 
 msgid "campaignBonus|Basic Pathfinding"
-msgstr "キャンペーンボーナス|基本的な経路探索"
+msgstr "基本的な経路探索"
 
 msgid "campaignBonus|Advanced Pathfinding"
-msgstr "キャンペーンボーナス|高度な経路探索"
+msgstr "高度な経路探索"
 
 msgid "campaignBonus|Expert Pathfinding"
-msgstr "キャンペーンボーナス|エキスパート パスファインディング"
+msgstr "エキスパート パスファインディング"
 
 msgid "campaignBonus|Basic Scouting"
-msgstr "キャンペーンボーナス|基本的なスカウト"
+msgstr "基本的なスカウト"
 
 msgid "campaignBonus|Advanced Scouting"
-msgstr "キャンペーンボーナス|アドバンストスカウティング"
+msgstr "アドバンストスカウティング"
 
 msgid "campaignBonus|Expert Scouting"
-msgstr "キャンペーンボーナス|エキスパートスカウト"
+msgstr "エキスパートスカウト"
 
 msgid "campaignBonus|Basic Wisdom"
-msgstr "キャンペーンボーナス|基礎知識"
+msgstr "基礎知識"
 
 msgid "campaignBonus|Advanced Wisdom"
-msgstr "キャンペーンボーナス|高度な知恵"
+msgstr "高度な知恵"
 
 msgid "campaignBonus|Expert Wisdom"
-msgstr "キャンペーンボーナス|専門家の知恵"
+msgstr "専門家の知恵"
 
 msgid ""
 "The main hero will have the \"%{artifact}\" artifact at the start of the "
@@ -2194,13 +2194,13 @@ msgid "Sheltemburg"
 msgstr "シェルテンブルグ"
 
 msgid "Cannot recruit - you already have a Hero in this town."
-msgstr "募集できません - この町にはすでにヒーローがいます。"
+msgstr "募集できません - この町にはすでに勇者がいます。"
 
 msgid "Cannot recruit - you have too many Heroes."
-msgstr "募集できません - ヒーローが多すぎます。"
+msgstr "募集できません - 勇者が多すぎます。"
 
 msgid "Cannot afford a Hero."
-msgstr "ヒーローを雇う余裕はない。"
+msgstr "勇者を雇う余裕はない。"
 
 msgid "There is no room in the garrison for this army."
 msgstr "駐屯地にはこの軍隊が入る余地はない。"
@@ -2302,7 +2302,7 @@ msgid "Fenced Meadow"
 msgstr "柵で囲まれた牧草地"
 
 msgid "sorceress|Red Tower"
-msgstr "魔術師|赤い塔"
+msgstr "赤い塔"
 
 msgid "Dungeon"
 msgstr "ダンジョン"
@@ -2332,7 +2332,7 @@ msgid "Green Tower"
 msgstr "グリーンタワー"
 
 msgid "warlock|Red Tower"
-msgstr "ウォーロック|レッドタワー"
+msgstr "レッドタワー"
 
 msgid "Black Tower"
 msgstr "ブラックタワー"
@@ -2602,7 +2602,7 @@ msgstr "材料と金が入手可能であれば、テントは城を建設する
 msgid ""
 "The Captain's Quarters provides a captain to assist in the castle's defense "
 "when no hero is present."
-msgstr "キャプテンの間では、ヒーローが不在の場合に城の防衛を支援するキャプテンを配置します。"
+msgstr "キャプテンの間では、勇者が不在の場合に城の防衛を支援するキャプテンを配置します。"
 
 msgid ""
 "The Mage Guild allows heroes to learn spells and replenish their spell "
@@ -2620,7 +2620,7 @@ msgid ""
 " no room for a spell book. Try giving one of your artifacts to another hero."
 msgstr ""
 "魔術師ギルドを使用するには魔法の本を購入する必要がありますが、現在魔法の本を購入する余地がありません。あなたのアーティファクトの 1 "
-"つを別のヒーローに与えてみてください。"
+"つを別の勇者に与えてみてください。"
 
 msgid "Exit Castle"
 msgstr "城を出る"
@@ -2638,7 +2638,7 @@ msgid "Show next town"
 msgstr "次の町を表示"
 
 msgid "View Hero"
-msgstr "ヒーローを見る"
+msgstr "勇者を見る"
 
 msgid "Click to show the next town."
 msgstr "クリックすると次の町が表示されます。"
@@ -2665,7 +2665,7 @@ msgid "A generous tip for the barkeep yields the following rumor:"
 msgstr "バーテンダーへの寛大なチップから、次のような噂が生まれました。"
 
 msgid "Recruit Hero"
-msgstr "ヒーローをリクルートする"
+msgstr "勇者をリクルートする"
 
 msgid "%{name} is a level %{value} %{race} "
 msgstr "%{name} はレベル %{value} %{race} です "
@@ -3063,7 +3063,7 @@ msgid "Fullscreen"
 msgstr "全画面表示"
 
 msgid "window|Mode"
-msgstr "ウィンドウ|モード"
+msgstr "モード"
 
 msgid "Windowed"
 msgstr "窓付き"
@@ -3252,7 +3252,7 @@ msgid "already learned"
 msgstr "すでに学んだ"
 
 msgid "treeOfKnowledge|free"
-msgstr "知識の木|無料"
+msgstr "無料"
 
 msgid "already claimed"
 msgstr "すでに主張されている"
@@ -3300,7 +3300,7 @@ msgid "Unknown"
 msgstr "未知"
 
 msgid "heroQuickInfo|(Level %{level})"
-msgstr "heroQuickInfo|(レベル %{level})"
+msgstr "(レベル %{level})"
 
 msgid "Attack:"
 msgstr "攻撃："
@@ -3327,22 +3327,22 @@ msgid "Random Map Generator"
 msgstr "ランダムマップジェネレーター"
 
 msgid "rmg|Player count:"
-msgstr "rmg|プレイヤー数:"
+msgstr "プレイヤー数:"
 
 msgid "rmg|Map layout:"
-msgstr "rmg|マップのレイアウト:"
+msgstr "マップのレイアウト:"
 
 msgid "rmg|Water percentage:"
-msgstr "rmg|水分の割合:"
+msgstr "水分の割合:"
 
 msgid "rmg|Monster strength:"
-msgstr "rmg|モンスターの強さ:"
+msgstr "モンスターの強さ:"
 
 msgid "rmg|Resource availability:"
-msgstr "rmg|リソースの可用性:"
+msgstr "リソースの可用性:"
 
 msgid "rmg|Map seed:"
-msgstr "rmg|マップ シード:"
+msgstr "マップ シード:"
 
 msgid "Click to generate a new map."
 msgstr "クリックして新しいマップを生成します。"
@@ -3438,10 +3438,10 @@ msgstr ""
 "位置： "
 
 msgid "saveLoadDialog|Name"
-msgstr "saveLoadダイアログ|名前"
+msgstr "名前"
 
 msgid "saveLoadDialog|Date"
-msgstr "saveLoadDialog|日付"
+msgstr "日付"
 
 msgid "Are you sure you want to delete file:"
 msgstr "ファイルを削除してもよろしいですか:"
@@ -3523,10 +3523,10 @@ msgid "Select Monster:"
 msgstr "モンスターを選択:"
 
 msgid "There are no heroes to select from."
-msgstr "選択できるヒーローはありません。"
+msgstr "選択できる勇者はありません。"
 
 msgid "Select Hero:"
-msgstr "ヒーローを選択:"
+msgstr "勇者を選択:"
 
 msgid "Select Monsters:"
 msgstr "モンスターを選択:"
@@ -3535,10 +3535,10 @@ msgid "Select Artifacts:"
 msgstr "アーティファクトを選択します:"
 
 msgid "race|Random"
-msgstr "種族|ランダム"
+msgstr "ランダム"
 
 msgid "Click to start placing the selected hero."
-msgstr "クリックすると、選択したヒーローの配置が開始されます。"
+msgstr "クリックすると、選択した勇者の配置が開始されます。"
 
 msgid "%{color} %{race}"
 msgstr "%{color} %{race}"
@@ -3562,7 +3562,7 @@ msgid "Castle/town placing:"
 msgstr "城/町の配置:"
 
 msgid "doubleLinedRace|Neutral"
-msgstr "二重線レース|ニュートラル"
+msgstr "ニュートラル"
 
 msgid "TOWN"
 msgstr "町"
@@ -3583,7 +3583,7 @@ msgid "%{color} %{race} %{townOrCastle}"
 msgstr "%{color} %{race} %{townOrCastle}"
 
 msgid "race|Neutral"
-msgstr "人種|中立"
+msgstr "中立"
 
 msgid "Select Dwelling:"
 msgstr "住居を選択してください:"
@@ -3678,13 +3678,13 @@ msgstr ""
 "サポートされている言語:\n"
 
 msgid "Lose all your heroes and towns."
-msgstr "すべてのヒーローと町を失います。"
+msgstr "すべての勇者と町を失います。"
 
 msgid "Lose a specific town."
 msgstr "特定の町を失う。"
 
 msgid "Lose a specific hero."
-msgstr "特定のヒーローを失います。"
+msgstr "特定の勇者を失います。"
 
 msgid "Run out of time. Fail to win by a certain point."
 msgstr "時間切れです。一定のポイントまでに勝てない。"
@@ -3693,7 +3693,7 @@ msgid "Loss Condition"
 msgstr "損失条件"
 
 msgid "Defeat all enemy heroes and towns."
-msgstr "すべての敵のヒーローと町を倒します。"
+msgstr "すべての敵の勇者と町を倒します。"
 
 msgid "Capture a specific town."
 msgstr "特定の町を占領します。"
@@ -3779,7 +3779,7 @@ msgid "Jump"
 msgstr "ジャンプ"
 
 msgid "Hero Speed"
-msgstr "ヒーロースピード"
+msgstr "勇者の速度"
 
 msgid "Don't Show"
 msgstr "表示しない"
@@ -3797,15 +3797,15 @@ msgid "Battles"
 msgstr "戦闘"
 
 msgid "combatMode|Manual"
-msgstr "戦闘モード|手動"
+msgstr "手動"
 
 msgid "Change the speed at which your heroes move on the main screen."
-msgstr "メイン画面上でヒーローが移動する速度を変更します。"
+msgstr "メイン画面上で勇者が移動する速度を変更します。"
 
 msgid ""
 "Sets the speed that computer heroes move at. You can also elect not to view "
 "computer movement at all."
-msgstr "コンピューターヒーローの移動速度を設定します。コンピュータの動作をまったく表示しないことも選択できます。"
+msgstr "コンピューター勇者の移動速度を設定します。コンピュータの動作をまったく表示しないことも選択できます。"
 
 msgid "Toggle instant battle mode."
 msgstr "インスタントバトルモードを切り替えます。"
@@ -3853,7 +3853,7 @@ msgid "Number of Castles:"
 msgstr "城の数:"
 
 msgid "Number of Heroes:"
-msgstr "ヒーローの数:"
+msgstr "勇者の数:"
 
 msgid "Gold in Treasury:"
 msgstr "財務省の金:"
@@ -3877,10 +3877,10 @@ msgid "Income:"
 msgstr "所得："
 
 msgid "Best Hero:"
-msgstr "最優秀ヒーロー:"
+msgstr "最優秀勇者:"
 
 msgid "Best Hero Stats:"
-msgstr "ベストヒーロー統計:"
+msgstr "ベスト勇者統計:"
 
 msgid "Personality:"
 msgstr "人格："
@@ -4245,11 +4245,11 @@ msgstr "ストリーム"
 msgid ""
 "A maximum of %{count} heroes including jailed heroes can be placed on the "
 "map."
-msgstr "投獄されたヒーローを含む最大 %{count} 人のヒーローをマップ上に配置できます。"
+msgstr "投獄された勇者を含む最大 %{count} 人の勇者をマップ上に配置できます。"
 
 msgid ""
 "A maximum of %{count} heroes of the same color can be placed on the map."
-msgstr "同じ色のヒーローを最大 %{count} 人までマップ上に配置できます。"
+msgstr "同じ色の勇者を最大 %{count} 人までマップ上に配置できます。"
 
 msgid "Failed to update player information."
 msgstr "プレイヤー情報の更新に失敗しました。"
@@ -4358,52 +4358,52 @@ msgid "Treasures"
 msgstr "宝物"
 
 msgid "Heroes"
-msgstr "ヒーロー"
+msgstr "勇者"
 
 msgid "Towns"
 msgstr "町"
 
 msgid "editorDetailMode|Edit"
-msgstr "editorDetailMode|編集"
+msgstr "編集"
 
 msgid "editorDetailMode|Move"
-msgstr "editorDetailMode|移動"
+msgstr "移動"
 
 msgid "editorDetailMode|Copy"
-msgstr "editorDetailMode|コピー"
+msgstr "コピー"
 
 msgid "editorErasure|Mountains"
-msgstr "エディター消去|山"
+msgstr "山"
 
 msgid "editorErasure|Rocks"
-msgstr "エディター消去|岩"
+msgstr "岩"
 
 msgid "editorErasure|Trees"
-msgstr "エディター消去|木"
+msgstr "木"
 
 msgid "editorErasure|Miscellaneous and Water landscape objects"
-msgstr "editorErasure|その他および水の風景オブジェクト"
+msgstr "その他および水の風景オブジェクト"
 
 msgid "editorErasure|Adventure non pickable objects"
-msgstr "editorErasure|アドベンチャー非ピック可能オブジェクト"
+msgstr "アドベンチャー非ピック可能オブジェクト"
 
 msgid "editorErasure|Castles"
-msgstr "エディター消去|城"
+msgstr "城"
 
 msgid "editorErasure|Adventure pickable objects"
-msgstr "editorErasure|アドベンチャーで選択可能なオブジェクト"
+msgstr "アドベンチャーで選択可能なオブジェクト"
 
 msgid "editorErasure|Monsters"
-msgstr "エディター消去|モンスター"
+msgstr "モンスター"
 
 msgid "editorErasure|Heroes"
-msgstr "エディター消去|ヒーローズ"
+msgstr "勇者ズ"
 
 msgid "editorErasure|Roads"
-msgstr "エディター消去|道路"
+msgstr "道路"
 
 msgid "editorErasure|Streams"
-msgstr "エディター消去|ストリーム"
+msgstr "ストリーム"
 
 msgid ""
 "Draws terrain in\n"
@@ -4443,7 +4443,7 @@ msgstr "広い領域をクリアするためにクリックしてドラッグす
 msgid ""
 "Costs %{rate} times normal movement for all heroes. (Pathfinding reduces or "
 "eliminates the penalty.)"
-msgstr "すべてのヒーローの通常の移動コストは %{rate} 倍です。 (パスファインディングによりペナルティが軽減または排除されます。)"
+msgstr "すべての勇者の通常の移動コストは %{rate} 倍です。 (パスファインディングによりペナルティが軽減または排除されます。)"
 
 msgid "Traversable only by boat."
 msgstr "ボートでのみ通行可能。"
@@ -4640,10 +4640,10 @@ msgid "No maps available!"
 msgstr "利用可能な地図はありません!"
 
 msgid "[%{pos}]: %{race} hero"
-msgstr "[%{pos}]: %{race} ヒーロー"
+msgstr "[%{pos}]: %{race} 勇者"
 
 msgid "[%{pos}]: %{name}, %{race} hero"
-msgstr "[%{pos}]: %{name}、%{race} ヒーロー"
+msgstr "[%{pos}]: %{name}、%{race} 勇者"
 
 msgid "[%{pos}]: %{race} castle"
 msgstr "[%{pos}]: %{race} 城"
@@ -4670,19 +4670,19 @@ msgid "Run out of time."
 msgstr "時間切れです。"
 
 msgid "alliance|1st"
-msgstr "同盟|1位"
+msgstr "1位"
 
 msgid "alliance|2nd"
-msgstr "同盟|第2回"
+msgstr "第2回"
 
 msgid "alliance|3rd"
-msgstr "同盟|第3回"
+msgstr "第3回"
 
 msgid "alliance|4th"
-msgstr "同盟|第4回"
+msgstr "第4回"
 
 msgid "alliance|5th"
-msgstr "同盟|5番目"
+msgstr "5番目"
 
 msgid "Special Loss Condition"
 msgstr "特別損失条件"
@@ -4712,10 +4712,10 @@ msgid "Click here to change the town needed to capture to achieve victory."
 msgstr "ここをクリックして、勝利を達成するために攻略する必要がある町を変更します。"
 
 msgid "Select a Hero to defeat to achieve victory"
-msgstr "勝利を得るために倒すヒーローを選択してください"
+msgstr "勝利を得るために倒す勇者を選択してください"
 
 msgid "Click here to change the hero needed to defeat to achieve victory."
-msgstr "勝利を達成するために倒す必要があるヒーローを変更するには、ここをクリックしてください。"
+msgstr "勝利を達成するために倒す必要がある勇者を変更するには、ここをクリックしてください。"
 
 msgid "Put %{color} player in the %{alliance} alliance"
 msgstr "%{color} プレーヤーを %{alliance} 同盟に加えます"
@@ -4735,10 +4735,10 @@ msgid "Click here to change the town whose loss would mean defeat."
 msgstr "負けると敗北を意味する街を変えるにはここをクリックしてください。"
 
 msgid "Select a Hero to lose to suffer defeat"
-msgstr "敗北を喫するために失うヒーローを選択してください"
+msgstr "敗北を喫するために失う勇者を選択してください"
 
 msgid "Click here to change the hero whose loss would mean defeat."
-msgstr "ここをクリックして、敗北を意味するヒーローを変更します。"
+msgstr "ここをクリックして、敗北を意味する勇者を変更します。"
 
 msgid "Map Difficulty"
 msgstr "マップの難易度"
@@ -4753,7 +4753,7 @@ msgid "LANGUAGE"
 msgstr "言語"
 
 msgid "map|ABOUT"
-msgstr "地図|について"
+msgstr "について"
 
 msgid "Change Map Name:"
 msgstr "マップ名の変更:"
@@ -4762,7 +4762,7 @@ msgid "Change Map Description:"
 msgstr "マップの説明を変更:"
 
 msgid "map|About"
-msgstr "地図|概要"
+msgstr "概要"
 
 msgid "Click to edit custom rumors."
 msgstr "クリックしてカスタム噂を編集します。"
@@ -4820,7 +4820,7 @@ msgstr ""
 "(%{color} プレーヤー)"
 
 msgid "editor|%{count} %{resource}"
-msgstr "編集者|%{count} %{resource}"
+msgstr "%{count} %{resource}"
 
 msgid "Animation"
 msgstr "アニメーション"
@@ -4979,19 +4979,19 @@ msgid "Day: %{day} Week: %{week} Month: %{month}"
 msgstr "日: %{day} 週: %{week} 月: %{month}"
 
 msgid "difficulty|Easy"
-msgstr "難易度|簡単"
+msgstr "簡単"
 
 msgid "difficulty|Normal"
-msgstr "難易度|ノーマル"
+msgstr "ノーマル"
 
 msgid "difficulty|Hard"
-msgstr "難易度|ハード"
+msgstr "ハード"
 
 msgid "difficulty|Expert"
-msgstr "難易度|エキスパート"
+msgstr "エキスパート"
 
 msgid "difficulty|Impossible"
-msgstr "難易度|不可能"
+msgstr "不可能"
 
 msgid "Auto Playtest Results"
 msgstr "自動プレイテストの結果"
@@ -5013,19 +5013,19 @@ msgid "Failed to prepare the map for auto playtest."
 msgstr "自動プレイテスト用のマップの準備に失敗しました。"
 
 msgid "autoPlaytest|Number of playthroughs:"
-msgstr "autoPlaytest|プレイスルー数:"
+msgstr "プレイスルー数:"
 
 msgid "autoPlaytest|Max days per playthrough:"
-msgstr "autoPlaytest|プレイスルーあたりの最大日数:"
+msgstr "プレイスルーあたりの最大日数:"
 
 msgid "autoPlaytest|Animation"
-msgstr "autoPlaytest|アニメーション"
+msgstr "アニメーション"
 
 msgid "autoPlaytest|Animation speed:"
-msgstr "autoPlaytest|アニメーション速度:"
+msgstr "アニメーション速度:"
 
 msgid "autoPlaytest|Sound Effects"
-msgstr "autoPlaytest|サウンドエフェクト"
+msgstr "サウンドエフェクト"
 
 msgid "Left-clicking at any point will interrupt the playtest."
 msgstr "任意の時点で左クリックすると、プレイテストが中断されます。"
@@ -5176,13 +5176,13 @@ msgid "Support us at"
 msgstr "でサポートしてください"
 
 msgid "local-donation-platform|https://www.patreon.com/fheroes2"
-msgstr "ローカル寄付プラットフォーム|https://www.patreon.com/fheroes2"
+msgstr "https://www.patreon.com/fheroes2"
 
 msgid "Connect with us at"
 msgstr "で連絡してください"
 
 msgid "local-social-network|https://www.facebook.com/groups/fheroes2"
-msgstr "ローカルソーシャルネットワーク|https://www.facebook.com/groups/fheroes2"
+msgstr "https://www.facebook.com/groups/fheroes2"
 
 msgid "Need help with the game?"
 msgstr "ゲームに関して助けが必要ですか?"
@@ -5293,7 +5293,7 @@ msgid "Recorded at %{recordingStudio}"
 msgstr "%{recordingStudio}で録音されました"
 
 msgid "credits|Manual"
-msgstr "クレジット|マニュアル"
+msgstr "マニュアル"
 
 msgid "German Consultant"
 msgstr "ドイツ人コンサルタント"
@@ -5332,367 +5332,367 @@ msgid "View High Scores for Campaigns."
 msgstr "キャンペーンのハイスコアを表示します。"
 
 msgid "hotkey|default okay event"
-msgstr "ホットキー|デフォルトの OK イベント"
+msgstr "デフォルトの OK イベント"
 
 msgid "hotkey|default cancel event"
-msgstr "ホットキー|デフォルトのキャンセルイベント"
+msgstr "デフォルトのキャンセルイベント"
 
 msgid "hotkey|default left"
-msgstr "ホットキー|デフォルトの左"
+msgstr "デフォルトの左"
 
 msgid "hotkey|default right"
-msgstr "ホットキー|デフォルトの右"
+msgstr "デフォルトの右"
 
 msgid "hotkey|default up"
-msgstr "ホットキー|デフォルトアップ"
+msgstr "デフォルトアップ"
 
 msgid "hotkey|default down"
-msgstr "ホットキー|デフォルトの下"
+msgstr "デフォルトの下"
 
 msgid "hotkey|toggle fullscreen"
-msgstr "ホットキー|全画面表示に切り替える"
+msgstr "全画面表示に切り替える"
 
 msgid "hotkey|toggle text support mode"
-msgstr "ホットキー|テキストサポートモードの切り替え"
+msgstr "テキストサポートモードの切り替え"
 
 msgid "hotkey|toggle developer mode"
-msgstr "ホットキー|開発者モードに切り替える"
+msgstr "開発者モードに切り替える"
 
 msgid "hotkey|quit"
-msgstr "ホットキー|終了"
+msgstr "終了"
 
 msgid "hotkey|new game"
-msgstr "ホットキー|新しいゲーム"
+msgstr "新しいゲーム"
 
 msgid "hotkey|load game"
-msgstr "ホットキー|ゲームをロード"
+msgstr "ゲームをロード"
 
 msgid "hotkey|high scores"
-msgstr "ホットキー|ハイスコア"
+msgstr "ハイスコア"
 
 msgid "hotkey|credits"
-msgstr "ホットキー|クレジット"
+msgstr "クレジット"
 
 msgid "hotkey|standard game"
-msgstr "ホットキー|標準ゲーム"
+msgstr "標準ゲーム"
 
 msgid "hotkey|campaign game"
-msgstr "ホットキー|キャンペーン ゲーム"
+msgstr "キャンペーン ゲーム"
 
 msgid "hotkey|multi-player game"
-msgstr "ホットキー|マルチプレイヤー ゲーム"
+msgstr "マルチプレイヤー ゲーム"
 
 msgid "hotkey|settings"
-msgstr "ホットキー|設定"
+msgstr "設定"
 
 msgid "hotkey|select map"
-msgstr "ホットキー|マップを選択"
+msgstr "マップを選択"
 
 msgid "hotkey|select small map size"
-msgstr "ホットキー|小さいマップ サイズを選択"
+msgstr "小さいマップ サイズを選択"
 
 msgid "hotkey|select medium map size"
-msgstr "ホットキー|中程度のマップ サイズを選択"
+msgstr "中程度のマップ サイズを選択"
 
 msgid "hotkey|select large map size"
-msgstr "ホットキー|大きいマップ サイズを選択"
+msgstr "大きいマップ サイズを選択"
 
 msgid "hotkey|select extra large map size"
-msgstr "ホットキー|特大マップ サイズを選択"
+msgstr "特大マップ サイズを選択"
 
 msgid "hotkey|select all map sizes"
-msgstr "ホットキー|すべてのマップ サイズを選択"
+msgstr "すべてのマップ サイズを選択"
 
 msgid "hotkey|hot seat game"
-msgstr "ホットキー|ホットシート ゲーム"
+msgstr "ホットシート ゲーム"
 
 msgid "hotkey|battle only game"
-msgstr "ホットキー|戦闘のみのゲーム"
+msgstr "戦闘のみのゲーム"
 
 msgid "hotkey|choose the original campaign"
-msgstr "ホットキー|元のキャンペーンを選択"
+msgstr "元のキャンペーンを選択"
 
 msgid "hotkey|choose the expansion campaign"
-msgstr "ホットキー|拡張キャンペーンを選択します"
+msgstr "拡張キャンペーンを選択します"
 
 msgid "hotkey|map editor main menu"
-msgstr "ホットキー|マップ エディタのメイン メニュー"
+msgstr "マップ エディタのメイン メニュー"
 
 msgid "hotkey|new map menu"
-msgstr "ホットキー|新しいマップ メニュー"
+msgstr "新しいマップ メニュー"
 
 msgid "hotkey|load map menu"
-msgstr "ホットキー|ロードマップメニュー"
+msgstr "ロードマップメニュー"
 
 msgid "hotkey|new map from scratch"
-msgstr "ホットキー|最初からマップを新規作成"
+msgstr "最初からマップを新規作成"
 
 msgid "hotkey|new random map"
-msgstr "ホットキー|新しいランダム マップ"
+msgstr "新しいランダム マップ"
 
 msgid "hotkey|undo last action"
-msgstr "ホットキー | 最後の操作を元に戻す"
+msgstr " 最後の操作を元に戻す"
 
 msgid "hotkey|redo last action"
-msgstr "ホットキー|最後の操作をやり直す"
+msgstr "最後の操作をやり直す"
 
 msgid "hotkey|open game main menu"
-msgstr "ホットキー|ゲームのメインメニューを開く"
+msgstr "ゲームのメインメニューを開く"
 
 msgid "hotkey|toggle passability"
-msgstr "ホットキー|通過可能性の切り替え"
+msgstr "通過可能性の切り替え"
 
 msgid "hotkey|auto playtest"
-msgstr "ホットキー|自動プレイテスト"
+msgstr "自動プレイテスト"
 
 msgid "hotkey|re-generate random map"
-msgstr "ホットキー|ランダム マップを再生成"
+msgstr "ランダム マップを再生成"
 
 msgid "hotkey|re-configure random map"
-msgstr "ホットキー|ランダム マップを再構成"
+msgstr "ランダム マップを再構成"
 
 msgid "hotkey|output all text"
-msgstr "ホットキー|すべてのテキストを出力"
+msgstr "すべてのテキストを出力"
 
 msgid "hotkey|roland campaign"
-msgstr "ホットキー|ローランド キャンペーン"
+msgstr "ローランド キャンペーン"
 
 msgid "hotkey|archibald campaign"
-msgstr "ホットキー|アーチボルド キャンペーン"
+msgstr "アーチボルド キャンペーン"
 
 msgid "hotkey|price of loyalty campaign"
-msgstr "ホットキー|ロイヤルティ キャンペーンの価格"
+msgstr "ロイヤルティ キャンペーンの価格"
 
 msgid "hotkey|voyage home campaign"
-msgstr "ホットキー|故郷への旅行キャンペーン"
+msgstr "故郷への旅行キャンペーン"
 
 msgid "hotkey|wizard's isle campaign"
-msgstr "ホットキー|魔法使いの島キャンペーン"
+msgstr "魔法使いの島キャンペーン"
 
 msgid "hotkey|descendants campaign"
-msgstr "ホットキー|子孫キャンペーン"
+msgstr "子孫キャンペーン"
 
 msgid "hotkey|select first campaign bonus"
-msgstr "ホットキー|最初のキャンペーン ボーナスを選択"
+msgstr "最初のキャンペーン ボーナスを選択"
 
 msgid "hotkey|select second campaign bonus"
-msgstr "ホットキー | 2 番目のキャンペーン ボーナスを選択"
+msgstr " 2 番目のキャンペーン ボーナスを選択"
 
 msgid "hotkey|select third campaign bonus"
-msgstr "ホットキー | 3 番目のキャンペーン ボーナスを選択"
+msgstr " 3 番目のキャンペーン ボーナスを選択"
 
 msgid "hotkey|view campaign intro"
-msgstr "ホットキー|キャンペーンの紹介を表示"
+msgstr "キャンペーンの紹介を表示"
 
 msgid "hotkey|select campaign difficulty"
-msgstr "ホットキー|キャンペーンの難易度を選択"
+msgstr "キャンペーンの難易度を選択"
 
 msgid "hotkey|restart campaign scenario"
-msgstr "ホットキー|キャンペーン シナリオを再開する"
+msgstr "キャンペーン シナリオを再開する"
 
 msgid "hotkey|world map left"
-msgstr "ホットキー|世界地図左"
+msgstr "世界地図左"
 
 msgid "hotkey|world map right"
-msgstr "ホットキー|世界地図右"
+msgstr "世界地図右"
 
 msgid "hotkey|world map up"
-msgstr "ホットキー|世界地図を上へ"
+msgstr "世界地図を上へ"
 
 msgid "hotkey|world map down"
-msgstr "ホットキー|世界地図を下へ"
+msgstr "世界地図を下へ"
 
 msgid "hotkey|world map up left"
-msgstr "ホットキー|左上の世界地図"
+msgstr "左上の世界地図"
 
 msgid "hotkey|world map up right"
-msgstr "ホットキー|世界地図を右上に表示"
+msgstr "世界地図を右上に表示"
 
 msgid "hotkey|world map down left"
-msgstr "ホットキー|左下の世界地図"
+msgstr "左下の世界地図"
 
 msgid "hotkey|world map down right"
-msgstr "ホットキー|右下の世界地図"
+msgstr "右下の世界地図"
 
 msgid "hotkey|save game"
-msgstr "ホットキー|ゲームを保存"
+msgstr "ゲームを保存"
 
 msgid "hotkey|quick save"
-msgstr "ホットキー|クイック保存"
+msgstr "クイック保存"
 
 msgid "hotkey|next hero"
-msgstr "ホットキー|次のヒーロー"
+msgstr "次の勇者"
 
 msgid "hotkey|change to hero under cursor"
-msgstr "ホットキー|カーソル下のヒーローに変更"
+msgstr "カーソル下の勇者に変更"
 
 msgid "hotkey|hold and left click to move hero portrait to top of list"
-msgstr "ホットキー | 押したまま左クリックして、ヒーローの肖像画をリストの一番上に移動します"
+msgstr " 押したまま左クリックして、勇者の肖像画をリストの一番上に移動します"
 
 msgid "hotkey|start hero movement"
-msgstr "ホットキー|ヒーローの動きを開始"
+msgstr "勇者の動きを開始"
 
 msgid "hotkey|cast adventure spell"
-msgstr "ホットキー|アドベンチャー呪文を唱える"
+msgstr "アドベンチャー呪文を唱える"
 
 msgid "hotkey|put hero to sleep"
-msgstr "ホットキー|ヒーローを眠らせる"
+msgstr "勇者を眠らせる"
 
 msgid "hotkey|next town"
-msgstr "ホットキー|次の町"
+msgstr "次の町"
 
 msgid "hotkey|end turn"
-msgstr "ホットキー|ターン終了"
+msgstr "ターン終了"
 
 msgid "hotkey|file options"
-msgstr "ホットキー|ファイル オプション"
+msgstr "ファイル オプション"
 
 msgid "hotkey|adventure options"
-msgstr "ホットキー|アドベンチャー オプション"
+msgstr "アドベンチャー オプション"
 
 msgid "hotkey|puzzle map"
-msgstr "ホットキー|パズルマップ"
+msgstr "パズルマップ"
 
 msgid "hotkey|scenario information"
-msgstr "ホットキー|シナリオ情報"
+msgstr "シナリオ情報"
 
 msgid "hotkey|dig for artifact"
-msgstr "ホットキー|アーティファクトを探す"
+msgstr "アーティファクトを探す"
 
 msgid "hotkey|view world"
-msgstr "ホットキー|世界を表示"
+msgstr "世界を表示"
 
 msgid "hotkey|kingdom summary"
-msgstr "ホットキー|キングダムの概要"
+msgstr "キングダムの概要"
 
 msgid "hotkey|default action"
-msgstr "ホットキー|デフォルトのアクション"
+msgstr "デフォルトのアクション"
 
 msgid "hotkey|open focus"
-msgstr "ホットキー|オープンフォーカス"
+msgstr "オープンフォーカス"
 
 msgid "hotkey|system options"
-msgstr "ホットキー|システム オプション"
+msgstr "システム オプション"
 
 msgid "hotkey|scroll left"
-msgstr "ホットキー|左にスクロール"
+msgstr "左にスクロール"
 
 msgid "hotkey|scroll right"
-msgstr "ホットキー|右にスクロール"
+msgstr "右にスクロール"
 
 msgid "hotkey|scroll up"
-msgstr "ホットキー|上にスクロール"
+msgstr "上にスクロール"
 
 msgid "hotkey|scroll down"
-msgstr "ホットキー|下にスクロール"
+msgstr "下にスクロール"
 
 msgid "hotkey|toggle control panel"
-msgstr "ホットキー|コントロール パネルの切り替え"
+msgstr "コントロール パネルの切り替え"
 
 msgid "hotkey|toggle radar"
-msgstr "ホットキー|レーダーの切り替え"
+msgstr "レーダーの切り替え"
 
 msgid "hotkey|toggle buttons"
-msgstr "ホットキー|トグル ボタン"
+msgstr "トグル ボタン"
 
 msgid "hotkey|toggle status"
-msgstr "ホットキー|ステータスの切り替え"
+msgstr "ステータスの切り替え"
 
 msgid "hotkey|toggle icons"
-msgstr "ホットキー|アイコンの切り替え"
+msgstr "アイコンの切り替え"
 
 msgid "hotkey|transfer control to ai"
-msgstr "ホットキー|制御を AI に転送"
+msgstr "制御を AI に転送"
 
 msgid "hotkey|retreat from battle"
-msgstr "ホットキー|戦闘から撤退"
+msgstr "戦闘から撤退"
 
 msgid "hotkey|surrender during battle"
-msgstr "ホットキー|戦闘中の降伏"
+msgstr "戦闘中の降伏"
 
 msgid "hotkey|toggle auto combat mode"
-msgstr "ホットキー|自動戦闘モードの切り替え"
+msgstr "自動戦闘モードの切り替え"
 
 msgid "hotkey|quick combat"
-msgstr "ホットキー|クイック戦闘"
+msgstr "クイック戦闘"
 
 msgid "hotkey|battle options"
-msgstr "ホットキー|戦闘オプション"
+msgstr "戦闘オプション"
 
 msgid "hotkey|skip turn in battle"
-msgstr "ホットキー|戦闘ターンをスキップ"
+msgstr "戦闘ターンをスキップ"
 
 msgid "hotkey|cast battle spell"
-msgstr "ホットキー|戦闘呪文を唱える"
+msgstr "戦闘呪文を唱える"
 
 msgid "hotkey|toggle display of battle turn order"
-msgstr "ホットキー|戦闘ターン順序の表示の切り替え"
+msgstr "戦闘ターン順序の表示の切り替え"
 
 msgid "hotkey|dwelling level 1"
-msgstr "ホットキー|住居レベル 1"
+msgstr "住居レベル 1"
 
 msgid "hotkey|dwelling level 2"
-msgstr "ホットキー|住居レベル 2"
+msgstr "住居レベル 2"
 
 msgid "hotkey|dwelling level 3"
-msgstr "ホットキー|住居レベル 3"
+msgstr "住居レベル 3"
 
 msgid "hotkey|dwelling level 4"
-msgstr "ホットキー|住居レベル 4"
+msgstr "住居レベル 4"
 
 msgid "hotkey|dwelling level 5"
-msgstr "ホットキー|住居レベル 5"
+msgstr "住居レベル 5"
 
 msgid "hotkey|dwelling level 6"
-msgstr "ホットキー|住居レベル 6"
+msgstr "住居レベル 6"
 
 msgid "hotkey|well"
-msgstr "ホットキー|ウェル"
+msgstr "ウェル"
 
 msgid "hotkey|marketplace"
-msgstr "ホットキー|マーケットプレイス"
+msgstr "マーケットプレイス"
 
 msgid "hotkey|mage guild"
-msgstr "ホットキー|魔術師ギルド"
+msgstr "魔術師ギルド"
 
 msgid "hotkey|shipyard"
-msgstr "ホットキー|造船所"
+msgstr "造船所"
 
 msgid "hotkey|thieves guild"
-msgstr "ホットキー|盗賊ギルド"
+msgstr "盗賊ギルド"
 
 msgid "hotkey|tavern"
-msgstr "ホットキー|酒場"
+msgstr "酒場"
 
 msgid "hotkey|construction screen"
-msgstr "ホットキー|構築画面"
+msgstr "構築画面"
 
 msgid "hotkey|buy all monsters in well"
-msgstr "ホットキー|井戸内のすべてのモンスターを購入する"
+msgstr "井戸内のすべてのモンスターを購入する"
 
 msgid "hotkey|merge troops with hero"
-msgstr "ホットキー|軍隊をヒーローと結合する"
+msgstr "軍隊を勇者と結合する"
 
 msgid "hotkey|merge troops with garrison"
-msgstr "ホットキー|軍隊を駐屯地と統合する"
+msgstr "軍隊を駐屯地と統合する"
 
 msgid "hotkey|split stack by half"
-msgstr "ホットキー|スタックを半分に分割"
+msgstr "スタックを半分に分割"
 
 msgid "hotkey|split stack by one"
-msgstr "ホットキー|スタックを 1 つずつ分割"
+msgstr "スタックを 1 つずつ分割"
 
 msgid "hotkey|join stacks"
-msgstr "ホットキー|スタックに参加"
+msgstr "スタックに参加"
 
 msgid "hotkey|upgrade troop"
-msgstr "ホットキー|部隊をアップグレード"
+msgstr "部隊をアップグレード"
 
 msgid "hotkey|dismiss hero or troop"
-msgstr "ホットキー|ヒーローまたは部隊を解雇"
+msgstr "勇者または部隊を解雇"
 
 msgid "hotkey|exchange all troops"
-msgstr "ホットキー|すべての軍隊を交換する"
+msgstr "すべての軍隊を交換する"
 
 msgid ""
 "Do you want to regain control from AI? The effect will take place only on "
@@ -5929,7 +5929,7 @@ msgid ""
 "You have captured the enemy hero %{name}!\n"
 "Your quest is complete."
 msgstr ""
-"敵のヒーロー %{name} を捕らえました!\n"
+"敵の勇者 %{name} を捕らえました!\n"
 "あなたのクエストは完了しました。"
 
 msgid ""
@@ -5987,7 +5987,7 @@ msgid ""
 "You have lost the hero %{name}.\n"
 "Your quest is over."
 msgstr ""
-"あなたはヒーロー %{name} を失いました。\n"
+"あなたは勇者 %{name} を失いました。\n"
 "あなたの探求は終わりました。"
 
 msgid ""
@@ -6037,7 +6037,7 @@ msgid "Capture the town '%{name}'."
 msgstr "町「%{name}」を占領します。"
 
 msgid "Defeat the hero '%{name}'."
-msgstr "ヒーロー「%{name}」を倒します。"
+msgstr "勇者「%{name}」を倒します。"
 
 msgid "Find the ultimate artifact."
 msgstr "究極のアーティファクトを見つけてください。"
@@ -6060,7 +6060,7 @@ msgid "Lose the town '%{name}'."
 msgstr "町「%{name}」を失います。"
 
 msgid "Lose the hero: %{name}."
-msgstr "ヒーローを失います: %{name}。"
+msgstr "勇者を失います: %{name}。"
 
 msgid "Fail to win by the end of month %{month}, week %{week}, day %{day}."
 msgstr "月 %{month}、週 %{week}、日 %{day} の終わりまでに勝利できませんでした。"
@@ -6175,7 +6175,7 @@ msgstr "%{color} プレイヤー、あなたは最後の街を失いました。
 msgid ""
 "%{color} player, your heroes abandon you, and you are banished from this "
 "land."
-msgstr "%{color} プレイヤー、あなたのヒーローはあなたを見捨て、あなたはこの地から追放されます。"
+msgstr "%{color} プレイヤー、あなたの勇者はあなたを見捨て、あなたはこの地から追放されます。"
 
 msgid "Lord Kilburn"
 msgstr "キルバーン卿"
@@ -6238,19 +6238,19 @@ msgid "Maximus"
 msgstr "マキシマス"
 
 msgid "Next Hero"
-msgstr "次のヒーロー"
+msgstr "次の勇者"
 
 msgid "Select the next Hero."
-msgstr "次のヒーローを選択します。"
+msgstr "次の勇者を選択します。"
 
 msgid "Hero Movement"
-msgstr "ヒーローの動き"
+msgstr "勇者の動き"
 
 msgid ""
 "Start the Hero's movement along the current path or re-visit the object "
 "occupied by the Hero. Press and hold this button to reset the Hero's path."
 msgstr ""
-"現在のパスに沿ってヒーローの移動を開始するか、ヒーローが占有しているオブジェクトを再訪問します。このボタンを押し続けると、ヒーローのパスがリセットされます。"
+"現在のパスに沿って勇者の移動を開始するか、勇者が占有しているオブジェクトを再訪問します。このボタンを押し続けると、勇者のパスがリセットされます。"
 
 msgid "Kingdom Summary"
 msgstr "キングダムの概要"
@@ -6282,7 +6282,7 @@ msgid "Bring up the system options menu, allowing you to customize your game."
 msgstr "システム オプション メニューを表示して、ゲームをカスタマイズできるようにします。"
 
 msgid "Hero Movement Points"
-msgstr "ヒーローの移動ポイント"
+msgstr "勇者の移動ポイント"
 
 msgid ""
 "The hero's army cannot move anymore today. The movement points will be "
@@ -6291,7 +6291,7 @@ msgstr "英雄軍は今日も動けない。移動ポイントは明日のター
 
 msgid ""
 "One or more heroes may still move, are you sure you want to end your turn?"
-msgstr "1 人以上のヒーローがまだ移動する可能性があります。ターンを終了してもよろしいですか?"
+msgstr "1 人以上の勇者がまだ移動する可能性があります。ターンを終了してもよろしいですか?"
 
 msgid "Are you sure you want to restart? (Your current game will be lost.)"
 msgstr "再起動してもよろしいですか? (現在のゲームは失われます。)"
@@ -6313,7 +6313,7 @@ msgid ""
 "Searching for the Ultimate Artifact is fruitless. Your hero could not carry "
 "it even if he found it - all his artifact slots are full."
 msgstr ""
-"究極のアーティファクトを探しても無駄です。たとえそれを見つけたとしても、あなたのヒーローはそれを運ぶことができませんでした - "
+"究極のアーティファクトを探しても無駄です。たとえそれを見つけたとしても、あなたの勇者はそれを運ぶことができませんでした - "
 "彼のアーティファクトスロットはすべていっぱいです。"
 
 msgid "Digging for artifacts requires a whole day, try again tomorrow."
@@ -6351,7 +6351,7 @@ msgstr "ステータスウィンドウ"
 msgid ""
 "This window provides information on the status of your hero or kingdom, and "
 "shows the date."
-msgstr "このウィンドウには、ヒーローまたは王国のステータスに関する情報が表示され、日付が表示されます。"
+msgstr "このウィンドウには、勇者または王国のステータスに関する情報が表示され、日付が表示されます。"
 
 msgid ""
 "This window provides information on the status of your hero or kingdom, and "
@@ -6372,7 +6372,7 @@ msgid ""
 "changeable. Depending on the scenario, a player may receive additional towns"
 " and/or heroes not of their primary alignment."
 msgstr ""
-"これにより、プレイヤーのクラスを変更できます。クラスはいつでも変更できるわけではありません。シナリオに応じて、プレイヤーは主な属性ではない追加の町やヒーローを受け取る場合があります。"
+"これにより、プレイヤーのクラスを変更できます。クラスはいつでも変更できるわけではありません。シナリオに応じて、プレイヤーは主な属性ではない追加の町や勇者を受け取る場合があります。"
 
 msgid "Handicap"
 msgstr "ハンディキャップ"
@@ -6445,7 +6445,7 @@ msgid "Click to switch to uppercase letters."
 msgstr "クリックすると大文字に切り替わります。"
 
 msgid "Keyboard|123"
-msgstr "キーボード|123"
+msgstr "123"
 
 msgid "Keyboard type"
 msgstr "キーボードの種類"
@@ -6454,7 +6454,7 @@ msgid "Click to switch between keyboard types."
 msgstr "クリックしてキーボードの種類を切り替えます。"
 
 msgid "Keyboard|SPACE"
-msgstr "キーボード|スペース"
+msgstr "スペース"
 
 msgid "Change language"
 msgstr "言語を変更する"
@@ -6475,7 +6475,7 @@ msgid "Click to switch to lowercase letters."
 msgstr "クリックすると小文字に切り替わります。"
 
 msgid "Keyboard|ABC"
-msgstr "キーボード|ABC"
+msgstr "ABC"
 
 msgid "Swap sign"
 msgstr "スワップサイン"
@@ -6753,10 +6753,10 @@ msgid "Martine"
 msgstr "マルティーヌ"
 
 msgid "shipAndGraveyard|%{object} robber"
-msgstr "船と墓地|%{object}強盗"
+msgstr "%{object}強盗"
 
 msgid "pyramid|%{object} raided"
-msgstr "ピラミッド|%{object}が襲撃されました"
+msgstr "%{object}が襲撃されました"
 
 msgid " gives you maximum morale"
 msgstr " 最大限の士気を与えてくれる"
@@ -7897,13 +7897,13 @@ msgid "Only heroes can cast this spell."
 msgstr "この呪文を唱えることができるのは英雄だけです。"
 
 msgid "This hero is not able to cast adventure spells."
-msgstr "このヒーローは冒険の呪文を唱えることができません。"
+msgstr "この勇者は冒険の呪文を唱えることができません。"
 
 msgid "This spell cannot be cast on a boat."
 msgstr "この呪文はボートの上では唱えることができません。"
 
 msgid "Your hero is too tired to cast this spell today. Try again tomorrow."
-msgstr "あなたのヒーローは疲れすぎて今日この呪文を唱えることができません。明日もう一度試してください。"
+msgstr "あなたの勇者は疲れすぎて今日この呪文を唱えることができません。明日もう一度試してください。"
 
 msgid "This spell can only be cast near an ocean."
 msgstr "この呪文は海の近くでのみ唱えることができます。"
@@ -7925,7 +7925,7 @@ msgid ""
 msgstr "あなたは現在英雄が住んでいない町や城を所有していません。この呪文は効果がありません。"
 
 msgid "This hero is already in a town, so this spell will have no effect."
-msgstr "このヒーローはすでに町にいるため、この呪文は効果がありません。"
+msgstr "この勇者はすでに町にいるため、この呪文は効果がありません。"
 
 msgid ""
 "The nearest town is %{town}.\n"
@@ -7934,7 +7934,7 @@ msgid ""
 msgstr ""
 "最も近い町は %{town} です。\n"
 "\n"
-"この町はあなたのヒーロー %{hero} によって占領されています。"
+"この町はあなたの勇者 %{hero} によって占領されています。"
 
 msgid "This spell is already in effect."
 msgstr "この呪文はすでに有効になっています。"
@@ -7942,12 +7942,12 @@ msgstr "この呪文はすでに有効になっています。"
 msgid ""
 "No opponent neither has nor can have any hero under their command anymore. "
 "Casting this spell will have no effect."
-msgstr "もうどの敵も、自分の指揮下にヒーローを持たず、また持つこともできません。この呪文を唱えても効果はありません。"
+msgstr "もうどの敵も、自分の指揮下に勇者を持たず、また持つこともできません。この呪文を唱えても効果はありません。"
 
 msgid ""
 "No opponent has a hero under their command at this time. Casting this spell "
 "will have no effect."
-msgstr "現時点では、指揮下にヒーローを持っている敵はいません。この呪文を唱えても効果はありません。"
+msgstr "現時点では、指揮下に勇者を持っている敵はいません。この呪文を唱えても効果はありません。"
 
 msgid ""
 "You must be within %{count} spaces of a monster for the Visions spell to "
@@ -7965,22 +7965,22 @@ msgstr "この呪文を唱えるには、まず鉱山を守っている幽霊を
 msgid ""
 "There are already at least as many elementals guarding the mine as this hero"
 " can generate. Casting this spell will have no effect."
-msgstr "少なくともこのヒーローが生成できるのと同じ数のエレメンタルがすでに鉱山を守っています。この呪文を唱えても効果はありません。"
+msgstr "少なくともこの勇者が生成できるのと同じ数のエレメンタルがすでに鉱山を守っています。この呪文を唱えても効果はありません。"
 
 msgid "%{name} the %{race} (Level %{level})"
 msgstr "%{name} と %{race} (レベル %{level})"
 
 msgid "Random hero (Level %{level})"
-msgstr "ランダムなヒーロー (レベル %{level})"
+msgstr "ランダムな勇者 (レベル %{level})"
 
 msgid "Random %{race} hero (Level %{level})"
-msgstr "ランダムな %{race} ヒーロー (レベル %{level})"
+msgstr "ランダムな %{race} 勇者 (レベル %{level})"
 
 msgid "Hero class:"
-msgstr "ヒーロークラス:"
+msgstr "勇者クラス:"
 
 msgid "Are you sure you want to dismiss this Hero?"
-msgstr "このヒーローを解雇してもよろしいですか?"
+msgstr "この勇者を解雇してもよろしいですか?"
 
 msgid "Set custom Experience value. Current value is default."
 msgstr "カスタム経験値を設定します。現在の値はデフォルトです。"
@@ -8007,7 +8007,7 @@ msgid "Set patrol radius in tiles:"
 msgstr "パトロール半径をタイルで設定します。"
 
 msgid "Enter hero's name:"
-msgstr "ヒーローの名前を入力してください:"
+msgstr "勇者の名前を入力してください:"
 
 msgid "Click to change class."
 msgstr "クリックしてクラスを変更します。"
@@ -8016,7 +8016,7 @@ msgid ""
 "'Spread' combat formation spreads the hero's units from the top to the "
 "bottom of the battlefield, with at least one empty space between each unit."
 msgstr ""
-"「スプレッド」戦闘フォーメーションは、ヒーローのユニットを戦場の上から下まで広げ、各ユニットの間に少なくとも 1 つの空きスペースを設けます。"
+"「スプレッド」戦闘フォーメーションは、勇者のユニットを戦場の上から下まで広げ、各ユニットの間に少なくとも 1 つの空きスペースを設けます。"
 
 msgid ""
 "'Grouped' combat formation bunches the hero's army together in the center of"
@@ -8024,7 +8024,7 @@ msgid ""
 msgstr "「グループ化」戦闘フォーメーションは、英雄の軍隊を戦場の味方側の中央にまとめます。"
 
 msgid "Exit Hero Screen"
-msgstr "ヒーロー画面を終了する"
+msgstr "勇者画面を終了する"
 
 msgid "You cannot dismiss a hero in a castle"
 msgstr "城では英雄を解雇することはできません"
@@ -8036,10 +8036,10 @@ msgid "Dismiss %{name} the %{race}"
 msgstr "%{name} と %{race} を解散させます"
 
 msgid "Show previous hero"
-msgstr "前のヒーローを表示"
+msgstr "前の勇者を表示"
 
 msgid "Show next hero"
-msgstr "次のヒーローを表示"
+msgstr "次の勇者を表示"
 
 msgid "Set army combat formation to 'Spread'"
 msgstr "軍の戦闘フォーメーションを「拡散」に設定する"
@@ -8060,13 +8060,13 @@ msgid "Set hero's portrait. Right-click to reset to default."
 msgstr "主人公のポートレートを設定します。右クリックしてデフォルトにリセットします。"
 
 msgid "Click to change hero's name. Right-click to reset to default."
-msgstr "クリックしてヒーローの名前を変更します。右クリックしてデフォルトにリセットします。"
+msgstr "クリックして勇者の名前を変更します。右クリックしてデフォルトにリセットします。"
 
 msgid "Hero is in patrol mode in %{tiles} tiles radius. Click to disable it."
-msgstr "ヒーローは半径 %{tiles} タイルでパトロール モードになっています。クリックして無効にします。"
+msgstr "勇者は半径 %{tiles} タイルでパトロール モードになっています。クリックして無効にします。"
 
 msgid "Click to enable hero's patrol mode."
-msgstr "クリックしてヒーローのパトロールモードを有効にします。"
+msgstr "クリックして勇者のパトロールモードを有効にします。"
 
 msgid "Do you want to save the changes made?"
 msgstr "加えた変更を保存しますか?"
@@ -8097,7 +8097,7 @@ msgstr ""
 " 次のレベル %{exp2}。"
 
 msgid "million|M"
-msgstr "百万|M"
+msgstr "M"
 
 msgid "Level %{level}"
 msgstr "レベル%{level}"
@@ -8109,13 +8109,13 @@ msgid ""
 "points via special events."
 msgstr ""
 "%{name} には現在、最大 %{max} のうち %{point} 個のスペル ポイントがあります。スペルポイントの最大数は主人公の知識の 10 "
-"倍です。特別なイベントを通じて、ヒーローが最大スペル ポイントを超えることがあります。"
+"倍です。特別なイベントを通じて、勇者が最大スペル ポイントを超えることがあります。"
 
 msgid "%{name1} meets %{name2}"
 msgstr "%{name1} と %{name2} の出会い"
 
 msgid "hero|Level %{level}"
-msgstr "ヒーロー|レベル %{level}"
+msgstr "レベル %{level}"
 
 msgid "Move all artifacts from %{from_hero_name} to %{to_hero_name}."
 msgstr "すべてのアーティファクトを %{from_hero_name} から %{to_hero_name} に移動します。"
@@ -8127,7 +8127,7 @@ msgid "Swap Artifacts"
 msgstr "アーティファクトを交換する"
 
 msgid "Swap all artifacts between heroes."
-msgstr "ヒーロー間ですべてのアーティファクトを交換します。"
+msgstr "勇者間ですべてのアーティファクトを交換します。"
 
 msgid "Move army from %{from_hero_name} to %{to_hero_name}."
 msgstr "軍隊を%{from_hero_name}から%{to_hero_name}に移動させます。"
@@ -8139,13 +8139,13 @@ msgid "Swap Armies"
 msgstr "軍隊を交換する"
 
 msgid "Swap armies between heroes."
-msgstr "ヒーロー間で軍隊を交換します。"
+msgstr "勇者間で軍隊を交換します。"
 
 msgid "Enemy heroes are now fully identifiable."
-msgstr "敵のヒーローが完全に識別できるようになりました。"
+msgstr "敵の勇者が完全に識別できるようになりました。"
 
 msgid "Identify Hero"
-msgstr "ヒーローを特定する"
+msgstr "勇者を特定する"
 
 msgid "Select town to port to."
 msgstr "港への町を選択してください。"
@@ -8191,19 +8191,19 @@ msgid ""
 "Under normal circumstances, a hero is limited to 10 spell points per level "
 "of knowledge."
 msgstr ""
-"主人公の知識によって、主人公が持つ呪文ポイントの数が決まります。通常の状況では、ヒーローのスペル ポイントは知識レベルごとに 10 に制限されています。"
+"主人公の知識によって、主人公が持つ呪文ポイントの数が決まります。通常の状況では、勇者のスペル ポイントは知識レベルごとに 10 に制限されています。"
 
 msgid "Current Modifiers:"
 msgstr "現在の修飾子:"
 
 msgid "skill|Basic"
-msgstr "スキル|基本"
+msgstr "基本"
 
 msgid "skill|Advanced"
-msgstr "スキル|上級"
+msgstr "上級"
 
 msgid "skill|Expert"
-msgstr "スキル|エキスパート"
+msgstr "エキスパート"
 
 msgid "Pathfinding"
 msgstr "経路探索"
@@ -8382,16 +8382,16 @@ msgid ""
 "by %{count} percent, and eliminates the %{penalty} percent penalty when "
 "shooting past obstacles (e.g. castle walls)."
 msgstr ""
-"%{skill} は、ヒーローの範囲攻撃クリーチャーによって与えられるダメージを %{count} パーセント増加させ、障害物（城壁など）を撃ち抜く際の"
+"%{skill} は、勇者の範囲攻撃クリーチャーによって与えられるダメージを %{count} パーセント増加させ、障害物（城壁など）を撃ち抜く際の"
 " %{penalty} パーセントのペナルティを排除します。"
 
 msgid "%{skill} increases the hero's movement points by %{count} percent."
-msgstr "%{skill} はヒーローの移動ポイントを %{count} パーセント増加させます。"
+msgstr "%{skill} は勇者の移動ポイントを %{count} パーセント増加させます。"
 
 msgid "%{skill} increases the hero's viewable area by one square."
 msgid_plural ""
 "%{skill} increases the hero's viewable area by %{count} squares."
-msgstr[0] "%{skill} はヒーローの表示領域を %{count} マス増加します。"
+msgstr[0] "%{skill} は勇者の表示領域を %{count} マス増加します。"
 
 msgid ""
 "%{skill} allows the hero to negotiate with monsters who are weaker than "
@@ -8400,7 +8400,7 @@ msgstr "%{skill} を使用すると、英雄は自分の軍隊よりも弱いモ
 
 msgid ""
 "Approximately %{count} percent of the creatures may offer to join the hero."
-msgstr "約 %{count} パーセントのクリーチャーがヒーローに加わることを申し出る可能性があります。"
+msgstr "約 %{count} パーセントのクリーチャーが勇者に加わることを申し出る可能性があります。"
 
 msgid "All of the creatures may offer to join the hero."
 msgstr "すべての生き物が主人公に加わることを申し出るかもしれません。"
@@ -8413,7 +8413,7 @@ msgstr "降伏コストは軍隊の総コストの %{percent} パーセントに
 msgid ""
 "%{skill} increases the hero's movement points over water by %{count} "
 "percent."
-msgstr "%{skill} は水上でのヒーローの移動ポイントを %{count} パーセント増加させます。"
+msgstr "%{skill} は水上での勇者の移動ポイントを %{count} パーセント増加させます。"
 
 msgid "%{skill} increases the hero's troops morale by %{count}."
 msgstr "%{skill} は英雄の部隊の士気を %{count} 増加させます。"
@@ -8430,7 +8430,7 @@ msgstr "%{skill} により、主人公は第 5 レベルの呪文を学ぶこと
 msgid "%{skill} regenerates one additional spell point per day to the hero."
 msgid_plural ""
 "%{skill} regenerates %{count} additional spell points per day to the hero."
-msgstr[0] "%{skill} は、ヒーローに毎日 %{count} 個の追加スペル ポイントを回復します。"
+msgstr[0] "%{skill} は、勇者に毎日 %{count} 個の追加スペル ポイントを回復します。"
 
 msgid "%{skill} increases the hero's luck by %{count}."
 msgstr "%{skill} は主人公の運を %{count} 増加させます。"
@@ -8495,52 +8495,52 @@ msgid "Purple"
 msgstr "紫"
 
 msgid "barrier|Aqua"
-msgstr "バリア|アクア"
+msgstr "アクア"
 
 msgid "barrier|Blue"
-msgstr "バリア|青"
+msgstr "青"
 
 msgid "barrier|Brown"
-msgstr "バリア|ブラウン"
+msgstr "ブラウン"
 
 msgid "barrier|Gold"
-msgstr "バリア|ゴールド"
+msgstr "ゴールド"
 
 msgid "barrier|Green"
-msgstr "バリア|緑"
+msgstr "緑"
 
 msgid "barrier|Orange"
-msgstr "バリア|オレンジ"
+msgstr "オレンジ"
 
 msgid "barrier|Purple"
-msgstr "バリア|紫"
+msgstr "紫"
 
 msgid "barrier|Red"
-msgstr "バリア|赤"
+msgstr "赤"
 
 msgid "tent|Aqua"
-msgstr "テント|アクア"
+msgstr "アクア"
 
 msgid "tent|Blue"
-msgstr "テント|ブルー"
+msgstr "ブルー"
 
 msgid "tent|Brown"
-msgstr "テント|ブラウン"
+msgstr "ブラウン"
 
 msgid "tent|Gold"
-msgstr "テント|ゴールド"
+msgstr "ゴールド"
 
 msgid "tent|Green"
-msgstr "テント|グリーン"
+msgstr "グリーン"
 
 msgid "tent|Orange"
-msgstr "テント|オレンジ"
+msgstr "オレンジ"
 
 msgid "tent|Purple"
-msgstr "テント|紫"
+msgstr "紫"
 
 msgid "tent|Red"
-msgstr "テント|赤"
+msgstr "赤"
 
 msgid "Experience"
 msgstr "経験"
@@ -8548,10 +8548,10 @@ msgstr "経験"
 msgid ""
 "Experience allows your heroes to gain levels, increasing their primary and "
 "secondary skills."
-msgstr "経験によりヒーローはレベルを上げ、主スキルと副スキルを向上させることができます。"
+msgstr "経験により勇者はレベルを上げ、主スキルと副スキルを向上させることができます。"
 
 msgid "Hero/Stats"
-msgstr "ヒーロー/ステータス"
+msgstr "勇者/ステータス"
 
 msgid "Skills"
 msgstr "スキル"
@@ -8566,7 +8566,7 @@ msgid "Gold Per Day:"
 msgstr "1 日あたりのゴールド:"
 
 msgid "View Heroes."
-msgstr "ヒーローを見る。"
+msgstr "勇者を見る。"
 
 msgid "Towns/Castles"
 msgstr "町・城"
@@ -8575,30 +8575,30 @@ msgid "View Towns and Castles."
 msgstr "町と城を眺める。"
 
 msgid "luck|Cursed"
-msgstr "運|呪われた"
+msgstr "呪われた"
 
 msgid "luck|Awful"
-msgstr "幸運|ひどい"
+msgstr "ひどい"
 
 msgid "luck|Bad"
-msgstr "運が悪い|悪い"
+msgstr "悪い"
 
 msgid "luck|Normal"
-msgstr "運|普通"
+msgstr "普通"
 
 msgid "luck|Good"
-msgstr "幸運|良い"
+msgstr "良い"
 
 msgid "luck|Great"
-msgstr "幸運|素晴らしい"
+msgstr "素晴らしい"
 
 msgid "luck|Irish"
-msgstr "運|アイルランド語"
+msgstr "アイルランド語"
 
 msgid ""
 "%{luck-type} luck sometimes falls on the hero's units in combat, causing "
 "their attacks to only do half damage."
-msgstr "%{luck-type} の幸運が戦闘中にヒーローのユニットに降りかかり、攻撃が半分のダメージしか与えられないことがあります。"
+msgstr "%{luck-type} の幸運が戦闘中に勇者のユニットに降りかかり、攻撃が半分のダメージしか与えられないことがあります。"
 
 msgid ""
 "%{luck-type} luck means the hero's units will never get lucky or unlucky "
@@ -8608,28 +8608,28 @@ msgstr "%{luck-type} 運とは、主人公のユニットが敵に対して幸�
 msgid ""
 "%{luck-type} luck sometimes lets the hero's units get lucky attacks (double "
 "strength) in combat."
-msgstr "%{luck-type} の運により、ヒーローのユニットが戦闘中に幸運な攻撃 (2 倍の強さ) を得ることができることがあります。"
+msgstr "%{luck-type} の運により、勇者のユニットが戦闘中に幸運な攻撃 (2 倍の強さ) を得ることができることがあります。"
 
 msgid "morale|Treason"
-msgstr "士気|反逆者"
+msgstr "反逆者"
 
 msgid "morale|Awful"
-msgstr "士気|ひどい"
+msgstr "ひどい"
 
 msgid "morale|Poor"
-msgstr "士気|低い"
+msgstr "低い"
 
 msgid "morale|Normal"
-msgstr "士気|通常"
+msgstr "通常"
 
 msgid "morale|Good"
-msgstr "士気|良い"
+msgstr "良い"
 
 msgid "morale|Great"
-msgstr "士気|素晴らしい"
+msgstr "素晴らしい"
 
 msgid "morale|Blood!"
-msgstr "士気|血だ!"
+msgstr "血だ!"
 
 msgid "%{morale-type} morale may cause the hero's units to freeze in combat."
 msgstr "%{morale-type} の士気により、主人公のユニットが戦闘中にフリーズする可能性があります。"
@@ -8668,19 +8668,19 @@ msgid "Multi"
 msgstr "マルチ"
 
 msgid "doubleLined|Knight"
-msgstr "二重線|ナイト"
+msgstr "ナイト"
 
 msgid "doubleLined|Barbarian"
-msgstr "二重線|野蛮人"
+msgstr "野蛮人"
 
 msgid "doubleLined|Sorceress"
-msgstr "二重線|魔術師"
+msgstr "魔術師"
 
 msgid "doubleLined|Warlock"
-msgstr "二重線|ウォーロック"
+msgstr "ウォーロック"
 
 msgid "doubleLined|Wizard"
-msgstr "二重線|ウィザード"
+msgstr "ウィザード"
 
 msgid ""
 "doubleLined|Necro-\n"
@@ -8690,40 +8690,40 @@ msgstr ""
 "マンサー"
 
 msgid "doubleLinedRace|Multi"
-msgstr "ダブルラインレース|マルチ"
+msgstr "マルチ"
 
 msgid "doubleLinedRace|Random"
-msgstr "二重線レース|ランダム"
+msgstr "ランダム"
 
 msgid "speed|Standing"
-msgstr "スピード|スタンディング"
+msgstr "スタンディング"
 
 msgid "speed|Crawling"
-msgstr "速度|クロール"
+msgstr "クロール"
 
 msgid "speed|Very Slow"
-msgstr "速度|非常に遅い"
+msgstr "非常に遅い"
 
 msgid "speed|Slow"
-msgstr "速度|遅い"
+msgstr "遅い"
 
 msgid "speed|Average"
-msgstr "速度|平均"
+msgstr "平均"
 
 msgid "speed|Fast"
-msgstr "速度|速い"
+msgstr "速い"
 
 msgid "speed|Very Fast"
-msgstr "速度|非常に速い"
+msgstr "非常に速い"
 
 msgid "speed|Ultra Fast"
-msgstr "速度|超高速"
+msgstr "超高速"
 
 msgid "speed|Blazing"
-msgstr "スピード|ブレイジング"
+msgstr "ブレイジング"
 
 msgid "speed|Instant"
-msgstr "スピード|インスタント"
+msgstr "インスタント"
 
 msgid "Click this button to adjust the level of zoom."
 msgstr "このボタンをクリックしてズームのレベルを調整します。"
@@ -8732,85 +8732,85 @@ msgid "Zoom"
 msgstr "ズーム"
 
 msgid "week|Squirrel"
-msgstr "週|リス"
+msgstr "リス"
 
 msgid "week|Rabbit"
-msgstr "週|ウサギ"
+msgstr "ウサギ"
 
 msgid "week|Gopher"
-msgstr "週|ホリネズミ"
+msgstr "ホリネズミ"
 
 msgid "week|Badger"
-msgstr "週|アナグマ"
+msgstr "アナグマ"
 
 msgid "week|Rat"
-msgstr "週|ネズミ"
+msgstr "ネズミ"
 
 msgid "week|Eagle"
-msgstr "週|イーグル"
+msgstr "イーグル"
 
 msgid "week|Weasel"
-msgstr "週|イタチ"
+msgstr "イタチ"
 
 msgid "week|Raven"
-msgstr "週|レイブン"
+msgstr "レイブン"
 
 msgid "week|Mongoose"
-msgstr "週|マングース"
+msgstr "マングース"
 
 msgid "week|Dog"
-msgstr "週|犬"
+msgstr "犬"
 
 msgid "week|Aardvark"
-msgstr "週|ツチブタ"
+msgstr "ツチブタ"
 
 msgid "week|Lizard"
-msgstr "週|トカゲ"
+msgstr "トカゲ"
 
 msgid "week|Tortoise"
-msgstr "週|亀"
+msgstr "亀"
 
 msgid "week|Hedgehog"
-msgstr "週|ハリネズミ"
+msgstr "ハリネズミ"
 
 msgid "week|Condor"
-msgstr "週|コンドル"
+msgstr "コンドル"
 
 msgid "week|Ant"
-msgstr "週|アリ"
+msgstr "アリ"
 
 msgid "week|Grasshopper"
-msgstr "週|バッタ"
+msgstr "バッタ"
 
 msgid "week|Dragonfly"
-msgstr "週|トンボ"
+msgstr "トンボ"
 
 msgid "week|Spider"
-msgstr "週|スパイダー"
+msgstr "スパイダー"
 
 msgid "week|Butterfly"
-msgstr "週|蝶"
+msgstr "蝶"
 
 msgid "week|Bumblebee"
-msgstr "週|バンブルビー"
+msgstr "バンブルビー"
 
 msgid "week|Locust"
-msgstr "週|イナゴ"
+msgstr "イナゴ"
 
 msgid "week|Earthworm"
-msgstr "週|ミミズ"
+msgstr "ミミズ"
 
 msgid "week|Hornet"
-msgstr "週|スズメバチ"
+msgstr "スズメバチ"
 
 msgid "week|Beetle"
-msgstr "週|カブトムシ"
+msgstr "カブトムシ"
 
 msgid "week|PLAGUE"
-msgstr "週|ペスト"
+msgstr "ペスト"
 
 msgid "week|Unnamed"
-msgstr "週|名前なし"
+msgstr "名前なし"
 
 msgid "Desert"
 msgstr "砂漠"
@@ -8837,55 +8837,55 @@ msgid "Ocean"
 msgstr "海"
 
 msgid "map_layout|Mirrored"
-msgstr "map_layout|ミラーリング"
+msgstr "ミラーリング"
 
 msgid "map_layout|Balanced"
-msgstr "マップレイアウト|バランスのとれた"
+msgstr "バランスのとれた"
 
 msgid "map_layout|Islands"
-msgstr "マップレイアウト|島"
+msgstr "島"
 
 msgid "map_layout|Pyramid"
-msgstr "マップレイアウト|ピラミッド"
+msgstr "ピラミッド"
 
 msgid "map_layout|Quest"
-msgstr "マップレイアウト|クエスト"
+msgstr "クエスト"
 
 msgid "resource_density|Scarce"
-msgstr "resource_density|希少性"
+msgstr "希少性"
 
 msgid "resource_density|Normal"
-msgstr "resource_density|通常"
+msgstr "通常"
 
 msgid "resource_density|Abundant"
-msgstr "resource_density|豊富な"
+msgstr "豊富な"
 
 msgid "monster_strength|Weak"
-msgstr "モンスターの強さ|弱い"
+msgstr "弱い"
 
 msgid "monster_strength|Normal"
-msgstr "モンスターの強さ|通常"
+msgstr "通常"
 
 msgid "monster_strength|Strong"
-msgstr "Monster_strength|強い"
+msgstr "強い"
 
 msgid "monster_strength|Deadly"
-msgstr "モンスターの強さ|致命的"
+msgstr "致命的"
 
 msgid "maps|Small"
-msgstr "地図|小"
+msgstr "小"
 
 msgid "maps|Medium"
-msgstr "地図|中"
+msgstr "中"
 
 msgid "maps|Large"
-msgstr "地図|大"
+msgstr "大"
 
 msgid "maps|Extra Large"
-msgstr "マップ|特大"
+msgstr "特大"
 
 msgid "maps|Custom Size"
-msgstr "マップ|カスタム サイズ"
+msgstr "カスタム サイズ"
 
 msgid "Ore Mine"
 msgstr "鉱石鉱山"
@@ -9273,22 +9273,22 @@ msgid "Barrel"
 msgstr "バレル"
 
 msgid "randomRace|level 1 creatures"
-msgstr "ランダムレース|レベル 1 のクリーチャー"
+msgstr "レベル 1 のクリーチャー"
 
 msgid "randomRace|level 2 creatures"
-msgstr "ランダムレース|レベル 2 クリーチャー"
+msgstr "レベル 2 クリーチャー"
 
 msgid "randomRace|level 3 creatures"
-msgstr "ランダムレース|レベル 3 クリーチャー"
+msgstr "レベル 3 クリーチャー"
 
 msgid "randomRace|level 4 creatures"
-msgstr "ランダムレース|レベル 4 のクリーチャー"
+msgstr "レベル 4 のクリーチャー"
 
 msgid "randomRace|level 5 creatures"
-msgstr "ランダムレース|レベル 5 のクリーチャー"
+msgstr "レベル 5 のクリーチャー"
 
 msgid "randomRace|level 6 creatures"
-msgstr "ランダムレース|レベル6のクリーチャー"
+msgstr "レベル6のクリーチャー"
 
 msgid "Unknown Monsters"
 msgstr "未知のモンスター"
@@ -9888,40 +9888,40 @@ msgid "Ultimate Book of Knowledge"
 msgstr "究極の知識の書"
 
 msgid "The %{name} increases the hero's attack skill by %{count}."
-msgstr "%{name} はヒーローの攻撃スキルを %{count} 増加させます。"
+msgstr "%{name} は勇者の攻撃スキルを %{count} 増加させます。"
 
 msgid "Ultimate Sword of Dominion"
 msgstr "究極のドミニオンソード"
 
 msgid "The %{name} increases the hero's defense skill by %{count}."
-msgstr "%{name} はヒーローの防御スキルを %{count} 増加させます。"
+msgstr "%{name} は勇者の防御スキルを %{count} 増加させます。"
 
 msgid "Ultimate Cloak of Protection"
 msgstr "究極の守護マント"
 
 msgid "The %{name} increases the hero's spell power by %{count}."
-msgstr "%{name} はヒーローの呪文パワーを %{count} 増加させます。"
+msgstr "%{name} は勇者の呪文パワーを %{count} 増加させます。"
 
 msgid "Ultimate Wand of Magic"
 msgstr "究極の魔法の杖"
 
 msgid ""
 "The %{name} increases the hero's attack and defense skills by %{count} each."
-msgstr "%{name} はヒーローの攻撃スキルと防御スキルをそれぞれ %{count} 増加させます。"
+msgstr "%{name} は勇者の攻撃スキルと防御スキルをそれぞれ %{count} 増加させます。"
 
 msgid "Ultimate Shield"
 msgstr "究極の盾"
 
 msgid ""
 "The %{name} increases the hero's spell power and knowledge by %{count} each."
-msgstr "%{name} はヒーローの呪文パワーと知識をそれぞれ %{count} 増加させます。"
+msgstr "%{name} は勇者の呪文パワーと知識をそれぞれ %{count} 増加させます。"
 
 msgid "Ultimate Staff"
 msgstr "究極の杖"
 
 msgid ""
 "The %{name} increases each of the hero's basic skills by %{count} points."
-msgstr "%{name} はヒーローの各基本スキルを %{count} ポイント増加させます。"
+msgstr "%{name} は勇者の各基本スキルを %{count} ポイント増加させます。"
 
 msgid "Ultimate Crown"
 msgstr "究極の王冠"
@@ -10029,7 +10029,7 @@ msgid "Armored Gauntlets of Protection"
 msgstr "守護のガントレット"
 
 msgid "The %{name} increase the hero's defense skill by %{count}."
-msgstr "%{name} はヒーローの防御スキルを %{count} 増加させます。"
+msgstr "%{name} は勇者の防御スキルを %{count} 増加させます。"
 
 msgid ""
 "You encounter the infamous Black Knight! After a grueling duel ending in a "
@@ -10143,7 +10143,7 @@ msgid "Endless Sack of Gold"
 msgstr "終わりのない金の袋"
 
 msgid "The %{name} provides the hero with %{count} gold per day."
-msgstr "%{name} はヒーローに 1 日あたり %{count} ゴールドを提供します。"
+msgstr "%{name} は勇者に 1 日あたり %{count} ゴールドを提供します。"
 
 msgid ""
 "A little leprechaun dances gleefully around a magic sack. Seeing you "
@@ -10271,7 +10271,7 @@ msgstr "魔法の砂時計"
 
 msgid ""
 "The %{name} extends the duration of all the hero's spells by %{count} turns."
-msgstr "%{name} はヒーローのすべての呪文の持続時間を %{count} ターン延長します。"
+msgstr "%{name} は勇者のすべての呪文の持続時間を %{count} ターン延長します。"
 
 msgid ""
 "A surprise turn in the landscape finds you in the midst of a grisly scene: "
@@ -10369,7 +10369,7 @@ msgstr "エバーホット溶岩石"
 msgid ""
 "The %{name} causes the hero's fire spells to do %{count} percent more damage"
 " to enemy troops."
-msgstr "%{name} により、ヒーローの火の呪文が敵軍に与えるダメージは %{count}% 増加します。"
+msgstr "%{name} により、勇者の火の呪文が敵軍に与えるダメージは %{count}% 増加します。"
 
 msgid ""
 "Your wanderings bring you into contact with a tribe of ape-like beings using"
@@ -10399,7 +10399,7 @@ msgid "Snake-Ring"
 msgstr "スネークリング"
 
 msgid "The %{name} halves the casting cost of all of the hero's bless spells."
-msgstr "%{name} は、ヒーローのすべての祝福呪文の詠唱コストを半分にします。"
+msgstr "%{name} は、勇者のすべての祝福呪文の詠唱コストを半分にします。"
 
 msgid ""
 "You've found an oddly shaped ring on the finger of a long dead traveler. The"
@@ -10412,7 +10412,7 @@ msgstr "アンク"
 msgid ""
 "The %{name} doubles the effectiveness of all of the hero's resurrect and "
 "animate spells."
-msgstr "%{name} は、ヒーローのすべての復活呪文とアニメーション呪文の有効性を 2 倍にします。"
+msgstr "%{name} は、勇者のすべての復活呪文とアニメーション呪文の有効性を 2 倍にします。"
 
 msgid ""
 "A fierce windstorm reveals the entrance to a buried tomb. Your investigation"
@@ -10426,7 +10426,7 @@ msgstr "元素の書"
 
 msgid ""
 "The %{name} doubles the effectiveness of all of the hero's summoning spells."
-msgstr "%{name} は、ヒーローのすべての召喚呪文の有効性を 2 倍にします。"
+msgstr "%{name} は、勇者のすべての召喚呪文の有効性を 2 倍にします。"
 
 msgid ""
 "You come across a conjurer who begs to accompany you and your army awhile "
@@ -10508,7 +10508,7 @@ msgid "Seeing-eye Pendant"
 msgstr "視力のペンダント"
 
 msgid "The %{name} makes all of the hero's troops immune to blindness spells."
-msgstr "%{name} により、ヒーローの軍隊はすべて失明呪文の影響を受けなくなります。"
+msgstr "%{name} により、勇者の軍隊はすべて失明呪文の影響を受けなくなります。"
 
 msgid ""
 "You come upon a very old woman, long blind from cataracts and dying alone. "
@@ -10522,7 +10522,7 @@ msgid "Kinetic Pendant"
 msgstr "キネティックペンダント"
 
 msgid "The %{name} makes all of the hero's troops immune to paralyze spells."
-msgstr "%{name} により、ヒーローの軍隊はすべて麻痺呪文の影響を受けなくなります。"
+msgstr "%{name} により、勇者の軍隊はすべて麻痺呪文の影響を受けなくなります。"
 
 msgid ""
 "You come across a golem wearing a glowing pendant and blocking your way. "
@@ -10577,7 +10577,7 @@ msgstr "望遠鏡"
 msgid ""
 "The %{name} increases the amount of terrain the hero reveals when "
 "adventuring by %{count} extra square."
-msgstr "%{name} は、冒険中にヒーローが明らかにする地形の量を %{count} マス追加します。"
+msgstr "%{name} は、冒険中に勇者が明らかにする地形の量を %{count} マス追加します。"
 
 msgid ""
 "A merchant from far away lands trades you a new invention of his people for traveling supplies. It makes distant objects appear closer, and he calls it...\n"
@@ -10608,7 +10608,7 @@ msgstr "魔法使いの帽子"
 
 msgid ""
 "The %{name} increases the duration of the hero's spells by %{count} turns."
-msgstr "%{name} はヒーローの呪文の持続時間を %{count} ターン延長します。"
+msgstr "%{name} は勇者の呪文の持続時間を %{count} ターン延長します。"
 
 msgid ""
 "You see a Wizard fleeing from a Griffin and riding like the wind. The Wizard"
@@ -10622,7 +10622,7 @@ msgid "Power Ring"
 msgstr "パワーリング"
 
 msgid "The %{name} returns %{count} extra spell points per day to the hero."
-msgstr "%{name} は 1 日あたり %{count} 追加のスペル ポイントをヒーローに返します。"
+msgstr "%{name} は 1 日あたり %{count} 追加のスペル ポイントを勇者に返します。"
 
 msgid ""
 "You find a small tree that closely resembles the great Warlock Carnauth with"
@@ -10639,7 +10639,7 @@ msgstr "弾薬カート"
 msgid ""
 "The %{name} provides endless ammunition for all of the hero's troops that "
 "shoot."
-msgstr "%{name} は、射撃するすべてのヒーローの軍隊に無限の弾薬を提供します。"
+msgstr "%{name} は、射撃するすべての勇者の軍隊に無限の弾薬を提供します。"
 
 msgid ""
 "An ammunition cart in the middle of an old battlefield catches your eye. "
@@ -10650,7 +10650,7 @@ msgid "Tax Lien"
 msgstr "税金の先取特権"
 
 msgid "The %{name} costs the hero %{count} gold pieces per day."
-msgstr "%{name} では、ヒーローは 1 日あたり %{count} ゴールド ピースを消費します。"
+msgstr "%{name} では、勇者は 1 日あたり %{count} ゴールド ピースを消費します。"
 
 msgid ""
 "Your big spending habits have earned you a massive tax bill that you can't "
@@ -10800,7 +10800,7 @@ msgid "Magic Book"
 msgstr "魔法の本"
 
 msgid "The %{name} enables the hero to cast spells."
-msgstr "%{name} により、ヒーローは呪文を唱えることができます。"
+msgstr "%{name} により、勇者は呪文を唱えることができます。"
 
 msgid ""
 "A young man approaches you: \"My Lord, allow me to show you my latest "
@@ -10833,7 +10833,7 @@ msgstr "スペルスクロール"
 msgid ""
 "This %{name} gives the hero the ability to cast the %{spell} spell if the "
 "hero has a Magic Book."
-msgstr "この %{name} により、ヒーローが魔法の本を持っている場合、ヒーローは %{spell} の呪文を唱えることができます。"
+msgstr "この %{name} により、勇者が魔法の本を持っている場合、勇者は %{spell} の呪文を唱えることができます。"
 
 msgid ""
 "You find an elaborate container which houses an old vellum scroll. The runes"
@@ -10859,13 +10859,13 @@ msgstr ""
 msgid ""
 "The %{name} increases the hero's spell power by %{count} but adds the undead"
 " morale penalty."
-msgstr "%{name} はヒーローの呪文パワーを %{count} 増加させますが、アンデッドの士気ペナルティを追加します。"
+msgstr "%{name} は勇者の呪文パワーを %{count} 増加させますが、アンデッドの士気ペナルティを追加します。"
 
 msgid "Breastplate of Anduran"
 msgstr "アンデュランの胸当て"
 
 msgid "The %{name} increases the hero's defense by %{count}."
-msgstr "%{name} はヒーローの防御力を %{count} 増加させます。"
+msgstr "%{name} は勇者の防御力を %{count} 増加させます。"
 
 msgid ""
 "You come upon a sign. It reads: \"Here lies the body of Anduran. Bow and "
@@ -10916,7 +10916,7 @@ msgstr "水晶玉"
 msgid ""
 "The %{name} lets the hero get more specific information about monsters, "
 "enemy heroes, and castles nearby the hero."
-msgstr "%{name} を使用すると、ヒーローはモンスター、敵ヒーロー、ヒーローの近くの城に関するより具体的な情報を取得できます。"
+msgstr "%{name} を使用すると、勇者はモンスター、敵勇者、勇者の近くの城に関するより具体的な情報を取得できます。"
 
 msgid ""
 "You come upon a caravan of gypsies who are feasting and fortifying their "
@@ -11031,7 +11031,7 @@ msgid "Staff of Wizardry"
 msgstr "ウィザードリィの杖"
 
 msgid "The %{name} boosts the hero's spell power by %{count}."
-msgstr "%{name} はヒーローの呪文パワーを %{count} 増加させます。"
+msgstr "%{name} は勇者の呪文パワーを %{count} 増加させます。"
 
 msgid ""
 "While out scaring up game, your troops find a mysterious staff levitating "
@@ -11046,7 +11046,7 @@ msgid "Sword Breaker"
 msgstr "ソードブレイカー"
 
 msgid "The %{name} increases the hero's defense by %{count} and attack by 1."
-msgstr "%{name} はヒーローの防御力を %{count} 増加させ、攻撃力を 1 増加させます。"
+msgstr "%{name} は勇者の防御力を %{count} 増加させ、攻撃力を 1 増加させます。"
 
 msgid ""
 "A former Captain of the Guard admires your quest and gives you the enchanted"
@@ -11080,7 +11080,7 @@ msgstr ""
 "近くの土の山に汚れたシャベルが突っ込まれていた。調査すると、それが定命の者によって失われたと長い間考えられていた、墓掘り人の魔法のシャベルであることがわかります。"
 
 msgid "spellBonus|selected by user"
-msgstr "スペルボーナス|ユーザーが選択"
+msgstr "ユーザーが選択"
 
 msgid "Wood"
 msgstr "木材"
@@ -11111,7 +11111,7 @@ msgid ""
 "powerful creatures and buildings."
 msgstr ""
 "Heroes 2 には 7 "
-"つのリソースがあり、城の建設と改善、軍隊の購入、ヒーローの募集に使用されます。ゴールドが最も一般的で、事実上あらゆるものに必要です。ほとんどの建物には木材と鉱石が使用されます。宝石、水銀、硫黄、水晶は、最も強力な生き物や建物に使用される希少な魔法の資源です。"
+"つのリソースがあり、城の建設と改善、軍隊の購入、勇者の募集に使用されます。ゴールドが最も一般的で、事実上あらゆるものに必要です。ほとんどの建物には木材と鉱石が使用されます。宝石、水銀、硫黄、水晶は、最も強力な生き物や建物に使用される希少な魔法の資源です。"
 
 msgid ""
 "Causes a giant fireball to strike the selected area, damaging all nearby "
@@ -11199,7 +11199,7 @@ msgid "Slows target to half movement rate."
 msgstr "ターゲットの移動速度を半分に遅くします。"
 
 msgid "spell|Slow"
-msgstr "呪文|遅い"
+msgstr "遅い"
 
 msgid "Mass Slow"
 msgstr "マススロー"
@@ -11208,7 +11208,7 @@ msgid "Slows all enemies to half movement rate."
 msgstr "敵全体の移動速度を半分に遅くします。"
 
 msgid "spell|Blind"
-msgstr "呪文|ブラインド"
+msgstr "ブラインド"
 
 msgid ""
 "Clouds the affected creatures' eyes, preventing them from moving and reduces"
@@ -11464,10 +11464,10 @@ msgid "View Towns"
 msgstr "町を見る"
 
 msgid "Causes all Heroes across the land to become visible."
-msgstr "土地中のすべてのヒーローが見えるようになります。"
+msgstr "土地中のすべての勇者が見えるようになります。"
 
 msgid "View Heroes"
-msgstr "ヒーローを見る"
+msgstr "勇者を見る"
 
 msgid "Causes the entire land to become visible."
 msgstr "土地全体が見えるようになります。"
@@ -11476,7 +11476,7 @@ msgid "View All"
 msgstr "すべて見る"
 
 msgid "Allows the caster to view detailed information on enemy Heroes."
-msgstr "術者は敵ヒーローの詳細情報を表示できます。"
+msgstr "術者は敵勇者の詳細情報を表示できます。"
 
 msgid "Summon Boat"
 msgstr "船を召喚する"
@@ -11505,7 +11505,7 @@ msgstr "術者を現在所有している最も近い町または城に戻しま
 msgid ""
 "Returns the hero to the town or castle of choice, provided it is controlled "
 "by you."
-msgstr "あなたが操作している場合、ヒーローを選択した町または城に戻します。"
+msgstr "あなたが操作している場合、勇者を選択した町または城に戻します。"
 
 msgid "Visions"
 msgstr "ビジョン"
@@ -11598,7 +11598,7 @@ msgid "No spell to cast."
 msgstr "唱える呪文はありません。"
 
 msgid "Your hero has %{sp} spell points remaining out of %{max}."
-msgstr "あなたのヒーローのスペル ポイントは %{max} のうち %{sp} ポイント残っています。"
+msgstr "あなたの勇者のスペル ポイントは %{max} のうち %{sp} ポイント残っています。"
 
 msgid "View Adventure Spells"
 msgstr "アドベンチャーの呪文を見る"
@@ -11638,7 +11638,7 @@ msgid "The nearest town is %{town}."
 msgstr "最も近い町は %{town} です。"
 
 msgid "This town is occupied by your hero %{hero}."
-msgstr "この町はあなたのヒーロー %{hero} によって占領されています。"
+msgstr "この町はあなたの勇者 %{hero} によって占領されています。"
 
 msgid ""
 "This spell controls up to\n"
