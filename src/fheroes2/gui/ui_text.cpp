@@ -423,6 +423,56 @@ namespace
         return 5;
     }
 
+    // Han characters are shared across Japanese and Chinese, so a font built for one language can still render
+    // the other's text. But punctuation shape and some Han glyph forms differ between them, so once a font is
+    // clearly built for one of the two, treat it as a poor substitute for the other.
+    bool isJapaneseCjkFontName( const std::string & lowerName )
+    {
+        return lowerName.find( "meiryo" ) != std::string::npos || lowerName.find( "msgothic" ) != std::string::npos
+               || lowerName.find( "msmincho" ) != std::string::npos || lowerName.find( "yugoth" ) != std::string::npos
+               || lowerName.find( "yumin" ) != std::string::npos || lowerName.find( "notosansjp" ) != std::string::npos
+               || lowerName.find( "noto sans jp" ) != std::string::npos || lowerName.find( "notosanscjkjp" ) != std::string::npos
+               || lowerName.find( "sourcehansansjp" ) != std::string::npos || lowerName.find( "source han sans jp" ) != std::string::npos
+               || ( lowerName.find( "hiragino" ) != std::string::npos && lowerName.find( "gb" ) == std::string::npos );
+    }
+
+    bool isChineseCjkFontName( const std::string & lowerName )
+    {
+        return lowerName.find( "msjh" ) != std::string::npos || lowerName.find( "msyh" ) != std::string::npos || lowerName.find( "simhei" ) != std::string::npos
+               || lowerName.find( "deng" ) != std::string::npos || lowerName.find( "pingfang" ) != std::string::npos || lowerName.find( "heiti" ) != std::string::npos
+               || lowerName.find( "mingliu" ) != std::string::npos || lowerName.find( "simsun" ) != std::string::npos || lowerName.find( "songti" ) != std::string::npos
+               || lowerName.find( "kaiti" ) != std::string::npos || lowerName.find( "notosanstc" ) != std::string::npos
+               || lowerName.find( "notosanssc" ) != std::string::npos || lowerName.find( "notosanscjktc" ) != std::string::npos
+               || lowerName.find( "sourcehansanstc" ) != std::string::npos || lowerName.find( "sourcehansanscn" ) != std::string::npos
+               || ( lowerName.find( "hiragino" ) != std::string::npos && lowerName.find( "gb" ) != std::string::npos );
+    }
+
+    // Rank a font by how well its name matches the active UI language: an exact-language match wins, a
+    // generic/unspecific CJK font is a reasonable fallback, and a font clearly built for the other CJK
+    // language ranks last so it is only used when nothing better is available.
+    int32_t getCjkFontLanguagePriority( const std::string & fileName, const fheroes2::SupportedLanguage language )
+    {
+        const std::string lowerName = toLowerAscii( fileName );
+        const bool isJapaneseName = isJapaneseCjkFontName( lowerName );
+        const bool isChineseName = isChineseCjkFontName( lowerName );
+
+        if ( language == fheroes2::SupportedLanguage::Japanese ) {
+            if ( isJapaneseName ) {
+                return 0;
+            }
+            return isChineseName ? 2 : 1;
+        }
+
+        if ( language == fheroes2::SupportedLanguage::SimplifiedChinese || language == fheroes2::SupportedLanguage::TraditionalChinese ) {
+            if ( isChineseName ) {
+                return 0;
+            }
+            return isJapaneseName ? 2 : 1;
+        }
+
+        return 1;
+    }
+
     // Button labels have limited space, so prefer fonts that fit compact UI controls.
     int32_t getCjkButtonFontNamePriority( const std::string & fileName )
     {
@@ -555,14 +605,18 @@ namespace
         appendPortableCjkFontPaths( fontPaths );
 
 #if defined( _WIN32 )
-        for ( const std::string & fontPath : { std::string( "C:/Windows/Fonts/msjh.ttc" ), std::string( "C:/Windows/Fonts/msjhbd.ttc" ),
+        for ( const std::string & fontPath : { std::string( "C:/Windows/Fonts/meiryo.ttc" ), std::string( "C:/Windows/Fonts/msgothic.ttc" ),
+                                               std::string( "C:/Windows/Fonts/YuGothR.ttc" ), std::string( "C:/Windows/Fonts/msmincho.ttc" ),
+                                               std::string( "C:/Windows/Fonts/msjh.ttc" ), std::string( "C:/Windows/Fonts/msjhbd.ttc" ),
                                                std::string( "C:/Windows/Fonts/msyh.ttc" ), std::string( "C:/Windows/Fonts/msyhbd.ttc" ),
                                                std::string( "C:/Windows/Fonts/simhei.ttf" ), std::string( "C:/Windows/Fonts/mingliu.ttc" ),
                                                std::string( "C:/Windows/Fonts/simsun.ttc" ) } ) {
             appendFontPathIfExists( fontPaths, fontPath );
         }
 #elif defined( __APPLE__ ) && !defined( __IPHONEOS__ )
-        for ( const std::string & fontPath : { std::string( "/System/Library/Fonts/Hiragino Sans GB.ttc" ),
+        for ( const std::string & fontPath : { std::string( "/System/Library/Fonts/Hiragino Sans W3.ttc" ),
+                                               std::string( "/System/Library/Fonts/Hiragino Sans W4.ttc" ),
+                                               std::string( "/System/Library/Fonts/Hiragino Sans GB.ttc" ),
                                                std::string( "/System/Library/Fonts/Supplemental/Hiragino Sans GB.ttc" ),
                                                std::string( "/System/Library/Fonts/STHeiti Light.ttc" ),
                                                std::string( "/System/Library/Fonts/Supplemental/STHeiti Light.ttc" ),
@@ -574,7 +628,11 @@ namespace
         }
 #elif defined( __linux__ ) && !defined( ANDROID )
         for ( const std::string & fontPath :
-              { std::string( "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc" ),
+              { std::string( "/usr/share/fonts/opentype/noto/NotoSansCJKjp-Regular.otf" ),
+                std::string( "/usr/share/fonts/opentype/noto/NotoSansJP-Regular.otf" ),
+                std::string( "/usr/share/fonts/truetype/noto/NotoSansCJKjp-Regular.otf" ),
+                std::string( "/usr/share/fonts/opentype/source-han-sans/SourceHanSansJP-Regular.otf" ),
+                std::string( "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc" ),
                 std::string( "/usr/share/fonts/opentype/noto/NotoSansCJKtc-Regular.otf" ),
                 std::string( "/usr/share/fonts/opentype/noto/NotoSansTC-Regular.otf" ),
                 std::string( "/usr/share/fonts/opentype/noto/NotoSansSC-Regular.otf" ),
@@ -943,16 +1001,25 @@ namespace
             std::vector<size_t> order( _fontPaths.size() );
             std::iota( order.begin(), order.end(), size_t{ 0 } );
 
-            if ( !isButtonFontSize( fontSize ) ) {
-                return order;
-            }
-
             const std::string & configuredFontPath = Settings::Get().getCjkFontPath();
-            std::stable_sort( order.begin(), order.end(), [this, &configuredFontPath]( const size_t lhs, const size_t rhs ) {
+            const fheroes2::SupportedLanguage language = fheroes2::getCurrentLanguage();
+            const bool isButtonSize = isButtonFontSize( fontSize );
+
+            std::stable_sort( order.begin(), order.end(), [this, &configuredFontPath, language, isButtonSize]( const size_t lhs, const size_t rhs ) {
                 const bool isLeftConfigured = !configuredFontPath.empty() && _fontPaths[lhs] == configuredFontPath;
                 const bool isRightConfigured = !configuredFontPath.empty() && _fontPaths[rhs] == configuredFontPath;
                 if ( isLeftConfigured != isRightConfigured ) {
                     return isLeftConfigured;
+                }
+
+                const int32_t leftLanguagePriority = getCjkFontLanguagePriority( _fontPaths[lhs], language );
+                const int32_t rightLanguagePriority = getCjkFontLanguagePriority( _fontPaths[rhs], language );
+                if ( leftLanguagePriority != rightLanguagePriority ) {
+                    return leftLanguagePriority < rightLanguagePriority;
+                }
+
+                if ( !isButtonSize ) {
+                    return lhs < rhs;
                 }
 
                 const int32_t leftPriority = getCjkButtonFontNamePriority( _fontPaths[lhs] );
