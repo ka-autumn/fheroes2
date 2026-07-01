@@ -767,15 +767,14 @@ namespace
         return alpha;
     }
 
-    // Some CJK glyph bounding boxes sit low, so use a stable anchor for vertical placement.
-    int32_t getCjkGlyphVerticalOffset( TTF_Font * font, const uint32_t codePoint, const int32_t maxY, const int32_t paddingTop )
+    // SDL_ttf renders every glyph onto a surface spanning the font's full ascent-to-descent height (row 0 is
+    // always the font's ascent line, not the individual glyph's ink top), so the glyph sprite only needs to
+    // cancel out the top padding added around the rendered pixels; no per-glyph metrics are needed here.
+    // (The previous implementation re-derived a position from the glyph's own maxY, which double-counted the
+    // ascent-relative offset already baked into the surface and pushed CJK glyphs down by roughly that amount.)
+    int32_t getCjkGlyphVerticalOffset( const int32_t paddingTop )
     {
-        int32_t anchorMaxY = maxY;
-        if ( isCjkCodePoint( codePoint ) || isCjkPunctuation( codePoint ) ) {
-            anchorMaxY = std::max( anchorMaxY, TTF_FontAscent( font ) - 2 );
-        }
-
-        return TTF_FontAscent( font ) - anchorMaxY - paddingTop;
+        return -paddingTop;
     }
 
     void addCjkButtonOffsetContour( fheroes2::Sprite & input, const fheroes2::Point & contourOffset, const uint8_t colorId )
@@ -1127,7 +1126,7 @@ namespace
                 SDL_UnlockSurface( surface.get() );
             }
 
-            glyph.sprite.setPosition( minX - paddingLeft, getCjkGlyphVerticalOffset( font, codePoint, maxY, paddingTop ) );
+            glyph.sprite.setPosition( minX - paddingLeft, getCjkGlyphVerticalOffset( paddingTop ) );
             applyCjkButtonGlyphEffects( glyph.sprite, fontType );
 
             glyph.advance = advance + getCjkGlyphExtraAdvance( fontType, codePoint );
