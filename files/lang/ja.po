@@ -649,7 +649,7 @@ msgid "Attack"
 msgstr "攻撃"
 
 msgid "Defense"
-msgstr "防衛"
+msgstr "防御"
 
 msgid "Spell Power"
 msgstr "スペルパワー"
@@ -3282,7 +3282,7 @@ msgid "%{color} Tent"
 msgstr "%{color} テント"
 
 msgid "Road"
-msgstr "道"
+msgstr "道路"
 
 msgid "(digging ok)"
 msgstr "(掘ってOK)"
@@ -3306,7 +3306,7 @@ msgid "Attack:"
 msgstr "攻撃："
 
 msgid "Defense:"
-msgstr "防衛："
+msgstr "防御："
 
 msgid "Spell Power:"
 msgstr "スペルパワー:"
@@ -4358,7 +4358,7 @@ msgid "Treasures"
 msgstr "宝物"
 
 msgid "Heroes"
-msgstr "ヒーローたち"
+msgstr "ヒーロー"
 
 msgid "Towns"
 msgstr "町"
@@ -8245,7 +8245,7 @@ msgid "Estates"
 msgstr "不動産"
 
 msgid "Advanced Archery"
-msgstr "上級アーチェリー"
+msgstr "高度なアーチェリー"
 
 msgid "Advanced Pathfinding"
 msgstr "高度な経路探索"
@@ -8257,19 +8257,19 @@ msgid "Basic Pathfinding"
 msgstr "基本的な経路探索"
 
 msgid "Expert Pathfinding"
-msgstr "エキスパートによる経路探索"
+msgstr "エキスパート経路探索"
 
 msgid "Advanced Logistics"
 msgstr "高度な物流"
 
 msgid "Basic Logistics"
-msgstr "物流の基礎"
+msgstr "基本的な物流"
 
 msgid "Basic Scouting"
 msgstr "基本的なスカウティング"
 
 msgid "Expert Archery"
-msgstr "アーチェリーの達人"
+msgstr "エキスパートアーチェリー"
 
 msgid "Expert Logistics"
 msgstr "エキスパート物流"
@@ -8281,10 +8281,10 @@ msgid "Advanced Scouting"
 msgstr "高度なスカウティング"
 
 msgid "Basic Diplomacy"
-msgstr "外交の基本"
+msgstr "基本的な外交"
 
 msgid "Expert Diplomacy"
-msgstr "専門家による外交"
+msgstr "エキスパート外交"
 
 msgid "Expert Scouting"
 msgstr "エキスパートスカウティング"
@@ -8314,43 +8314,43 @@ msgid "Basic Wisdom"
 msgstr "基本的な知恵"
 
 msgid "Expert Leadership"
-msgstr "専門家のリーダーシップ"
+msgstr "エキスパートリーダーシップ"
 
 msgid "Expert Wisdom"
-msgstr "専門家の知恵"
+msgstr "エキスパート知恵"
 
 msgid "Advanced Luck"
-msgstr "上級の運"
+msgstr "高度な運"
 
 msgid "Advanced Mysticism"
 msgstr "高度な神秘主義"
 
 msgid "Basic Luck"
-msgstr "基本運"
+msgstr "基本的な運"
 
 msgid "Expert Luck"
-msgstr "エキスパートラック"
+msgstr "エキスパート運"
 
 msgid "Expert Mysticism"
-msgstr "専門家の神秘主義"
+msgstr "エキスパート神秘主義"
 
 msgid "Advanced Ballistics"
 msgstr "高度な弾道学"
 
 msgid "Advanced Eagle Eye"
-msgstr "アドバンストイーグルアイ"
+msgstr "高度なイーグルアイ"
 
 msgid "Basic Ballistics"
-msgstr "基本的な弾道"
+msgstr "基本的な弾道学"
 
 msgid "Basic Eagle Eye"
-msgstr "ベーシックイーグルアイ"
+msgstr "基本的なイーグルアイ"
 
 msgid "Expert Ballistics"
 msgstr "エキスパート弾道学"
 
 msgid "Advanced Necromancy"
-msgstr "高度なネクロマンシー"
+msgstr "高度な死霊術"
 
 msgid "Basic Estates"
 msgstr "基本的な不動産"
@@ -8362,13 +8362,13 @@ msgid "Expert Eagle Eye"
 msgstr "エキスパートイーグルアイ"
 
 msgid "Expert Necromancy"
-msgstr "エキスパートネクロマンシー"
+msgstr "エキスパート死霊術"
 
 msgid "Advanced Estates"
-msgstr "アドバンスト・エステート"
+msgstr "高度な不動産"
 
 msgid "Expert Estates"
-msgstr "エキスパートエステート"
+msgstr "エキスパート不動産"
 
 msgid ""
 "%{skill} reduces the movement penalty for rough terrain by %{count} percent."
@@ -9195,7 +9195,7 @@ msgid "Flowers"
 msgstr "花"
 
 msgid "Rock"
-msgstr "ロック"
+msgstr "岩"
 
 msgid "Water Lake"
 msgstr "ウォーターレイク"
@@ -9294,7 +9294,7 @@ msgid "Unknown Monsters"
 msgstr "未知のモンスター"
 
 msgid "Unknown Monster"
-msgstr "未知の怪物"
+msgstr "未知のモンスター"
 
 msgid "Peasant"
 msgstr "農民"
@@ -9312,7 +9312,7 @@ msgid "Ranger"
 msgstr "レンジャー"
 
 msgid "Rangers"
-msgstr "レンジャーズ"
+msgstr "レンジャー"
 
 msgid "Pikeman"
 msgstr "パイクマン"
@@ -9333,13 +9333,13 @@ msgid "Swordsmen"
 msgstr "剣士"
 
 msgid "Master Swordsman"
-msgstr "マスターソードマン"
+msgstr "マスター剣士"
 
 msgid "Master Swordsmen"
-msgstr "マスターソードマン"
+msgstr "マスター剣士"
 
 msgid "Cavalries"
-msgstr "騎兵隊"
+msgstr "騎兵"
 
 msgid "Cavalry"
 msgstr "騎兵"
@@ -9360,7 +9360,7 @@ msgid "Crusader"
 msgstr "クルセイダー"
 
 msgid "Crusaders"
-msgstr "十字軍"
+msgstr "クルセイダー"
 
 msgid "Goblin"
 msgstr "ゴブリン"
@@ -9378,16 +9378,16 @@ msgid "Orc Chief"
 msgstr "オーク族長"
 
 msgid "Orc Chiefs"
-msgstr "オークの首長"
+msgstr "オーク族長"
 
 msgid "Wolf"
 msgstr "狼"
 
 msgid "Wolves"
-msgstr "オオカミ"
+msgstr "狼"
 
 msgid "Ogre"
-msgstr "鬼"
+msgstr "オーガ"
 
 msgid "Ogres"
 msgstr "オーガ"
@@ -9399,7 +9399,7 @@ msgid "Ogre Lords"
 msgstr "オーガロード"
 
 msgid "Troll"
-msgstr "トロル"
+msgstr "トロール"
 
 msgid "Trolls"
 msgstr "トロール"
@@ -9453,7 +9453,7 @@ msgid "Druids"
 msgstr "ドルイド僧"
 
 msgid "Greater Druid"
-msgstr "グレータードルイド"
+msgstr "グレータードルイド僧"
 
 msgid "Greater Druids"
 msgstr "グレータードルイド僧"
@@ -9498,31 +9498,31 @@ msgid "Minotaur King"
 msgstr "ミノタウロスキング"
 
 msgid "Minotaur Kings"
-msgstr "ミノタウロス・キングス"
+msgstr "ミノタウロスキング"
 
 msgid "Hydra"
 msgstr "ヒドラ"
 
 msgid "Hydras"
-msgstr "ヒドラス"
+msgstr "ヒドラ"
 
 msgid "Green Dragon"
 msgstr "グリーンドラゴン"
 
 msgid "Green Dragons"
-msgstr "グリーンドラゴンズ"
+msgstr "グリーンドラゴン"
 
 msgid "Red Dragon"
 msgstr "レッドドラゴン"
 
 msgid "Red Dragons"
-msgstr "レッドドラゴンズ"
+msgstr "レッドドラゴン"
 
 msgid "Black Dragon"
 msgstr "ブラックドラゴン"
 
 msgid "Black Dragons"
-msgstr "ブラックドラゴンズ"
+msgstr "ブラックドラゴン"
 
 msgid "Halfling"
 msgstr "ハーフリング"
@@ -9552,31 +9552,31 @@ msgid "Roc"
 msgstr "ロック"
 
 msgid "Rocs"
-msgstr "ロックス"
+msgstr "ロック"
 
 msgid "Mage"
 msgstr "メイジ"
 
 msgid "Magi"
-msgstr "マギ"
+msgstr "メイジ"
 
 msgid "Archmage"
 msgstr "アークメイジ"
 
 msgid "Archmagi"
-msgstr "大魔術師"
+msgstr "アークメイジ"
 
 msgid "Giant"
 msgstr "巨人"
 
 msgid "Giants"
-msgstr "ジャイアンツ"
+msgstr "巨人"
 
 msgid "Titan"
 msgstr "タイタン"
 
 msgid "Titans"
-msgstr "タイタンズ"
+msgstr "タイタン"
 
 msgid "Skeletons"
 msgstr "スケルトン"
@@ -9633,13 +9633,13 @@ msgid "Bone Dragon"
 msgstr "ボーンドラゴン"
 
 msgid "Bone Dragons"
-msgstr "ボーンドラゴンズ"
+msgstr "ボーンドラゴン"
 
 msgid "Rogue"
 msgstr "ローグ"
 
 msgid "Rogues"
-msgstr "ならず者"
+msgstr "ローグ"
 
 msgid "Nomad"
 msgstr "遊牧民"
@@ -9648,7 +9648,7 @@ msgid "Nomads"
 msgstr "遊牧民"
 
 msgid "Ghost"
-msgstr "おばけ"
+msgstr "幽霊"
 
 msgid "Ghosts"
 msgstr "幽霊"
@@ -9657,7 +9657,7 @@ msgid "Genie"
 msgstr "ジーニー"
 
 msgid "Genies"
-msgstr "魔神"
+msgstr "ジーニー"
 
 msgid "Medusa"
 msgstr "メデューサ"
@@ -9669,7 +9669,7 @@ msgid "Earth Elemental"
 msgstr "アースエレメンタル"
 
 msgid "Earth Elementals"
-msgstr "アースエレメンタルズ"
+msgstr "アースエレメンタル"
 
 msgid "Air Elemental"
 msgstr "エアエレメンタル"
@@ -9684,10 +9684,10 @@ msgid "Fire Elementals"
 msgstr "ファイアエレメンタル"
 
 msgid "Water Elemental"
-msgstr "水のエレメンタル"
+msgstr "ウォーターエレメンタル"
 
 msgid "Water Elementals"
-msgstr "水のエレメンタル"
+msgstr "ウォーターエレメンタル"
 
 msgid "Random Monsters"
 msgstr "ランダムモンスター"
@@ -11119,7 +11119,7 @@ msgid ""
 msgstr "巨大な火の玉が選択したエリアに衝突し、近くのすべての生き物にダメージを与えます。"
 
 msgid "Fireball"
-msgstr "火の玉"
+msgstr "ファイアボール"
 
 msgid "Fireblast"
 msgstr "ファイアブラスト"
@@ -11155,7 +11155,7 @@ msgid ""
 msgstr "選択したクリーチャーを戦場の空いている位置にテレポートします。"
 
 msgid "Cure"
-msgstr "治す"
+msgstr "キュア"
 
 msgid ""
 "Removes all negative spells cast upon one of your units, and restores up to "
@@ -11172,7 +11172,7 @@ msgstr ""
 "あなたの部隊にかけられたすべてのマイナスの呪文を取り除き、クリーチャーごとに呪文パワーのレベルごとに最大 %{count} の HP を回復します。"
 
 msgid "Resurrect"
-msgstr "復活する"
+msgstr "リザレクト"
 
 msgid "Resurrects creatures from a damaged or dead unit until end of combat."
 msgstr "戦闘が終了するまで、ダメージを受けたユニットまたは死亡したユニットからクリーチャーを復活させます。"
@@ -11216,7 +11216,7 @@ msgid ""
 msgstr "影響を受けたクリーチャーの目を曇らせて動けなくなり、報復時のダメージを%{count}パーセント軽減します。"
 
 msgid "Bless"
-msgstr "祝福してください"
+msgstr "祝福"
 
 msgid "Causes the selected creatures to inflict maximum damage."
 msgstr "選択したクリーチャーに最大のダメージを与えます。"
@@ -11225,7 +11225,7 @@ msgid "Causes all of your units to inflict maximum damage."
 msgstr "すべてのユニットに最大のダメージを与えます。"
 
 msgid "Mass Bless"
-msgstr "ミサブレス"
+msgstr "集団の祝福"
 
 msgid "Magically increases the defense skill of the selected creatures."
 msgstr "選択したクリーチャーの防御スキルを魔法で増加させます。"
@@ -11261,7 +11261,7 @@ msgstr "聖なる言葉"
 
 msgid ""
 "Damages all undead in the battle. This is an improved version of Holy Word."
-msgstr "戦闘中のアンデッド全員にダメージを与える。これはHoly Wordの改良版です。"
+msgstr "戦闘中のアンデッド全員にダメージを与える。これは聖なる言葉の改良版です。"
 
 msgid "Holy Shout"
 msgstr "ホーリーシャウト"
@@ -11318,13 +11318,13 @@ msgid "Meteor Shower"
 msgstr "流星群"
 
 msgid "Paralyze"
-msgstr "麻痺させる"
+msgstr "麻痺"
 
 msgid "The targeted creatures are paralyzed, unable to move or retaliate."
 msgstr "標的となった生き物は麻痺し、動くことも反撃することもできなくなります。"
 
 msgid "Hypnotize"
-msgstr "催眠術をかける"
+msgstr "催眠術"
 
 msgid ""
 "Brings a single enemy unit under your control if its hits are less than "
@@ -11363,7 +11363,7 @@ msgstr "デスウェーブ"
 msgid ""
 "Damages all living (non-undead) units in the battle. This spell is an "
 "improved version of Death Ripple."
-msgstr "戦闘中のすべての生きている（アンデッドではない）ユニットにダメージを与えます。この呪文はデス・リップルの改良版です。"
+msgstr "戦闘中のすべての生きている（アンデッドではない）ユニットにダメージを与えます。この呪文は死の波紋の改良版です。"
 
 msgid "Dragon Slayer"
 msgstr "ドラゴンスレイヤー"
@@ -11378,7 +11378,7 @@ msgid "Increases a unit's attack skill."
 msgstr "ユニットの攻撃スキルを上昇させます。"
 
 msgid "Animate Dead"
-msgstr "アニメーションデッド"
+msgstr "アニメイトデッド"
 
 msgid "Resurrects creatures from a damaged or dead undead unit permanently."
 msgstr "ダメージを受けた、または死亡したアンデッドユニットからクリーチャーを永久に復活させます。"
@@ -11455,13 +11455,13 @@ msgid "Causes all artifacts across the land to become visible."
 msgstr "土地中のすべてのアーティファクトが見えるようになります。"
 
 msgid "View Artifacts"
-msgstr "成果物を表示する"
+msgstr "アーティファクトを見る"
 
 msgid "Causes all towns and castles across the land to become visible."
 msgstr "土地中のすべての町と城が見えるようになります。"
 
 msgid "View Towns"
-msgstr "タウンを見る"
+msgstr "町を見る"
 
 msgid "Causes all Heroes across the land to become visible."
 msgstr "土地中のすべてのヒーローが見えるようになります。"
@@ -11479,7 +11479,7 @@ msgid "Allows the caster to view detailed information on enemy Heroes."
 msgstr "術者は敵ヒーローの詳細情報を表示できます。"
 
 msgid "Summon Boat"
-msgstr "召喚船"
+msgstr "船を召喚する"
 
 msgid ""
 "Summons the nearest unoccupied, friendly boat to an adjacent shore location."
@@ -11516,7 +11516,7 @@ msgid ""
 msgstr "ビジョンは、中立軍キャンプとの遭遇の起こり得る結果を予測します。"
 
 msgid "Haunt"
-msgstr "幽霊"
+msgstr "憑依"
 
 msgid ""
 "Haunts a mine you control with Ghosts. This mine stops producing resources. "
