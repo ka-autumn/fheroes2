@@ -690,13 +690,13 @@ msgstr "勇者のオプション"
 msgid ""
 "Cast a magical spell. You may only cast one spell per combat round. The "
 "round is reset when every creature has had a turn."
-msgstr "魔法の呪文をキャストします。戦闘ラウンドごとにキャストできる呪文は1つだけです。すべてのクリーチャーにターンが完了すると、ラウンドはリセットされます。"
+msgstr "魔法の呪文をキャストします。戦闘ラウンドごとにキャストできる呪文は1つだけです。すべてのユニットにターンが完了すると、ラウンドはリセットされます。"
 
 msgid ""
 "Retreat your hero, abandoning your creatures. Your hero will be available "
 "for you to recruit again, however, the hero will have only a novice hero's "
 "forces."
-msgstr "勇者を撤退させると、クリーチャーは放棄されます。勇者は再び募集できますが、部隊は新人のものだけになります。"
+msgstr "勇者を撤退させると、ユニットは放棄されます。勇者は再び募集できますが、部隊は新人のものだけになります。"
 
 msgid ""
 "Surrendering costs gold. However if you pay the ransom, the hero and all of "
@@ -804,7 +804,7 @@ msgstr "スキップ"
 msgid ""
 "Skips the current creature. The current creature ends its turn and does not "
 "get to go again until the next round."
-msgstr "現在のクリーチャーをスキップします。現在のクリーチャーはターンを終了し、次のラウンドまで再び行動することはできません。"
+msgstr "現在のユニットをスキップします。現在のユニットはターンを終了し、次のラウンドまで再び行動することはできません。"
 
 msgid "View Captain's options"
 msgstr "守備隊長のオプションを表示"
@@ -877,7 +877,7 @@ msgstr[0] "%{attacker}は%{damage}のダメージを与えます。"
 
 msgid "1 creature perishes."
 msgid_plural "%{count} creatures perish."
-msgstr[0] "%{count} 体のクリーチャーが滅びます。"
+msgstr[0] "%{count} 体のユニットが滅びます。"
 
 msgid "1 %{defender} perishes."
 msgid_plural "%{count} %{defender} perish."
@@ -905,13 +905,13 @@ msgid "%{name} casts %{spell}."
 msgstr "%{name}は%{spell}をキャストします。"
 
 msgid "The %{spell} does %{damage} damage to one undead creature."
-msgstr "%{spell}はアンデッド・クリーチャー1体に%{damage}のダメージを与えます。"
+msgstr "%{spell}はアンデッド・ユニット1体に%{damage}のダメージを与えます。"
 
 msgid "The %{spell} does %{damage} damage to all undead creatures."
-msgstr "%{spell}はすべてのアンデッド・クリーチャーに%{damage}のダメージを与えます。"
+msgstr "%{spell}はすべてのアンデッド・ユニットに%{damage}のダメージを与えます。"
 
 msgid "The %{spell} does %{damage} damage, %{count} creatures perish."
-msgstr "%{spell}は%{damage}のダメージを与え、%{count}のクリーチャーが滅びます。"
+msgstr "%{spell}は%{damage}のダメージを与え、%{count}のユニットが滅びます。"
 
 msgid "The %{spell} does %{damage} damage."
 msgstr "%{spell}は%{damage}のダメージを与えます。"
@@ -1036,7 +1036,7 @@ msgstr "戦闘中のダメージ情報の表示を切り替えます。"
 
 msgid ""
 "Toggle on or off shadows showing where your creatures can move and attack."
-msgstr "クリーチャーが移動して攻撃できる場所を示す影のオンとオフを切り替えます。"
+msgstr "ユニットが移動して攻撃できる場所を示す影のオンとオフを切り替えます。"
 
 msgid ""
 "Toggle on or off a shadow showing the current hex location of the mouse "
@@ -1044,7 +1044,7 @@ msgid ""
 msgstr "マウス カーソルの現在の 16 進位置を示す影のオンとオフを切り替えます。"
 
 msgid "Toggle showing the movement area of a highlighted creature on or off."
-msgstr "ハイライトされたクリーチャーの移動領域の表示のオンとオフを切り替えます。"
+msgstr "ハイライトされたユニットの移動領域の表示のオンとオフを切り替えます。"
 
 msgid ""
 "Through eagle-eyed observation, %{name} is able to learn the magic spell "
@@ -2496,7 +2496,7 @@ msgstr "特別な建物は、選択した城タイプに特定のボーナスを
 msgid ""
 "The Horde Building increases the growth rate of the level 1 creatures by 8 "
 "per week."
-msgstr "大群の建物は、レベル1のクリーチャーの成長率を1週間あたり8ずつ増加させます。"
+msgstr "大群の建物は、レベル1のユニットの成長率を1週間あたり8ずつ増加させます。"
 
 msgid "Thieves' Guild"
 msgstr "盗賊ギルド"
@@ -2584,7 +2584,7 @@ msgid ""
 "moat must end its turn there and can only move within the moat one hex at a "
 "time. Any creature present in the moat will have its defense skill reduced "
 "by %{count}."
-msgstr "堀は攻撃ユニットの速度を低下させ、弱体化させます。堀に進入した歩行ユニットはそこでターンを終了しなければならず、堀内で一度に1ヘクスずつしか移動できません。堀内に存在するあらゆるクリーチャーの防御スキルが%{count}低下します。"
+msgstr "堀は攻撃ユニットの速度を低下させ、弱体化させます。堀に進入した歩行ユニットはそこでターンを終了しなければならず、堀内で一度に1ヘクスずつしか移動できません。堀内に存在するあらゆるユニットの防御スキルが%{count}低下します。"
 
 msgid ""
 "The Castle improves the town's defense and increases its income to %{count} "
@@ -2706,19 +2706,19 @@ msgid "Grouped Formation"
 msgstr "グループ化されたフォーメーション"
 
 msgid "Not enough resources to recruit creatures."
-msgstr "クリーチャーを募集するのに十分なリソースがありません。"
+msgstr "ユニットを募集するのに十分なリソースがありません。"
 
 msgid "You are unable to recruit at this time, your ranks are full."
 msgstr "ランクが満員のため、現時点では募集できません。"
 
 msgid "No creatures available for purchase."
-msgstr "購入できるクリーチャーはありません。"
+msgstr "購入できるユニットはありません。"
 
 msgid "Recruit Creatures"
-msgstr "クリーチャーを募集する"
+msgstr "ユニットを募集する"
 
 msgid "Hire all creatures in the town."
-msgstr "町にいるすべてのクリーチャーを雇います。"
+msgstr "町にいるすべてのユニットを雇います。"
 
 msgid "Max"
 msgstr "マックス"
@@ -8377,7 +8377,7 @@ msgid ""
 "by %{count} percent, and eliminates the %{penalty} percent penalty when "
 "shooting past obstacles (e.g. castle walls)."
 msgstr ""
-"%{skill} は、勇者の範囲攻撃クリーチャーによって与えられるダメージを %{count} パーセント増加させ、障害物（城壁など）を撃ち抜く際の"
+"%{skill} は、勇者の範囲攻撃ユニットによって与えられるダメージを %{count} パーセント増加させ、障害物（城壁など）を撃ち抜く際の"
 " %{penalty} パーセントのペナルティを排除します。"
 
 msgid "%{skill} increases the hero's movement points by %{count} percent."
@@ -8395,7 +8395,7 @@ msgstr "%{skill} を使用すると、勇者は自分の軍隊よりも弱いモ
 
 msgid ""
 "Approximately %{count} percent of the creatures may offer to join the hero."
-msgstr "約 %{count} パーセントのクリーチャーが勇者に加わることを申し出る可能性があります。"
+msgstr "約 %{count} パーセントのユニットが勇者に加わることを申し出る可能性があります。"
 
 msgid "All of the creatures may offer to join the hero."
 msgstr "すべての生き物が勇者に加わることを申し出るかもしれません。"
@@ -8465,7 +8465,7 @@ msgstr "%{skill} は、戦闘中に敵が唱えた特定の 4 レベル呪文（
 msgid ""
 "%{skill} allows %{count} percent of the creatures killed in combat to be "
 "brought back from the dead as Skeletons."
-msgstr "%{skill} により、戦闘で殺されたクリーチャーの %{count} パーセントをスケルトンとして死者の中から蘇らせることができます。"
+msgstr "%{skill} により、戦闘で殺されたユニットの %{count} パーセントをスケルトンとして死者の中から蘇らせることができます。"
 
 msgid ""
 "The hero produces %{count} gold pieces per day as tax revenue from estates."
@@ -9268,22 +9268,22 @@ msgid "Barrel"
 msgstr "バレル"
 
 msgid "randomRace|level 1 creatures"
-msgstr "レベル 1 のクリーチャー"
+msgstr "レベル 1 のユニット"
 
 msgid "randomRace|level 2 creatures"
-msgstr "レベル 2 クリーチャー"
+msgstr "レベル 2 ユニット"
 
 msgid "randomRace|level 3 creatures"
-msgstr "レベル 3 クリーチャー"
+msgstr "レベル 3 ユニット"
 
 msgid "randomRace|level 4 creatures"
-msgstr "レベル 4 のクリーチャー"
+msgstr "レベル 4 のユニット"
 
 msgid "randomRace|level 5 creatures"
-msgstr "レベル 5 のクリーチャー"
+msgstr "レベル 5 のユニット"
 
 msgid "randomRace|level 6 creatures"
-msgstr "レベル6のクリーチャー"
+msgstr "レベル6のユニット"
 
 msgid "Unknown Monsters"
 msgstr "未知のモンスター"
@@ -9838,7 +9838,7 @@ msgid "Double damage from Earth creatures"
 msgstr "地球の生き物からのダメージが2倍になる"
 
 msgid "Double damage from Air creatures"
-msgstr "空気クリーチャーからのダメージが2倍になる"
+msgstr "空気ユニットからのダメージが2倍になる"
 
 msgid "Double damage from Fire creatures"
 msgstr "火の生き物からのダメージが2倍になる"
@@ -11125,7 +11125,7 @@ msgid ""
 msgstr "ファイアボールの改良版であるファイアブラストは、呪文の中心点の周囲の 1 ヘクスではなく 2 ヘクスに影響を与えます。"
 
 msgid "Causes a bolt of electrical energy to strike the selected creature."
-msgstr "電気エネルギーのボルトが選択したクリーチャーを攻撃します。"
+msgstr "電気エネルギーのボルトが選択したユニットを攻撃します。"
 
 msgid "Lightning Bolt"
 msgstr "ライトニングボルト"
@@ -11139,15 +11139,15 @@ msgid ""
 "creature with half again damage, and so on, until it becomes too weak to be "
 "harmful. Warning: This spell can hit your own creatures!"
 msgstr ""
-"電気エネルギーのボルトが選択したクリーチャーを攻撃し、次に最も近いクリーチャーを半分のダメージで攻撃し、次に最も近いクリーチャーを再び半分のダメージで攻撃するというように、害を及ぼすことができないほど弱くなるまで続けます。警告:"
-" この呪文は自分のクリーチャーを攻撃する可能性があります。"
+"電気エネルギーのボルトが選択したユニットを攻撃し、次に最も近いユニットを半分のダメージで攻撃し、次に最も近いユニットを再び半分のダメージで攻撃するというように、害を及ぼすことができないほど弱くなるまで続けます。警告:"
+" この呪文は自分のユニットを攻撃する可能性があります。"
 
 msgid "Teleport"
 msgstr "テレポート"
 
 msgid ""
 "Teleports the creature you select to any open position on the battlefield."
-msgstr "選択したクリーチャーを戦場の空いている位置にテレポートします。"
+msgstr "選択したユニットを戦場の空いている位置にテレポートします。"
 
 msgid "Cure"
 msgstr "キュア"
@@ -11164,28 +11164,28 @@ msgid ""
 "Removes all negative spells cast upon your forces, and restores up to "
 "%{count} HP per level of spell power, per creature."
 msgstr ""
-"あなたの部隊にかけられたすべてのマイナスの呪文を取り除き、クリーチャーごとに呪文パワーのレベルごとに最大 %{count} の HP を回復します。"
+"あなたの部隊にかけられたすべてのマイナスの呪文を取り除き、ユニットごとに呪文パワーのレベルごとに最大 %{count} の HP を回復します。"
 
 msgid "Resurrect"
 msgstr "リザレクト"
 
 msgid "Resurrects creatures from a damaged or dead unit until end of combat."
-msgstr "戦闘が終了するまで、ダメージを受けたユニットまたは死亡したユニットからクリーチャーを復活させます。"
+msgstr "戦闘が終了するまで、ダメージを受けたユニットまたは死亡したユニットからユニットを復活させます。"
 
 msgid "Resurrect True"
 msgstr "リザレクト・トゥルー"
 
 msgid "Resurrects creatures from a damaged or dead unit permanently."
-msgstr "ダメージを受けたユニットまたは死亡したユニットからクリーチャーを永久に復活させます。"
+msgstr "ダメージを受けたユニットまたは死亡したユニットからユニットを永久に復活させます。"
 
 msgid "Haste"
 msgstr "速攻"
 
 msgid "Increases the speed of any creature by %{count}."
-msgstr "あらゆるクリーチャーの速度を%{count}増加させます。"
+msgstr "あらゆるユニットの速度を%{count}増加させます。"
 
 msgid "Increases the speed of all of your creatures by %{count}."
-msgstr "すべてのクリーチャーの速度を %{count} 増加させます。"
+msgstr "すべてのユニットの速度を %{count} 増加させます。"
 
 msgid "Mass Haste"
 msgstr "マスヘイスト"
@@ -11208,13 +11208,13 @@ msgstr "ブラインド"
 msgid ""
 "Clouds the affected creatures' eyes, preventing them from moving and reduces"
 " the damage when retaliating by %{count} percent."
-msgstr "影響を受けたクリーチャーの目を曇らせて動けなくなり、報復時のダメージを%{count}パーセント軽減します。"
+msgstr "影響を受けたユニットの目を曇らせて動けなくなり、報復時のダメージを%{count}パーセント軽減します。"
 
 msgid "Bless"
 msgstr "祝福"
 
 msgid "Causes the selected creatures to inflict maximum damage."
-msgstr "選択したクリーチャーに最大のダメージを与えます。"
+msgstr "選択したユニットに最大のダメージを与えます。"
 
 msgid "Causes all of your units to inflict maximum damage."
 msgstr "すべてのユニットに最大のダメージを与えます。"
@@ -11223,7 +11223,7 @@ msgid "Mass Bless"
 msgstr "集団の祝福"
 
 msgid "Magically increases the defense skill of the selected creatures."
-msgstr "選択したクリーチャーの防御スキルを魔法で増加させます。"
+msgstr "選択したユニットの防御スキルを魔法で増加させます。"
 
 msgid "Stoneskin"
 msgstr "ストーンスキン"
@@ -11234,10 +11234,10 @@ msgstr "スティールスキン"
 msgid ""
 "Increases the defense skill of the targeted creatures. This is an improved "
 "version of Stoneskin."
-msgstr "対象のクリーチャーの防御スキルを増加させます。これはストーンスキンの改良版です。"
+msgstr "対象のユニットの防御スキルを増加させます。これはストーンスキンの改良版です。"
 
 msgid "Causes the selected creatures to inflict minimum damage."
-msgstr "選択したクリーチャーに最小限のダメージを与えます。"
+msgstr "選択したユニットに最小限のダメージを与えます。"
 
 msgid "Curse"
 msgstr "呪い"
@@ -11265,7 +11265,7 @@ msgid "Anti-Magic"
 msgstr "アンチマジック"
 
 msgid "Prevents any magic against the selected creatures."
-msgstr "選択したクリーチャーに対する魔法を防ぎます。"
+msgstr "選択したユニットに対する魔法を防ぎます。"
 
 msgid "Dispel Magic"
 msgstr "ディスペルマジック"
@@ -11277,7 +11277,7 @@ msgid "Mass Dispel"
 msgstr "マスディスペル"
 
 msgid "Removes all magic spells from all creatures."
-msgstr "すべてのクリーチャーからすべての魔法の呪文を取り除きます。"
+msgstr "すべてのユニットからすべての魔法の呪文を取り除きます。"
 
 msgid "Causes a magic arrow to strike the selected target."
 msgstr "選択したターゲットに魔法の矢を発射します。"
@@ -11289,7 +11289,7 @@ msgid "Berserker"
 msgstr "バーサーカー"
 
 msgid "Causes a creature to attack its nearest neighbor."
-msgstr "クリーチャーに最も近い隣人を攻撃させます。"
+msgstr "ユニットに最も近い隣人を攻撃させます。"
 
 msgid "Armageddon"
 msgstr "ハルマゲドン"
@@ -11376,7 +11376,7 @@ msgid "Animate Dead"
 msgstr "アニメイトデッド"
 
 msgid "Resurrects creatures from a damaged or dead undead unit permanently."
-msgstr "ダメージを受けた、または死亡したアンデッドユニットからクリーチャーを永久に復活させます。"
+msgstr "ダメージを受けた、または死亡したアンデッドユニットからユニットを永久に復活させます。"
 
 msgid "Mirror Image"
 msgstr "鏡像"
@@ -11584,7 +11584,7 @@ msgstr "石化"
 msgid ""
 "Turns the affected creature into stone. A petrified creature receives half "
 "damage from a direct attack."
-msgstr "影響を受けたクリーチャーを石に変えます。石化したクリーチャーは直接攻撃から半分のダメージを受けます。"
+msgstr "影響を受けたユニットを石に変えます。石化したユニットは直接攻撃から半分のダメージを受けます。"
 
 msgid "You have no Magic Book, so you cannot cast a spell."
 msgstr "あなたは魔法の本を持っていないので、呪文を唱えることはできません。"
