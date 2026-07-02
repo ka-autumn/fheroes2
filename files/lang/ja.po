@@ -3476,22 +3476,22 @@ msgid "Enable All Items"
 msgstr "すべての項目を有効にする"
 
 msgid "Click to disable all items."
-msgstr "クリックするとすべての項目が無効になります。"
+msgstr "クリックしてすべての項目を無効にします。"
 
 msgid "Disable All Items"
 msgstr "すべての項目を無効にする"
 
 msgid "There are no secondary skills to select from."
-msgstr "選択できる二次スキルはありません。"
+msgstr "選択できるセカンダリスキルはありません。"
 
 msgid "Select Skill:"
-msgstr "スキルを選択:"
+msgstr "スキルを選択します:"
 
 msgid "There are no spells to select."
 msgstr "選択できる呪文はありません。"
 
 msgid "Select Spell:"
-msgstr "呪文を選択:"
+msgstr "呪文を選択します:"
 
 msgid "There are no artifacts to select from."
 msgstr "選択できるアーティファクトはありません。"
@@ -3503,19 +3503,19 @@ msgid "There are no monsters to select from."
 msgstr "選択できるモンスターはありません。"
 
 msgid "Select Monster:"
-msgstr "モンスターを選択:"
+msgstr "モンスターを選択します:"
 
 msgid "There are no heroes to select from."
 msgstr "選択できる勇者はありません。"
 
 msgid "Select Hero:"
-msgstr "勇者を選択:"
+msgstr "勇者を選択します:"
 
 msgid "Select Monsters:"
-msgstr "モンスターを選択:"
+msgstr "モンスターを選択します:"
 
 msgid "Select Artifacts:"
-msgstr "アーティファクトを選択:"
+msgstr "アーティファクトを選択します:"
 
 msgid "race|Random"
 msgstr "ランダム"
@@ -3527,7 +3527,7 @@ msgid "%{color} %{race}"
 msgstr "%{color} %{race}"
 
 msgid "You will place"
-msgstr "あなたが置きます"
+msgstr "配置します"
 
 msgid "Click to select this class."
 msgstr "クリックしてこのクラスを選択します。"
@@ -3536,7 +3536,7 @@ msgid "Click to select this color."
 msgstr "クリックしてこの色を選択します。"
 
 msgid "Select Treasure:"
-msgstr "宝物を選択してください:"
+msgstr "宝物を選択します:"
 
 msgid "Select Ocean Object:"
 msgstr "海洋オブジェクトを選択します:"
@@ -3545,7 +3545,7 @@ msgid "Castle/town placing:"
 msgstr "城/町の配置:"
 
 msgid "doubleLinedRace|Neutral"
-msgstr "ニュートラル"
+msgstr "中立"
 
 msgid "TOWN"
 msgstr "町"
@@ -3569,7 +3569,7 @@ msgid "race|Neutral"
 msgstr "中立"
 
 msgid "Select Dwelling:"
-msgstr "住居を選択してください:"
+msgstr "住居を選択します:"
 
 msgid "Select Landscape Object:"
 msgstr "風景オブジェクトを選択します:"
@@ -3585,16 +3585,16 @@ msgstr ""
 "タイプ:"
 
 msgid "%{mineName} appearance:"
-msgstr "%{mineName} の外観:"
+msgstr "%{mineName}の外観:"
 
 msgid "Click to select the color."
 msgstr "クリックして色を選択します。"
 
 msgid "Click to select %{object} as the resource generator to be placed."
-msgstr "配置するリソース ジェネレーターとして %{object} をクリックして選択します。"
+msgstr "配置するリソースジェネレーターとして%{object}をクリックして選択します。"
 
 msgid "Select Mountain Object:"
-msgstr "山のオブジェクトを選択します。"
+msgstr "山オブジェクトを選択します:"
 
 msgid "Select Rock Object:"
 msgstr "岩オブジェクトを選択します:"
@@ -3606,10 +3606,10 @@ msgid "Select Power Up Object:"
 msgstr "パワーアップオブジェクトを選択します:"
 
 msgid "Select Adventure Object:"
-msgstr "アドベンチャー オブジェクトを選択します:"
+msgstr "アドベンチャーオブジェクトを選択します:"
 
 msgid "Select color:"
-msgstr "色を選択してください:"
+msgstr "色を選択します:"
 
 msgid "Players Icon"
 msgstr "プレイヤーのアイコン"
