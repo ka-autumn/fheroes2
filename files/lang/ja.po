@@ -7899,7 +7899,7 @@ msgid ""
 msgstr "少なくともこの勇者が生成できるのと同じ数のエレメンタルがすでに鉱山を守っています。この呪文を唱えても効果はありません。"
 
 msgid "%{name} the %{race} (Level %{level})"
-msgstr "%{name} と %{race} (レベル %{level})"
+msgstr "%{race}の%{name} (レベル %{level})"
 
 msgid "Random hero (Level %{level})"
 msgstr "ランダムな勇者 (レベル %{level})"
@@ -7920,7 +7920,7 @@ msgid "Change Experience value. Right-click to reset to default value."
 msgstr "経験値を変更します。右クリックしてデフォルト値にリセットします。"
 
 msgid "View Experience Info"
-msgstr "体験情報を見る"
+msgstr "経験値情報を表示"
 
 msgid "Set custom Spell Points value. Current value is default."
 msgstr "カスタムのスペルポイント値を設定します。現在の値はデフォルトです。"
@@ -7929,13 +7929,13 @@ msgid "Change Spell Points value. Right-click to reset to default value."
 msgstr "スペルポイントの値を変更します。右クリックしてデフォルト値にリセットします。"
 
 msgid "Set Spell Points value:"
-msgstr "スペル ポイントの値を設定します。"
+msgstr "スペルポイントの設定:"
 
 msgid "View Spell Points Info"
 msgstr "スペルポイント情報の表示"
 
 msgid "Set patrol radius in tiles:"
-msgstr "パトロール半径をタイルで設定します。"
+msgstr "パトロール半径（タイル数）の設定:"
 
 msgid "Enter hero's name:"
 msgstr "勇者の名前を入力してください:"
@@ -7946,8 +7946,7 @@ msgstr "クリックしてクラスを変更します。"
 msgid ""
 "'Spread' combat formation spreads the hero's units from the top to the "
 "bottom of the battlefield, with at least one empty space between each unit."
-msgstr ""
-"「スプレッド」戦闘フォーメーションは、勇者のユニットを戦場の上から下まで広げ、各ユニットの間に少なくとも 1 つの空きスペースを設けます。"
+msgstr "「分散」戦闘フォーメーションは、勇者のユニットを戦場の上から下まで広げ、各ユニットの間に少なくとも1つの空きスペースを設けます。"
 
 msgid ""
 "'Grouped' combat formation bunches the hero's army together in the center of"
@@ -7955,16 +7954,16 @@ msgid ""
 msgstr "「グループ化」戦闘フォーメーションは、勇者の軍隊を戦場の味方側の中央にまとめます。"
 
 msgid "Exit Hero Screen"
-msgstr "勇者画面を終了する"
+msgstr "勇者画面を終了します"
 
 msgid "You cannot dismiss a hero in a castle"
 msgstr "城では勇者を解雇することはできません"
 
 msgid "Dismissal of %{name} the %{race} is prohibited by scenario"
-msgstr "%{name} と %{race} の解雇はシナリオにより禁止されています"
+msgstr "%{race}の%{name}の解雇はシナリオにより禁止されています"
 
 msgid "Dismiss %{name} the %{race}"
-msgstr "%{name} と %{race} を解散させます"
+msgstr "%{race}の%{name}を解雇します"
 
 msgid "Show previous hero"
 msgstr "前の勇者を表示"
@@ -7973,10 +7972,10 @@ msgid "Show next hero"
 msgstr "次の勇者を表示"
 
 msgid "Set army combat formation to 'Spread'"
-msgstr "軍の戦闘フォーメーションを「拡散」に設定する"
+msgstr "軍隊の戦闘フォーメーションを「分散」に設定します"
 
 msgid "Set army combat formation to 'Grouped'"
-msgstr "軍隊の戦闘フォーメーションを「グループ化」に設定する"
+msgstr "軍隊の戦闘フォーメーションを「グループ化」に設定します"
 
 msgid "Set hero's Artifacts. Right-click to reset Artifact."
 msgstr "勇者のアーティファクトを設定します。右クリックしてアーティファクトをリセットします。"
@@ -7994,7 +7993,7 @@ msgid "Click to change hero's name. Right-click to reset to default."
 msgstr "クリックして勇者の名前を変更します。右クリックしてデフォルトにリセットします。"
 
 msgid "Hero is in patrol mode in %{tiles} tiles radius. Click to disable it."
-msgstr "勇者は半径 %{tiles} タイルでパトロール モードになっています。クリックして無効にします。"
+msgstr "勇者は半径%{tiles}タイルでパトロールモードになっています。クリックして無効にします。"
 
 msgid "Click to enable hero's patrol mode."
 msgstr "クリックして勇者のパトロールモードを有効にします。"
