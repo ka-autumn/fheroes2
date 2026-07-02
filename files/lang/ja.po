@@ -1117,13 +1117,13 @@ msgid "Right Turret"
 msgstr "右砲塔"
 
 msgid "The %{name} fires with the strength of %{count} Archers"
-msgstr "%{name} は、%{count} 人の射手の力で射撃します"
+msgstr "%{name}は、%{count}人の射手の力で射撃します"
 
 msgid "each with a +%{attack} bonus to their attack skill."
 msgstr "それぞれの攻撃スキルに +%{attack} ボーナスが与えられます。"
 
 msgid "The %{name} is destroyed."
-msgstr "%{name} は破壊されます。"
+msgstr "%{name}は破壊されています。"
 
 msgid "%{count} %{name} rises from the dead!"
 msgid_plural "%{count} %{name} rise from the dead!"
