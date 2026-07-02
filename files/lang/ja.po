@@ -86,7 +86,7 @@ msgid "RESTART"
 msgstr "再起動"
 
 msgid "MAX"
-msgstr "マックス"
+msgstr "最大"
 
 msgid "MIN"
 msgstr "最小"
@@ -3373,10 +3373,10 @@ msgid "Click to apply the selected resolution."
 msgstr "クリックして選択した解像度を適用します。"
 
 msgid "Click to select the maximum amount."
-msgstr "クリックして最大金額を選択します。"
+msgstr "クリックして最大数量を選択します。"
 
 msgid "Click to select the minimum amount."
-msgstr "クリックして最小金額を選択します。"
+msgstr "クリックして最小数量を選択します。"
 
 msgid "Click to apply the entered number."
 msgstr "クリックして入力した数値を適用します。"
@@ -3391,10 +3391,10 @@ msgid "Open Virtual Keyboard"
 msgstr "仮想キーボードを開く"
 
 msgid "How many creatures do you wish to move?"
-msgstr "何匹の生き物を移動させたいですか?"
+msgstr "何体のユニットを移動させたいですか?"
 
 msgid "Select how many units to separate into:"
-msgstr "分割する単位の数を選択します:"
+msgstr "分割数を選択してください:"
 
 msgid "Map: "
 msgstr "地図： "
