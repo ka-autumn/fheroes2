@@ -8105,21 +8105,21 @@ msgid "I fear these creatures are in the mood for a fight."
 msgstr "この生き物たちは戦いを望んでいるのではないかと心配です。"
 
 msgid "The hero's attack skill is a bonus added to each unit's attack skill."
-msgstr "勇者の攻撃スキルは各ユニットの攻撃スキルにボーナスが加算されます。"
+msgstr "勇者の攻撃スキルは、各ユニットの攻撃スキルに加算されるボーナスです。"
 
 msgid ""
 "The hero's defense skill is a bonus added to each unit's defense skill."
-msgstr "勇者の防御スキルは各ユニットの防御スキルにボーナスが加算されます。"
+msgstr "勇者の防御スキルは、各ユニットの防御スキルに加算されるボーナスです。"
 
 msgid "The hero's spell power determines the duration or power of a spell."
-msgstr "勇者の呪文の力は、呪文の持続時間または威力を決定します。"
+msgstr "勇者のスペルパワーは、呪文の持続時間または威力を決定します。"
 
 msgid ""
 "The hero's knowledge determines how many spell points the hero may have. "
 "Under normal circumstances, a hero is limited to 10 spell points per level "
 "of knowledge."
 msgstr ""
-"勇者の知識によって、勇者が持つ呪文ポイントの数が決まります。通常の状況では、勇者のスペル ポイントは知識レベルごとに 10 に制限されています。"
+"勇者の知識によって、勇者が持つスペルポイントの数が決まります。通常の状況では、勇者のスペルポイントは知識レベルごとに 10 に制限されています。"
 
 msgid "Current Modifiers:"
 msgstr "現在の修飾子:"
@@ -8331,7 +8331,7 @@ msgid ""
 msgstr "約 %{count} パーセントのユニットが勇者に加わることを申し出る可能性があります。"
 
 msgid "All of the creatures may offer to join the hero."
-msgstr "すべての生き物が勇者に加わることを申し出るかもしれません。"
+msgstr "すべてのユニットが勇者に加わることを申し出るかもしれません。"
 
 msgid ""
 "The cost of surrender is reduced to %{percent} percent of the total cost of "
@@ -8344,7 +8344,7 @@ msgid ""
 msgstr "%{skill} は水上での勇者の移動ポイントを %{count} パーセント増加させます。"
 
 msgid "%{skill} increases the hero's troops morale by %{count}."
-msgstr "%{skill} は勇者の部隊の士気を %{count} 増加させます。"
+msgstr "%{skill} は勇者の軍隊の士気を %{count} 増加させます。"
 
 msgid "%{skill} allows the hero to learn third level spells."
 msgstr "%{skill} により、勇者は第 3 レベルの呪文を学ぶことができます。"
@@ -8358,7 +8358,7 @@ msgstr "%{skill} により、勇者は第 5 レベルの呪文を学ぶことが
 msgid "%{skill} regenerates one additional spell point per day to the hero."
 msgid_plural ""
 "%{skill} regenerates %{count} additional spell points per day to the hero."
-msgstr[0] "%{skill} は、勇者に毎日 %{count} 個の追加スペル ポイントを回復します。"
+msgstr[0] "%{skill} は、勇者に毎日 %{count} 個の追加スペルポイントを回復します。"
 
 msgid "%{skill} increases the hero's luck by %{count}."
 msgstr "%{skill} は勇者の運を %{count} 増加させます。"
@@ -8393,7 +8393,7 @@ msgstr ""
 msgid ""
 "%{skill} gives the hero a %{count} percent chance to learn any given 4th "
 "level spell (or below) that was cast by an enemy during combat."
-msgstr "%{skill} は、戦闘中に敵が唱えた特定の 4 レベル呪文（またはそれ以下）を学ぶ確率を %{count}% の確率で勇者に与えます。"
+msgstr "%{skill} は、勇者に戦闘中に敵が唱えた特定の第 4 レベルの呪文（またはそれ以下）を学習する確率を %{count} パーセント与えます。"
 
 msgid ""
 "%{skill} allows %{count} percent of the creatures killed in combat to be "
@@ -8402,7 +8402,7 @@ msgstr "%{skill} により、戦闘で殺されたユニットの %{count} パ�
 
 msgid ""
 "The hero produces %{count} gold pieces per day as tax revenue from estates."
-msgstr "勇者は領地からの税収として 1 日あたり %{count} 個の金貨を生産します。"
+msgstr "勇者は領地からの税収として 1 日あたり %{count} 個の金貨を得ます。"
 
 msgid "Blue"
 msgstr "青"
