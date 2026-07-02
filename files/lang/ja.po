@@ -3194,18 +3194,18 @@ msgstr "該当なし"
 msgid ""
 "Please inspect our fine wares. If you feel like offering a trade, click on "
 "the items you wish to trade with and for."
-msgstr "当社の素晴らしい商品をぜひご覧ください。取引を申し出たい場合は、取引したい商品をクリックしてください。"
+msgstr "当社の素晴らしい商品をぜひご覧ください。取引を申し出たい場合は、渡したい商品と受け取りたい商品をクリックしてください。"
 
 msgid ""
 "You have received quite a bargain. I expect to make no profit on the deal. "
 "Can I interest you in any of my other wares?"
-msgstr "かなりお買い得なものを入手しました。私はこの取引で何の利益も得られないと予想している。私の他の商品にも興味を持っていただけますか?"
+msgstr "かなりお買い得なものを入手しました。私はこの取引で何の利益も得られないと予想しています。私の他の商品にも興味を持っていただけますか?"
 
 msgid "I can offer you %{count} for 1 unit of %{resfrom}."
 msgstr "%{resfrom} 1 単位で %{count} を提供できます。"
 
 msgid "I can offer you 1 unit of %{resto} for %{count} units of %{resfrom}."
-msgstr "%{resfrom} の %{count} 単位で %{resto} を 1 単位提供できます。"
+msgstr "%{resfrom} %{count} 単位で %{resto} を 1 単位提供できます。"
 
 msgid "Min"
 msgstr "最小"
@@ -3214,7 +3214,7 @@ msgid "Qty to trade"
 msgstr "取引数量"
 
 msgid "Trading Post"
-msgstr "トレーディングポスト"
+msgstr "交易所"
 
 msgid "Your Resources"
 msgstr "あなたのリソース"
