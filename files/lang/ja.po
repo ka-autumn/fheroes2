@@ -4820,7 +4820,7 @@ msgid "Rumors:"
 msgstr "噂:"
 
 msgid "Rumor:"
-msgstr "噂："
+msgstr "噂:"
 
 msgid "Rumor"
 msgstr "噂"
@@ -4844,7 +4844,7 @@ msgid "Edit an existing rumor."
 msgstr "既存の噂を編集します。"
 
 msgid "Delete Rumor"
-msgstr "噂を消す"
+msgstr "噂を削除"
 
 msgid "Delete an existing rumor."
 msgstr "既存の噂を削除します。"
