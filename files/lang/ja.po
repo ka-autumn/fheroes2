@@ -3986,7 +3986,7 @@ msgid "First day of occurrence:"
 msgstr "発生初日:"
 
 msgid "Repeat period (days):"
-msgstr "繰り返し期間 (日):"
+msgstr "繰り返し期間(日):"
 
 msgid "Allow %{color} human player to get event"
 msgstr "%{color}の人間プレイヤーにイベントの取得を許可する"
@@ -4032,7 +4032,7 @@ msgid "Day: %{day}"
 msgstr "日: %{day}"
 
 msgid "Daily events:"
-msgstr "毎日の出来事:"
+msgstr "毎日のイベント:"
 
 msgid "Click to save the events."
 msgstr "クリックしてイベントを保存します。"
