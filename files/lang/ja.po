@@ -8829,7 +8829,7 @@ msgid "Gold Mine"
 msgstr "金鉱山"
 
 msgid "Mine"
-msgstr "私の"
+msgstr "鉱山"
 
 msgid "Burma shave."
 msgstr "ビルマの髭剃り。"
@@ -8880,13 +8880,13 @@ msgid "Genie Lamp"
 msgstr "魔神のランプ"
 
 msgid "Archer's House"
-msgstr "アーチャーズ ハウス"
+msgstr "アーチャーズハウス"
 
 msgid "Goblin Hut"
 msgstr "ゴブリン小屋"
 
 msgid "Dwarf Cottage"
-msgstr "ドワーフ コテージ"
+msgstr "ドワーフコテージ"
 
 msgid "Peasant Hut"
 msgstr "農民小屋"
@@ -8964,10 +8964,10 @@ msgid "Boat"
 msgstr "ボート"
 
 msgid "Random Ultimate Artifact"
-msgstr "ランダムな究極のアーティファクト"
+msgstr "ランダム究極のアーティファクト"
 
 msgid "Random Artifact"
-msgstr "ランダムなアーティファクト"
+msgstr "ランダムアーティファクト"
 
 msgid "Random Resource"
 msgstr "ランダムリソース"
@@ -8976,10 +8976,10 @@ msgid "Random Monster"
 msgstr "ランダムモンスター"
 
 msgid "Random Town"
-msgstr "ランダムタウン"
+msgstr "ランダム町"
 
 msgid "Random Castle"
-msgstr "ランダムキャッスル"
+msgstr "ランダム城"
 
 msgid "Eye of the Magi"
 msgstr "賢者の目"
@@ -9027,7 +9027,7 @@ msgid "Standing Stones"
 msgstr "立石"
 
 msgid "Idol"
-msgstr "アイドル"
+msgstr "偶像"
 
 msgid "Tree of Knowledge"
 msgstr "知識の木"
@@ -9103,7 +9103,7 @@ msgstr "魔法の井戸"
 
 msgid "Magic Garden"
 msgid_plural "Magic Gardens"
-msgstr[0] "マジック ガーデンズ"
+msgstr[0] "マジックガーデン"
 
 msgid "Observation Tower"
 msgstr "展望塔"
@@ -9124,7 +9124,7 @@ msgid "Rock"
 msgstr "岩"
 
 msgid "Water Lake"
-msgstr "ウォーターレイク"
+msgstr "湖"
 
 msgid "Mandrake"
 msgstr "マンドレイク"
@@ -9139,10 +9139,10 @@ msgid "Crater"
 msgstr "クレーター"
 
 msgid "Cactus"
-msgstr "カクタス"
+msgstr "サボテン"
 
 msgid "Mound"
-msgstr "マウンド"
+msgstr "塚"
 
 msgid "Dune"
 msgstr "砂丘"
@@ -9154,7 +9154,7 @@ msgid "Shrub"
 msgstr "低木"
 
 msgid "Barrow Mounds"
-msgstr "バローマウンズ"
+msgstr "古墳"
 
 msgid "Random Artifact - Treasure"
 msgstr "ランダムアーティファクト - 宝物"
@@ -9178,16 +9178,16 @@ msgid "Fire Summoning Altar"
 msgstr "火の召喚祭壇"
 
 msgid "Air Summoning Altar"
-msgstr "空中召喚祭壇"
+msgstr "風の召喚祭壇"
 
 msgid "Earth Summoning Altar"
-msgstr "大地の召喚祭壇"
+msgstr "土の召喚祭壇"
 
 msgid "Water Summoning Altar"
-msgstr "水召喚の祭壇"
+msgstr "水の召喚祭壇"
 
 msgid "Swampy Lake"
-msgstr "スワンピーレイク"
+msgstr "沼地の湖"
 
 msgid "Frozen Lake"
 msgstr "凍った湖"
@@ -9196,7 +9196,7 @@ msgid "Black Cat"
 msgstr "黒猫"
 
 msgid "Barrel"
-msgstr "バレル"
+msgstr "樽"
 
 msgid "randomRace|level 1 creatures"
 msgstr "レベル 1 のユニット"
