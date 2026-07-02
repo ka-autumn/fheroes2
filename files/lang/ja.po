@@ -3229,13 +3229,13 @@ msgid "guarded by %{count} %{monster}"
 msgstr "%{count} %{monster} によって守られています"
 
 msgid "guarded by "
-msgstr "によって守られている "
+msgstr "守備戦力: "
 
 msgid "(available: %{count})"
 msgstr "(利用可能: %{count})"
 
 msgid "(empty)"
-msgstr "（空の）"
+msgstr "(空の)"
 
 msgid "already learned"
 msgstr "すでに学んだ"
@@ -3244,19 +3244,19 @@ msgid "treeOfKnowledge|free"
 msgstr "無料"
 
 msgid "already claimed"
-msgstr "すでに主張されている"
+msgstr "受け取り済み"
 
 msgid "not claimed"
-msgstr "主張されていない"
+msgstr "未受け取り"
 
 msgid "already knows this skill"
-msgstr "このスキルはすでに知っています"
+msgstr "このスキルはすでに習得済みです"
 
 msgid "already has max skills"
-msgstr "すでに最大スキルを持っています"
+msgstr "セカンダリスキルの上限に達しています"
 
 msgid "(already visited)"
-msgstr "(すでに訪問済み)"
+msgstr "(訪問済み)"
 
 msgid "(not visited)"
 msgstr "(未訪問)"
@@ -3265,7 +3265,7 @@ msgid "%{color} Barrier"
 msgstr "%{color} バリア"
 
 msgid "(tent visited)"
-msgstr "（テント訪問）"
+msgstr "(テント訪問)"
 
 msgid "%{color} Tent"
 msgstr "%{color} テント"
@@ -3274,10 +3274,10 @@ msgid "Road"
 msgstr "道路"
 
 msgid "(digging ok)"
-msgstr "(掘ってOK)"
+msgstr "(掘削可能)"
 
 msgid "(no digging)"
-msgstr "（掘らないでください）"
+msgstr "(掘削不可)"
 
 msgid "penalty: %{cost}"
 msgstr "ペナルティ: %{cost}"
@@ -3286,28 +3286,28 @@ msgid "Defenders:"
 msgstr "守備側:"
 
 msgid "Unknown"
-msgstr "未知"
+msgstr "不明"
 
 msgid "heroQuickInfo|(Level %{level})"
 msgstr "(レベル %{level})"
 
 msgid "Attack:"
-msgstr "攻撃："
+msgstr "攻撃:"
 
 msgid "Defense:"
-msgstr "防御："
+msgstr "防御:"
 
 msgid "Spell Power:"
 msgstr "スペルパワー:"
 
 msgid "Knowledge:"
-msgstr "知識："
+msgstr "知識:"
 
 msgid "Spell Points:"
 msgstr "スペルポイント:"
 
 msgid "Move Points:"
-msgstr "ポイントの移動:"
+msgstr "移動ポイント:"
 
 msgid "Uncharted Territory"
 msgstr "未知の領域"
