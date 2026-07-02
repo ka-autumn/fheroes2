@@ -2805,13 +2805,13 @@ msgid "Upgrade"
 msgstr "アップグレード"
 
 msgid "Upgrade your troops."
-msgstr "軍隊をアップグレードしてください。"
+msgstr "軍隊をアップグレードします。"
 
 msgid "Dismiss"
 msgstr "解散"
 
 msgid "Dismiss this army."
-msgstr "この軍隊を解散させてください。"
+msgstr "この軍隊を解散します。"
 
 msgid ""
 "A group of %{monster} with a desire for greater glory wish to join you.\n"
@@ -2821,7 +2821,7 @@ msgstr ""
 "受け入れますか？"
 
 msgid "Followers"
-msgstr "フォロワー"
+msgstr "仲間"
 
 msgid ""
 "The %{monster} is swayed by your diplomatic tongue, and offers to join your army for the sum of %{gold} gold.\n"
@@ -2834,10 +2834,7 @@ msgid ""
 "The creatures are swayed by your diplomatic\n"
 "tongue, and make you an offer:\n"
 "\n"
-msgstr ""
-"生き物たちはあなたの外交に振り回されています\n"
-"舌を巻いて、あなたに提案をします。\n"
-"\n"
+msgstr "ユニットたちはあなたの巧みな話術に心を動かされ、次のような提案をしてきます。\n\n"
 
 msgid ""
 "%{offer} of the %{total} %{monster} will join your army, and the rest will leave you alone, for the sum of %{gold} gold.\n"
