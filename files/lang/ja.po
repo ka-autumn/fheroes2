@@ -526,7 +526,7 @@ msgid "battleAnimation|Speed"
 msgstr "スピード"
 
 msgid "Interface"
-msgstr "インタフェース"
+msgstr "インターフェース"
 
 msgid "Settings"
 msgstr "設定"
@@ -2860,16 +2860,16 @@ msgid "Music"
 msgstr "音楽"
 
 msgid "Effects"
-msgstr "効果"
+msgstr "効果音"
 
 msgid "MIDI"
-msgstr "ミディ"
+msgstr "MIDI"
 
 msgid "MIDI Expansion"
 msgstr "MIDI拡張"
 
 msgid "External"
-msgstr "外部の"
+msgstr "外部"
 
 msgid "Music Type"
 msgstr "音楽の種類"
@@ -2965,12 +2965,12 @@ msgid "Toggle the type of interface you want to use."
 msgstr "使用するインターフェースのタイプを切り替えます。"
 
 msgid "Text Support"
-msgstr "テキストのサポート"
+msgstr "テキストサポート"
 
 msgid ""
 "Toggle text support mode to output extra information about windows and "
 "events in the game."
-msgstr "テキスト サポート モードを切り替えて、ゲーム内のウィンドウとイベントに関する追加情報を出力します。"
+msgstr "テキストサポートモードを切り替えて、ゲーム内のウィンドウとイベントに関する追加情報を出力します。"
 
 msgid ""
 "Map\n"
@@ -3043,7 +3043,7 @@ msgid "Gift from %{name}"
 msgstr "%{name}からの贈り物"
 
 msgid "Resolution"
-msgstr "解決"
+msgstr "解像度"
 
 msgid "Fullscreen"
 msgstr "全画面表示"
@@ -3052,7 +3052,7 @@ msgid "window|Mode"
 msgstr "モード"
 
 msgid "Windowed"
-msgstr "窓付き"
+msgstr "ウィンドウ表示"
 
 msgid "V-Sync"
 msgstr "垂直同期"
@@ -3064,7 +3064,7 @@ msgid "System Info"
 msgstr "システム情報"
 
 msgid "Nearest"
-msgstr "最寄りの"
+msgstr "ニアレスト"
 
 msgid "Screen Scaling Type"
 msgstr "画面スケーリングの種類"
@@ -3079,7 +3079,7 @@ msgid "Select Game Resolution"
 msgstr "ゲーム解像度の選択"
 
 msgid "Toggle between fullscreen and windowed modes."
-msgstr "フルスクリーン モードとウィンドウ モードを切り替えます。"
+msgstr "全画面表示とウィンドウ表示を切り替えます。"
 
 msgid ""
 "Toggle the type of screen scaling you want to use. Linear scaling makes the "
@@ -3770,7 +3770,7 @@ msgid "Auto Resolve"
 msgstr "自動解決"
 
 msgid "Auto, No Spells"
-msgstr "オート、呪文なし"
+msgstr "自動、呪文なし"
 
 msgid "Battles"
 msgstr "戦闘"
@@ -3784,7 +3784,7 @@ msgstr "メイン画面上で勇者が移動する速度を変更します。"
 msgid ""
 "Sets the speed that computer heroes move at. You can also elect not to view "
 "computer movement at all."
-msgstr "コンピューター勇者の移動速度を設定します。コンピュータの動作をまったく表示しないことも選択できます。"
+msgstr "コンピューター勇者の移動速度を設定します。コンピューターの動作をまったく表示しないことも選択できます。"
 
 msgid "Toggle instant battle mode."
 msgstr "インスタントバトルモードを切り替えます。"
