@@ -9658,7 +9658,7 @@ msgid "% magic resistance"
 msgstr "% 魔法耐性"
 
 msgid "Immune to Mind spells"
-msgstr "精神に対する免疫の呪文"
+msgstr "精神の呪文に対する耐性"
 
 msgid "Immune to Elemental spells"
 msgstr "エレメンタル呪文に対する耐性"
@@ -9667,19 +9667,19 @@ msgid "Immune to Fire spells"
 msgstr "火の呪文に対する耐性"
 
 msgid "Immune to Cold spells"
-msgstr "寒波に対する免疫"
+msgstr "冷気の呪文に対する耐性"
 
 msgid "Immune to "
-msgstr "に対する免疫 "
+msgstr "免疫: "
 
 msgid "% immunity to %{spell} spell"
-msgstr "%{spell}の呪文に対する耐性%"
+msgstr "% %{spell}の呪文に対する耐性"
 
 msgid "% damage from Elemental spells"
 msgstr "エレメンタル呪文によるダメージの割合"
 
 msgid "% damage from %{spell} spell"
-msgstr "%{spell} の呪文によるダメージ %"
+msgstr "% %{spell}の呪文によるダメージ"
 
 msgid "% chance to Dispel beneficial spells"
 msgstr "% の確率で有益な呪文を解呪します"
@@ -9706,13 +9706,13 @@ msgid "Two hexes attack"
 msgstr "2ヘクス攻撃"
 
 msgid "Flyer"
-msgstr "チラシ"
+msgstr "飛行"
 
 msgid "Unlimited retaliation"
 msgstr "無制限の報復"
 
 msgid "Attacks all adjacent enemies"
-msgstr "隣接する敵すべてを攻撃する"
+msgstr "隣接する敵全体への攻撃"
 
 msgid "No melee penalty"
 msgstr "近接ペナルティなし"
@@ -9724,7 +9724,7 @@ msgid "Undead"
 msgstr "アンデッド"
 
 msgid "No enemy retaliation"
-msgstr "敵の報復はない"
+msgstr "敵の報復なし"
 
 msgid "HP drain"
 msgstr "HPドレイン"
@@ -9733,10 +9733,10 @@ msgid "Cloud attack"
 msgstr "クラウド攻撃"
 
 msgid "Decreases enemy's morale by "
-msgstr "敵の士気を低下させる "
+msgstr "敵の士気低下: "
 
 msgid "% chance to halve enemy"
-msgstr "%の確率で敵を半分にする"
+msgstr "% の確率で敵を半分にする"
 
 msgid "Soul Eater"
 msgstr "ソウルイーター"
@@ -9745,19 +9745,19 @@ msgid "Elemental"
 msgstr "エレメンタル"
 
 msgid "No Morale"
-msgstr "士気がない"
+msgstr "士気なし"
 
 msgid "Earth creature"
-msgstr "地球の生き物"
+msgstr "土のユニット"
 
 msgid "Air creature"
-msgstr "空気の生き物"
+msgstr "風のユニット"
 
 msgid "Fire creature"
-msgstr "火の生き物"
+msgstr "火のユニット"
 
 msgid "Water creature"
-msgstr "水の生き物"
+msgstr "水のユニット"
 
 msgid "Double damage from Fire spells"
 msgstr "火の呪文によるダメージが2倍になる"
@@ -9766,25 +9766,25 @@ msgid "Double damage from Cold spells"
 msgstr "冷気の呪文によるダメージが2倍になる"
 
 msgid "Double damage from Earth creatures"
-msgstr "地球の生き物からのダメージが2倍になる"
+msgstr "土のユニットからのダメージが2倍になる"
 
 msgid "Double damage from Air creatures"
-msgstr "空気ユニットからのダメージが2倍になる"
+msgstr "風のユニットからのダメージが2倍になる"
 
 msgid "Double damage from Fire creatures"
-msgstr "火の生き物からのダメージが2倍になる"
+msgstr "火のユニットからのダメージが2倍になる"
 
 msgid "Double damage from Water creatures"
-msgstr "水の生き物からのダメージが2倍になる"
+msgstr "水のユニットからのダメージが2倍になる"
 
 msgid "Lightning"
 msgstr "稲妻"
 
 msgid "% immunity to "
-msgstr "～に対する免疫% "
+msgstr "%免疫: "
 
 msgid "% damage from "
-msgstr "からのダメージ% "
+msgstr "%ダメージ: "
 
 msgid "The three Anduran artifacts magically combine into one."
 msgstr "3 つのアンデュラのアーティファクトが魔法のように 1 つに結合します。"
