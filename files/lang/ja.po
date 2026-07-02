@@ -3926,7 +3926,7 @@ msgid "Castle Army"
 msgstr "城軍"
 
 msgid "Town Army"
-msgstr "タウンアーミー"
+msgstr "町軍"
 
 msgid "You have unsaved changes. Do you wish to proceed?"
 msgstr "未保存の変更があります。続行しますか?"
@@ -3935,13 +3935,13 @@ msgid "Click to change the Castle name."
 msgstr "クリックして城の名前を変更します。"
 
 msgid "Enter Castle name:"
-msgstr "城の名前を入力してください:"
+msgstr "城の名前を入力:"
 
 msgid "Reset the Castle name."
-msgstr "城名をリセットします。"
+msgstr "城の名前をリセットします。"
 
 msgid "Allow to build a castle in this town."
-msgstr "この町に城を建てることを許可してください。"
+msgstr "この町に城を建てることを許可します。"
 
 msgid "Toggle the use of default buildings. Custom buildings will be reset!"
 msgstr "デフォルトの建物の使用を切り替えます。カスタム建物はリセットされます!"
