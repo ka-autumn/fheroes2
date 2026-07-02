@@ -643,7 +643,7 @@ msgid "%{name} the %{race}"
 msgstr "%{name} の %{race}"
 
 msgid "Captain of %{name}"
-msgstr "%{name}の船長"
+msgstr "%{name}のキャプテン"
 
 msgid "Attack"
 msgstr "攻撃"
@@ -682,10 +682,10 @@ msgid "Hero Screen"
 msgstr "勇者画面"
 
 msgid "Captain's Options"
-msgstr "船長のオプション"
+msgstr "キャプテンのオプション"
 
 msgid "Hero's Options"
-msgstr "英雄のオプション"
+msgstr "勇者のオプション"
 
 msgid ""
 "Cast a magical spell. You may only cast one spell per combat round. The "
@@ -721,7 +721,7 @@ msgid "%{name} states:"
 msgstr "%{name} は次のように述べています:"
 
 msgid "Captain of %{name} states:"
-msgstr "%{name} の船長は次のように述べています。"
+msgstr "%{name}のキャプテンは次のように述べています。"
 
 msgid ""
 "\"I will accept your surrender and grant you and your troops safe passage "
@@ -729,16 +729,16 @@ msgid ""
 msgstr "「私はあなたの降伏を受け入れ、%{price}金と引き換えにあなたとあなたの軍隊の安全な通行を許可します。」"
 
 msgid "View %{monster} info"
-msgstr "%{monster} の情報を表示"
+msgstr "%{monster}の情報を表示"
 
 msgid "Fly %{monster} here"
-msgstr "ここに %{monster} で飛んでください"
+msgstr "%{monster}をここへ飛ばす"
 
 msgid "Move %{monster} here"
-msgstr "%{monster} をここに移動します"
+msgstr "%{monster}をここに移動する"
 
 msgid "Shoot %{monster}"
-msgstr "%{monster}を撃て"
+msgstr "%{monster}を撃つ"
 
 msgid "(1 shot left)"
 msgid_plural "(%{count} shots left)"
@@ -751,19 +751,19 @@ msgid "Turn %{turn}"
 msgstr "ターン %{turn}"
 
 msgid "Teleport here"
-msgstr "ここにテレポートします"
+msgstr "ここにテレポートする"
 
 msgid "Invalid teleport destination"
 msgstr "無効なテレポート先です"
 
 msgid "Cast %{spell} on %{monster}"
-msgstr "%{monster} に %{spell} をキャストします"
+msgstr "%{monster}に%{spell}をキャストする"
 
 msgid "Cast %{spell}"
-msgstr "キャスト %{spell}"
+msgstr "%{spell}をキャストする"
 
 msgid "Select spell target"
-msgstr "呪文対象を選択してください"
+msgstr "呪文の対象を選択する"
 
 msgid "Are you sure you want to enable the auto combat mode?"
 msgstr "自動戦闘モードを有効にしてもよろしいですか?"
@@ -772,7 +772,7 @@ msgid "Are you sure you want to resolve the battle in the quick combat mode?"
 msgstr "クイック戦闘モードで戦闘を解決してもよろしいですか?"
 
 msgid "View Ballista info"
-msgstr "バリスタ情報を見る"
+msgstr "バリスタの情報を表示"
 
 msgid "Ballista"
 msgstr "バリスタ"
@@ -798,7 +798,7 @@ msgid "System Options"
 msgstr "システムオプション"
 
 msgid "Skip this unit"
-msgstr "この単元をスキップする"
+msgstr "このユニットをスキップする"
 
 msgid "Skip"
 msgstr "スキップ"
@@ -815,7 +815,7 @@ msgid "View Hero's options"
 msgstr "勇者のオプションを表示"
 
 msgid "View opposing Captain"
-msgstr "相手のキャプテンを見る"
+msgstr "相手のキャプテンを表示"
 
 msgid "View opposing Hero"
 msgstr "相手の勇者を表示"
