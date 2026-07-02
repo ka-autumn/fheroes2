@@ -1943,22 +1943,22 @@ msgid "Descendants"
 msgstr "子孫"
 
 msgid "Cannot build. You have already built here today."
-msgstr "構築できません。あなたは今日すでにここを建てています。"
+msgstr "建設できません。今日はすでにここに建設済みです。"
 
 msgid "For this action it is necessary to build a castle first."
 msgstr "このアクションを実行するには、まず城を建設する必要があります。"
 
 msgid "The %{building} produces %{monster}."
-msgstr "%{building} は %{monster} を生成します。"
+msgstr "%{building}は%{monster}を生成します。"
 
 msgid "Requires:"
-msgstr "必要："
+msgstr "必要:"
 
 msgid "Exit this menu without doing anything."
 msgstr "何もせずにこのメニューを終了します。"
 
 msgid "Cannot build %{name}. The castle is too far away from an ocean."
-msgstr "%{name} を構築できません。その城は海から遠すぎます。"
+msgstr "%{name}を建設できません。その城は海から遠すぎます。"
 
 msgid "This building has been disabled."
 msgstr "この建物は使用禁止になっています。"
@@ -1967,13 +1967,13 @@ msgid "Cannot afford the %{name}."
 msgstr "%{name} を買う余裕がありません。"
 
 msgid "The %{name} is already built."
-msgstr "%{name} はすでに構築されています。"
+msgstr "%{name}はすでに建設されています。"
 
 msgid "Cannot build the %{name}."
-msgstr "%{name} を構築できません。"
+msgstr "%{name}を建設できません。"
 
 msgid "Build %{name}."
-msgstr "%{name} をビルドします。"
+msgstr "%{name}を建設します。"
 
 msgid "Blackridge"
 msgstr "ブラックリッジ"
@@ -2651,10 +2651,10 @@ msgid "The above spells are available here."
 msgstr "上記の呪文はここで入手できます。"
 
 msgid "The spells the hero can learn have been added to their book."
-msgstr "主人公が習得できる呪文が本に追加されました。"
+msgstr "勇者が習得できる呪文が魔法の本に追加されました。"
 
 msgid "Exit Mage Guild"
-msgstr "魔術師ギルドを抜ける"
+msgstr "魔術師ギルドを出る"
 
 msgid "A generous tip for the barkeep yields the following rumor:"
 msgstr "バーテンダーへの寛大なチップから、次のような噂が生まれました。"
@@ -2706,19 +2706,19 @@ msgid "Grouped Formation"
 msgstr "グループ化されたフォーメーション"
 
 msgid "Not enough resources to recruit creatures."
-msgstr "クリーチャーをリクルートするのに十分なリソースがありません。"
+msgstr "クリーチャーを募集するのに十分なリソースがありません。"
 
 msgid "You are unable to recruit at this time, your ranks are full."
-msgstr "ランクが満員のため、現時点では採用できません。"
+msgstr "ランクが満員のため、現時点では募集できません。"
 
 msgid "No creatures available for purchase."
-msgstr "購入できる生物はありません。"
+msgstr "購入できるクリーチャーはありません。"
 
 msgid "Recruit Creatures"
-msgstr "生き物をリクルートする"
+msgstr "クリーチャーを募集する"
 
 msgid "Hire all creatures in the town."
-msgstr "町にいるすべての生き物を雇いましょう。"
+msgstr "町にいるすべてのクリーチャーを雇います。"
 
 msgid "Max"
 msgstr "マックス"
