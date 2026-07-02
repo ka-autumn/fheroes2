@@ -8052,7 +8052,7 @@ msgid "Artifact Transfer"
 msgstr "アーティファクトの転送"
 
 msgid "Swap Artifacts"
-msgstr "アーティファクトを交換する"
+msgstr "アーティファクトの交換"
 
 msgid "Swap all artifacts between heroes."
 msgstr "勇者間ですべてのアーティファクトを交換します。"
@@ -8061,10 +8061,10 @@ msgid "Move army from %{from_hero_name} to %{to_hero_name}."
 msgstr "軍隊を%{from_hero_name}から%{to_hero_name}に移動させます。"
 
 msgid "Army Transfer"
-msgstr "陸軍移管"
+msgstr "軍隊の移動"
 
 msgid "Swap Armies"
-msgstr "軍隊を交換する"
+msgstr "軍隊の交換"
 
 msgid "Swap armies between heroes."
 msgstr "勇者間で軍隊を交換します。"
