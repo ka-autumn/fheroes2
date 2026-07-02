@@ -3627,11 +3627,7 @@ msgid ""
 "is small (36 x 36), medium\n"
 "(72 x 72), large (108 x 108),\n"
 "or extra large (144 x 144)."
-msgstr ""
-"マップが\n"
-"小 (36 x 36)、中\n"
-"(72×72)、大(108×108)、\n"
-"または特大 (144 x 144)。"
+msgstr "このマップが小 (36 x 36)、中 (72 x 72)、大 (108 x 108)、特大 (144 x 144) のいずれのサイズであるかを示します。"
 
 msgid "Size Icon"
 msgstr "サイズアイコン"
@@ -3673,13 +3669,13 @@ msgid "Lose a specific hero."
 msgstr "特定の勇者を失います。"
 
 msgid "Run out of time. Fail to win by a certain point."
-msgstr "時間切れです。一定のポイントまでに勝てない。"
+msgstr "時間切れです。一定のポイントまでに勝利できません。"
 
 msgid "Loss Condition"
-msgstr "損失条件"
+msgstr "敗北条件"
 
 msgid "Defeat all enemy heroes and towns."
-msgstr "すべての敵の勇者と町を倒します。"
+msgstr "すべての敵の勇者を倒し、町を占領します。"
 
 msgid "Capture a specific town."
 msgstr "特定の町を占領します。"
@@ -3712,7 +3708,7 @@ msgid "No maps exist at that size."
 msgstr "そのサイズのマップは存在しません。"
 
 msgid "Small Maps"
-msgstr "小さな地図"
+msgstr "小マップ"
 
 msgid "View only maps of size small (36 x 36)."
 msgstr "小さいサイズ (36 x 36) のマップのみを表示します。"
@@ -3724,7 +3720,7 @@ msgid "View only maps of size medium (72 x 72)."
 msgstr "中サイズ (72 x 72) のマップのみを表示します。"
 
 msgid "Large Maps"
-msgstr "大きな地図"
+msgstr "大マップ"
 
 msgid "View only maps of size large (108 x 108)."
 msgstr "大きいサイズ (108 x 108) のマップのみを表示します。"
