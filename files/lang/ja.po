@@ -540,7 +540,7 @@ msgid "Off"
 msgstr "オフ"
 
 msgid "On"
-msgstr "の上"
+msgstr "オン"
 
 msgid "Set the speed of combat actions and animations."
 msgstr "戦闘アクションとアニメーションの速度を設定します。"
@@ -2956,7 +2956,7 @@ msgid "Select Game Language"
 msgstr "ゲーム言語の選択"
 
 msgid "Change the graphics settings of the game."
-msgstr "ゲームのグラフィック設定を変更します。"
+msgstr "ゲームのグラフィックス設定を変更します。"
 
 msgid "Graphics"
 msgstr "グラフィックス"
@@ -3120,10 +3120,10 @@ msgid "Hot Keys:"
 msgstr "ホットキー:"
 
 msgid "Hide"
-msgstr "隠れる"
+msgstr "非表示"
 
 msgid "Show"
-msgstr "見せる"
+msgstr "表示"
 
 msgid "Army Estimation"
 msgstr "陸軍の推定"
@@ -4817,7 +4817,7 @@ msgid "Toggle animation of the objects."
 msgstr "オブジェクトのアニメーションを切り替えます。"
 
 msgid "Toggle display of objects' passability."
-msgstr "オブジェクトの通過可能性の表示を切り替えます。"
+msgstr "オブジェクトの通行可能性の表示を切り替えます。"
 
 msgid "Rumors:"
 msgstr "噂:"
