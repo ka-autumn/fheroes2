@@ -9790,7 +9790,7 @@ msgid "The three Anduran artifacts magically combine into one."
 msgstr "3 つのアンデュラのアーティファクトが魔法のように 1 つに結合します。"
 
 msgid "View Spells"
-msgstr "呪文を見る"
+msgstr "呪文を表示"
 
 msgid "View %{name} Info"
 msgstr "%{name} 情報を表示"
@@ -11518,25 +11518,25 @@ msgid ""
 msgstr "影響を受けたユニットを石に変えます。石化したユニットは直接攻撃から半分のダメージを受けます。"
 
 msgid "You have no Magic Book, so you cannot cast a spell."
-msgstr "あなたは魔法の本を持っていないので、呪文を唱えることはできません。"
+msgstr "あなたは魔法書を持っていないので、呪文を唱えることはできません。"
 
 msgid "No spell to cast."
 msgstr "唱える呪文はありません。"
 
 msgid "Your hero has %{sp} spell points remaining out of %{max}."
-msgstr "あなたの勇者のスペル ポイントは %{max} のうち %{sp} ポイント残っています。"
+msgstr "あなたの勇者のスペルポイントは %{max} のうち %{sp} ポイント残っています。"
 
 msgid "View Adventure Spells"
-msgstr "アドベンチャーの呪文を見る"
+msgstr "冒険呪文を表示"
 
 msgid "View Combat Spells"
-msgstr "戦闘呪文を見る"
+msgstr "戦闘呪文を表示"
 
 msgid "View previous page"
 msgstr "前のページを表示"
 
 msgid "View next page"
-msgstr "次のページを見る"
+msgstr "次のページを表示"
 
 msgid "Close Spellbook"
 msgstr "魔法書を閉じる"
