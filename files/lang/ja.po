@@ -2944,7 +2944,7 @@ msgid "Save the current game without name selection."
 msgstr "名前を選択せずに現在のゲームを保存します。"
 
 msgid "Quit"
-msgstr "Quit"
+msgstr "終了"
 
 msgid "Quit out of Heroes of Might and Magic II."
 msgstr "Heroes of Might and Magic II を終了します。"
@@ -3527,7 +3527,7 @@ msgid "Select Monsters:"
 msgstr "モンスターを選択:"
 
 msgid "Select Artifacts:"
-msgstr "アーティファクトを選択します:"
+msgstr "アーティファクトを選択:"
 
 msgid "race|Random"
 msgstr "ランダム"
@@ -4125,23 +4125,23 @@ msgid "%{objects} must be placed on water."
 msgstr "%{objects} は水の上に置く必要があります。"
 
 msgid "Action objects cannot be placed outside the map."
-msgstr "アクション オブジェクトはマップの外に配置できません。"
+msgstr "アクションオブジェクトはマップの外に配置できません。"
 
 msgid "Action objects must be placed on clear tiles."
-msgstr "アクション オブジェクトは透明なタイル上に配置する必要があります。"
+msgstr "アクションオブジェクトは空いているタイル上に配置する必要があります。"
 
 msgid "A maximum of %{count} %{objects} can be placed on the map."
-msgstr "最大 %{count} %{objects} をマップ上に配置できます。"
+msgstr "最大%{count}の%{objects}をマップ上に配置できます。"
 
 msgid ""
 "To exit fheroes2, press the Home button or swipe up. (Any unsaved changes to"
 " the current map will be lost.)"
-msgstr "fheroes2 を終了するには、ホームボタンを押すか、上にスワイプします。 (現在のマップに対する未保存の変更は失われます。)"
+msgstr "fheroes2を終了するには、ホームボタンを押すか、上にスワイプします。(現在のマップに対する未保存の変更は失われます。)"
 
 msgid ""
 "Are you sure you want to quit? (Any unsaved changes to the current map will "
 "be lost.)"
-msgstr "本当に辞めてもよろしいですか？ (現在のマップに対する未保存の変更は失われます。)"
+msgstr "本当に終了してもよろしいですか?(現在のマップに対する未保存の変更は失われます。)"
 
 msgid "Not able to generate a map with given parameters."
 msgstr "指定されたパラメーターを使用してマップを生成できません。"
@@ -4149,7 +4149,7 @@ msgstr "指定されたパラメーターを使用してマップを生成でき
 msgid ""
 "Do you wish to return to the game's Main Menu? All unsaved changes will be "
 "lost."
-msgstr "ゲームのメインメニューに戻りますか?保存されていない変更はすべて失われます。"
+msgstr "ゲームのメインメニューに戻りますか?未保存の変更はすべて失われます。"
 
 msgid "Editor"
 msgstr "エディタ"
@@ -4170,10 +4170,10 @@ msgstr "メインメニュー"
 msgid ""
 "Do you wish to return to the game's Main Menu? (Any unsaved changes to the "
 "current map will be lost.)"
-msgstr "ゲームのメインメニューに戻りますか? (現在のマップに対する未保存の変更は失われます。)"
+msgstr "ゲームのメインメニューに戻りますか?(現在のマップに対する未保存の変更は失われます。)"
 
 msgid "Start Map"
-msgstr "スタートマップ"
+msgstr "マップを開始"
 
 msgid ""
 "Do you wish to leave the Editor and start the map? (Any unsaved changes to "
@@ -4211,7 +4211,7 @@ msgid "Return to the game's Main Menu."
 msgstr "ゲームのメインメニューに戻ります。"
 
 msgid "Leave the Editor and play the map in the Standard Game mode."
-msgstr "エディターを終了し、標準ゲーム モードでマップを再生します。"
+msgstr "エディタを終了し、標準ゲームモードでマップをプレイします。"
 
 msgid "Input %{object} text:"
 msgstr "%{object} テキストを入力:"
@@ -4235,7 +4235,7 @@ msgid "Roads"
 msgstr "道路"
 
 msgid "Streams"
-msgstr "ストリーム"
+msgstr "小川"
 
 msgid ""
 "A maximum of %{count} heroes including jailed heroes can be placed on the "
@@ -4259,10 +4259,10 @@ msgid "The same object exists on the tile."
 msgstr "同じオブジェクトがタイル上に存在します。"
 
 msgid "The map is corrupted."
-msgstr "地図が壊れています。"
+msgstr "マップが壊れています。"
 
 msgid "Unable to locate data directory to save the map."
-msgstr "マップを保存するデータ ディレクトリが見つかりません。"
+msgstr "マップを保存するデータディレクトリが見つかりません。"
 
 msgid "Unable to create a directory to save the map."
 msgstr "マップを保存するディレクトリを作成できません。"
@@ -4308,16 +4308,12 @@ msgstr "オブジェクトタイプを選択してください"
 msgid ""
 "Click here to\n"
 "select a monster."
-msgstr ""
-"ここをクリックしてください\n"
-"モンスターを選択します。"
+msgstr "ここをクリックして\nモンスターを選択します。"
 
 msgid ""
 "Click here to\n"
 "select another monster."
-msgstr ""
-"ここをクリックしてください\n"
-"別のモンスターを選択してください。"
+msgstr "ここをクリックして\n別のモンスターを選択します。"
 
 msgid "Erase"
 msgstr "消去"
@@ -4329,7 +4325,7 @@ msgid "Rocks"
 msgstr "岩"
 
 msgid "Trees"
-msgstr "木々"
+msgstr "木"
 
 msgid "Water Objects"
 msgstr "水のオブジェクト"
@@ -4380,39 +4376,35 @@ msgid "editorErasure|Miscellaneous and Water landscape objects"
 msgstr "その他および水の風景オブジェクト"
 
 msgid "editorErasure|Adventure non pickable objects"
-msgstr "アドベンチャー非ピック可能オブジェクト"
+msgstr "取得不可のアドベンチャーオブジェクト"
 
 msgid "editorErasure|Castles"
 msgstr "城"
 
 msgid "editorErasure|Adventure pickable objects"
-msgstr "アドベンチャーで選択可能なオブジェクト"
+msgstr "取得可能なアドベンチャーオブジェクト"
 
 msgid "editorErasure|Monsters"
 msgstr "モンスター"
 
 msgid "editorErasure|Heroes"
-msgstr "勇者ズ"
+msgstr "勇者"
 
 msgid "editorErasure|Roads"
 msgstr "道路"
 
 msgid "editorErasure|Streams"
-msgstr "ストリーム"
+msgstr "小川"
 
 msgid ""
 "Draws terrain in\n"
 "%{size} by %{size} square increments."
-msgstr ""
-"地形を描き込みます\n"
-"%{size} ずつ %{size} 平方ずつ増分します。"
+msgstr "地形を%{size}マス×%{size}マス単位で描画します。"
 
 msgid ""
 "Erases objects in\n"
 "%{size} by %{size} square increments."
-msgstr ""
-"内のオブジェクトを消去します\n"
-"%{size} ずつ %{size} 平方ずつ増分します。"
+msgstr "%{size}マス×%{size}マス単位でオブジェクトを消去します。"
 
 msgid "Small Brush"
 msgstr "小ブラシ"
@@ -4421,33 +4413,33 @@ msgid "Medium Brush"
 msgstr "中ブラシ"
 
 msgid "Large Brush"
-msgstr "大きなブラシ"
+msgstr "大ブラシ"
 
 msgid "Area Fill"
 msgstr "エリアフィル"
 
 msgid "Used to click and drag for filling in large areas."
-msgstr "広い領域を塗りつぶすためにクリック アンド ドラッグするために使用されます。"
+msgstr "広い領域を塗りつぶすには、クリックしてドラッグします。"
 
 msgid "Clear Area"
 msgstr "クリアエリア"
 
 msgid "Used to click and drag for clearing large areas."
-msgstr "広い領域をクリアするためにクリックしてドラッグするために使用されます。"
+msgstr "広い領域をクリアするには、クリックしてドラッグします。"
 
 msgid ""
 "Costs %{rate} times normal movement for all heroes. (Pathfinding reduces or "
 "eliminates the penalty.)"
-msgstr "すべての勇者の通常の移動コストは %{rate} 倍です。 (パスファインディングによりペナルティが軽減または排除されます。)"
+msgstr "すべての勇者の通常の移動コストは%{rate}倍です。(パスファインディングによりペナルティが軽減または排除されます。)"
 
 msgid "Traversable only by boat."
 msgstr "ボートでのみ通行可能。"
 
 msgid "No special modifiers."
-msgstr "特別な修飾子はありません。"
+msgstr "特別な移動効果はありません。"
 
 msgid "Edit objects on the Adventure Map."
-msgstr "アドベンチャー マップ上のオブジェクトを編集します。"
+msgstr "アドベンチャーマップ上のオブジェクトを編集します。"
 
 msgid "Move objects on the Adventure Map."
 msgstr "アドベンチャーマップ上のオブジェクトを移動します。"
@@ -4456,7 +4448,7 @@ msgid "Copy objects on the Adventure Map."
 msgstr "アドベンチャーマップ上のオブジェクトをコピーします。"
 
 msgid "Toggle the erasure of %{type} objects."
-msgstr "%{type} オブジェクトの消去を切り替えます。"
+msgstr "%{type}オブジェクトの消去を切り替えます。"
 
 msgid ""
 "Objects of this type will be deleted with the Erase tool. Left-click here to"
@@ -4478,14 +4470,14 @@ msgid "Terrain Mode"
 msgstr "地形モード"
 
 msgid "Used to draw the underlying grass, dirt, water, etc. on the map."
-msgstr "マップ上に下にある草、土、水などを描画するために使用されます。"
+msgstr "マップの下地となる草、土、水などを描画するために使用されます。"
 
 msgid "Landscape Objects Mode"
 msgstr "ランドスケープオブジェクトモード"
 
 msgid ""
 "Used to place landscape objects (mountains, rocks, trees, etc.) on the map."
-msgstr "地図上に風景オブジェクト (山、岩、木など) を配置するために使用されます。"
+msgstr "マップ上に風景オブジェクト(山、岩、木など)を配置するために使用されます。"
 
 msgid "Detail Mode"
 msgstr "詳細モード"
@@ -4499,13 +4491,13 @@ msgstr "アドベンチャーオブジェクトモード"
 msgid ""
 "Used to place adventure objects (artifacts, dwellings, mines, treasures, "
 "etc.) on the map."
-msgstr "マップ上に冒険オブジェクト (アーティファクト、住居、鉱山、宝物など) を配置するために使用されます。"
+msgstr "マップ上に冒険オブジェクト(アーティファクト、住居、鉱山、宝物など)を配置するために使用されます。"
 
 msgid "Kingdom Objects Mode"
 msgstr "キングダムオブジェクトモード"
 
 msgid "Used to place kingdom objects (towns, castles and heroes) on the map."
-msgstr "王国のオブジェクト (町、城、勇者) をマップ上に配置するために使用されます。"
+msgstr "王国のオブジェクト(町、城、勇者)をマップ上に配置するために使用されます。"
 
 msgid "Monsters Mode"
 msgstr "モンスターモード"
@@ -4517,13 +4509,13 @@ msgid "Allows you to draw streams by clicking and dragging."
 msgstr "クリックしてドラッグすることでストリームを描画できます。"
 
 msgid "Stream Mode"
-msgstr "ストリームモード"
+msgstr "小川モード"
 
 msgid "Allows you to draw roads by clicking and dragging."
 msgstr "クリックしてドラッグすることで道路を描画できます。"
 
 msgid "Road Mode"
-msgstr "ロードモード"
+msgstr "道路モード"
 
 msgid "Erase Mode"
 msgstr "消去モード"
