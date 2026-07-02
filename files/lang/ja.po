@@ -497,19 +497,19 @@ msgstr "呪文は失敗しました!"
 msgid ""
 "The Sphere of Negation artifact is in effect for this battle, disabling all "
 "combat spells."
-msgstr "この戦闘では Sphere of Negation アーティファクトが有効となり、すべての戦闘呪文が無効になります。"
+msgstr "この戦闘では否定の球体アーティファクトが有効となり、すべての戦闘呪文が無効になります。"
 
 msgid "You cannot cast spells without a commanding hero."
-msgstr "指揮官なしでは呪文を唱えることはできません。"
+msgstr "指揮官なしでは呪文をキャストすることはできません。"
 
 msgid "You have already cast a spell this round."
-msgstr "あなたはこのラウンドですでに呪文を唱えています。"
+msgstr "このラウンドではすでに呪文をキャストしています。"
 
 msgid "That spell will have no effect!"
-msgstr "その呪文は何の効果もありません！"
+msgstr "その呪文は何の効果もありません!"
 
 msgid "You may only summon one type of elemental per combat."
-msgstr "戦闘ごとに召喚できるエレメンタルは 1 種類のみです。"
+msgstr "戦闘ごとに召喚できるエレメンタルは1種類のみです。"
 
 msgid ""
 "There is no open space adjacent to your hero where you can summon an "
@@ -632,15 +632,15 @@ msgid "As your enemy reaches for the %{name}, it mysteriously disappears."
 msgstr "敵が %{name} に手を伸ばすと、それは不思議なことに消えてしまいます。"
 
 msgid "Necromancy!"
-msgstr "ネクロマンシー！"
+msgstr "死霊術!"
 
 msgid ""
 "Practicing the dark arts of necromancy, you are able to raise %{count} of "
 "the enemy's dead to return under your service as %{monster}."
-msgstr "死霊術の闇の術を実践すると、敵の死者のうち %{count} 人を蘇らせ、%{monster} として奉仕できるようになります。"
+msgstr "闇の死霊術を実践すると、敵の死者のうち%{count}体を%{monster}として蘇らせ、あなたに仕えさせることができます。"
 
 msgid "%{name} the %{race}"
-msgstr "%{name} の %{race}"
+msgstr "%{race}の%{name}"
 
 msgid "Captain of %{name}"
 msgstr "%{name}の守備隊長"
@@ -856,7 +856,7 @@ msgstr ""
 "キーを押すか、ゲーム画面の任意の場所で左または右クリックすることによって、いつでも中断できます。"
 
 msgid "Auto Combat"
-msgstr "オート戦闘"
+msgstr "自動戦闘"
 
 msgid "The combat is resolved from the current state."
 msgstr "戦闘は現在の状態から解決されます。"
@@ -865,7 +865,7 @@ msgid "quickCombat|This cannot be undone."
 msgstr "これは元に戻すことはできません。"
 
 msgid "Quick Combat"
-msgstr "クイックコンバット"
+msgstr "クイック戦闘"
 
 msgid "The %{name} skips their turn."
 msgid_plural "The %{name} skip their turn."
@@ -992,10 +992,10 @@ msgid "Damage: %{min} - %{max}"
 msgstr "ダメージ: %{min} - %{max}"
 
 msgid "Perish: %{max}"
-msgstr "滅びる: %{max}"
+msgstr "死亡: %{max}"
 
 msgid "Perish: %{min} - %{max}"
-msgstr "滅びる: %{min} - %{max}"
+msgstr "死亡: %{min} - %{max}"
 
 msgid "battle_turn_order|Top"
 msgstr "トップ"
