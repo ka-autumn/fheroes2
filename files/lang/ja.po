@@ -2198,10 +2198,10 @@ msgid "Cannot recruit - you have too many Heroes."
 msgstr "募集できません - 勇者が多すぎます。"
 
 msgid "Cannot afford a Hero."
-msgstr "勇者を雇う余裕はない。"
+msgstr "勇者を雇う余裕はありません。"
 
 msgid "There is no room in the garrison for this army."
-msgstr "駐屯地にはこの軍隊が入る余地はない。"
+msgstr "駐屯地にはこの軍隊が入る余地はありません。"
 
 msgid "Fortifications"
 msgstr "要塞"
@@ -8538,12 +8538,12 @@ msgid "tent|Red"
 msgstr "赤"
 
 msgid "Experience"
-msgstr "経験"
+msgstr "経験値"
 
 msgid ""
 "Experience allows your heroes to gain levels, increasing their primary and "
 "secondary skills."
-msgstr "経験により勇者はレベルを上げ、主スキルと副スキルを向上させることができます。"
+msgstr "経験値により勇者はレベルを上げ、主スキルとセカンダリスキルを向上させることができます。"
 
 msgid "Hero/Stats"
 msgstr "勇者/ステータス"
