@@ -331,10 +331,10 @@ msgid "Warrior"
 msgstr "戦士"
 
 msgid "Builder"
-msgstr "ビルダー"
+msgstr "建築家"
 
 msgid "Explorer"
-msgstr "エクスプローラ"
+msgstr "探検家"
 
 msgid "None"
 msgstr "なし"
@@ -3117,7 +3117,7 @@ msgid "Show"
 msgstr "表示"
 
 msgid "Army Estimation"
-msgstr "陸軍の推定"
+msgstr "軍隊の推定"
 
 msgid "Canonical"
 msgstr "正規"
@@ -3790,22 +3790,22 @@ msgid "Toggle instant battle mode."
 msgstr "インスタントバトルモードを切り替えます。"
 
 msgid "Att."
-msgstr "アト。"
+msgstr "攻"
 
 msgid "Def."
-msgstr "デフ。"
+msgstr "防"
 
 msgid "Power"
 msgstr "力"
 
 msgid "Knowl"
-msgstr "知っている"
+msgstr "知"
 
 msgid "1st"
 msgstr "1位"
 
 msgid "2nd"
-msgstr "2番目"
+msgstr "2位"
 
 msgid "3rd"
 msgstr "3位"
@@ -3835,13 +3835,13 @@ msgid "Number of Heroes:"
 msgstr "勇者の数:"
 
 msgid "Gold in Treasury:"
-msgstr "財務省の金:"
+msgstr "国庫の金:"
 
 msgid "Wood & Ore:"
 msgstr "木材と鉱石:"
 
 msgid "Gems, Cr, Slf & Mer:"
-msgstr "ジェム、Cr、Slf、Mer:"
+msgstr "宝石、水晶、硫黄、水銀:"
 
 msgid "Obelisks Found:"
 msgstr "見つかったオベリスク:"
@@ -3850,22 +3850,22 @@ msgid "Artifacts:"
 msgstr "アーティファクト:"
 
 msgid "Total Army Strength:"
-msgstr "陸軍総戦力:"
+msgstr "軍隊の総戦力:"
 
 msgid "Income:"
-msgstr "所得："
+msgstr "所得:"
 
 msgid "Best Hero:"
 msgstr "最優秀勇者:"
 
 msgid "Best Hero Stats:"
-msgstr "ベスト勇者統計:"
+msgstr "最優秀勇者統計:"
 
 msgid "Personality:"
-msgstr "人格："
+msgstr "人格:"
 
 msgid "Best Monster:"
-msgstr "最優秀モンスター："
+msgstr "最優秀モンスター:"
 
 msgid "Random Castle Name"
 msgstr "ランダムな城名"
