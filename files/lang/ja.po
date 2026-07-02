@@ -8558,16 +8558,16 @@ msgid "Garrison"
 msgstr "駐屯地"
 
 msgid "Gold Per Day:"
-msgstr "1 日あたりのゴールド:"
+msgstr "1日あたりのゴールド:"
 
 msgid "View Heroes."
-msgstr "勇者を見る。"
+msgstr "勇者を表示。"
 
 msgid "Towns/Castles"
 msgstr "町・城"
 
 msgid "View Towns and Castles."
-msgstr "町と城を眺める。"
+msgstr "町と城を表示。"
 
 msgid "luck|Cursed"
 msgstr "呪われた"
