@@ -3974,7 +3974,7 @@ msgid "Message Text:"
 msgstr "メッセージテキスト:"
 
 msgid "Reward:"
-msgstr "褒美："
+msgstr "褒美:"
 
 msgid "Player colors allowed to get event:"
 msgstr "イベントを取得できるプレイヤーの色:"
@@ -4916,13 +4916,13 @@ msgid "Disable All Spells"
 msgstr "すべての呪文を無効にする"
 
 msgid "Riddle:"
-msgstr "謎："
+msgstr "謎:"
 
 msgid "Answers:"
 msgstr "答え:"
 
 msgid "Answer:"
-msgstr "答え："
+msgstr "答え:"
 
 msgid "Answer"
 msgstr "答え"
@@ -4931,7 +4931,7 @@ msgid "This answer exists in the list."
 msgstr "この回答はリストにあります。"
 
 msgid "Click to save the Sphinx properties."
-msgstr "クリックして Sphinx プロパティを保存します。"
+msgstr "クリックしてスフィンクスのプロパティを保存します。"
 
 msgid "Add Answer"
 msgstr "回答を追加"
