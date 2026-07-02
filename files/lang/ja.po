@@ -4648,7 +4648,7 @@ msgid "None."
 msgstr "なし。"
 
 msgid "One side defeats the other."
-msgstr "一方がもう一方を破る。"
+msgstr "一方がもう一方を破ります。"
 
 msgid "Accumulate gold."
 msgstr "ゴールドを貯めます。"
@@ -4657,22 +4657,22 @@ msgid "Run out of time."
 msgstr "時間切れです。"
 
 msgid "alliance|1st"
-msgstr "1位"
+msgstr "第1"
 
 msgid "alliance|2nd"
-msgstr "第2回"
+msgstr "第2"
 
 msgid "alliance|3rd"
-msgstr "第3回"
+msgstr "第3"
 
 msgid "alliance|4th"
-msgstr "第4回"
+msgstr "第4"
 
 msgid "alliance|5th"
-msgstr "5番目"
+msgstr "第5"
 
 msgid "Special Loss Condition"
-msgstr "特別損失条件"
+msgstr "特別な敗北条件"
 
 msgid "Special Victory Condition"
 msgstr "特別な勝利条件"
@@ -4684,33 +4684,33 @@ msgid "Allow this condition also for AI"
 msgstr "AI にもこの条件を許可する"
 
 msgid "Set alliances:"
-msgstr "アライアンスを設定します。"
+msgstr "同盟を設定:"
 
 msgid "{%number} alliance: "
 msgstr "{%number} 同盟: "
 
 msgid "Gold:"
-msgstr "金："
+msgstr "ゴールド:"
 
 msgid "Select a Town to capture to achieve victory"
 msgstr "勝利を達成するために占領する町を選択してください"
 
 msgid "Click here to change the town needed to capture to achieve victory."
-msgstr "ここをクリックして、勝利を達成するために攻略する必要がある町を変更します。"
+msgstr "ここをクリックして、勝利を達成するために占領する必要がある町を変更します。"
 
 msgid "Select a Hero to defeat to achieve victory"
-msgstr "勝利を得るために倒す勇者を選択してください"
+msgstr "勝利を達成するために倒す勇者を選択してください"
 
 msgid "Click here to change the hero needed to defeat to achieve victory."
-msgstr "勝利を達成するために倒す必要がある勇者を変更するには、ここをクリックしてください。"
+msgstr "ここをクリックして、勝利を達成するために倒す必要がある勇者を変更します。"
 
 msgid "Put %{color} player in the %{alliance} alliance"
-msgstr "%{color} プレーヤーを %{alliance} 同盟に加えます"
+msgstr "%{color}プレイヤーを%{alliance}同盟に加えます"
 
 msgid ""
 "If this checkbox is checked, the %{color} player will be in the %{alliance} "
 "alliance."
-msgstr "このチェックボックスがチェックされている場合、%{color} プレーヤーは %{alliance} 同盟に所属します。"
+msgstr "このチェックボックスがチェックされている場合、%{color}プレイヤーは%{alliance}同盟に所属します。"
 
 msgid "Days:"
 msgstr "日数:"
@@ -4719,7 +4719,7 @@ msgid "Select a Town to lose to suffer defeat"
 msgstr "敗北を喫するには、失う町を選択してください"
 
 msgid "Click here to change the town whose loss would mean defeat."
-msgstr "負けると敗北を意味する街を変えるにはここをクリックしてください。"
+msgstr "ここをクリックして、敗北を意味する町を変更します。"
 
 msgid "Select a Hero to lose to suffer defeat"
 msgstr "敗北を喫するために失う勇者を選択してください"
@@ -4743,7 +4743,7 @@ msgid "map|ABOUT"
 msgstr "について"
 
 msgid "Change Map Name:"
-msgstr "マップ名の変更:"
+msgstr "マップ名を変更:"
 
 msgid "Change Map Description:"
 msgstr "マップの説明を変更:"
@@ -4764,7 +4764,7 @@ msgid "Events"
 msgstr "イベント"
 
 msgid "Click to change the language of the map."
-msgstr "クリックして地図の言語を変更します。"
+msgstr "クリックしてマップの言語を変更します。"
 
 msgid ""
 "Click to edit notes from the map creator. These notes are optional and do "
@@ -4784,7 +4784,7 @@ msgid "Click to change the victory condition of the current map."
 msgstr "クリックすると、現在のマップの勝利条件が変更されます。"
 
 msgid "Click to change the loss condition of the current map."
-msgstr "クリックすると、現在のマップの損失状態が変更されます。"
+msgstr "クリックすると、現在のマップの敗北条件が変更されます。"
 
 msgid "Indicates the player types in the scenario. Click to change."
 msgstr "シナリオ内のプレイヤーのタイプを示します。クリックして変更します。"
