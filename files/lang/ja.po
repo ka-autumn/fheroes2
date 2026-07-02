@@ -3977,7 +3977,7 @@ msgid "Reward:"
 msgstr "褒美："
 
 msgid "Player colors allowed to get event:"
-msgstr "イベントを取得できるプレーヤーの色:"
+msgstr "イベントを取得できるプレイヤーの色:"
 
 msgid "Computer colors allowed to get event:"
 msgstr "イベントの取得を許可されるコンピューターの色:"
@@ -3989,28 +3989,26 @@ msgid "Repeat period (days):"
 msgstr "繰り返し期間 (日):"
 
 msgid "Allow %{color} human player to get event"
-msgstr "%{color} 人のプレイヤーにイベントの取得を許可する"
+msgstr "%{color}の人間プレイヤーにイベントの取得を許可する"
 
 msgid ""
 "If this checkbox is checked, this event will trigger for the %{color} player"
 " if they are controlled by a human."
-msgstr ""
-"このチェックボックスがオンになっている場合、人間によって制御されている %{color} プレーヤーに対してこのイベントがトリガーされます。"
+msgstr "このチェックボックスがオンになっている場合、人間によって制御されている%{color}プレイヤーに対してこのイベントがトリガーされます。"
 
 msgid "Allow %{color} computer player to get event"
-msgstr "%{color} コンピュータ プレーヤーにイベントの取得を許可する"
+msgstr "%{color}コンピュータープレイヤーにイベントの取得を許可する"
 
 msgid ""
 "If this checkbox is checked, this event will trigger for the %{color} player"
 " if they are controlled by a computer."
-msgstr ""
-"このチェックボックスをオンにすると、%{color} プレーヤーがコンピューターによって制御されている場合、このイベントがトリガーされます。"
+msgstr "このチェックボックスをオンにすると、%{color}プレイヤーがコンピューターによって制御されている場合、このイベントがトリガーされます。"
 
 msgid "Set %{resource-type} Count:"
 msgstr "%{resource-type} 数を設定:"
 
 msgid "Message:"
-msgstr "メッセージ："
+msgstr "メッセージ:"
 
 msgid "Click to save the Event properties."
 msgstr "クリックしてイベントのプロパティを保存します。"
@@ -4025,7 +4023,7 @@ msgid "Resources will be given as a reward."
 msgstr "報酬としてリソースが与えられます。"
 
 msgid "Click here to change the event message."
-msgstr "イベントメッセージを変更するにはここをクリックしてください。"
+msgstr "ここをクリックして、イベントメッセージを変更します。"
 
 msgid "Event Message Text"
 msgstr "イベントメッセージテキスト"
@@ -4061,10 +4059,10 @@ msgid "Effects:"
 msgstr "効果:"
 
 msgid "Conditions:"
-msgstr "条件："
+msgstr "条件:"
 
 msgid "Cancel event after first visit"
-msgstr "初回訪問後のイベントキャンセル"
+msgstr "初回訪問後にイベントをキャンセルする"
 
 msgid "Computer colors allowed to get the event:"
 msgstr "イベントを取得できるコンピューターの色:"
@@ -4073,7 +4071,7 @@ msgid "Set Experience value:"
 msgstr "経験値の設定:"
 
 msgid "Artifact"
-msgstr "アーチファクト"
+msgstr "アーティファクト"
 
 msgid "No artifact will be given by the event."
 msgstr "イベントではアーティファクトは付与されません。"
