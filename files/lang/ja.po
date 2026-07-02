@@ -2615,15 +2615,13 @@ msgstr "月: %{month}、週: %{week}、日: %{day}"
 msgid ""
 "You must purchase a spell book to use the mage guild, but you currently have"
 " no room for a spell book. Try giving one of your artifacts to another hero."
-msgstr ""
-"魔術師ギルドを使用するには魔法の本を購入する必要がありますが、現在魔法の本を購入する余地がありません。あなたのアーティファクトの 1 "
-"つを別の勇者に与えてみてください。"
+msgstr "魔術師ギルドを利用するには魔法の本が必要ですが、現在それを持つ空きがありません。アーティファクトを1つ、別の勇者に譲ってみてください。"
 
 msgid "Exit Castle"
 msgstr "城を出る"
 
 msgid "Exit Town"
-msgstr "イグジットタウン"
+msgstr "町を出る"
 
 msgid "Show Income"
 msgstr "収入を表示"
@@ -2635,7 +2633,7 @@ msgid "Show next town"
 msgstr "次の町を表示"
 
 msgid "View Hero"
-msgstr "勇者を見る"
+msgstr "勇者を表示"
 
 msgid "Click to show the next town."
 msgstr "クリックすると次の町が表示されます。"
@@ -2644,7 +2642,7 @@ msgid "Click to show the previous town."
 msgstr "クリックすると前の町が表示されます。"
 
 msgid "This town may not be upgraded to a castle."
-msgstr "この町は城に昇格することはできません。"
+msgstr "この町は城に格上げできません。"
 
 msgid "Town"
 msgstr "町"
@@ -2662,27 +2660,27 @@ msgid "A generous tip for the barkeep yields the following rumor:"
 msgstr "バーテンダーへの寛大なチップから、次のような噂が生まれました。"
 
 msgid "Recruit Hero"
-msgstr "勇者をリクルートする"
+msgstr "勇者を募集する"
 
 msgid "%{name} is a level %{value} %{race} "
-msgstr "%{name} はレベル %{value} %{race} です "
+msgstr "%{name}はレベル%{value}の%{race}で、"
 
 msgid "with %{count} artifacts."
-msgstr "%{count} のアーティファクトを含む。"
+msgstr "%{count}個のアーティファクトを所持しています。"
 
 msgid "with 1 artifact."
-msgstr "アーティファクト1つ付き。"
+msgstr "アーティファクトを1個所持しています。"
 
 msgid "without artifacts."
-msgstr "アーティファクトなしで。"
+msgstr "アーティファクトは所持していません。"
 
 msgid "Recruit %{name} the %{race}"
-msgstr "%{name} を %{race} に募集します"
+msgstr "%{race}の%{name}を募集します"
 
 msgid ""
 "'Spread' combat formation spreads the castle's units from the top to the "
 "bottom of the battlefield, with at least one empty space between each unit."
-msgstr "「分散」戦闘フォーメーションは、城のユニットを戦場の上から下まで広げ、各ユニット間に少なくとも 1 つの空きスペースを設けます。"
+msgstr "「分散」戦闘フォーメーションは、城のユニットを戦場の上から下まで広げ、各ユニット間に少なくとも1つの空きスペースを設けます。"
 
 msgid ""
 "'Grouped' combat formation bunches the castle's units together in the center"
@@ -2693,16 +2691,16 @@ msgid "Castle Options. Month: %{month}, Week: %{week}, Day: %{day}"
 msgstr "城のオプション。月: %{month}、週: %{week}、日: %{day}"
 
 msgid "Set garrison combat formation to 'Spread'"
-msgstr "駐屯地の戦闘フォーメーションを「スプレッド」に設定する"
+msgstr "駐屯地の戦闘フォーメーションを「分散」に設定する"
 
 msgid "Set garrison combat formation to 'Grouped'"
 msgstr "駐屯地の戦闘フォーメーションを「グループ化」に設定する"
 
 msgid "Exit Castle Options"
-msgstr "城を出るオプション"
+msgstr "城オプションを終了"
 
 msgid "Spread Formation"
-msgstr "スプレッドフォーメーション"
+msgstr "分散フォーメーション"
 
 msgid "Grouped Formation"
 msgstr "グループ化されたフォーメーション"
