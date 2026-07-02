@@ -643,7 +643,7 @@ msgid "%{name} the %{race}"
 msgstr "%{name} の %{race}"
 
 msgid "Captain of %{name}"
-msgstr "%{name}のキャプテン"
+msgstr "%{name}の守備隊長"
 
 msgid "Attack"
 msgstr "攻撃"
@@ -682,7 +682,7 @@ msgid "Hero Screen"
 msgstr "勇者画面"
 
 msgid "Captain's Options"
-msgstr "キャプテンのオプション"
+msgstr "守備隊長のオプション"
 
 msgid "Hero's Options"
 msgstr "勇者のオプション"
@@ -721,7 +721,7 @@ msgid "%{name} states:"
 msgstr "%{name} は次のように述べています:"
 
 msgid "Captain of %{name} states:"
-msgstr "%{name}のキャプテンは次のように述べています。"
+msgstr "%{name}の守備隊長は次のように述べています。"
 
 msgid ""
 "\"I will accept your surrender and grant you and your troops safe passage "
@@ -809,13 +809,13 @@ msgid ""
 msgstr "現在のクリーチャーをスキップします。現在のクリーチャーはターンを終了し、次のラウンドまで再び行動することはできません。"
 
 msgid "View Captain's options"
-msgstr "キャプテンのオプションを表示"
+msgstr "守備隊長のオプションを表示"
 
 msgid "View Hero's options"
 msgstr "勇者のオプションを表示"
 
 msgid "View opposing Captain"
-msgstr "相手のキャプテンを表示"
+msgstr "相手の守備隊長を表示"
 
 msgid "View opposing Hero"
 msgstr "相手の勇者を表示"
@@ -2527,7 +2527,7 @@ msgid "Tent"
 msgstr "テント"
 
 msgid "Captain's Quarters"
-msgstr "キャプテンの間"
+msgstr "守備隊長の間"
 
 msgid "Mage Guild, Level 1"
 msgstr "魔術師ギルド、レベル 1"
@@ -2602,7 +2602,7 @@ msgstr "材料と金が入手可能であれば、テントは城を建設する
 msgid ""
 "The Captain's Quarters provides a captain to assist in the castle's defense "
 "when no hero is present."
-msgstr "キャプテンの間では、勇者が不在の場合に城の防衛を支援するキャプテンを配置します。"
+msgstr "守備隊長の間では、勇者が不在の場合に城の防衛を支援する守備隊長を配置します。"
 
 msgid ""
 "The Mage Guild allows heroes to learn spells and replenish their spell "
