@@ -6411,7 +6411,7 @@ msgid "Keyboard|SPACE"
 msgstr "スペース"
 
 msgid "Change language"
-msgstr "言語を変更する"
+msgstr "言語の変更"
 
 msgid "Click to switch between languages."
 msgstr "クリックして言語を切り替えます。"
@@ -6432,10 +6432,10 @@ msgid "Keyboard|ABC"
 msgstr "ABC"
 
 msgid "Swap sign"
-msgstr "スワップサイン"
+msgstr "符号切替"
 
 msgid "Click to switch between signed and unsigned numbers."
-msgstr "クリックすると、符号付き番号と符号なし番号が切り替わります。"
+msgstr "クリックすると、符号付き数値と符号なし数値が切り替わります。"
 
 msgid "The entered value is invalid."
 msgstr "入力された値は無効です。"
