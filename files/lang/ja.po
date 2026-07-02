@@ -2715,7 +2715,7 @@ msgid "Hire all creatures in the town."
 msgstr "町にいるすべてのユニットを雇います。"
 
 msgid "Max"
-msgstr "マックス"
+msgstr "最大"
 
 msgid "Available"
 msgstr "利用可能"
@@ -3208,7 +3208,7 @@ msgid "I can offer you 1 unit of %{resto} for %{count} units of %{resfrom}."
 msgstr "%{resfrom} の %{count} 単位で %{resto} を 1 単位提供できます。"
 
 msgid "Min"
-msgstr "分"
+msgstr "最小"
 
 msgid "Qty to trade"
 msgstr "取引数量"
@@ -3337,22 +3337,22 @@ msgid "Return to the previous menu."
 msgstr "前のメニューに戻ります。"
 
 msgid "Cost per troop:"
-msgstr "部隊ごとのコスト:"
+msgstr "ユニットあたりのコスト:"
 
 msgid "Available: %{count}"
 msgstr "利用可能: %{count}"
 
 msgid "Number to buy:"
-msgstr "購入する番号:"
+msgstr "購入数:"
 
 msgid "Recruit selected monsters."
-msgstr "選択したモンスターを仲間にします。"
+msgstr "選択したモンスターを募集します。"
 
 msgid "Select maximum monsters to be recruited."
-msgstr "仲間にする最大モンスターを選択します。"
+msgstr "募集するモンスターの最大数を選択します。"
 
 msgid "Select only 1 monster to be recruited."
-msgstr "仲間にするモンスターを1体だけ選択してください。"
+msgstr "募集するモンスターを1体だけ選択してください。"
 
 msgid "Select this game resolution."
 msgstr "このゲームの解像度を選択します。"
