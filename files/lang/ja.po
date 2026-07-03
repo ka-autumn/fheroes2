@@ -6172,7 +6172,7 @@ msgid "Astra"
 msgstr "アストラ"
 
 msgid "Agar"
-msgstr "寒天"
+msgstr "アガー"
 
 msgid "Vatawna"
 msgstr "バトーナ"
