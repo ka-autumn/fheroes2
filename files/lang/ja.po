@@ -1661,7 +1661,7 @@ msgid "campaignBonus|Fireblast"
 msgstr "ファイアブラスト"
 
 msgid "campaignBonus|Mass Curse"
-msgstr "大量の呪い"
+msgstr "集団の呪い"
 
 msgid "campaignBonus|Mass Haste"
 msgstr "マスヘイスト"
@@ -1676,7 +1676,7 @@ msgid "campaignBonus|Steelskin"
 msgstr "スティールスキン"
 
 msgid "campaignBonus|Summon Earth"
-msgstr "地球召喚"
+msgstr "アースエレメンタル召喚"
 
 msgid "campaignBonus|View Heroes"
 msgstr "勇者を見る"
@@ -1703,7 +1703,7 @@ msgid "campaignBonus|Fizbin Medal"
 msgstr "フィズビンメダル"
 
 msgid "campaignBonus|Foremost Scroll"
-msgstr "一番上のスクロール"
+msgstr "最前巻物"
 
 msgid "campaignBonus|Gauntlets"
 msgstr "ガントレット"
@@ -1721,13 +1721,13 @@ msgid "campaignBonus|Medal of Honor"
 msgstr "名誉勲章"
 
 msgid "campaignBonus|Medal of Valor"
-msgstr "勇気のメダル"
+msgstr "武勇のメダル"
 
 msgid "campaignBonus|Minor Scroll"
-msgstr "小巻"
+msgstr "小巻物"
 
 msgid "campaignBonus|Nomad Boots"
-msgstr "ノマド ブーツ"
+msgstr "ノマドブーツ"
 
 msgid "campaignBonus|Power Axe"
 msgstr "パワーアックス"
@@ -1745,25 +1745,25 @@ msgid "campaignBonus|Thunder Mace"
 msgstr "サンダーメイス"
 
 msgid "campaignBonus|Traveler's Boots"
-msgstr "トラベラーズブーツ"
+msgstr "トラベラーブーツ"
 
 msgid "campaignBonus|White Pearl"
 msgstr "ホワイトパール"
 
 msgid "campaignBonus|Basic Archery"
-msgstr "ベーシックアーチェリー"
+msgstr "基本的なアーチェリー"
 
 msgid "campaignBonus|Advanced Archery"
-msgstr "上級アーチェリー"
+msgstr "高度なアーチェリー"
 
 msgid "campaignBonus|Expert Archery"
 msgstr "エキスパートアーチェリー"
 
 msgid "campaignBonus|Basic Ballistics"
-msgstr "基本弾道"
+msgstr "基本的な弾道学"
 
 msgid "campaignBonus|Advanced Ballistics"
-msgstr "高度な弾道"
+msgstr "高度な弾道学"
 
 msgid "campaignBonus|Expert Ballistics"
 msgstr "エキスパート弾道学"
@@ -1775,25 +1775,25 @@ msgid "campaignBonus|Advanced Diplomacy"
 msgstr "高度な外交"
 
 msgid "campaignBonus|Expert Diplomacy"
-msgstr "専門家外交"
+msgstr "エキスパート外交"
 
 msgid "campaignBonus|Basic Eagle Eye"
-msgstr "ベーシックイーグルアイ"
+msgstr "基本的なイーグルアイ"
 
 msgid "campaignBonus|Advanced Eagle Eye"
-msgstr "アドバンストイーグルアイ"
+msgstr "高度なイーグルアイ"
 
 msgid "campaignBonus|Expert Eagle Eye"
-msgstr "エキスパート イーグル アイ"
+msgstr "エキスパートイーグルアイ"
 
 msgid "campaignBonus|Basic Estates"
-msgstr "基本不動産"
+msgstr "基本的な不動産"
 
 msgid "campaignBonus|Advanced Estates"
-msgstr "上級エステート"
+msgstr "高度な不動産"
 
 msgid "campaignBonus|Expert Estates"
-msgstr "エキスパートエステート"
+msgstr "エキスパート不動産"
 
 msgid "campaignBonus|Basic Leadership"
 msgstr "基本的なリーダーシップ"
@@ -1802,25 +1802,25 @@ msgid "campaignBonus|Advanced Leadership"
 msgstr "高度なリーダーシップ"
 
 msgid "campaignBonus|Expert Leadership"
-msgstr "エキスパートのリーダーシップ"
+msgstr "エキスパートリーダーシップ"
 
 msgid "campaignBonus|Basic Logistics"
 msgstr "基本的な物流"
 
 msgid "campaignBonus|Advanced Logistics"
-msgstr "アドバンスト・ロジスティクス"
+msgstr "高度な物流"
 
 msgid "campaignBonus|Expert Logistics"
 msgstr "エキスパート物流"
 
 msgid "campaignBonus|Basic Luck"
-msgstr "基本運"
+msgstr "基本的な運"
 
 msgid "campaignBonus|Advanced Luck"
-msgstr "上級運"
+msgstr "高度な運"
 
 msgid "campaignBonus|Expert Luck"
-msgstr "エキスパートラック"
+msgstr "エキスパート運"
 
 msgid "campaignBonus|Basic Mysticism"
 msgstr "基本的な神秘主義"
@@ -1829,7 +1829,7 @@ msgid "campaignBonus|Advanced Mysticism"
 msgstr "高度な神秘主義"
 
 msgid "campaignBonus|Expert Mysticism"
-msgstr "専門家の神秘主義"
+msgstr "エキスパート神秘主義"
 
 msgid "campaignBonus|Basic Navigation"
 msgstr "基本的なナビゲーション"
@@ -1838,16 +1838,16 @@ msgid "campaignBonus|Advanced Navigation"
 msgstr "高度なナビゲーション"
 
 msgid "campaignBonus|Expert Navigation"
-msgstr "エキスパート ナビゲーション"
+msgstr "エキスパートナビゲーション"
 
 msgid "campaignBonus|Basic Necromancy"
 msgstr "基本的な死霊術"
 
 msgid "campaignBonus|Advanced Necromancy"
-msgstr "上級ネクロマンシー"
+msgstr "高度な死霊術"
 
 msgid "campaignBonus|Expert Necromancy"
-msgstr "エキスパートネクロマンシー"
+msgstr "エキスパート死霊術"
 
 msgid "campaignBonus|Basic Pathfinding"
 msgstr "基本的な経路探索"
@@ -1856,25 +1856,25 @@ msgid "campaignBonus|Advanced Pathfinding"
 msgstr "高度な経路探索"
 
 msgid "campaignBonus|Expert Pathfinding"
-msgstr "エキスパート パスファインディング"
+msgstr "エキスパート経路探索"
 
 msgid "campaignBonus|Basic Scouting"
-msgstr "基本的なスカウト"
+msgstr "基本的なスカウティング"
 
 msgid "campaignBonus|Advanced Scouting"
-msgstr "アドバンストスカウティング"
+msgstr "高度なスカウティング"
 
 msgid "campaignBonus|Expert Scouting"
-msgstr "エキスパートスカウト"
+msgstr "エキスパートスカウティング"
 
 msgid "campaignBonus|Basic Wisdom"
-msgstr "基礎知識"
+msgstr "基本的な知恵"
 
 msgid "campaignBonus|Advanced Wisdom"
 msgstr "高度な知恵"
 
 msgid "campaignBonus|Expert Wisdom"
-msgstr "専門家の知恵"
+msgstr "エキスパート知恵"
 
 msgid ""
 "The main hero will have the \"%{artifact}\" artifact at the start of the "
@@ -1889,7 +1889,7 @@ msgstr "王国はシナリオ開始時に追加で %{amount} 個の %{resource} 
 msgid ""
 "The kingdom will have %{amount} less %{resource} at the start of the "
 "scenario."
-msgstr "シナリオ開始時点で王国の兵力は %{amount} 少なくなります。%{resource}。"
+msgstr "シナリオ開始時点で王国は%{resource}が%{amount}少なくなります。"
 
 msgid ""
 "The main hero will have %{count} %{monster} at the start of the scenario."
@@ -1897,10 +1897,10 @@ msgstr "勇者はシナリオの開始時に %{count} %{monster} を持ちます
 
 msgid ""
 "The main hero will have the \"%{spell}\" spell at the start of the scenario."
-msgstr "勇者はシナリオの開始時に「%{spell}」の呪文を持っています。"
+msgstr "勇者はシナリオの開始時に「%{spell}」の呪文を持ちます。"
 
 msgid "The starting alignment of the scenario will be %{race}."
-msgstr "シナリオの開始位置は %{race} になります。"
+msgstr "シナリオの開始種族は%{race}になります。"
 
 msgid ""
 "The main hero will receive a +%{count} to their %{skill} at the start of the"
@@ -1920,7 +1920,7 @@ msgid "Price of Loyalty"
 msgstr "忠誠心の代償"
 
 msgid "Voyage Home"
-msgstr "ボヤージュ ホーム"
+msgstr "帰郷の航海"
 
 msgid "Wizard's Isle"
 msgstr "魔法使いの島"
