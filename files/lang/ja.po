@@ -1652,7 +1652,7 @@ msgid "\"The Dwarfbane!!!!, run for your lives.\""
 msgstr "「ドワーフベイン!!!!、命からがら逃げろ！」"
 
 msgid "campaignBonus|Animate Dead"
-msgstr "リアニメイト"
+msgstr "アンデッド再生"
 
 msgid "campaignBonus|Chain Lightning"
 msgstr "チェインライトニング"
@@ -11296,7 +11296,7 @@ msgid "Increases a unit's attack skill."
 msgstr "ユニットの攻撃スキルを上昇させます。"
 
 msgid "Animate Dead"
-msgstr "リアニメイト"
+msgstr "アンデッド再生"
 
 msgid "Resurrects creatures from a damaged or dead undead unit permanently."
 msgstr "ダメージを受けた、または死亡したアンデッドユニットからユニットを永久に復活させます。"
