@@ -9221,10 +9221,10 @@ msgid "Peasants"
 msgstr "農民"
 
 msgid "Archer"
-msgstr "射手"
+msgstr "弓兵"
 
 msgid "Archers"
-msgstr "射手"
+msgstr "弓兵"
 
 msgid "Ranger"
 msgstr "レンジャー"
@@ -9245,16 +9245,16 @@ msgid "Veteran Pikemen"
 msgstr "ベテランパイクマン"
 
 msgid "Swordsman"
-msgstr "剣士"
+msgstr "ソードマン"
 
 msgid "Swordsmen"
-msgstr "剣士"
+msgstr "ソードマン"
 
 msgid "Master Swordsman"
-msgstr "マスター剣士"
+msgstr "マスターソードマン"
 
 msgid "Master Swordsmen"
-msgstr "マスター剣士"
+msgstr "マスターソードマン"
 
 msgid "Cavalries"
 msgstr "騎兵"
@@ -9293,10 +9293,10 @@ msgid "Orcs"
 msgstr "オーク"
 
 msgid "Orc Chief"
-msgstr "オーク族長"
+msgstr "オークチーフ"
 
 msgid "Orc Chiefs"
-msgstr "オーク族長"
+msgstr "オークチーフ"
 
 msgid "Wolf"
 msgstr "狼"
@@ -9317,16 +9317,16 @@ msgid "Ogre Lords"
 msgstr "オーガロード"
 
 msgid "Troll"
-msgstr "トロール"
+msgstr "トロル"
 
 msgid "Trolls"
-msgstr "トロール"
+msgstr "トロル"
 
 msgid "War Troll"
-msgstr "ウォー・トロール"
+msgstr "ウォートロル"
 
 msgid "War Trolls"
-msgstr "ウォー・トロール"
+msgstr "ウォートロル"
 
 msgid "Cyclopes"
 msgstr "サイクロプス"
@@ -9371,10 +9371,10 @@ msgid "Druids"
 msgstr "ドルイド僧"
 
 msgid "Greater Druid"
-msgstr "グレータードルイド僧"
+msgstr "大ドルイド僧"
 
 msgid "Greater Druids"
-msgstr "グレータードルイド僧"
+msgstr "大ドルイド僧"
 
 msgid "Unicorn"
 msgstr "ユニコーン"
@@ -9449,10 +9449,10 @@ msgid "Halflings"
 msgstr "ハーフリング"
 
 msgid "Boar"
-msgstr "イノシシ"
+msgstr "猪"
 
 msgid "Boars"
-msgstr "イノシシ"
+msgstr "猪"
 
 msgid "Iron Golem"
 msgstr "アイアンゴーレム"
@@ -9461,16 +9461,16 @@ msgid "Iron Golems"
 msgstr "アイアンゴーレム"
 
 msgid "Steel Golem"
-msgstr "スティールゴーレム"
+msgstr "スチールゴーレム"
 
 msgid "Steel Golems"
-msgstr "スティールゴーレム"
+msgstr "スチールゴーレム"
 
 msgid "Roc"
-msgstr "ロック"
+msgstr "ロック鳥"
 
 msgid "Rocs"
-msgstr "ロック"
+msgstr "ロック鳥"
 
 msgid "Mage"
 msgstr "メイジ"
@@ -9479,16 +9479,16 @@ msgid "Magi"
 msgstr "メイジ"
 
 msgid "Archmage"
-msgstr "アークメイジ"
+msgstr "アーチメイジ"
 
 msgid "Archmagi"
-msgstr "アークメイジ"
+msgstr "アーチメイジ"
 
 msgid "Giant"
-msgstr "巨人"
+msgstr "ジャイアント"
 
 msgid "Giants"
-msgstr "巨人"
+msgstr "ジャイアント"
 
 msgid "Titan"
 msgstr "タイタン"
@@ -9512,22 +9512,22 @@ msgid "Mutant Zombies"
 msgstr "ミュータントゾンビ"
 
 msgid "Mummies"
-msgstr "ミイラ"
+msgstr "マミー"
 
 msgid "Mummy"
-msgstr "ミイラ"
+msgstr "マミー"
 
 msgid "Royal Mummies"
-msgstr "ロイヤルミイラ"
+msgstr "ロイヤルマミー"
 
 msgid "Royal Mummy"
-msgstr "ロイヤルミイラ"
+msgstr "ロイヤルマミー"
 
 msgid "Vampire"
-msgstr "吸血鬼"
+msgstr "ヴァンパイア"
 
 msgid "Vampires"
-msgstr "吸血鬼"
+msgstr "ヴァンパイア"
 
 msgid "Vampire Lord"
 msgstr "ヴァンパイアロード"
@@ -9554,10 +9554,10 @@ msgid "Bone Dragons"
 msgstr "ボーンドラゴン"
 
 msgid "Rogue"
-msgstr "ローグ"
+msgstr "ならず者"
 
 msgid "Rogues"
-msgstr "ローグ"
+msgstr "ならず者"
 
 msgid "Nomad"
 msgstr "遊牧民"
@@ -9572,10 +9572,10 @@ msgid "Ghosts"
 msgstr "幽霊"
 
 msgid "Genie"
-msgstr "ジーニー"
+msgstr "ジン"
 
 msgid "Genies"
-msgstr "ジーニー"
+msgstr "ジン"
 
 msgid "Medusa"
 msgstr "メデューサ"
