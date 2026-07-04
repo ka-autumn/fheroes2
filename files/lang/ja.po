@@ -678,10 +678,10 @@ msgid "Hero Screen"
 msgstr "勇者画面"
 
 msgid "Captain's Options"
-msgstr "守備隊長のオプション"
+msgstr "守備隊長の設定"
 
 msgid "Hero's Options"
-msgstr "勇者のオプション"
+msgstr "勇者の設定"
 
 msgid ""
 "Cast a magical spell. You may only cast one spell per combat round. The "
@@ -783,13 +783,13 @@ msgid ""
 msgstr "自動戦闘モードで戦闘を進めるか、クイック戦闘モードで戦闘を進めるかを選択します。"
 
 msgid "Customize system options"
-msgstr "システムオプションをカスタマイズする"
+msgstr "システム設定をカスタマイズする"
 
 msgid "Allows you to customize the combat screen."
 msgstr "戦闘画面をカスタマイズできます。"
 
 msgid "System Options"
-msgstr "システムオプション"
+msgstr "システム設定"
 
 msgid "Skip this unit"
 msgstr "このユニットをスキップする"
@@ -803,10 +803,10 @@ msgid ""
 msgstr "現在のユニットをスキップします。現在のユニットはターンを終了し、次のラウンドまで再び行動することはできません。"
 
 msgid "View Captain's options"
-msgstr "守備隊長のオプションを表示"
+msgstr "守備隊長の設定を表示"
 
 msgid "View Hero's options"
-msgstr "勇者のオプションを表示"
+msgstr "勇者の設定を表示"
 
 msgid "View opposing Captain"
 msgstr "相手の守備隊長を表示"
@@ -2674,7 +2674,7 @@ msgid ""
 msgstr "「グループ化」戦闘フォーメーションは、城のユニットを戦場の城側の中央に集めます。"
 
 msgid "Castle Options. Month: %{month}, Week: %{week}, Day: %{day}"
-msgstr "城のオプション。月: %{month}、週: %{week}、日: %{day}"
+msgstr "城の設定。月: %{month}、週: %{week}、日: %{day}"
 
 msgid "Set garrison combat formation to 'Spread'"
 msgstr "駐屯地の戦闘フォーメーションを「分散」に設定する"
@@ -2683,7 +2683,7 @@ msgid "Set garrison combat formation to 'Grouped'"
 msgstr "駐屯地の戦闘フォーメーションを「グループ化」に設定する"
 
 msgid "Exit Castle Options"
-msgstr "城オプションを終了"
+msgstr "城の設定を終了"
 
 msgid "Spread Formation"
 msgstr "分散フォーメーション"
@@ -2731,7 +2731,7 @@ msgid "week"
 msgstr "週"
 
 msgid "View World"
-msgstr "世界を見る"
+msgstr "世界地図を表示"
 
 msgid "View the entire world."
 msgstr "世界全体を見渡せます。"
@@ -4176,10 +4176,10 @@ msgid "Quit out of the map editor."
 msgstr "マップエディタを終了します。"
 
 msgid "Auto Playtest"
-msgstr "自動プレイテスト"
+msgstr "自動テストプレイ"
 
 msgid "Run an automatic playtest of the map."
-msgstr "マップの自動プレイテストを実行します。"
+msgstr "マップの自動テストプレイを実行します。"
 
 msgid "Return to the game's Main Menu."
 msgstr "ゲームのメインメニューに戻ります。"
@@ -4522,15 +4522,15 @@ msgid "Specifications"
 msgstr "仕様"
 
 msgid "File Options"
-msgstr "ファイルオプション"
+msgstr "ファイル設定"
 
 msgid ""
 "Open the file options menu, where you can save or load maps, or quit out of "
 "the editor."
-msgstr "ファイル オプション メニューを開くと、マップを保存またはロードしたり、エディタを終了したりできます。"
+msgstr "ファイル設定メニューを開くと、マップを保存またはロードしたり、エディタを終了したりできます。"
 
 msgid "View the editor system options, which let you customize the editor."
-msgstr "エディターをカスタマイズできるエディター システム オプションを表示します。"
+msgstr "エディターをカスタマイズできるエディターのシステム設定を表示します。"
 
 msgid "Supported languages:"
 msgstr "サポートされている言語:"
@@ -6203,10 +6203,10 @@ msgstr ""
 "現在のパスに沿って勇者の移動を開始するか、勇者が占有しているオブジェクトを再訪問します。このボタンを押し続けると、勇者のパスがリセットされます。"
 
 msgid "Kingdom Summary"
-msgstr "王国の概要"
+msgstr "王国概要"
 
 msgid "View a summary of your Kingdom."
-msgstr "王国の概要を表示します。"
+msgstr "王国概要を表示します。"
 
 msgid "Cast an adventure spell."
 msgstr "冒険の呪文を唱えます。"
@@ -6218,18 +6218,18 @@ msgid "End your turn and let the computer take its turn."
 msgstr "自分のターンを終了し、コンピューターに順番を渡します。"
 
 msgid "Adventure Options"
-msgstr "冒険のオプション"
+msgstr "探索画面設定"
 
 msgid "Bring up the adventure options menu."
-msgstr "冒険オプションメニューを表示します。"
+msgstr "探索画面設定メニューを表示します。"
 
 msgid ""
 "Bring up the file options menu, allowing you to load, save, start a new game"
 " or quit."
-msgstr "ファイルオプションメニューを表示すると、ロード、保存、新しいゲームの開始、または終了を行うことができます。"
+msgstr "ファイル設定メニューを表示すると、ロード、保存、新しいゲームの開始、または終了を行うことができます。"
 
 msgid "Bring up the system options menu, allowing you to customize your game."
-msgstr "システムオプションメニューを表示して、ゲームをカスタマイズできるようにします。"
+msgstr "システム設定メニューを表示して、ゲームをカスタマイズできるようにします。"
 
 msgid "Hero Movement Points"
 msgstr "勇者の移動ポイント"
