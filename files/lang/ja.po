@@ -1751,130 +1751,130 @@ msgid "campaignBonus|White Pearl"
 msgstr "ホワイトパール"
 
 msgid "campaignBonus|Basic Archery"
-msgstr "基本的なアーチェリー"
+msgstr "初級 弓術"
 
 msgid "campaignBonus|Advanced Archery"
-msgstr "高度なアーチェリー"
+msgstr "中級 弓術"
 
 msgid "campaignBonus|Expert Archery"
-msgstr "エキスパートアーチェリー"
+msgstr "上級 弓術"
 
 msgid "campaignBonus|Basic Ballistics"
-msgstr "基本的な弾道学"
+msgstr "初級 弾道学"
 
 msgid "campaignBonus|Advanced Ballistics"
-msgstr "高度な弾道学"
+msgstr "中級 弾道学"
 
 msgid "campaignBonus|Expert Ballistics"
-msgstr "エキスパート弾道学"
+msgstr "上級 弾道学"
 
 msgid "campaignBonus|Basic Diplomacy"
-msgstr "基本的な外交"
+msgstr "初級 交渉"
 
 msgid "campaignBonus|Advanced Diplomacy"
-msgstr "高度な外交"
+msgstr "中級 交渉"
 
 msgid "campaignBonus|Expert Diplomacy"
-msgstr "エキスパート外交"
+msgstr "上級 交渉"
 
 msgid "campaignBonus|Basic Eagle Eye"
-msgstr "基本的なイーグルアイ"
+msgstr "初級 観察眼"
 
 msgid "campaignBonus|Advanced Eagle Eye"
-msgstr "高度なイーグルアイ"
+msgstr "中級 観察眼"
 
 msgid "campaignBonus|Expert Eagle Eye"
-msgstr "エキスパートイーグルアイ"
+msgstr "上級 観察眼"
 
 msgid "campaignBonus|Basic Estates"
-msgstr "基本的な不動産"
+msgstr "初級 財産"
 
 msgid "campaignBonus|Advanced Estates"
-msgstr "高度な不動産"
+msgstr "中級 財産"
 
 msgid "campaignBonus|Expert Estates"
-msgstr "エキスパート不動産"
+msgstr "上級 財産"
 
 msgid "campaignBonus|Basic Leadership"
-msgstr "基本的なリーダーシップ"
+msgstr "初級 リーダーシップ"
 
 msgid "campaignBonus|Advanced Leadership"
-msgstr "高度なリーダーシップ"
+msgstr "中級 リーダーシップ"
 
 msgid "campaignBonus|Expert Leadership"
-msgstr "エキスパートリーダーシップ"
+msgstr "上級 リーダーシップ"
 
 msgid "campaignBonus|Basic Logistics"
-msgstr "基本的な物流"
+msgstr "初級 行軍"
 
 msgid "campaignBonus|Advanced Logistics"
-msgstr "高度な物流"
+msgstr "中級 行軍"
 
 msgid "campaignBonus|Expert Logistics"
-msgstr "エキスパート物流"
+msgstr "上級 行軍"
 
 msgid "campaignBonus|Basic Luck"
-msgstr "基本的な運"
+msgstr "初級 運勢"
 
 msgid "campaignBonus|Advanced Luck"
-msgstr "高度な運"
+msgstr "中級 運勢"
 
 msgid "campaignBonus|Expert Luck"
-msgstr "エキスパート運"
+msgstr "上級 運勢"
 
 msgid "campaignBonus|Basic Mysticism"
-msgstr "基本的な神秘主義"
+msgstr "初級 神秘学"
 
 msgid "campaignBonus|Advanced Mysticism"
-msgstr "高度な神秘主義"
+msgstr "中級 神秘学"
 
 msgid "campaignBonus|Expert Mysticism"
-msgstr "エキスパート神秘主義"
+msgstr "上級 神秘学"
 
 msgid "campaignBonus|Basic Navigation"
-msgstr "基本的なナビゲーション"
+msgstr "初級 ナビゲーション"
 
 msgid "campaignBonus|Advanced Navigation"
-msgstr "高度なナビゲーション"
+msgstr "中級 ナビゲーション"
 
 msgid "campaignBonus|Expert Navigation"
-msgstr "エキスパートナビゲーション"
+msgstr "上級 ナビゲーション"
 
 msgid "campaignBonus|Basic Necromancy"
-msgstr "基本的な死霊術"
+msgstr "初級 妖術"
 
 msgid "campaignBonus|Advanced Necromancy"
-msgstr "高度な死霊術"
+msgstr "中級 妖術"
 
 msgid "campaignBonus|Expert Necromancy"
-msgstr "エキスパート死霊術"
+msgstr "上級 妖術"
 
 msgid "campaignBonus|Basic Pathfinding"
-msgstr "基本的な経路探索"
+msgstr "初級 先導"
 
 msgid "campaignBonus|Advanced Pathfinding"
-msgstr "高度な経路探索"
+msgstr "中級 先導"
 
 msgid "campaignBonus|Expert Pathfinding"
-msgstr "エキスパート経路探索"
+msgstr "上級 先導"
 
 msgid "campaignBonus|Basic Scouting"
-msgstr "基本的なスカウティング"
+msgstr "初級 偵察"
 
 msgid "campaignBonus|Advanced Scouting"
-msgstr "高度なスカウティング"
+msgstr "中級 偵察"
 
 msgid "campaignBonus|Expert Scouting"
-msgstr "エキスパートスカウティング"
+msgstr "上級 偵察"
 
 msgid "campaignBonus|Basic Wisdom"
-msgstr "基本的な知恵"
+msgstr "初級 学問"
 
 msgid "campaignBonus|Advanced Wisdom"
-msgstr "高度な知恵"
+msgstr "中級 学問"
 
 msgid "campaignBonus|Expert Wisdom"
-msgstr "エキスパート知恵"
+msgstr "上級 学問"
 
 msgid ""
 "The main hero will have the \"%{artifact}\" artifact at the start of the "
@@ -8117,13 +8117,13 @@ msgid "Current Modifiers:"
 msgstr "現在の修飾子:"
 
 msgid "skill|Basic"
-msgstr "基本"
+msgstr "初級"
 
 msgid "skill|Advanced"
-msgstr "上級"
+msgstr "中級"
 
 msgid "skill|Expert"
-msgstr "エキスパート"
+msgstr "上級"
 
 msgid "Pathfinding"
 msgstr "経路探索"
@@ -8165,130 +8165,130 @@ msgid "Estates"
 msgstr "不動産"
 
 msgid "Advanced Archery"
-msgstr "高度なアーチェリー"
+msgstr "中級 弓術"
 
 msgid "Advanced Pathfinding"
-msgstr "高度な経路探索"
+msgstr "中級 先導"
 
 msgid "Basic Archery"
-msgstr "基本的なアーチェリー"
+msgstr "初級 弓術"
 
 msgid "Basic Pathfinding"
-msgstr "基本的な経路探索"
+msgstr "初級 先導"
 
 msgid "Expert Pathfinding"
-msgstr "エキスパート経路探索"
+msgstr "上級 先導"
 
 msgid "Advanced Logistics"
-msgstr "高度な物流"
+msgstr "中級 行軍"
 
 msgid "Basic Logistics"
-msgstr "基本的な物流"
+msgstr "初級 行軍"
 
 msgid "Basic Scouting"
-msgstr "基本的なスカウティング"
+msgstr "初級 偵察"
 
 msgid "Expert Archery"
-msgstr "エキスパートアーチェリー"
+msgstr "上級 弓術"
 
 msgid "Expert Logistics"
-msgstr "エキスパート物流"
+msgstr "上級 行軍"
 
 msgid "Advanced Diplomacy"
-msgstr "高度な外交"
+msgstr "中級 交渉"
 
 msgid "Advanced Scouting"
-msgstr "高度なスカウティング"
+msgstr "中級 偵察"
 
 msgid "Basic Diplomacy"
-msgstr "基本的な外交"
+msgstr "初級 交渉"
 
 msgid "Expert Diplomacy"
-msgstr "エキスパート外交"
+msgstr "上級 交渉"
 
 msgid "Expert Scouting"
-msgstr "エキスパートスカウティング"
+msgstr "上級 偵察"
 
 msgid "Advanced Leadership"
-msgstr "高度なリーダーシップ"
+msgstr "中級 リーダーシップ"
 
 msgid "Advanced Navigation"
-msgstr "高度なナビゲーション"
+msgstr "中級 ナビゲーション"
 
 msgid "Basic Leadership"
-msgstr "基本的なリーダーシップ"
+msgstr "初級 リーダーシップ"
 
 msgid "Basic Navigation"
-msgstr "基本的なナビゲーション"
+msgstr "初級 ナビゲーション"
 
 msgid "Expert Navigation"
-msgstr "エキスパートナビゲーション"
+msgstr "上級 ナビゲーション"
 
 msgid "Advanced Wisdom"
-msgstr "高度な知恵"
+msgstr "中級 学問"
 
 msgid "Basic Mysticism"
-msgstr "基本的な神秘主義"
+msgstr "初級 神秘学"
 
 msgid "Basic Wisdom"
-msgstr "基本的な知恵"
+msgstr "初級 学問"
 
 msgid "Expert Leadership"
-msgstr "エキスパートリーダーシップ"
+msgstr "上級 リーダーシップ"
 
 msgid "Expert Wisdom"
-msgstr "エキスパート知恵"
+msgstr "上級 学問"
 
 msgid "Advanced Luck"
-msgstr "高度な運"
+msgstr "中級 運勢"
 
 msgid "Advanced Mysticism"
-msgstr "高度な神秘主義"
+msgstr "中級 神秘学"
 
 msgid "Basic Luck"
-msgstr "基本的な運"
+msgstr "初級 運勢"
 
 msgid "Expert Luck"
-msgstr "エキスパート運"
+msgstr "上級 運勢"
 
 msgid "Expert Mysticism"
-msgstr "エキスパート神秘主義"
+msgstr "上級 神秘学"
 
 msgid "Advanced Ballistics"
-msgstr "高度な弾道学"
+msgstr "中級 弾道学"
 
 msgid "Advanced Eagle Eye"
-msgstr "高度なイーグルアイ"
+msgstr "中級 観察眼"
 
 msgid "Basic Ballistics"
-msgstr "基本的な弾道学"
+msgstr "初級 弾道学"
 
 msgid "Basic Eagle Eye"
-msgstr "基本的なイーグルアイ"
+msgstr "初級 観察眼"
 
 msgid "Expert Ballistics"
-msgstr "エキスパート弾道学"
+msgstr "上級 弾道学"
 
 msgid "Advanced Necromancy"
-msgstr "高度な死霊術"
+msgstr "中級 妖術"
 
 msgid "Basic Estates"
-msgstr "基本的な不動産"
+msgstr "初級 財産"
 
 msgid "Basic Necromancy"
-msgstr "基本的な死霊術"
+msgstr "初級 妖術"
 
 msgid "Expert Eagle Eye"
-msgstr "エキスパートイーグルアイ"
+msgstr "上級 観察眼"
 
 msgid "Expert Necromancy"
-msgstr "エキスパート死霊術"
+msgstr "上級 妖術"
 
 msgid "Advanced Estates"
-msgstr "高度な不動産"
+msgstr "中級 財産"
 
 msgid "Expert Estates"
-msgstr "エキスパート不動産"
+msgstr "上級 財産"
 
 msgid ""
 "%{skill} reduces the movement penalty for rough terrain by %{count} percent."
