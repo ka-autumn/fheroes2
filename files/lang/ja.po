@@ -5282,367 +5282,367 @@ msgid "View High Scores for Campaigns."
 msgstr "キャンペーンのハイスコアを表示します。"
 
 msgid "hotkey|default okay event"
-msgstr "デフォルトの OK イベント"
+msgstr "汎用のOKイベント"
 
 msgid "hotkey|default cancel event"
-msgstr "デフォルトのキャンセルイベント"
+msgstr "汎用のキャンセルイベント"
 
 msgid "hotkey|default left"
-msgstr "デフォルトの左"
+msgstr "汎用の左操作"
 
 msgid "hotkey|default right"
-msgstr "デフォルトの右"
+msgstr "汎用の右操作"
 
 msgid "hotkey|default up"
-msgstr "デフォルトアップ"
+msgstr "汎用の上操作"
 
 msgid "hotkey|default down"
-msgstr "デフォルトの下"
+msgstr "汎用の下操作"
 
 msgid "hotkey|toggle fullscreen"
-msgstr "全画面表示に切り替える"
+msgstr "全画面表示の切り替え"
 
 msgid "hotkey|toggle text support mode"
 msgstr "テキストサポートモードの切り替え"
 
 msgid "hotkey|toggle developer mode"
-msgstr "開発者モードに切り替える"
+msgstr "開発者モードの切り替え"
 
 msgid "hotkey|quit"
-msgstr "終了"
+msgstr "ゲームを終了"
 
 msgid "hotkey|new game"
-msgstr "新しいゲーム"
+msgstr "新しいゲームを開始"
 
 msgid "hotkey|load game"
 msgstr "ゲームをロード"
 
 msgid "hotkey|high scores"
-msgstr "ハイスコア"
+msgstr "ハイスコアを表示"
 
 msgid "hotkey|credits"
-msgstr "クレジット"
+msgstr "クレジットを表示"
 
 msgid "hotkey|standard game"
-msgstr "標準ゲーム"
+msgstr "スタンダードゲーム"
 
 msgid "hotkey|campaign game"
-msgstr "キャンペーン ゲーム"
+msgstr "キャンペーンゲーム"
 
 msgid "hotkey|multi-player game"
-msgstr "マルチプレイヤー ゲーム"
+msgstr "マルチプレイヤーゲーム"
 
 msgid "hotkey|settings"
-msgstr "設定"
+msgstr "設定を開く"
 
 msgid "hotkey|select map"
 msgstr "マップを選択"
 
 msgid "hotkey|select small map size"
-msgstr "小さいマップ サイズを選択"
+msgstr "小さいマップサイズを選択"
 
 msgid "hotkey|select medium map size"
-msgstr "中程度のマップ サイズを選択"
+msgstr "中程度のマップサイズを選択"
 
 msgid "hotkey|select large map size"
-msgstr "大きいマップ サイズを選択"
+msgstr "大きいマップサイズを選択"
 
 msgid "hotkey|select extra large map size"
-msgstr "特大マップ サイズを選択"
+msgstr "特大マップサイズを選択"
 
 msgid "hotkey|select all map sizes"
-msgstr "すべてのマップ サイズを選択"
+msgstr "すべてのマップサイズを選択"
 
 msgid "hotkey|hot seat game"
-msgstr "ホットシート ゲーム"
+msgstr "ホットシートゲームを開始"
 
 msgid "hotkey|battle only game"
-msgstr "戦闘のみのゲーム"
+msgstr "戦闘のみのゲームを開始"
 
 msgid "hotkey|choose the original campaign"
-msgstr "元のキャンペーンを選択"
+msgstr "通常版のキャンペーンを選択"
 
 msgid "hotkey|choose the expansion campaign"
-msgstr "拡張キャンペーンを選択します"
+msgstr "拡張版のキャンペーンを選択"
 
 msgid "hotkey|map editor main menu"
-msgstr "マップ エディタのメイン メニュー"
+msgstr "マップエディタのメインメニューを開く"
 
 msgid "hotkey|new map menu"
-msgstr "新しいマップ メニュー"
+msgstr "新しいマップのメニューを開く"
 
 msgid "hotkey|load map menu"
-msgstr "ロードマップメニュー"
+msgstr "マップのロードメニューを開く"
 
 msgid "hotkey|new map from scratch"
-msgstr "最初からマップを新規作成"
+msgstr "空のマップを新規作成"
 
 msgid "hotkey|new random map"
-msgstr "新しいランダム マップ"
+msgstr "ランダムマップを新規作成"
 
 msgid "hotkey|undo last action"
-msgstr " 最後の操作を元に戻す"
+msgstr "最後の操作を元に戻す"
 
 msgid "hotkey|redo last action"
-msgstr "最後の操作をやり直す"
+msgstr "（元に戻した）操作をやり直す"
 
 msgid "hotkey|open game main menu"
 msgstr "ゲームのメインメニューを開く"
 
 msgid "hotkey|toggle passability"
-msgstr "通過可能性の切り替え"
+msgstr "通り抜け可能/不可を切り替え"
 
 msgid "hotkey|auto playtest"
-msgstr "自動プレイテスト"
+msgstr "自動テストプレイ開始"
 
 msgid "hotkey|re-generate random map"
-msgstr "ランダム マップを再生成"
+msgstr "ランダムマップを再作成"
 
 msgid "hotkey|re-configure random map"
-msgstr "ランダム マップを再構成"
+msgstr "ランダムマップを再構成"
 
 msgid "hotkey|output all text"
 msgstr "すべてのテキストを出力"
 
 msgid "hotkey|roland campaign"
-msgstr "ローランド キャンペーン"
+msgstr "ローランドキャンペーン"
 
 msgid "hotkey|archibald campaign"
-msgstr "アーチボルド キャンペーン"
+msgstr "アーチボルドキャンペーン"
 
 msgid "hotkey|price of loyalty campaign"
-msgstr "ロイヤルティ キャンペーンの価格"
+msgstr "忠誠心の代償キャンペーン"
 
 msgid "hotkey|voyage home campaign"
-msgstr "故郷への旅行キャンペーン"
+msgstr "帰郷の航海キャンペーン"
 
 msgid "hotkey|wizard's isle campaign"
 msgstr "魔法使いの島キャンペーン"
 
 msgid "hotkey|descendants campaign"
-msgstr "子孫キャンペーン"
+msgstr "末裔キャンペーン"
 
 msgid "hotkey|select first campaign bonus"
-msgstr "最初のキャンペーン ボーナスを選択"
+msgstr "最初のキャンペーンボーナスを選択"
 
 msgid "hotkey|select second campaign bonus"
-msgstr " 2 番目のキャンペーン ボーナスを選択"
+msgstr "2番目のキャンペーンボーナスを選択"
 
 msgid "hotkey|select third campaign bonus"
-msgstr " 3 番目のキャンペーン ボーナスを選択"
+msgstr "3番目のキャンペーンボーナスを選択"
 
 msgid "hotkey|view campaign intro"
-msgstr "キャンペーンの紹介を表示"
+msgstr "キャンペーンの導入を表示"
 
 msgid "hotkey|select campaign difficulty"
-msgstr "キャンペーンの難易度を選択"
+msgstr "キャンペーン難易度の選択"
 
 msgid "hotkey|restart campaign scenario"
-msgstr "キャンペーン シナリオを再開する"
+msgstr "キャンペーンの再開"
 
 msgid "hotkey|world map left"
-msgstr "世界地図左"
+msgstr "勇者を左に移動"
 
 msgid "hotkey|world map right"
-msgstr "世界地図右"
+msgstr "勇者を右に移動"
 
 msgid "hotkey|world map up"
-msgstr "世界地図を上へ"
+msgstr "勇者を上に移動"
 
 msgid "hotkey|world map down"
-msgstr "世界地図を下へ"
+msgstr "勇者を下に移動"
 
 msgid "hotkey|world map up left"
-msgstr "左上の世界地図"
+msgstr "勇者を左上に移動"
 
 msgid "hotkey|world map up right"
-msgstr "世界地図を右上に表示"
+msgstr "勇者を右上に移動"
 
 msgid "hotkey|world map down left"
-msgstr "左下の世界地図"
+msgstr "勇者を左下に移動"
 
 msgid "hotkey|world map down right"
-msgstr "右下の世界地図"
+msgstr "勇者を右下に移動"
 
 msgid "hotkey|save game"
 msgstr "ゲームを保存"
 
 msgid "hotkey|quick save"
-msgstr "クイック保存"
+msgstr "クイックセーブ"
 
 msgid "hotkey|next hero"
-msgstr "次の勇者"
+msgstr "次の勇者に切り替え"
 
 msgid "hotkey|change to hero under cursor"
-msgstr "カーソル下の勇者に変更"
+msgstr "カーソル下の勇者に切り替え"
 
 msgid "hotkey|hold and left click to move hero portrait to top of list"
-msgstr " 押したまま左クリックして、勇者の肖像画をリストの一番上に移動します"
+msgstr "押したまま左クリックして、勇者の肖像画をリストの一番上に移動する"
 
 msgid "hotkey|start hero movement"
-msgstr "勇者の動きを開始"
+msgstr "勇者の行動を開始"
 
 msgid "hotkey|cast adventure spell"
-msgstr "アドベンチャー呪文を唱える"
+msgstr "フィールド呪文を唱える"
 
 msgid "hotkey|put hero to sleep"
 msgstr "勇者を眠らせる"
 
 msgid "hotkey|next town"
-msgstr "次の町"
+msgstr "次の町に切り替え"
 
 msgid "hotkey|end turn"
 msgstr "ターン終了"
 
 msgid "hotkey|file options"
-msgstr "ファイル オプション"
+msgstr "ファイル設定を開く"
 
 msgid "hotkey|adventure options"
-msgstr "アドベンチャー オプション"
+msgstr "探索画面設定を開く"
 
 msgid "hotkey|puzzle map"
-msgstr "パズルマップ"
+msgstr "パズルマップを表示"
 
 msgid "hotkey|scenario information"
-msgstr "シナリオ情報"
+msgstr "シナリオ情報を表示"
 
 msgid "hotkey|dig for artifact"
-msgstr "アーティファクトを探す"
+msgstr "秘宝を探す"
 
 msgid "hotkey|view world"
-msgstr "世界を表示"
+msgstr "世界地図を表示"
 
 msgid "hotkey|kingdom summary"
-msgstr "キングダムの概要"
+msgstr "王国概要画面を表示"
 
 msgid "hotkey|default action"
-msgstr "デフォルトのアクション"
+msgstr "汎用アクション"
 
 msgid "hotkey|open focus"
-msgstr "オープンフォーカス"
+msgstr "勇者・町の詳細画面を表示"
 
 msgid "hotkey|system options"
-msgstr "システム オプション"
+msgstr "システム設定を開く"
 
 msgid "hotkey|scroll left"
-msgstr "左にスクロール"
+msgstr "表示領域を左にスクロール"
 
 msgid "hotkey|scroll right"
-msgstr "右にスクロール"
+msgstr "表示領域を右にスクロール"
 
 msgid "hotkey|scroll up"
-msgstr "上にスクロール"
+msgstr "表示領域を上にスクロール"
 
 msgid "hotkey|scroll down"
-msgstr "下にスクロール"
+msgstr "表示領域を下にスクロール"
 
 msgid "hotkey|toggle control panel"
-msgstr "コントロール パネルの切り替え"
+msgstr "操作パネルの表示/非表示の切り替え"
 
 msgid "hotkey|toggle radar"
-msgstr "レーダーの切り替え"
+msgstr "レーダーの表示/非表示の切り替え"
 
 msgid "hotkey|toggle buttons"
-msgstr "トグル ボタン"
+msgstr "操作ボタンの表示/非表示の切り替え"
 
 msgid "hotkey|toggle status"
-msgstr "ステータスの切り替え"
+msgstr "ステータスの表示/非表示の切り替え"
 
 msgid "hotkey|toggle icons"
-msgstr "アイコンの切り替え"
+msgstr "勇者・町アイコンの表示/非表示切り替え"
 
 msgid "hotkey|transfer control to ai"
-msgstr "制御を AI に転送"
+msgstr "制御をAIに転送"
 
 msgid "hotkey|retreat from battle"
 msgstr "戦闘から撤退"
 
 msgid "hotkey|surrender during battle"
-msgstr "戦闘中の降伏"
+msgstr "降伏する"
 
 msgid "hotkey|toggle auto combat mode"
 msgstr "自動戦闘モードの切り替え"
 
 msgid "hotkey|quick combat"
-msgstr "クイック戦闘"
+msgstr "クイック戦闘を実行"
 
 msgid "hotkey|battle options"
-msgstr "戦闘オプション"
+msgstr "戦闘の設定を開く"
 
 msgid "hotkey|skip turn in battle"
-msgstr "戦闘ターンをスキップ"
+msgstr "戦闘ターンをスキップする"
 
 msgid "hotkey|cast battle spell"
 msgstr "戦闘呪文を唱える"
 
 msgid "hotkey|toggle display of battle turn order"
-msgstr "戦闘ターン順序の表示の切り替え"
+msgstr "戦闘時の行動順表示の切り替え"
 
 msgid "hotkey|dwelling level 1"
-msgstr "住居レベル 1"
+msgstr "居住施設1を選択"
 
 msgid "hotkey|dwelling level 2"
-msgstr "住居レベル 2"
+msgstr "居住施設2を選択"
 
 msgid "hotkey|dwelling level 3"
-msgstr "住居レベル 3"
+msgstr "居住施設3を選択"
 
 msgid "hotkey|dwelling level 4"
-msgstr "住居レベル 4"
+msgstr "居住施設4を選択"
 
 msgid "hotkey|dwelling level 5"
-msgstr "住居レベル 5"
+msgstr "居住施設5を選択"
 
 msgid "hotkey|dwelling level 6"
-msgstr "住居レベル 6"
+msgstr "居住施設6を選択"
 
 msgid "hotkey|well"
-msgstr "ウェル"
+msgstr "井戸を選択"
 
 msgid "hotkey|marketplace"
-msgstr "マーケットプレイス"
+msgstr "市場を選択"
 
 msgid "hotkey|mage guild"
-msgstr "魔術師ギルド"
+msgstr "魔道師ギルドを選択"
 
 msgid "hotkey|shipyard"
-msgstr "造船所"
+msgstr "造船所を選択"
 
 msgid "hotkey|thieves guild"
-msgstr "盗賊ギルド"
+msgstr "盗賊ギルドを選択"
 
 msgid "hotkey|tavern"
-msgstr "酒場"
+msgstr "BARを選択"
 
 msgid "hotkey|construction screen"
-msgstr "構築画面"
+msgstr "町・城を選択"
 
 msgid "hotkey|buy all monsters in well"
-msgstr "井戸内のすべてのモンスターを購入する"
+msgstr "雇用可能なユニットをすべて購入する"
 
 msgid "hotkey|merge troops with hero"
-msgstr "軍隊を勇者と結合する"
+msgstr "守備隊のユニットを勇者のユニットに合流させる"
 
 msgid "hotkey|merge troops with garrison"
-msgstr "軍隊を駐屯地と統合する"
+msgstr "勇者のユニットを守備隊のユニットと合流させる"
 
 msgid "hotkey|split stack by half"
-msgstr "スタックを半分に分割"
+msgstr "ユニットを半分移動する"
 
 msgid "hotkey|split stack by one"
-msgstr "スタックを 1 つずつ分割"
+msgstr "ユニットを1体ずつ移動する"
 
 msgid "hotkey|join stacks"
-msgstr "スタックに参加"
+msgstr "ユニットを合流させる"
 
 msgid "hotkey|upgrade troop"
-msgstr "部隊をアップグレード"
+msgstr "ユニットをアップグレードする"
 
 msgid "hotkey|dismiss hero or troop"
-msgstr "勇者または部隊を解雇"
+msgstr "勇者またはユニットを解雇する"
 
 msgid "hotkey|exchange all troops"
-msgstr "すべての軍隊を交換する"
+msgstr "すべてのユニットを交換する"
 
 msgid ""
 "Do you want to regain control from AI? The effect will take place only on "
