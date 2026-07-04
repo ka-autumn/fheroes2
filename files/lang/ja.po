@@ -517,7 +517,7 @@ msgstr "勇者の隣にエレメンタルを召喚できる空きスペースは
 msgid ""
 "The Moat interrupts any movement through it and reduces the defense skill of"
 " troops present in it by %{count}."
-msgstr "堀はそこを通るあらゆる動きを妨害し、その中にいる軍隊の防御スキルを%{count}低下させます。"
+msgstr "堀はそこを通るあらゆる動きを妨害し、その中にいる軍隊の防御技能を%{count}低下させます。"
 
 msgid "battleAnimation|Speed: %{speed}"
 msgstr "スピード: %{speed}"
@@ -1112,7 +1112,7 @@ msgid "The %{name} fires with the strength of %{count} Archers"
 msgstr "%{name}は、%{count}人の射手の力で射撃します"
 
 msgid "each with a +%{attack} bonus to their attack skill."
-msgstr "それぞれの攻撃スキルに +%{attack} ボーナスが与えられます。"
+msgstr "それぞれの攻撃技能に +%{attack} ボーナスが与えられます。"
 
 msgid "The %{name} is destroyed."
 msgstr "%{name}は破壊されています。"
@@ -2570,7 +2570,7 @@ msgid ""
 "moat must end its turn there and can only move within the moat one hex at a "
 "time. Any creature present in the moat will have its defense skill reduced "
 "by %{count}."
-msgstr "堀は攻撃ユニットの速度を低下させ、弱体化させます。堀に進入した歩行ユニットはそこでターンを終了しなければならず、堀内で一度に1ヘクスずつしか移動できません。堀内に存在するあらゆるユニットの防御スキルが%{count}低下します。"
+msgstr "堀は攻撃ユニットの速度を低下させ、弱体化させます。堀に進入した歩行ユニットはそこでターンを終了しなければならず、堀内で一度に1ヘクスずつしか移動できません。堀内に存在するあらゆるユニットの防御技能が%{count}低下します。"
 
 msgid ""
 "The Castle improves the town's defense and increases its income to %{count} "
@@ -2765,10 +2765,10 @@ msgstr ""
 "あなたはアリーナに入ると、凶暴なライオンの群れに直面します。あなたは群衆の熱狂的な歓声の中、彼らを簡単に倒しました。あなたのスキルに感銘を受けた年老いた剣闘士のトレーナーは、あなたの選択したスキルを訓練することに同意します。"
 
 msgid "Attack Skill"
-msgstr "攻撃スキル"
+msgstr "攻撃技能"
 
 msgid "Defense Skill"
-msgstr "防御スキル"
+msgstr "防御技能"
 
 msgid "Shots"
 msgstr "ショット"
@@ -8097,11 +8097,11 @@ msgid "I fear these creatures are in the mood for a fight."
 msgstr "この生き物たちは戦いを望んでいるのではないかと心配です。"
 
 msgid "The hero's attack skill is a bonus added to each unit's attack skill."
-msgstr "勇者の攻撃スキルは、各ユニットの攻撃スキルに加算されるボーナスです。"
+msgstr "勇者の攻撃技能は、各ユニットの攻撃技能に加算されるボーナスです。"
 
 msgid ""
 "The hero's defense skill is a bonus added to each unit's defense skill."
-msgstr "勇者の防御スキルは、各ユニットの防御スキルに加算されるボーナスです。"
+msgstr "勇者の防御技能は、各ユニットの防御技能に加算されるボーナスです。"
 
 msgid "The hero's spell power determines the duration or power of a spell."
 msgstr "勇者のスペルパワーは、呪文の持続時間または威力を決定します。"
@@ -9806,13 +9806,13 @@ msgid "Ultimate Book of Knowledge"
 msgstr "究極の知識の書"
 
 msgid "The %{name} increases the hero's attack skill by %{count}."
-msgstr "%{name} は勇者の攻撃スキルを %{count} 増加させます。"
+msgstr "%{name} は勇者の攻撃技能を %{count} 増加させます。"
 
 msgid "Ultimate Sword of Dominion"
 msgstr "究極のドミニオンソード"
 
 msgid "The %{name} increases the hero's defense skill by %{count}."
-msgstr "%{name} は勇者の防御スキルを %{count} 増加させます。"
+msgstr "%{name} は勇者の防御技能を %{count} 増加させます。"
 
 msgid "Ultimate Cloak of Protection"
 msgstr "究極の守護マント"
@@ -9825,7 +9825,7 @@ msgstr "究極の魔法の杖"
 
 msgid ""
 "The %{name} increases the hero's attack and defense skills by %{count} each."
-msgstr "%{name} は勇者の攻撃スキルと防御スキルをそれぞれ %{count} 増加させます。"
+msgstr "%{name} は勇者の攻撃技能と防御技能をそれぞれ %{count} 増加させます。"
 
 msgid "Ultimate Shield"
 msgstr "究極の盾"
@@ -9947,7 +9947,7 @@ msgid "Armored Gauntlets of Protection"
 msgstr "守護のガントレット"
 
 msgid "The %{name} increase the hero's defense skill by %{count}."
-msgstr "%{name} は勇者の防御スキルを %{count} 増加させます。"
+msgstr "%{name} は勇者の防御技能を %{count} 増加させます。"
 
 msgid ""
 "You encounter the infamous Black Knight! After a grueling duel ending in a "
@@ -10783,7 +10783,7 @@ msgid "Breastplate of Anduran"
 msgstr "アンデュランの胸当て"
 
 msgid "The %{name} increases the hero's defense by %{count}."
-msgstr "%{name} は勇者の防御力を %{count} 増加させます。"
+msgstr "%{name} は勇者の防御技能を %{count} 増加させます。"
 
 msgid ""
 "You come upon a sign. It reads: \"Here lies the body of Anduran. Bow and "
@@ -10817,7 +10817,7 @@ msgid ""
 "attack, defense, and spell power). It also provides maximum luck and morale "
 "for the hero's troops and gives the hero the Town Portal spell."
 msgstr ""
-"%{name} は、3 つのアンデュラン アーティファクトの力を組み合わせたものです (攻撃力、防御力、呪文パワーが "
+"%{name} は、3 つのアンデュラン アーティファクトの力を組み合わせたものです (攻撃技能、防御技能、呪文パワーが "
 "+5)。また、勇者の軍隊に最大限の幸運と士気をもたらし、勇者にタウンポータルの呪文を与えます。"
 
 msgid ""
@@ -10964,7 +10964,7 @@ msgid "Sword Breaker"
 msgstr "ソードブレイカー"
 
 msgid "The %{name} increases the hero's defense by %{count} and attack by 1."
-msgstr "%{name} は勇者の防御力を %{count} 増加させ、攻撃力を 1 増加させます。"
+msgstr "%{name} は勇者の防御技能を %{count} 増加させ、攻撃技能を 1 増加させます。"
 
 msgid ""
 "A former Captain of the Guard admires your quest and gives you the enchanted"
@@ -11146,7 +11146,7 @@ msgid "Mass Bless"
 msgstr "ブレス・グループ"
 
 msgid "Magically increases the defense skill of the selected creatures."
-msgstr "選択したユニットの防御スキルを魔法で増加させます。"
+msgstr "選択したユニットの防御技能を魔法で増加させます。"
 
 msgid "Stoneskin"
 msgstr "ストーンガード"
@@ -11157,7 +11157,7 @@ msgstr "スチールガード"
 msgid ""
 "Increases the defense skill of the targeted creatures. This is an improved "
 "version of Stoneskin."
-msgstr "対象のユニットの防御スキルを増加させます。これはストーンスキンの改良版です。"
+msgstr "対象のユニットの防御技能を増加させます。これはストーンスキンの改良版です。"
 
 msgid "Causes the selected creatures to inflict minimum damage."
 msgstr "選択したユニットに最小限のダメージを与えます。"
@@ -11287,13 +11287,13 @@ msgid "Dragon Slayer"
 msgstr "ドラゴンスレイヤー"
 
 msgid "Greatly increases a unit's attack skill vs. Dragons."
-msgstr "ユニットの対ドラゴン攻撃スキルが大幅に上昇します。"
+msgstr "ユニットの対ドラゴン攻撃技能が大幅に上昇します。"
 
 msgid "Blood Lust"
 msgstr "アタックパワーアップ"
 
 msgid "Increases a unit's attack skill."
-msgstr "ユニットの攻撃スキルを上昇させます。"
+msgstr "ユニットの攻撃技能を上昇させます。"
 
 msgid "Animate Dead"
 msgstr "アンデッド再生"
