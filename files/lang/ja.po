@@ -1660,10 +1660,10 @@ msgid "campaignBonus|Fireblast"
 msgstr "ファイアブラスト"
 
 msgid "campaignBonus|Mass Curse"
-msgstr "呪い・グループ"
+msgstr "呪い - グループ"
 
 msgid "campaignBonus|Mass Haste"
-msgstr "スピードアップ・グループ"
+msgstr "スピードアップ - グループ"
 
 msgid "campaignBonus|Mirror Image"
 msgstr "分身"
@@ -8064,7 +8064,7 @@ msgid "Enemy heroes are now fully identifiable."
 msgstr "敵の勇者が完全に識別できるようになりました。"
 
 msgid "Identify Hero"
-msgstr "勇者特定"
+msgstr "勇者識別"
 
 msgid "Select town to port to."
 msgstr "港への町を選択してください。"
@@ -11080,7 +11080,7 @@ msgid ""
 msgstr "あなたのユニットの 1 つに唱えられたすべてのマイナス呪文を取り除き、呪文パワー レベルごとに最大 %{count} HP を回復します。"
 
 msgid "Mass Cure"
-msgstr "キュアー・グループ"
+msgstr "キュアー - グループ"
 
 msgid ""
 "Removes all negative spells cast upon your forces, and restores up to "
@@ -11110,7 +11110,7 @@ msgid "Increases the speed of all of your creatures by %{count}."
 msgstr "すべてのユニットの速度を %{count} 増加させます。"
 
 msgid "Mass Haste"
-msgstr "スピードアップ・グループ"
+msgstr "スピードアップ - グループ"
 
 msgid "Slows target to half movement rate."
 msgstr "ターゲットの移動速度を半分に遅くします。"
@@ -11119,7 +11119,7 @@ msgid "spell|Slow"
 msgstr "スピードダウン"
 
 msgid "Mass Slow"
-msgstr "スピードダウン・グループ"
+msgstr "スピードダウン - グループ"
 
 msgid "Slows all enemies to half movement rate."
 msgstr "敵全体の移動速度を半分に遅くします。"
@@ -11142,7 +11142,7 @@ msgid "Causes all of your units to inflict maximum damage."
 msgstr "すべてのユニットに最大のダメージを与えます。"
 
 msgid "Mass Bless"
-msgstr "ブレス・グループ"
+msgstr "ブレス - グループ"
 
 msgid "Magically increases the defense skill of the selected creatures."
 msgstr "選択したユニットの防御技能を魔法で増加させます。"
@@ -11168,7 +11168,7 @@ msgid "Causes all enemy troops to inflict minimum damage."
 msgstr "すべての敵軍に最小限のダメージを与えます。"
 
 msgid "Mass Curse"
-msgstr "呪い・グループ"
+msgstr "呪い - グループ"
 
 msgid "Damages all undead in the battle."
 msgstr "戦闘中のアンデッド全員にダメージを与える。"
@@ -11196,7 +11196,7 @@ msgid "Removes all magic spells from a single target."
 msgstr "単一のターゲットからすべての魔法の呪文を削除します。"
 
 msgid "Mass Dispel"
-msgstr "ディスペル・グループ"
+msgstr "ディスペル - グループ"
 
 msgid "Removes all magic spells from all creatures."
 msgstr "すべてのユニットからすべての魔法の呪文を取り除きます。"
@@ -11232,7 +11232,7 @@ msgid ""
 msgstr "岩の雨が戦場のエリアを襲い、近くのすべての生き物にダメージを与えます。"
 
 msgid "Meteor Shower"
-msgstr "メテオストライク"
+msgstr "メテオシャワー"
 
 msgid "Paralyze"
 msgstr "麻痺"
@@ -11319,7 +11319,7 @@ msgid ""
 msgstr "単体の遠距離攻撃で受けるダメージを半減する。タレットやバリスタから受けるダメージには影響しません。"
 
 msgid "Mass Shield"
-msgstr "シールド・グループ"
+msgstr "シールド - グループ"
 
 msgid ""
 "Halves damage received from ranged attacks for all of your units. Does not "
