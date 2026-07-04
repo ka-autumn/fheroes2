@@ -992,10 +992,10 @@ msgid "Perish: %{min} - %{max}"
 msgstr "死亡: %{min} - %{max}"
 
 msgid "battle_turn_order|Top"
-msgstr "トップ"
+msgstr "画面上部"
 
 msgid "battle_turn_order|Bottom"
-msgstr "下位"
+msgstr "画面下部"
 
 msgid "Turn Order"
 msgstr "ターン順序"
@@ -1007,10 +1007,10 @@ msgid "Damage Info"
 msgstr "被害情報"
 
 msgid "Shadow Movement"
-msgstr "影の動き"
+msgstr "移動ハイライト"
 
 msgid "Shadow Cursor"
-msgstr "シャドウカーソル"
+msgstr "カーソルハイライト"
 
 msgid "Movement Area"
 msgstr "移動エリア"
@@ -1022,20 +1022,19 @@ msgid ""
 "Toggle the hex grid on or off. The hex grid always underlies movement, even "
 "if turned off. This switch only determines if the grid is visible."
 msgstr ""
-"16 "
-"進グリッドのオンとオフを切り替えます。六角グリッドは、オフになっている場合でも、常に動きの基礎となります。このスイッチは、グリッドが表示されるかどうかのみを決定します。"
+"グリッドのオンとオフを切り替えます。グリッドは、オフになっている場合でも、常に動きの基礎となります。このスイッチは、グリッドが表示されるかどうかのみを決定します。"
 
 msgid "Toggle to display damage information during the battle."
 msgstr "戦闘中のダメージ情報の表示を切り替えます。"
 
 msgid ""
 "Toggle on or off shadows showing where your creatures can move and attack."
-msgstr "ユニットが移動して攻撃できる場所を示す影のオンとオフを切り替えます。"
+msgstr "ユニットが移動して攻撃できる場所を示すハイライトのオンとオフを切り替えます。"
 
 msgid ""
 "Toggle on or off a shadow showing the current hex location of the mouse "
 "cursor."
-msgstr "マウス カーソルの現在の 16 進位置を示す影のオンとオフを切り替えます。"
+msgstr "マウスカーソルの現在のグリッド位置を示すハイライトのオンとオフを切り替えます。"
 
 msgid "Toggle showing the movement area of a highlighted creature on or off."
 msgstr "ハイライトされたユニットの移動領域の表示のオンとオフを切り替えます。"
