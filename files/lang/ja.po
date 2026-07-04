@@ -2190,46 +2190,46 @@ msgid "There is no room in the garrison for this army."
 msgstr "駐屯地にはこの軍隊が入る余地はありません。"
 
 msgid "Fortifications"
-msgstr "要塞"
+msgstr "防壁"
 
 msgid "Farm"
 msgstr "農場"
 
 msgid "Thatched Hut"
-msgstr "茅葺き小屋"
+msgstr "わらぶき小屋"
 
 msgid "Archery Range"
-msgstr "アーチェリー場"
+msgstr "射的場"
 
 msgid "Upg. Archery Range"
-msgstr "アップグレードアーチェリー場"
+msgstr "射的場 グレードアップ版"
 
 msgid "Blacksmith"
-msgstr "鍛冶屋"
+msgstr "鍛冶場"
 
 msgid "Upg. Blacksmith"
-msgstr "アップグレード鍛冶屋"
+msgstr "鍛冶場 グレードアップ版"
 
 msgid "Armory"
-msgstr "武器庫"
+msgstr "練兵場"
 
 msgid "Upg. Armory"
-msgstr "アップグレード武器庫"
+msgstr "練兵場 グレードアップ版"
 
 msgid "Jousting Arena"
-msgstr "馬上槍試合アリーナ"
+msgstr "馬上試合場"
 
 msgid "Upg. Jousting Arena"
-msgstr "アップグレード馬上槍試合アリーナ"
+msgstr "馬上試合場 グレードアップ版"
 
 msgid "Cathedral"
-msgstr "大聖堂"
+msgstr "聖堂"
 
 msgid "Upg. Cathedral"
-msgstr "アップグレード大聖堂"
+msgstr "聖堂 グレードアップ版"
 
 msgid "Coliseum"
-msgstr "コロシアム"
+msgstr "闘技場"
 
 msgid "Garbage Heap"
 msgstr "ゴミの山"
@@ -2238,25 +2238,25 @@ msgid "Hut"
 msgstr "小屋"
 
 msgid "Stick Hut"
-msgstr "スティックハット"
+msgstr "丸太小屋"
 
 msgid "Upg. Stick Hut"
-msgstr "アップグレードスティックハット"
+msgstr "丸太小屋 グレードアップ版"
 
 msgid "Den"
-msgstr "デン"
+msgstr "巣穴"
 
 msgid "Adobe"
-msgstr "アドビ"
+msgstr "住居"
 
 msgid "Upg. Adobe"
-msgstr "アップグレードアドビ"
+msgstr "住居 グレードアップ版"
 
 msgid "Bridge"
 msgstr "橋"
 
 msgid "Upg. Bridge"
-msgstr "アップグレード橋"
+msgstr "橋 グレードアップ版"
 
 msgid "Pyramid"
 msgstr "ピラミッド"
@@ -2265,31 +2265,31 @@ msgid "Rainbow"
 msgstr "虹"
 
 msgid "Crystal Garden"
-msgstr "クリスタルガーデン"
+msgstr "水晶の庭"
 
 msgid "Treehouse"
-msgstr "ツリーハウス"
+msgstr "木の家"
 
 msgid "Cottage"
 msgstr "コテージ"
 
 msgid "Upg. Cottage"
-msgstr "アップグレードコテージ"
+msgstr "コテージ グレードアップ版"
 
 msgid "Stonehenge"
 msgstr "ストーンヘンジ"
 
 msgid "Upg. Stonehenge"
-msgstr "アップグレードストーンヘンジ"
+msgstr "ストーンヘンジ グレードアップ版"
 
 msgid "Fenced Meadow"
-msgstr "柵で囲まれた牧草地"
+msgstr "牧草地"
 
 msgid "sorceress|Red Tower"
 msgstr "赤い塔"
 
 msgid "Dungeon"
-msgstr "ダンジョン"
+msgstr "地下牢"
 
 msgid "Waterfall"
 msgstr "滝"
@@ -2298,28 +2298,28 @@ msgid "Cave"
 msgstr "洞窟"
 
 msgid "Crypt"
-msgstr "地下墓所"
+msgstr "地下室"
 
 msgid "Nest"
-msgstr "ネスト"
+msgstr "鳥の巣"
 
 msgid "Maze"
 msgstr "迷路"
 
 msgid "Upg. Maze"
-msgstr "アップグレード迷路"
+msgstr "迷路 グレードアップ版"
 
 msgid "Swamp"
 msgstr "沼地"
 
 msgid "Green Tower"
-msgstr "グリーンタワー"
+msgstr "緑の塔"
 
 msgid "warlock|Red Tower"
-msgstr "レッドタワー"
+msgstr "赤い塔"
 
 msgid "Black Tower"
-msgstr "ブラックタワー"
+msgstr "黒い塔"
 
 msgid "Library"
 msgstr "図書館"
@@ -2328,109 +2328,109 @@ msgid "Orchard"
 msgstr "果樹園"
 
 msgid "Habitat"
-msgstr "生息地"
+msgstr "家"
 
 msgid "Pen"
-msgstr "囲い"
+msgstr "猪の檻"
 
 msgid "Foundry"
 msgstr "鋳物工場"
 
 msgid "Upg. Foundry"
-msgstr "アップグレード鋳物工場"
+msgstr "鋳物工場 グレードアップ版"
 
 msgid "Cliff Nest"
-msgstr "クリフネスト"
+msgstr "崖の巣"
 
 msgid "Ivory Tower"
-msgstr "アイボリータワー"
+msgstr "象牙の塔"
 
 msgid "Upg. Ivory Tower"
-msgstr "アップグレードアイボリータワー"
+msgstr "象牙の塔 グレードアップ版"
 
 msgid "Cloud Castle"
-msgstr "クラウドキャッスル"
+msgstr "雲の宮殿"
 
 msgid "Upg. Cloud Castle"
-msgstr "アップグレードクラウドキャッスル"
+msgstr "雲の宮殿 グレードアップ版"
 
 msgid "Storm"
-msgstr "嵐"
+msgstr "ストーム"
 
 msgid "Skull Pile"
-msgstr "スカルパイル"
+msgstr "ドクロの山"
 
 msgid "Excavation"
-msgstr "発掘"
+msgstr "古代の墓穴"
 
 msgid "Graveyard"
-msgstr "墓地"
+msgstr "墓場"
 
 msgid "Upg. Graveyard"
-msgstr "アップグレード墓地"
+msgstr "墓場 グレードアップ版"
 
 msgid "Upg. Pyramid"
-msgstr "アップグレードピラミッド"
+msgstr "ピラミッド グレードアップ版"
 
 msgid "Mansion"
 msgstr "邸宅"
 
 msgid "Upg. Mansion"
-msgstr "アップグレード邸宅"
+msgstr "邸宅 グレードアップ版"
 
 msgid "Mausoleum"
 msgstr "霊廟"
 
 msgid "Upg. Mausoleum"
-msgstr "アップグレード霊廟"
+msgstr "霊廟 グレードアップ版"
 
 msgid "Laboratory"
 msgstr "研究室"
 
 msgid "Shrine"
-msgstr "神社"
+msgstr "祠"
 
 msgid "Special"
-msgstr "特別"
+msgstr "種族固有の建物"
 
 msgid "Horde Building"
-msgstr "大群の建物"
+msgstr "群れの巣"
 
 msgid "Dwelling 1"
-msgstr "住居1"
+msgstr "居住施設1"
 
 msgid "Dwelling 2"
-msgstr "住居2"
+msgstr "居住施設2"
 
 msgid "Upg. Dwelling 2"
-msgstr "アップグレード住居2"
+msgstr "居住施設2 アップグレード版"
 
 msgid "Dwelling 3"
-msgstr "住居3"
+msgstr "居住施設3"
 
 msgid "Upg. Dwelling 3"
-msgstr "アップグレード住居3"
+msgstr "居住施設3 アップグレード版"
 
 msgid "Dwelling 4"
-msgstr "住居4"
+msgstr "居住施設4"
 
 msgid "Upg. Dwelling 4"
-msgstr "アップグレード住居4"
+msgstr "居住施設4 アップグレード版"
 
 msgid "Dwelling 5"
-msgstr "住居5"
+msgstr "居住施設5"
 
 msgid "Upg. Dwelling 5"
-msgstr "アップグレード住居5"
+msgstr "居住施設5 アップグレード版"
 
 msgid "Dwelling 6"
-msgstr "住居6"
+msgstr "居住施設6"
 
 msgid "Upg. Dwelling 6"
-msgstr "アップグレード住居6"
+msgstr "居住施設6 アップグレード版"
 
 msgid "2x Upg. Dwelling 6"
-msgstr "2倍のアップグレード住居6"
+msgstr "居住施設6 2段アップグレード版"
 
 msgid ""
 "The Fortifications increase the toughness of the walls, increasing the "
@@ -2488,7 +2488,7 @@ msgid "Thieves' Guild"
 msgstr "盗賊ギルド"
 
 msgid "Tavern"
-msgstr "居酒屋"
+msgstr "BAR"
 
 msgid "Shipyard"
 msgstr "造船所"
@@ -2497,7 +2497,7 @@ msgid "Well"
 msgstr "井戸"
 
 msgid "Statue"
-msgstr "像"
+msgstr "銅像"
 
 msgid "Marketplace"
 msgstr "市場"
@@ -2512,22 +2512,22 @@ msgid "Tent"
 msgstr "テント"
 
 msgid "Captain's Quarters"
-msgstr "守備隊長の間"
+msgstr "守備隊長の兵舎"
 
 msgid "Mage Guild, Level 1"
-msgstr "魔術師ギルド、レベル 1"
+msgstr "魔道師ギルド レベル1"
 
 msgid "Mage Guild, Level 2"
-msgstr "魔術師ギルド、レベル2"
+msgstr "魔道師ギルド レベル2"
 
 msgid "Mage Guild, Level 3"
-msgstr "魔術師ギルド、レベル 3"
+msgstr "魔道師ギルド レベル3"
 
 msgid "Mage Guild, Level 4"
-msgstr "魔術師ギルド、レベル 4"
+msgstr "魔道師ギルド レベル4"
 
 msgid "Mage Guild, Level 5"
-msgstr "魔術師ギルド、レベル5"
+msgstr "魔道師ギルド レベル5"
 
 msgid ""
 "The Shrine increases the necromancy skill of all your necromancers by 10 "
