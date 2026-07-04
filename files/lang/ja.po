@@ -11019,7 +11019,7 @@ msgid "Gems"
 msgstr "宝石"
 
 msgid "Gold"
-msgstr "金"
+msgstr "黄金"
 
 msgid ""
 "There are seven resources in Heroes 2, used to build and improves castles, "
