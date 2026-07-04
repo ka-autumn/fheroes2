@@ -2265,10 +2265,10 @@ msgid "Rainbow"
 msgstr "虹"
 
 msgid "Crystal Garden"
-msgstr "水晶の庭"
+msgstr "水晶の庭園"
 
 msgid "Treehouse"
-msgstr "木の家"
+msgstr "樹の家"
 
 msgid "Cottage"
 msgstr "コテージ"
@@ -2301,7 +2301,7 @@ msgid "Crypt"
 msgstr "地下室"
 
 msgid "Nest"
-msgstr "鳥の巣"
+msgstr "巣"
 
 msgid "Maze"
 msgstr "迷路"
@@ -2331,7 +2331,7 @@ msgid "Habitat"
 msgstr "家"
 
 msgid "Pen"
-msgstr "猪の檻"
+msgstr "猪のおり"
 
 msgid "Foundry"
 msgstr "鋳物工場"
