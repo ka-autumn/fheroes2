@@ -3310,13 +3310,13 @@ msgid "rmg|Map layout:"
 msgstr "マップのレイアウト:"
 
 msgid "rmg|Water percentage:"
-msgstr "水分の割合:"
+msgstr "水域の割合:"
 
 msgid "rmg|Monster strength:"
 msgstr "モンスターの強さ:"
 
 msgid "rmg|Resource availability:"
-msgstr "リソースの可用性:"
+msgstr "資源の量:"
 
 msgid "rmg|Map seed:"
 msgstr "マップ シード:"
@@ -8754,10 +8754,10 @@ msgid "Ocean"
 msgstr "海"
 
 msgid "map_layout|Mirrored"
-msgstr "ミラーリング"
+msgstr "対称"
 
 msgid "map_layout|Balanced"
-msgstr "バランスのとれた"
+msgstr "標準"
 
 msgid "map_layout|Islands"
 msgstr "島"
@@ -8769,13 +8769,13 @@ msgid "map_layout|Quest"
 msgstr "クエスト"
 
 msgid "resource_density|Scarce"
-msgstr "希少性"
+msgstr "少ない"
 
 msgid "resource_density|Normal"
-msgstr "通常"
+msgstr "普通"
 
 msgid "resource_density|Abundant"
-msgstr "豊富な"
+msgstr "多い"
 
 msgid "monster_strength|Weak"
 msgstr "弱い"
@@ -8787,7 +8787,7 @@ msgid "monster_strength|Strong"
 msgstr "強い"
 
 msgid "monster_strength|Deadly"
-msgstr "致命的"
+msgstr "脅威的"
 
 msgid "maps|Small"
 msgstr "小"
