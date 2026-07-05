@@ -10567,7 +10567,7 @@ msgid "Tax Lien"
 msgstr "重税の証文"
 
 msgid "The %{name} costs the hero %{count} gold pieces per day."
-msgstr "%{name} を持つ勇者は、1 日あたり黄金を %{count} ポイント消費します。"
+msgstr "%{name} を持つ勇者は、1 日あたり黄金を %{count} ポイント失います。"
 
 msgid ""
 "Your big spending habits have earned you a massive tax bill that you can't "
