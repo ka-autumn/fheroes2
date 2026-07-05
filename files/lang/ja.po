@@ -9888,7 +9888,7 @@ msgid "Medal of Valor"
 msgstr "武勇のメダル"
 
 msgid "The %{name} increases the morale of the hero's army by %{count}."
-msgstr "%{name} は勇者の軍隊の士気を %{count} 増加させます。"
+msgstr "%{name} により、味方の士気が +%{count} されます。"
 
 msgid ""
 "Freeing a virtuous maiden from the clutches of an evil overlord, you are "
@@ -9925,7 +9925,7 @@ msgstr "不幸のフィズビン"
 
 msgid ""
 "The %{name} greatly decreases the morale of the hero's army by %{count}."
-msgstr "%{name} は勇者の軍隊の士気を %{count} だけ大幅に低下させます。"
+msgstr "%{name} により、味方の士気が -%{count} されます。"
 
 msgid ""
 "You stumble upon a medal lying alongside the empty road. Adding the medal to"
@@ -10114,7 +10114,7 @@ msgid "Lucky Rabbit's Foot"
 msgstr "幸運のラビットフット"
 
 msgid "The %{name} increases the luck of the hero's army by %{count}."
-msgstr "%{name} は勇者の軍隊の運を %{count} 増加させます。"
+msgstr "%{name} により、味方の運が +%{count} されます。"
 
 msgid ""
 "A traveling merchant offers you a rabbit's foot, made of gleaming silver "
@@ -10921,7 +10921,7 @@ msgstr "マストヘッド"
 msgid ""
 "The %{name} boosts the hero's troops' luck and morale by %{count} each in "
 "sea combat."
-msgstr "%{name} は、海戦で勇者の部隊の運と士気をそれぞれ %{count} 高めます。"
+msgstr "%{name} により、海戦時に味方の運と士気がそれぞれ +%{count} されます。"
 
 msgid ""
 "An old seaman tells you a tale of an enchanted masthead that he used in his "
