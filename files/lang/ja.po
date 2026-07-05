@@ -4004,7 +4004,7 @@ msgid "Event Message Text"
 msgstr "イベントメッセージテキスト"
 
 msgid "Day: %{day}"
-msgstr "日: %{day}"
+msgstr "%{day}日目"
 
 msgid "Daily events:"
 msgstr "毎日のイベント:"
