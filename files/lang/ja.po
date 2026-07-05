@@ -2966,16 +2966,12 @@ msgstr "テキストサポートモードを切り替えて、ゲーム内のウ
 msgid ""
 "Map\n"
 "Difficulty"
-msgstr ""
-"地図\n"
-"難易度"
+msgstr "マップの難易度"
 
 msgid ""
 "Game\n"
 "Difficulty"
-msgstr ""
-"ゲーム\n"
-"難易度"
+msgstr "ゲームの難易度"
 
 msgid "Rating"
 msgstr "スコア倍率"
