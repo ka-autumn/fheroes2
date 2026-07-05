@@ -8414,16 +8414,16 @@ msgid "Purple"
 msgstr "紫"
 
 msgid "barrier|Aqua"
-msgstr "アクア"
+msgstr "水色"
 
 msgid "barrier|Blue"
 msgstr "青"
 
 msgid "barrier|Brown"
-msgstr "ブラウン"
+msgstr "茶色"
 
 msgid "barrier|Gold"
-msgstr "ゴールド"
+msgstr "黄色"
 
 msgid "barrier|Green"
 msgstr "緑"
@@ -8438,19 +8438,19 @@ msgid "barrier|Red"
 msgstr "赤"
 
 msgid "tent|Aqua"
-msgstr "アクア"
+msgstr "水色"
 
 msgid "tent|Blue"
-msgstr "ブルー"
+msgstr "青"
 
 msgid "tent|Brown"
-msgstr "ブラウン"
+msgstr "茶色"
 
 msgid "tent|Gold"
-msgstr "ゴールド"
+msgstr "黄色"
 
 msgid "tent|Green"
-msgstr "グリーン"
+msgstr "緑"
 
 msgid "tent|Orange"
 msgstr "オレンジ"
