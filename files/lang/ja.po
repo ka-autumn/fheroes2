@@ -9847,7 +9847,7 @@ msgid "Golden Goose"
 msgstr "黄金のガチョウ"
 
 msgid "The %{name} brings in an income of %{count} gold per day."
-msgstr "%{name} は 1 日あたり %{count} ゴールドの収入をもたらします。"
+msgstr "%{name} を持つ勇者は、1 日あたり黄金を %{count} ポイント得ます。"
 
 msgid "Arcane Necklace of Magic"
 msgstr "神秘のネックレス"
@@ -10060,7 +10060,7 @@ msgid "Endless Sack of Gold"
 msgstr "無限の金の袋"
 
 msgid "The %{name} provides the hero with %{count} gold per day."
-msgstr "%{name} は勇者に 1 日あたり %{count} ゴールドを提供します。"
+msgstr "%{name} を持つ勇者は、1 日あたり黄金を %{count} ポイント得ます。"
 
 msgid ""
 "A little leprechaun dances gleefully around a magic sack. Seeing you "
@@ -10567,7 +10567,7 @@ msgid "Tax Lien"
 msgstr "重税の証文"
 
 msgid "The %{name} costs the hero %{count} gold pieces per day."
-msgstr "%{name} では、勇者は 1 日あたり %{count} ゴールド ピースを消費します。"
+msgstr "%{name} を持つ勇者は、1 日あたり黄金を %{count} ポイント消費します。"
 
 msgid ""
 "Your big spending habits have earned you a massive tax bill that you can't "
@@ -10596,7 +10596,7 @@ msgid "Endless Pouch of Sulfur"
 msgstr "不思議な硫黄のポーチ"
 
 msgid "The %{name} provides %{count} unit of sulfur per day."
-msgstr "%{name} は 1 日あたり %{count} 単位の硫黄を供給します。"
+msgstr "%{name} を持つ勇者は、1 日あたり硫黄を %{count} 個得ます。"
 
 msgid ""
 "You visit an alchemist who, upon seeing your army, is swayed by the "
@@ -10609,7 +10609,7 @@ msgid "Endless Vial of Mercury"
 msgstr "不思議な水銀の小瓶"
 
 msgid "The %{name} provides %{count} unit of mercury per day."
-msgstr "%{name} は 1 日あたり %{count} 単位の水銀を供給します。"
+msgstr "%{name} を持つ勇者は、1 日あたり水銀を %{count} 個得ます。"
 
 msgid ""
 "A brief stop at a hastily abandoned Wizard's tower turns up a magical vial "
@@ -10622,7 +10622,7 @@ msgid "Endless Pouch of Gems"
 msgstr "不思議な宝石のポーチ"
 
 msgid "The %{name} provides %{count} unit of gems per day."
-msgstr "%{name} は 1 日あたり %{count} ユニットの宝石を提供します。"
+msgstr "%{name} を持つ勇者は、1 日あたり宝石を %{count} 個得ます。"
 
 msgid ""
 "A short rainstorm brings forth a rainbow...and you can see the end of it. "
@@ -10636,7 +10636,7 @@ msgid "Endless Cord of Wood"
 msgstr "不思議な木材の束"
 
 msgid "The %{name} provides %{count} unit of wood per day."
-msgstr "%{name} は 1 日あたり %{count} 単位の木材を提供します。"
+msgstr "%{name} を持つ勇者は、1 日あたり木材を %{count} 個得ます。"
 
 msgid ""
 "Pausing to rest and light a cook fire, you pull wood out of a nearby pile of"
@@ -10650,7 +10650,7 @@ msgid "Endless Cart of Ore"
 msgstr "不思議な鉱石のカート"
 
 msgid "The %{name} provides %{count} unit of ore per day."
-msgstr "%{name} は 1 日あたり %{count} 単位の鉱石を提供します。"
+msgstr "%{name} を持つ勇者は、1 日あたり鉱石を %{count} 個得ます。"
 
 msgid ""
 "You've found a Goblin weapon smithy making weapons for use against humans. "
@@ -10671,7 +10671,7 @@ msgstr ""
 "小さな洞窟で嵐から避難していると、隅に小さな水晶の塊があることに気づきました。不思議なことに、あなたは破片を切り離すと、元の水晶が失われた破片を成長させて元に戻すことに気づきました。あなたはパッチ全体をポーチに詰めて持ち歩くことにしました。"
 
 msgid "The %{name} provides %{count} unit of crystal per day."
-msgstr "%{name} は 1 日あたり %{count} ユニットの水晶を提供します。"
+msgstr "%{name} を持つ勇者は、1 日あたり水晶を %{count} 個得ます。"
 
 msgid "Spiked Helm"
 msgstr "スパイクヘルム"
