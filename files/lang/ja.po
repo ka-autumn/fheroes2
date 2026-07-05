@@ -4962,10 +4962,10 @@ msgid "Failed to prepare the map for auto playtest."
 msgstr "自動プレイテスト用のマップの準備に失敗しました。"
 
 msgid "autoPlaytest|Number of playthroughs:"
-msgstr "プレイスルー数:"
+msgstr "プレイ回数:"
 
 msgid "autoPlaytest|Max days per playthrough:"
-msgstr "プレイスルーあたりの最大日数:"
+msgstr "1プレイあたりの最大日数:"
 
 msgid "autoPlaytest|Animation"
 msgstr "アニメーション"
