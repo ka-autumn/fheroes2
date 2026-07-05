@@ -4931,16 +4931,16 @@ msgid "difficulty|Easy"
 msgstr "簡単"
 
 msgid "difficulty|Normal"
-msgstr "ノーマル"
+msgstr "普通"
 
 msgid "difficulty|Hard"
-msgstr "ハード"
+msgstr "難しい"
 
 msgid "difficulty|Expert"
 msgstr "エキスパート"
 
 msgid "difficulty|Impossible"
-msgstr "不可能"
+msgstr "インポッシブル"
 
 msgid "Auto Playtest Results"
 msgstr "自動プレイテストの結果"
@@ -6049,7 +6049,7 @@ msgid ""
 "difficulty levels start you off with fewer resources, and at the higher "
 "settings, give extra resources to the computer."
 msgstr ""
-"これにより、プレイする開始難易度を変更できます。難易度が高くなると少ないリソースで開始され、設定を高くするとコンピューターに追加のリソースが与えられます。"
+"プレイ開始時の難易度を変更できます。難易度が高くなるにつれてプレイヤーが最初に所持している資源が少なくなり、敵が所持している資源が多くなります。"
 
 msgid "Difficulty Rating"
 msgstr "難易度評価"
