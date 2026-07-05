@@ -2888,7 +2888,7 @@ msgid "New Game"
 msgstr "New Game"
 
 msgid "Start a single or multi-player game."
-msgstr "シングルまたはマルチプレイヤー ゲームを開始します。"
+msgstr "シングルまたはマルチプレイヤーゲームを開始します。"
 
 msgid "Load Game"
 msgstr "Load Game"
@@ -5039,7 +5039,7 @@ msgid "Start the selected scenario."
 msgstr "選択したシナリオを開始します。"
 
 msgid "View Intro"
-msgstr "概要を見る"
+msgstr "イントロを見る"
 
 msgid "View the intro video for the current state of the campaign."
 msgstr "キャンペーンの現在の状況については、紹介ビデオをご覧ください。"
@@ -5055,7 +5055,7 @@ msgid "Restart the current scenario."
 msgstr "現在のシナリオを再開します。"
 
 msgid "Difficulty"
-msgstr "困難"
+msgstr "難易度"
 
 msgid ""
 "You have changed the campaign difficulty. The final high score will be "
