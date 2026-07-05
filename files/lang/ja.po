@@ -10174,7 +10174,7 @@ msgid "Evil Eye"
 msgstr "邪眼"
 
 msgid "The %{name} reduces the casting cost of curse spells by half."
-msgstr "%{name} は呪い呪文の詠唱コストを半分に減らします。"
+msgstr "%{name} は呪い呪文の消費呪文ポイントを半減します。"
 
 msgid ""
 "While venturing into a decrepit hut you find the Skeleton of a long dead "
@@ -10188,7 +10188,7 @@ msgstr "魔法の砂時計"
 
 msgid ""
 "The %{name} extends the duration of all the hero's spells by %{count} turns."
-msgstr "%{name} は勇者のすべての呪文の持続時間を %{count} ターン延長します。"
+msgstr "%{name} はすべての呪文の持続時間を %{count} ターン延長します。"
 
 msgid ""
 "A surprise turn in the landscape finds you in the midst of a grisly scene: "
@@ -10201,7 +10201,7 @@ msgid "Gold Watch"
 msgstr "魔法の金時計"
 
 msgid "The %{name} doubles the effectiveness of the hero's hypnotize spells."
-msgstr "%{name} は、勇者の催眠術の効果を 2 倍にします。"
+msgstr "%{name} は催眠術の効果を倍増します。"
 
 msgid ""
 "In reward for helping his cart out of a ditch, a traveling potion salesman "
@@ -10214,7 +10214,7 @@ msgid "Skullcap"
 msgstr "スカルキャップ"
 
 msgid "The %{name} halves the casting cost of all mind influencing spells."
-msgstr "%{name} は、精神に影響を与えるすべての呪文の詠唱コストを半分にします。"
+msgstr "%{name} は精神系呪文の消費呪文ポイントを半減します。"
 
 msgid ""
 "A brief stop at an improbable rural inn yields an exchange of money, tales, "
@@ -10227,7 +10227,7 @@ msgstr "アイスマント"
 
 msgid ""
 "The %{name} halves all damage the hero's troops receive from cold spells."
-msgstr "%{name} は勇者の軍隊が冷気の呪文から受けるすべてのダメージを半分にします。"
+msgstr "%{name} は冷気の呪文によるダメージを半減します。"
 
 msgid ""
 "Responding to the panicked cries of a damsel in distress, you discover a "
@@ -10241,7 +10241,7 @@ msgstr "ファイヤーマント"
 
 msgid ""
 "The %{name} halves all damage the hero's troops receive from fire spells."
-msgstr "%{name} は、勇者の軍隊が火の呪文から受けるすべてのダメージを半分にします。"
+msgstr "%{name} は火炎の呪文によるダメージを半減します。"
 
 msgid ""
 "You've come upon a fight between a Necromancer and a Paladin. The "
@@ -10257,7 +10257,7 @@ msgstr "ライトニングヘルム"
 msgid ""
 "The %{name} halves all damage the hero's troops receive from lightning "
 "spells."
-msgstr "%{name} は、勇者の軍隊が雷の呪文から受けるすべてのダメージを半分にします。"
+msgstr "%{name} は雷の呪文によるダメージを半減します。"
 
 msgid ""
 "A traveling tinker in need of supplies offers you a helm with a thunderbolt "
@@ -10272,7 +10272,7 @@ msgstr "エバーコールドアイス"
 msgid ""
 "The %{name} causes the hero's cold spells to do %{count} percent more damage"
 " to enemy troops."
-msgstr "%{name} により、勇者の冷気魔法が敵軍に与えるダメージは %{count}% 増加します。"
+msgstr "%{name} は冷気の呪文の与えるダメージを %{count}% 増加させます。"
 
 msgid ""
 "An icicle withstanding the full heat of the noonday sun attracts your "
@@ -10286,7 +10286,7 @@ msgstr "エバーホットラバーロック"
 msgid ""
 "The %{name} causes the hero's fire spells to do %{count} percent more damage"
 " to enemy troops."
-msgstr "%{name} により、勇者の火の呪文が敵軍に与えるダメージは %{count}% 増加します。"
+msgstr "%{name} は火炎の呪文の与えるダメージを %{count}% 増加させます。"
 
 msgid ""
 "Your wanderings bring you into contact with a tribe of ape-like beings using"
@@ -10302,7 +10302,7 @@ msgstr "ライトニングロッド"
 msgid ""
 "The %{name} causes the hero's lightning spells to do %{count} percent more "
 "damage to enemy troops."
-msgstr "%{name} により、勇者の雷魔法は敵軍に %{count}% 多くのダメージを与えます。"
+msgstr "%{name} は雷の呪文の与えるダメージを %{count}% 増加させます。"
 
 msgid ""
 "While waiting out a storm, a lighting bolt strikes a nearby cottage's "
@@ -10316,7 +10316,7 @@ msgid "Snake-Ring"
 msgstr "スネークリング"
 
 msgid "The %{name} halves the casting cost of all of the hero's bless spells."
-msgstr "%{name} は、勇者のすべての祝福呪文の詠唱コストを半分にします。"
+msgstr "%{name} はブレス呪文の消費呪文ポイントを半減します。"
 
 msgid ""
 "You've found an oddly shaped ring on the finger of a long dead traveler. The"
@@ -10329,7 +10329,7 @@ msgstr "アンク"
 msgid ""
 "The %{name} doubles the effectiveness of all of the hero's resurrect and "
 "animate spells."
-msgstr "%{name} は、勇者のすべての復活呪文とアニメーション呪文の有効性を 2 倍にします。"
+msgstr "%{name} はリザレークル呪文とアンデッド再生呪文の効果を倍増します。"
 
 msgid ""
 "A fierce windstorm reveals the entrance to a buried tomb. Your investigation"
@@ -10343,7 +10343,7 @@ msgstr "元素の書"
 
 msgid ""
 "The %{name} doubles the effectiveness of all of the hero's summoning spells."
-msgstr "%{name} は、勇者のすべての召喚呪文の有効性を 2 倍にします。"
+msgstr "%{name} は召喚呪文の効果を倍増します。"
 
 msgid ""
 "You come across a conjurer who begs to accompany you and your army awhile "
@@ -10356,7 +10356,7 @@ msgid "Elemental Ring"
 msgstr "エレメンタルリング"
 
 msgid "The %{name} halves the casting cost of all summoning spells."
-msgstr "%{name} はすべての召喚呪文の詠唱コストを半分にします。"
+msgstr "%{name} は召喚呪文の消費呪文ポイントを半減します。"
 
 msgid ""
 "While pausing to rest, you notice a bobcat climbing a short tree to get at a"
@@ -10370,7 +10370,7 @@ msgid "Holy Pendant"
 msgstr "ホーリーペンダント"
 
 msgid "The %{name} makes all of the hero's troops immune to curse spells."
-msgstr "%{name} は、勇者の軍隊全員を呪いの呪文から守ります。"
+msgstr "%{name} は呪い呪文の効果を無効化します。"
 
 msgid ""
 "In your wanderings you come across a hermit living in a small, tidy hut. "
@@ -10383,7 +10383,7 @@ msgid "Pendant of Free Will"
 msgstr "意志のペンダント"
 
 msgid "The %{name} makes all of the hero's troops immune to hypnotize spells."
-msgstr "%{name} は、勇者の軍隊全員を催眠術の呪文から守ります。"
+msgstr "%{name} は催眠術の効果を無効化します。"
 
 msgid ""
 "Responding to cries for help, you find river Sprites making a sport of "
@@ -10397,7 +10397,7 @@ msgid "Pendant of Life"
 msgstr "生命のペンダント"
 
 msgid "The %{name} makes all of the hero's troops immune to death spells."
-msgstr "%{name} は、勇者の軍隊全員を死の呪文から守ります。"
+msgstr "%{name} は死の呪文の効果を無効化します。"
 
 msgid ""
 "A brief roadside encounter with a small caravan and a game of knucklebones "
@@ -10410,7 +10410,7 @@ msgid "Serenity Pendant"
 msgstr "静寂のペンダント"
 
 msgid "The %{name} makes all of the hero's troops immune to berserk spells."
-msgstr "%{name} は勇者の軍隊全員を凶暴な呪文から守ります。"
+msgstr "%{name} はバーサーカー呪文の効果を無効化します。"
 
 msgid ""
 "The sounds of combat draw you to the scene of a fight between an old "
@@ -10425,7 +10425,7 @@ msgid "Seeing-eye Pendant"
 msgstr "視力のペンダント"
 
 msgid "The %{name} makes all of the hero's troops immune to blindness spells."
-msgstr "%{name} により、勇者の軍隊はすべて失明呪文の影響を受けなくなります。"
+msgstr "%{name} はブラインド呪文の効果を無効化します。"
 
 msgid ""
 "You come upon a very old woman, long blind from cataracts and dying alone. "
@@ -10439,7 +10439,7 @@ msgid "Kinetic Pendant"
 msgstr "活性のペンダント"
 
 msgid "The %{name} makes all of the hero's troops immune to paralyze spells."
-msgstr "%{name} により、勇者の軍隊はすべて麻痺呪文の影響を受けなくなります。"
+msgstr "%{name} は麻痺呪文の効果を無効化します。"
 
 msgid ""
 "You come across a golem wearing a glowing pendant and blocking your way. "
@@ -10452,7 +10452,7 @@ msgid "Pendant of Death"
 msgstr "死のペンダント"
 
 msgid "The %{name} makes all of the hero's troops immune to holy spells."
-msgstr "%{name} により、勇者の軍隊はすべて聖なる呪文の影響を受けなくなります。"
+msgstr "%{name} は聖なる呪文の効果を無効化します。"
 
 msgid ""
 "A quick and deadly battle with a Necromancer wins you his magical pendant. "
@@ -10466,7 +10466,7 @@ msgstr "否定の杖"
 
 msgid ""
 "The %{name} makes all of the hero's troops immune to dispel magic spells."
-msgstr "%{name} により、勇者の軍隊全員が魔法の呪文を解呪されなくなります。"
+msgstr "%{name} はディスペル呪文の効果を無効化します。"
 
 msgid ""
 "You meet an old Wizard friend of yours traveling in the opposite direction. "
@@ -10525,7 +10525,7 @@ msgstr "魔法使いの帽子"
 
 msgid ""
 "The %{name} increases the duration of the hero's spells by %{count} turns."
-msgstr "%{name} は勇者の呪文の持続時間を %{count} ターン延長します。"
+msgstr "%{name} はすべての呪文の持続時間を %{count} ターン延長します。"
 
 msgid ""
 "You see a Wizard fleeing from a Griffin and riding like the wind. The Wizard"
