@@ -1687,10 +1687,10 @@ msgid "campaignBonus|Black Pearl"
 msgstr "ブラックパール"
 
 msgid "campaignBonus|Caster's Bracelet"
-msgstr "キャスターのブレスレット"
+msgstr "魔法のブレスレット"
 
 msgid "campaignBonus|Defender Helm"
-msgstr "ディフェンダーヘルム"
+msgstr "守護の兜"
 
 msgid "campaignBonus|Breastplate"
 msgstr "胸当て"
@@ -1702,7 +1702,7 @@ msgid "campaignBonus|Fizbin Medal"
 msgstr "フィズビンメダル"
 
 msgid "campaignBonus|Foremost Scroll"
-msgstr "最前巻物"
+msgstr "知識の巻物 最終章"
 
 msgid "campaignBonus|Gauntlets"
 msgstr "ガントレット"
@@ -1711,10 +1711,10 @@ msgid "campaignBonus|Hideous Mask"
 msgstr "異形の仮面"
 
 msgid "campaignBonus|Mage's Ring"
-msgstr "魔術師の指輪"
+msgstr "賢者の指輪"
 
 msgid "campaignBonus|Major Scroll"
-msgstr "大巻物"
+msgstr "知識の巻物 第弐章"
 
 msgid "campaignBonus|Medal of Honor"
 msgstr "名誉のメダル"
@@ -1723,10 +1723,10 @@ msgid "campaignBonus|Medal of Valor"
 msgstr "武勇のメダル"
 
 msgid "campaignBonus|Minor Scroll"
-msgstr "小巻物"
+msgstr "知識の巻物 第壱章"
 
 msgid "campaignBonus|Nomad Boots"
-msgstr "ノマドブーツ"
+msgstr "遊牧民のブーツ"
 
 msgid "campaignBonus|Power Axe"
 msgstr "パワーアックス"
@@ -1744,7 +1744,7 @@ msgid "campaignBonus|Thunder Mace"
 msgstr "サンダーメイス"
 
 msgid "campaignBonus|Traveler's Boots"
-msgstr "トラベラーブーツ"
+msgstr "旅人のブーツ"
 
 msgid "campaignBonus|White Pearl"
 msgstr "ホワイトパール"
