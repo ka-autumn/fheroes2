@@ -6289,8 +6289,8 @@ msgid ""
 "You find a small\n"
 "quantity of %{resource}."
 msgstr ""
-"あなたは小さなものを見つけます\n"
-"数量は %{resource} です。"
+"あなたはいくばくかの\n"
+"%{resource}を見つけました。"
 
 msgid "Status Window"
 msgstr "ステータスウィンドウ"
@@ -6298,13 +6298,13 @@ msgstr "ステータスウィンドウ"
 msgid ""
 "This window provides information on the status of your hero or kingdom, and "
 "shows the date."
-msgstr "このウィンドウには、勇者または王国のステータスに関する情報が表示され、日付が表示されます。"
+msgstr "このウィンドウには、勇者または王国に関する情報が表示され、日付が表示されます。"
 
 msgid ""
 "This window provides information on the status of your hero or kingdom, and "
 "shows the date. Left click here to cycle through these windows."
 msgstr ""
-"このウィンドウには、勇者または王国のステータスに関する情報が表示され、日付が表示されます。ここを左クリックして、これらのウィンドウを順番に切り替えます。"
+"このウィンドウには、勇者または王国に関する情報が表示され、日付が表示されます。左クリックでこれらのウィンドウが順番に切り替わります。"
 
 msgid ""
 "This lets you change player starting positions and colors. A particular "
@@ -8664,13 +8664,13 @@ msgid "week|Rat"
 msgstr "ネズミ"
 
 msgid "week|Eagle"
-msgstr "イーグル"
+msgstr "鷹"
 
 msgid "week|Weasel"
 msgstr "イタチ"
 
 msgid "week|Raven"
-msgstr "レイブン"
+msgstr "カラス"
 
 msgid "week|Mongoose"
 msgstr "マングース"
@@ -8703,13 +8703,13 @@ msgid "week|Dragonfly"
 msgstr "トンボ"
 
 msgid "week|Spider"
-msgstr "スパイダー"
+msgstr "クモ"
 
 msgid "week|Butterfly"
 msgstr "蝶"
 
 msgid "week|Bumblebee"
-msgstr "バンブルビー"
+msgstr "ミツバチ"
 
 msgid "week|Locust"
 msgstr "イナゴ"
@@ -8724,7 +8724,7 @@ msgid "week|Beetle"
 msgstr "カブトムシ"
 
 msgid "week|PLAGUE"
-msgstr "ペスト"
+msgstr "疫病"
 
 msgid "week|Unnamed"
 msgstr "名前なし"
