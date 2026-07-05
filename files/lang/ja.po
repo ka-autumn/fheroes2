@@ -2978,10 +2978,10 @@ msgstr ""
 "難易度"
 
 msgid "Rating"
-msgstr "評価"
+msgstr "スコア倍率"
 
 msgid "Map Size"
-msgstr "マップサイズ"
+msgstr "マップの大きさ"
 
 msgid "Opponents"
 msgstr "対戦相手"
@@ -3000,7 +3000,7 @@ msgid ""
 "Loss\n"
 "Conditions"
 msgstr ""
-"損失\n"
+"敗北\n"
 "条件"
 
 msgid "About"
@@ -6033,7 +6033,7 @@ msgid "Class:"
 msgstr "クラス:"
 
 msgid "Rating %{rating}%"
-msgstr "評価 %{rating}%"
+msgstr "スコア倍率 %{rating}%"
 
 msgid "Click here to select which scenario to play."
 msgstr "ここをクリックして、プレイするシナリオを選択します。"
@@ -6052,12 +6052,12 @@ msgstr ""
 "プレイ開始時の難易度を変更できます。難易度が高くなるにつれてプレイヤーが最初に所持している資源が少なくなり、敵が所持している資源が多くなります。"
 
 msgid "Difficulty Rating"
-msgstr "難易度評価"
+msgstr "スコア倍率"
 
 msgid ""
 "The difficulty rating reflects a combination of various settings for your "
 "game. This number will be applied to your final score."
-msgstr "難易度の評価は、ゲームのさまざまな設定の組み合わせを反映します。この数値は最終スコアに適用されます。"
+msgstr "スコア倍率は、ゲームのさまざまな設定の組み合わせを反映します。この数値は最終スコアに適用されます。"
 
 msgid "Click to accept these settings and start a new game."
 msgstr "クリックしてこれらの設定を受け入れ、新しいゲームを開始します。"
@@ -8802,7 +8802,7 @@ msgid "maps|Extra Large"
 msgstr "特大"
 
 msgid "maps|Custom Size"
-msgstr "カスタム サイズ"
+msgstr "カスタム"
 
 msgid "Ore Mine"
 msgstr "鉱石鉱山"
