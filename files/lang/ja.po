@@ -2799,7 +2799,7 @@ msgid "Upgrade your troops."
 msgstr "軍隊をアップグレードします。"
 
 msgid "Dismiss"
-msgstr "解散"
+msgstr "Dismiss"
 
 msgid "Dismiss this army."
 msgstr "この軍隊を解散します。"
@@ -2926,7 +2926,7 @@ msgid "Save the current game without name selection."
 msgstr "名前を選択せずに現在のゲームを保存します。"
 
 msgid "Quit"
-msgstr "終了"
+msgstr "Quit"
 
 msgid "Quit out of Heroes of Might and Magic II."
 msgstr "Heroes of Might and Magic II を終了します。"
