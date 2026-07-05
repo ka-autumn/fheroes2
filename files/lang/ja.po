@@ -3004,10 +3004,10 @@ msgstr ""
 "条件"
 
 msgid "About"
-msgstr "について"
+msgstr "About"
 
 msgid "Click to read notes from the map creator."
-msgstr "クリックすると、マップ作成者からのメモが表示されます。"
+msgstr "マップ作成者のメモを表示します。"
 
 msgid "Map Description"
 msgstr "マップの説明"
@@ -6036,7 +6036,7 @@ msgid "Rating %{rating}%"
 msgstr "スコア倍率 %{rating}%"
 
 msgid "Click here to select which scenario to play."
-msgstr "ここをクリックして、プレイするシナリオを選択します。"
+msgstr "プレイするシナリオを選択します。"
 
 msgid "Scenario"
 msgstr "シナリオ"
@@ -6060,13 +6060,13 @@ msgid ""
 msgstr "スコア倍率は、ゲームのさまざまな設定の組み合わせを反映します。この数値は最終スコアに適用されます。"
 
 msgid "Click to accept these settings and start a new game."
-msgstr "クリックしてこれらの設定を受け入れ、新しいゲームを開始します。"
+msgstr "設定した内容で新しいゲームを開始します。"
 
 msgid "Click to return to the main menu."
-msgstr "クリックするとメインメニューに戻ります。"
+msgstr "メインメニューに戻ります。"
 
 msgid "The map is corrupted or doesn't exist."
-msgstr "マップが壊れているか、存在しません。"
+msgstr "マップファイルが壊れているか、存在しません。"
 
 msgid "Astrologers proclaim the Month of the %{name}."
 msgstr "占星術師は %{name} の月を宣言します。"
