@@ -1708,7 +1708,7 @@ msgid "campaignBonus|Gauntlets"
 msgstr "ガントレット"
 
 msgid "campaignBonus|Hideous Mask"
-msgstr "恐ろしいマスク"
+msgstr "異形の仮面"
 
 msgid "campaignBonus|Mage's Ring"
 msgstr "魔術師の指輪"
@@ -1717,7 +1717,7 @@ msgid "campaignBonus|Major Scroll"
 msgstr "大巻物"
 
 msgid "campaignBonus|Medal of Honor"
-msgstr "名誉勲章"
+msgstr "名誉のメダル"
 
 msgid "campaignBonus|Medal of Valor"
 msgstr "武勇のメダル"
@@ -1738,7 +1738,7 @@ msgid "campaignBonus|Stealth Shield"
 msgstr "ステルスシールド"
 
 msgid "campaignBonus|Tax Lien"
-msgstr "税金先取特権"
+msgstr "重税の証文"
 
 msgid "campaignBonus|Thunder Mace"
 msgstr "サンダーメイス"
@@ -9808,40 +9808,40 @@ msgid "The %{name} increases the hero's attack skill by %{count}."
 msgstr "%{name} は勇者の攻撃技能を %{count} 増加させます。"
 
 msgid "Ultimate Sword of Dominion"
-msgstr "究極のドミニオンソード"
+msgstr "アルティメットソード"
 
 msgid "The %{name} increases the hero's defense skill by %{count}."
 msgstr "%{name} は勇者の防御技能を %{count} 増加させます。"
 
 msgid "Ultimate Cloak of Protection"
-msgstr "究極の守護マント"
+msgstr "アルティメットクローク"
 
 msgid "The %{name} increases the hero's spell power by %{count}."
 msgstr "%{name} は勇者の呪文パワーを %{count} 増加させます。"
 
 msgid "Ultimate Wand of Magic"
-msgstr "究極の魔法の杖"
+msgstr "アルティメットマジックワンド"
 
 msgid ""
 "The %{name} increases the hero's attack and defense skills by %{count} each."
 msgstr "%{name} は勇者の攻撃技能と防御技能をそれぞれ %{count} 増加させます。"
 
 msgid "Ultimate Shield"
-msgstr "究極の盾"
+msgstr "アルティメットシールド"
 
 msgid ""
 "The %{name} increases the hero's spell power and knowledge by %{count} each."
 msgstr "%{name} は勇者の呪文パワーと知識をそれぞれ %{count} 増加させます。"
 
 msgid "Ultimate Staff"
-msgstr "究極の杖"
+msgstr "アルティメットスタッフ"
 
 msgid ""
 "The %{name} increases each of the hero's basic skills by %{count} points."
 msgstr "%{name} は勇者の各基本スキルを %{count} ポイント増加させます。"
 
 msgid "Ultimate Crown"
-msgstr "究極の王冠"
+msgstr "アルティメットクラウン"
 
 msgid "Golden Goose"
 msgstr "黄金のガチョウ"
@@ -9850,7 +9850,7 @@ msgid "The %{name} brings in an income of %{count} gold per day."
 msgstr "%{name} は 1 日あたり %{count} ゴールドの収入をもたらします。"
 
 msgid "Arcane Necklace of Magic"
-msgstr "魔法の秘術ネックレス"
+msgstr "神秘のネックレス"
 
 msgid ""
 "After rescuing a Sorceress from a cursed tomb, she rewards your heroism with"
@@ -9858,7 +9858,7 @@ msgid ""
 msgstr "呪われた墓から魔術師を救出した後、彼女はあなたの英雄的な行為に見事な宝石のネックレスを贈ります。"
 
 msgid "Caster's Bracelet of Magic"
-msgstr "キャスターの魔法のブレスレット"
+msgstr "魔法のブレスレット"
 
 msgid ""
 "While searching through the rubble of a caved-in mine, you free a group of "
@@ -9866,7 +9866,7 @@ msgid ""
 msgstr "陥没した鉱山の瓦礫を探索しながら、閉じ込められたドワーフのグループを解放します。感謝して、リーダーはあなたに金のブレスレットをくれます。"
 
 msgid "Mage's Ring of Power"
-msgstr "魔術師の力の指輪"
+msgstr "賢者の指輪"
 
 msgid ""
 "A cry of pain leads you to a Centaur, caught in a trap. Upon setting the "
@@ -9876,7 +9876,7 @@ msgstr ""
 "痛みの叫び声があなたを罠にはまったケンタウロスに導きます。生き物を解放すると、彼はあなたに小さなポーチを渡します。中身を空にすると、輝く宝石の指輪が見つかります。"
 
 msgid "Witch's Broach of Magic"
-msgstr "魔女の魔法のブローチ"
+msgstr "魔女のブローチ"
 
 msgid ""
 "Alongside the remains of a burnt witch lies a beautiful broach, intricately "
@@ -9905,7 +9905,7 @@ msgid ""
 msgstr "凶悪なオオカミの群れから少年を救った後、あなたは彼を父親の邸宅に返します。感謝した貴族はあなたに勇気勲章を授与します。"
 
 msgid "Medal of Honor"
-msgstr "名誉勲章"
+msgstr "名誉のメダル"
 
 msgid ""
 "After freeing a princess of a neighboring kingdom from the evil clutches of "
@@ -9913,7 +9913,7 @@ msgid ""
 msgstr "隣国の王女を卑劣な奴隷商の魔の手から解放した後、彼女はあなたに名誉勲章を授与します。"
 
 msgid "Medal of Distinction"
-msgstr "殊勲章"
+msgstr "殊勲のメダル"
 
 msgid ""
 "Ridding the countryside of the hideous Minotaur who made a sport of eating "
@@ -9935,7 +9935,7 @@ msgstr ""
 "あなたは誰もいない道の脇にあるメダルを見つけました。メダルをインベントリに追加すると、望ましくない不幸のフィズビンを手に入れたことに気づき、軍の士気が大幅に低下します。"
 
 msgid "Thunder Mace of Dominion"
-msgstr "ドミニオンのサンダーメイス"
+msgstr "サンダーメイス"
 
 msgid ""
 "During a sudden storm, a bolt of lightning strikes a tree, splitting it. "
@@ -9954,7 +9954,7 @@ msgid ""
 msgstr "悪名高き黒騎士に遭遇！厳しい決闘が引き分けに終わった後、ナイトは敬意を表して、鎧を着たガントレットをあなたに提供します。"
 
 msgid "Defender Helm of Protection"
-msgstr "守護のヘルム"
+msgstr "守護の兜"
 
 msgid ""
 "A glint of golden light catches your eye. Upon further investigation, you "
@@ -9962,7 +9962,7 @@ msgid ""
 msgstr "黄金色の輝きが目を引きます。さらに調査すると、茂みの下に黄金の兜が隠されているのが見つかりました。"
 
 msgid "Giant Flail of Dominion"
-msgstr "ドミニオンのジャイアントフレイル"
+msgstr "巨人のフレイル"
 
 msgid ""
 "A clumsy Giant has killed himself with his own flail. Knowing your superior "
@@ -9972,7 +9972,7 @@ msgstr ""
 "不器用な巨人が自分のフレイルで自殺した。この武器の優れたスキルを知っているあなたは、倒れた巨人から見事なフレイルを自信を持って取り除くことができます。"
 
 msgid "Ballista of Quickness"
-msgstr "素早さのバリスタ"
+msgstr "高速バリスタ"
 
 msgid "The %{name} gives the hero's catapult one extra shot per combat round."
 msgstr "%{name} は、勇者のカタパルトに戦闘ラウンドごとに 1 発の追加ショットを与えます。"
@@ -9983,7 +9983,7 @@ msgid ""
 msgstr "古代の城壁都市の廃墟を歩いていると、都市を破壊するための道具、精巧に作られたバリスタを見つけます。"
 
 msgid "Stealth Shield of Protection"
-msgstr "守護のステルスシールド"
+msgstr "ステルスシールド"
 
 msgid ""
 "A stone statue of a warrior holds a silver shield. As you remove the shield,"
@@ -9991,7 +9991,7 @@ msgid ""
 msgstr "戦士の石像が銀の盾を持っています。盾を外すと像は粉々に砕け散る。"
 
 msgid "Dragon Sword of Dominion"
-msgstr "ドミニオンのドラゴンソード"
+msgstr "ドラゴンソード"
 
 msgid ""
 "As you are walking along a narrow path, a nearby bush suddenly bursts into "
@@ -10000,7 +10000,7 @@ msgid ""
 msgstr "狭い道を歩いていると、近くの茂みが突然燃え上がりました。目の前で炎が美しい女性の姿に変わります。彼女はあなたに素晴らしい剣を差し出します。"
 
 msgid "Power Axe of Dominion"
-msgstr "ドミニオンのパワーアックス"
+msgstr "パワーアックス"
 
 msgid ""
 "You see a silver axe embedded deeply in the ground. After several "
@@ -10010,7 +10010,7 @@ msgstr ""
 "銀の斧が地面に深く埋め込まれているのが見えます。軍が斧を引き抜こうとして何度か失敗した後、あなたは斧のハンドルをしっかりと握り、楽々と斧を引き抜きます。"
 
 msgid "Divine Breastplate of Protection"
-msgstr "神聖な守護の胸当て"
+msgstr "守護の胸当て"
 
 msgid ""
 "A gang of Rogues is sifting through the possessions of dead warriors. "
@@ -10020,7 +10020,7 @@ msgstr ""
 "ローグの一団が死んだ戦士の所持品を漁っています。ゴミあさりを怖がらせながら、あなたはローグたちが美しい胸当てを見落としていたことに気づきました。"
 
 msgid "Minor Scroll of Knowledge"
-msgstr "小さな知識の巻物"
+msgstr "知識の巻物 第壱章"
 
 msgid ""
 "Before you appears a levitating glass case with a scroll, perched upon a bed"
@@ -10030,7 +10030,7 @@ msgstr ""
 "目の前に、深紅のベルベットのベッドの上に、巻物が入った空中浮遊ガラスケースが現れます。触れると蓋が開き、巻物があなたの手に浮かび上がります。"
 
 msgid "Major Scroll of Knowledge"
-msgstr "知識の大巻物"
+msgstr "知識の巻物 第弐章"
 
 msgid ""
 "Visiting a local wiseman, you explain the intent of your journey. He reaches"
@@ -10038,7 +10038,7 @@ msgid ""
 msgstr "地元の賢者を訪ね、旅の目的を説明します。彼は袋に手を伸ばし、黄ばんだ巻物を取り出してあなたに手渡します。"
 
 msgid "Superior Scroll of Knowledge"
-msgstr "優れた知識の巻物"
+msgstr "知識の巻物 第参章"
 
 msgid ""
 "You come across the remains of an ancient Druid. Bones, yellowed with age, "
@@ -10048,7 +10048,7 @@ msgstr ""
 "あなたは古代ドルイドの遺跡に遭遇します。年齢とともに黄ばんだ骨が、彼女のローブのぼろぼろのひだから覗いています。ローブを調べると、折り目の中に巻物が隠されているのを発見します。"
 
 msgid "Foremost Scroll of Knowledge"
-msgstr "知識の最前巻"
+msgstr "知識の巻物 最終章"
 
 msgid ""
 "Mangled bones, yellowed with age, peer from the ragged folds of a dead "
@@ -10057,7 +10057,7 @@ msgstr ""
 "死んだドルイド僧のローブのぼろぼろのひだからは、年月を経て黄ばんだ、ずたずたになった骨が覗いている。ローブを調べると、中に隠された巻物を発見します。"
 
 msgid "Endless Sack of Gold"
-msgstr "終わりのない金の袋"
+msgstr "無限の金の袋"
 
 msgid "The %{name} provides the hero with %{count} gold per day."
 msgstr "%{name} は勇者に 1 日あたり %{count} ゴールドを提供します。"
@@ -10071,7 +10071,7 @@ msgstr ""
 "小さなレプラコーンが魔法の袋の周りで楽しそうに踊ります。あなたが近づいてくるのを見て、彼は歩幅の途中で立ち止まりました。小男は叫び声を上げ、足を激しく踏み鳴らし、空中に消えていった。年老いたレプラコーンが「ファインダーズ・キーパー」と言っていたのを思い出し、あなたは袋を掴んで立ち去ります。"
 
 msgid "Endless Bag of Gold"
-msgstr "終わりのない金の袋"
+msgstr "ミラクルゴールドバッグ"
 
 msgid ""
 "A noblewoman, separated from her traveling companions, asks for your help. "
@@ -10079,7 +10079,7 @@ msgid ""
 msgstr "旅仲間とはぐれた貴族の女性があなたに助けを求めてきました。彼女を家まで送った後、彼女はあなたに金が詰まったバッグを与えます。"
 
 msgid "Endless Purse of Gold"
-msgstr "無限の金財布"
+msgstr "不思議な財布"
 
 msgid ""
 "In your travels, you find a leather purse filled with gold that once "
@@ -10088,7 +10088,7 @@ msgid ""
 msgstr "旅の途中で、あなたは、かつてどんな無生物を金に変える能力を持った偉大な戦士の王が所有していた、金が詰まった革製の財布を見つけます。"
 
 msgid "Nomad Boots of Mobility"
-msgstr "機動性のノマドブーツ"
+msgstr "遊牧民のブーツ"
 
 msgid "The %{name} increase the hero's movement on land."
 msgstr "%{name} は陸上での勇者の移動を増加させます。"
@@ -10102,7 +10102,7 @@ msgstr ""
 "遊牧民の商人がゴブリンの部族からの保護を求めています。あなたを助けるために、彼は最も柔らかい革で作られた精巧に作られた一足のブーツをあなたに与えます。よく見ると、革に魅力的な古代の彫刻が刻まれているのがわかります。"
 
 msgid "Traveler's Boots of Mobility"
-msgstr "機動性のトラベラーブーツ"
+msgstr "旅人のブーツ"
 
 msgid ""
 "Discovering a pair of beautifully beaded boots made from the finest and "
@@ -10111,7 +10111,7 @@ msgid ""
 msgstr "最高級で最も柔らかい革で作られた美しいビーズのブーツを見つけたあなたは、匿名の寄付者に感謝し、そのブーツを在庫に追加します。"
 
 msgid "Lucky Rabbit's Foot"
-msgstr "幸運のウサギの足"
+msgstr "幸運のラビットフット"
 
 msgid "The %{name} increases the luck of the hero's army by %{count}."
 msgstr "%{name} は勇者の軍隊の運を %{count} 増加させます。"
@@ -10149,7 +10149,7 @@ msgid ""
 msgstr "枯れて乾燥した植物の真ん中に、驚くべきことに、健康な緑の四つ葉のクローバーを見つけます。"
 
 msgid "True Compass of Mobility"
-msgstr "機動性の真の羅針盤"
+msgstr "羅針盤"
 
 msgid "The %{name} increases the hero's movement on land and sea."
 msgstr "%{name} は陸と海での勇者の移動力を高めます。"
@@ -10160,7 +10160,7 @@ msgid ""
 msgstr "発明家を名乗る老人から、最新の発明を試してほしいと頼まれます。それから彼はあなたにコンパスを渡します。"
 
 msgid "Sailor's Astrolabe of Mobility"
-msgstr "機動性の船員のアストロラーベ"
+msgstr "船乗りの天測儀"
 
 msgid "The %{name} increases the hero's movement on sea."
 msgstr "%{name} は海上での勇者の移動力を高めます。"
@@ -10198,7 +10198,7 @@ msgstr ""
 "風景が突然変わると、あなたは恐ろしい光景の真っ只中にいることに気づきます。恐ろしい戦闘の余波を狙うハゲワシです。遺跡をざっと探すと、魔法の砂時計が見つかります。"
 
 msgid "Gold Watch"
-msgstr "ゴールドウォッチ"
+msgstr "魔法の金時計"
 
 msgid "The %{name} doubles the effectiveness of the hero's hypnotize spells."
 msgstr "%{name} は、勇者の催眠術の効果を 2 倍にします。"
@@ -10267,7 +10267,7 @@ msgstr ""
 "物資を必要としている旅の修理屋が、食料と水と引き換えに、上部に雷の模様が描かれた兜を提供します。好奇心旺盛なあなたはそれを受け入れますが、後でその舵が魔法であることを知ります。"
 
 msgid "Evercold Icicle"
-msgstr "エバーコールドつらら"
+msgstr "エバーコールドアイス"
 
 msgid ""
 "The %{name} causes the hero's cold spells to do %{count} percent more damage"
@@ -10281,7 +10281,7 @@ msgid ""
 msgstr "真昼の太陽の熱さに耐える氷柱が目を引きます。興味をそそられて、それを折ってみると、それが手の中で溶けないことに気づきました。"
 
 msgid "Everhot Lava Rock"
-msgstr "エバーホット溶岩石"
+msgstr "エバーホットラバーロック"
 
 msgid ""
 "The %{name} causes the hero's fire spells to do %{count} percent more damage"
@@ -10297,7 +10297,7 @@ msgstr ""
 "放浪するうちに、冷めることのない魔法の溶岩石を使って火をつける猿のような存在の部族と接触することになります。あなたは彼らを憐れんで、棒で火を起こすことを教えます。あなたを神だと信じている猿たちは、あなたに石を与えます。"
 
 msgid "Lightning Rod"
-msgstr "避雷針"
+msgstr "ライトニングロッド"
 
 msgid ""
 "The %{name} causes the hero's lightning spells to do %{count} percent more "
@@ -10380,7 +10380,7 @@ msgstr ""
 "さまよっていると、小さく整った小屋に住んでいる隠者に出会います。あなたの使命に感銘を受けた彼は、瞑想の時間を割いてあなたを祝福し、呪いを防ぐお守りを与えます。"
 
 msgid "Pendant of Free Will"
-msgstr "自由意志のペンダント"
+msgstr "意志のペンダント"
 
 msgid "The %{name} makes all of the hero's troops immune to hypnotize spells."
 msgstr "%{name} は、勇者の軍隊全員を催眠術の呪文から守ります。"
@@ -10394,7 +10394,7 @@ msgstr ""
 "助けを求める叫び声に応えて、リバー・スプライトが老人をダンクするスポーツをしているのを見つけます。復讐を感じたあなたはその男を救出し、スプライトをしばらくの間乾いた土地に引きずり込みます。空中で不快なスプライトは、彼を解放するための魔法のペンダントをあなたに渡します。"
 
 msgid "Pendant of Life"
-msgstr "命のペンダント"
+msgstr "生命のペンダント"
 
 msgid "The %{name} makes all of the hero's troops immune to death spells."
 msgstr "%{name} は、勇者の軍隊全員を死の呪文から守ります。"
@@ -10407,7 +10407,7 @@ msgstr ""
 "道端で小さなキャラバンと短時間遭遇し、ナックルボーンゲームで魔法のペンダントを獲得します。元の所有者は、ネクロマンサーの死の呪文から守ってくれると言いました。"
 
 msgid "Serenity Pendant"
-msgstr "セレニティペンダント"
+msgstr "静寂のペンダント"
 
 msgid "The %{name} makes all of the hero's troops immune to berserk spells."
 msgstr "%{name} は勇者の軍隊全員を凶暴な呪文から守ります。"
@@ -10436,7 +10436,7 @@ msgstr ""
 "あなたは、白内障で長い間失明し、孤独に死を迎えている非常に高齢の女性に出会います。あなたは彼女の最後のニーズに応え、適切な埋葬を約束します。感謝の気持ちを込めて、彼女は様式化された目をあしらった魔法のペンダントをあなたに贈ります。目を閉じても見えるようになります。"
 
 msgid "Kinetic Pendant"
-msgstr "キネティックペンダント"
+msgstr "活性のペンダント"
 
 msgid "The %{name} makes all of the hero's troops immune to paralyze spells."
 msgstr "%{name} により、勇者の軍隊はすべて麻痺呪文の影響を受けなくなります。"
@@ -10476,7 +10476,7 @@ msgstr ""
 "あなたは、反対方向に旅行している古い魔法使いの友人に会いました。彼はあなたに贈り物を贈ります。それは、味方に対するディスペル魔法の呪文の使用を防ぐ杖です。"
 
 msgid "Golden Bow"
-msgstr "黄金の弓"
+msgstr "ゴールデンボウ"
 
 msgid ""
 "The %{name} eliminates the %{count} percent penalty for the hero's troops "
@@ -10551,7 +10551,7 @@ msgstr ""
 "つに輪がある、偉大な魔術師カルノートによく似た小さな木を見つけました。衣服の切れ端と腐った革を見ると、それは変身したカーノートではないかと疑われるでしょう。あなたは彼を助けることができないので、魔法の指輪を受け取ります。"
 
 msgid "Ammo Cart"
-msgstr "弾薬カート"
+msgstr "無限の弾薬カート"
 
 msgid ""
 "The %{name} provides endless ammunition for all of the hero's troops that "
@@ -10564,7 +10564,7 @@ msgid ""
 msgstr "古戦場の真ん中にある弾薬運搬車が目に留まる。検査の結果、正常に動作することがわかったので、そのままお持ちください。"
 
 msgid "Tax Lien"
-msgstr "税金の先取特権"
+msgstr "重税の証文"
 
 msgid "The %{name} costs the hero %{count} gold pieces per day."
 msgstr "%{name} では、勇者は 1 日あたり %{count} ゴールド ピースを消費します。"
@@ -10579,7 +10579,7 @@ msgstr ""
 "ゴールドだけを引き出すことに同意します。 1 ドルを大統領選挙資金に寄付したい場合は、ここをチェックしてください。"
 
 msgid "Hideous Mask"
-msgstr "恐ろしいマスク"
+msgstr "異形の仮面"
 
 msgid "The %{name} prevents all 'wandering' armies from joining the hero."
 msgstr "%{name} は、すべての「放浪」軍が勇者に加わることを防ぎます。"
@@ -10593,7 +10593,7 @@ msgstr ""
 "有名な変身ウォーロック、シンフィラス・ガルドラドの墓を略奪すると、彼の伝説のマスクが発掘されます。震えながらそれを着ると、顔がひどいしかめっ面に歪んでしまいます！なんてこった！それは実際にはグロムラック・グリーンの恐ろしいマスクであり、あなたはそれに執着しています。"
 
 msgid "Endless Pouch of Sulfur"
-msgstr "無限の硫黄袋"
+msgstr "不思議な硫黄のポーチ"
 
 msgid "The %{name} provides %{count} unit of sulfur per day."
 msgstr "%{name} は 1 日あたり %{count} 単位の硫黄を供給します。"
@@ -10606,7 +10606,7 @@ msgstr ""
 "あなたは錬金術師を訪ねますが、彼はあなたの軍隊を見て、あなたの大義の正しさに動揺します。新たに忠誠を誓った臣下は、戦争努力を助けるために硫黄が入った無限のポーチをあなたに与えます。"
 
 msgid "Endless Vial of Mercury"
-msgstr "無限の水銀の小瓶"
+msgstr "不思議な水銀の小瓶"
 
 msgid "The %{name} provides %{count} unit of mercury per day."
 msgstr "%{name} は 1 日あたり %{count} 単位の水銀を供給します。"
@@ -10619,7 +10619,7 @@ msgstr ""
 "急いで放棄された魔術師の塔に少し立ち寄ると、底に常に少し残っている水銀の魔法の小瓶が見つかります。宝物を見つけると、それが宝物であると認識し、キャップをしてポケットに滑り込ませます。"
 
 msgid "Endless Pouch of Gems"
-msgstr "無限の宝石の袋"
+msgstr "不思議な宝石のポーチ"
 
 msgid "The %{name} provides %{count} unit of gems per day."
 msgstr "%{name} は 1 日あたり %{count} ユニットの宝石を提供します。"
@@ -10633,7 +10633,7 @@ msgstr ""
 "短い暴風雨が虹を生み出します...そしてその終わりが見えます。急いで馬に乗って、そこで見つけた金の入った壺をつかみます。それを所有するレプラコーンは、あなたがそれを手に入れるのを止めることができず、金を返すために宝石が入った無限の袋を提供します。あなたは受け入れます。"
 
 msgid "Endless Cord of Wood"
-msgstr "無限の木の紐"
+msgstr "不思議な木材の束"
 
 msgid "The %{name} provides %{count} unit of wood per day."
 msgstr "%{name} は 1 日あたり %{count} 単位の木材を提供します。"
@@ -10647,7 +10647,7 @@ msgstr ""
 "休憩して料理の火を起こすために立ち止まり、近くの枯れ木の山から薪を引き抜きます。山から木材を引き抜き続けると、木材が縮まないことに気づきます。あなたはその木に魔法がかかっていることに気づき、それを持ち歩きます。"
 
 msgid "Endless Cart of Ore"
-msgstr "無限の鉱石カート"
+msgstr "不思議な鉱石のカート"
 
 msgid "The %{name} provides %{count} unit of ore per day."
 msgstr "%{name} は 1 日あたり %{count} 単位の鉱石を提供します。"
@@ -10660,7 +10660,7 @@ msgstr ""
 "あなたは、対人間用の武器を製造しているゴブリンの武器鍛冶場を見つけました。ものすごい叫び声を上げて、あなたとあなたの軍隊は彼らの野営地に急降下し、彼らを追い払います。探索すると、鉄が尽きない魔法の鉱石カートが見つかりました。"
 
 msgid "Endless Pouch of Crystal"
-msgstr "無限の水晶の袋"
+msgstr "不思議な水晶のポーチ"
 
 msgid ""
 "Taking shelter from a storm in a small cave, you notice a small patch of "
@@ -10714,7 +10714,7 @@ msgstr ""
 "異常な大きさのグリフィンが田園地帯を襲っているという噂があなたをその洞窟の隠れ家に導きます。迅速かつ残忍な戦いでその獣は追い出され、その悪臭の巣を探索すると巨大な黒真珠が見つかりました。"
 
 msgid "Magic Book"
-msgstr "魔法の本"
+msgstr "呪文書"
 
 msgid "The %{name} enables the hero to cast spells."
 msgstr "%{name} により、勇者は呪文を唱えることができます。"
@@ -10745,7 +10745,7 @@ msgid "Dummy 4"
 msgstr "ダミー4"
 
 msgid "Spell Scroll"
-msgstr "スペルスクロール"
+msgstr "魔法のスクロール"
 
 msgid ""
 "This %{name} gives the hero the ability to cast the %{spell} spell if the "
@@ -10845,7 +10845,7 @@ msgstr ""
 "あなたは、ハチミツ酒を食べて体を強化しているジプシーのキャラバンに遭遇します。彼らはあなたを呼び寄せて、「ラーマ・ブタを踊れることを証明したら、ご褒美をあげます」と言います。分からないかもしれませんが、とにかく試してみてください。彼らはヒステリックに笑いますが、あなたの勇気を賞賛し、水晶玉を与えます。"
 
 msgid "Heart of Fire"
-msgstr "火の心"
+msgstr "ファイアハート"
 
 msgid ""
 "The %{name} provides %{count} percent protection from fire, but doubles the "
@@ -10861,7 +10861,7 @@ msgstr ""
 "あなたは最近焼け落ちた空き地に入り、岩の上に座っているファイア・エレメンタルに出会います。それは顔を上げ、その炎のような顔が激痛の表情に歪んでいた。次に、光る物体をあなたに投げます。あなたはそれを阻止しようと手を挙げますが、それはそれらを通り抜けてあなたの胸に焼き付けられます。"
 
 msgid "Heart of Ice"
-msgstr "氷の心"
+msgstr "アイスハート"
 
 msgid ""
 "The %{name} provides %{count} percent protection from cold, but doubles the "
