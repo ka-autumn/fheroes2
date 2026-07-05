@@ -6283,14 +6283,12 @@ msgid "A miniature view of the known world. Left click to move viewing area."
 msgstr "既知の世界の縮図。左クリックして表示領域を移動します。"
 
 msgid "Month: %{month} Week: %{week}"
-msgstr "月: %{month} 週: %{week}"
+msgstr "%{month}ヶ月目の第%{week}週"
 
 msgid ""
 "You find a small\n"
 "quantity of %{resource}."
-msgstr ""
-"あなたはいくばくかの\n"
-"%{resource}を見つけました。"
+msgstr "君はいくばくかの%{resource}を見つけた。"
 
 msgid "Status Window"
 msgstr "ステータスウィンドウ"
