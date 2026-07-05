@@ -10091,7 +10091,7 @@ msgid "Nomad Boots of Mobility"
 msgstr "遊牧民のブーツ"
 
 msgid "The %{name} increase the hero's movement on land."
-msgstr "%{name} は陸上での勇者の移動を増加させます。"
+msgstr "%{name} を持つ勇者は、陸上での移動力が増加します。"
 
 msgid ""
 "A Nomad trader seeks protection from a tribe of Goblins. For your "
@@ -10152,7 +10152,7 @@ msgid "True Compass of Mobility"
 msgstr "羅針盤"
 
 msgid "The %{name} increases the hero's movement on land and sea."
-msgstr "%{name} は陸と海での勇者の移動力を高めます。"
+msgstr "%{name} を持つ勇者は、陸上・海上双方での移動力が増加します。"
 
 msgid ""
 "An old man claiming to be an inventor asks you to try his latest invention. "
@@ -10163,7 +10163,7 @@ msgid "Sailor's Astrolabe of Mobility"
 msgstr "船乗りの天測儀"
 
 msgid "The %{name} increases the hero's movement on sea."
-msgstr "%{name} は海上での勇者の移動力を高めます。"
+msgstr "%{name} を持つ勇者は、海上での移動力が増加します。"
 
 msgid ""
 "An old sea captain is being tortured by Ogres. You save him, and in return "
@@ -10494,7 +10494,7 @@ msgstr "望遠鏡"
 msgid ""
 "The %{name} increases the amount of terrain the hero reveals when "
 "adventuring by %{count} extra square."
-msgstr "%{name} は、冒険中に勇者が明らかにする地形の量を %{count} マス追加します。"
+msgstr "%{name} を持つ勇者は、冒険中に見える地形の範囲が %{count} マス広がります。"
 
 msgid ""
 "A merchant from far away lands trades you a new invention of his people for traveling supplies. It makes distant objects appear closer, and he calls it...\n"
