@@ -9799,7 +9799,7 @@ msgid "Invalid Artifact"
 msgstr "無効なアーティファクト"
 
 msgid "The %{name} increases the hero's knowledge by %{count}."
-msgstr "%{name} は勇者の知識を %{count} 増加させます。"
+msgstr "%{name} を持つ勇者は知識が %{count} ポイント増加します。"
 
 msgid "Ultimate Book of Knowledge"
 msgstr "究極の知識の書"
@@ -9811,34 +9811,34 @@ msgid "Ultimate Sword of Dominion"
 msgstr "アルティメットソード"
 
 msgid "The %{name} increases the hero's defense skill by %{count}."
-msgstr "%{name} は勇者の防御技能を %{count} 増加させます。"
+msgstr "%{name} を持つ勇者は防御技能が %{count} ポイント増加します。"
 
 msgid "Ultimate Cloak of Protection"
 msgstr "アルティメットクローク"
 
 msgid "The %{name} increases the hero's spell power by %{count}."
-msgstr "%{name} は勇者の魔力を %{count} 増加させます。"
+msgstr "%{name} を持つ勇者は魔力が %{count} ポイント増加します。"
 
 msgid "Ultimate Wand of Magic"
 msgstr "アルティメットマジックワンド"
 
 msgid ""
 "The %{name} increases the hero's attack and defense skills by %{count} each."
-msgstr "%{name} は勇者の攻撃技能と防御技能をそれぞれ %{count} 増加させます。"
+msgstr "%{name} を持つ勇者は攻撃技能と防御技能がそれぞれ %{count} ポイント増加します。"
 
 msgid "Ultimate Shield"
 msgstr "アルティメットシールド"
 
 msgid ""
 "The %{name} increases the hero's spell power and knowledge by %{count} each."
-msgstr "%{name} は勇者の魔力と知識をそれぞれ %{count} 増加させます。"
+msgstr "%{name} を持つ勇者は魔力と知識がそれぞれ %{count} ポイント増加します。"
 
 msgid "Ultimate Staff"
 msgstr "アルティメットスタッフ"
 
 msgid ""
 "The %{name} increases each of the hero's basic skills by %{count} points."
-msgstr "%{name} は勇者の各基本スキルを %{count} ポイント増加させます。"
+msgstr "%{name} を持つ勇者は基本スキルがすべて %{count} ポイント増加します。"
 
 msgid "Ultimate Crown"
 msgstr "アルティメットクラウン"
@@ -9946,7 +9946,7 @@ msgid "Armored Gauntlets of Protection"
 msgstr "守護のガントレット"
 
 msgid "The %{name} increase the hero's defense skill by %{count}."
-msgstr "%{name} は勇者の防御技能を %{count} 増加させます。"
+msgstr "%{name} を持つ勇者は防御技能が %{count} ポイント増加します。"
 
 msgid ""
 "You encounter the infamous Black Knight! After a grueling duel ending in a "
@@ -10776,13 +10776,13 @@ msgstr ""
 msgid ""
 "The %{name} increases the hero's spell power by %{count} but adds the undead"
 " morale penalty."
-msgstr "%{name} は勇者の魔力を %{count} 増加させますが、アンデッドの士気ペナルティを追加します。"
+msgstr "%{name} を持つ勇者は魔力が %{count} ポイント増加しますが、アンデッドの士気ペナルティが追加されます。"
 
 msgid "Breastplate of Anduran"
 msgstr "アンデュランの胸当て"
 
 msgid "The %{name} increases the hero's defense by %{count}."
-msgstr "%{name} は勇者の防御技能を %{count} 増加させます。"
+msgstr "%{name} を持つ勇者は防御技能が %{count} ポイント増加します。"
 
 msgid ""
 "You come upon a sign. It reads: \"Here lies the body of Anduran. Bow and "
@@ -10948,7 +10948,7 @@ msgid "Staff of Wizardry"
 msgstr "ウィザードリィの杖"
 
 msgid "The %{name} boosts the hero's spell power by %{count}."
-msgstr "%{name} は勇者の魔力を %{count} 増加させます。"
+msgstr "%{name} を持つ勇者は魔力が %{count} ポイント増加します。"
 
 msgid ""
 "While out scaring up game, your troops find a mysterious staff levitating "
@@ -10963,7 +10963,7 @@ msgid "Sword Breaker"
 msgstr "ソードブレイカー"
 
 msgid "The %{name} increases the hero's defense by %{count} and attack by 1."
-msgstr "%{name} は勇者の防御技能を %{count} 増加させ、攻撃技能を 1 増加させます。"
+msgstr "%{name} を持つ勇者は防御技能が %{count} ポイント、攻撃技能が 1 ポイント増加します。"
 
 msgid ""
 "A former Captain of the Guard admires your quest and gives you the enchanted"
