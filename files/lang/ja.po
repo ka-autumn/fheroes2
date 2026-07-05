@@ -1690,16 +1690,16 @@ msgid "campaignBonus|Caster's Bracelet"
 msgstr "魔法のブレスレット"
 
 msgid "campaignBonus|Defender Helm"
-msgstr "守護の兜"
+msgstr "ガウェインヘルム"
 
 msgid "campaignBonus|Breastplate"
-msgstr "胸当て"
+msgstr "ブレストプレート"
 
 msgid "campaignBonus|Dragon Sword"
 msgstr "ドラゴンソード"
 
 msgid "campaignBonus|Fizbin Medal"
-msgstr "フィズビンメダル"
+msgstr "不運のフィズビン"
 
 msgid "campaignBonus|Foremost Scroll"
 msgstr "知識の巻物 最終章"
@@ -1708,10 +1708,10 @@ msgid "campaignBonus|Gauntlets"
 msgstr "ガントレット"
 
 msgid "campaignBonus|Hideous Mask"
-msgstr "異形の仮面"
+msgstr "石仮面"
 
 msgid "campaignBonus|Mage's Ring"
-msgstr "賢者の指輪"
+msgstr "マジックパワーリング"
 
 msgid "campaignBonus|Major Scroll"
 msgstr "知識の巻物 第弐章"
@@ -1726,7 +1726,7 @@ msgid "campaignBonus|Minor Scroll"
 msgstr "知識の巻物 第壱章"
 
 msgid "campaignBonus|Nomad Boots"
-msgstr "遊牧民のブーツ"
+msgstr "遊牧民の靴"
 
 msgid "campaignBonus|Power Axe"
 msgstr "パワーアックス"
@@ -1738,7 +1738,7 @@ msgid "campaignBonus|Stealth Shield"
 msgstr "ステルスシールド"
 
 msgid "campaignBonus|Tax Lien"
-msgstr "重税の証文"
+msgstr "税金先取権"
 
 msgid "campaignBonus|Thunder Mace"
 msgstr "サンダーメイス"
@@ -9827,7 +9827,7 @@ msgid ""
 msgstr "%{name} を持つ勇者は攻撃技能と防御技能がそれぞれ %{count} ポイント増加します。"
 
 msgid "Ultimate Shield"
-msgstr "アルティメットシールド"
+msgstr "トリスタンシールド"
 
 msgid ""
 "The %{name} increases the hero's spell power and knowledge by %{count} each."
@@ -9866,7 +9866,7 @@ msgid ""
 msgstr "陥没した鉱山の瓦礫を探索しながら、閉じ込められたドワーフのグループを解放します。感謝して、リーダーはあなたに金のブレスレットをくれます。"
 
 msgid "Mage's Ring of Power"
-msgstr "賢者の指輪"
+msgstr "マジックパワーリング"
 
 msgid ""
 "A cry of pain leads you to a Centaur, caught in a trap. Upon setting the "
@@ -9921,7 +9921,7 @@ msgid ""
 msgstr "貴族の騎士を食べるスポーツをしていた恐ろしいミノタウロスを田園地帯から追い出し、あなたは殊勲章を授与されます。"
 
 msgid "Fizbin of Misfortune"
-msgstr "不幸のフィズビン"
+msgstr "不運のフィズビン"
 
 msgid ""
 "The %{name} greatly decreases the morale of the hero's army by %{count}."
@@ -9954,7 +9954,7 @@ msgid ""
 msgstr "悪名高き黒騎士に遭遇！厳しい決闘が引き分けに終わった後、ナイトは敬意を表して、鎧を着たガントレットをあなたに提供します。"
 
 msgid "Defender Helm of Protection"
-msgstr "守護の兜"
+msgstr "ガウェインヘルム"
 
 msgid ""
 "A glint of golden light catches your eye. Upon further investigation, you "
@@ -10010,7 +10010,7 @@ msgstr ""
 "銀の斧が地面に深く埋め込まれているのが見えます。軍が斧を引き抜こうとして何度か失敗した後、あなたは斧のハンドルをしっかりと握り、楽々と斧を引き抜きます。"
 
 msgid "Divine Breastplate of Protection"
-msgstr "守護の胸当て"
+msgstr "ブレストプレート"
 
 msgid ""
 "A gang of Rogues is sifting through the possessions of dead warriors. "
@@ -10057,7 +10057,7 @@ msgstr ""
 "死んだドルイド僧のローブのぼろぼろのひだからは、年月を経て黄ばんだ、ずたずたになった骨が覗いている。ローブを調べると、中に隠された巻物を発見します。"
 
 msgid "Endless Sack of Gold"
-msgstr "無限の金の袋"
+msgstr "ミラクルゴールドサック"
 
 msgid "The %{name} provides the hero with %{count} gold per day."
 msgstr "%{name} を持つ勇者は、1 日あたり黄金を %{count} ポイント得ます。"
@@ -10079,7 +10079,7 @@ msgid ""
 msgstr "旅仲間とはぐれた貴族の女性があなたに助けを求めてきました。彼女を家まで送った後、彼女はあなたに金が詰まったバッグを与えます。"
 
 msgid "Endless Purse of Gold"
-msgstr "不思議な財布"
+msgstr "ミラクルゴールドワレット"
 
 msgid ""
 "In your travels, you find a leather purse filled with gold that once "
@@ -10088,7 +10088,7 @@ msgid ""
 msgstr "旅の途中で、あなたは、かつてどんな無生物を金に変える能力を持った偉大な戦士の王が所有していた、金が詰まった革製の財布を見つけます。"
 
 msgid "Nomad Boots of Mobility"
-msgstr "遊牧民のブーツ"
+msgstr "遊牧民の靴"
 
 msgid "The %{name} increase the hero's movement on land."
 msgstr "%{name} を持つ勇者は、陸上での移動力が増加します。"
@@ -10422,7 +10422,7 @@ msgstr ""
 "つの頭を持つヒドラとの戦いの現場に引き込まれます。あなたのタイムリーな介入により、戦いはその男に有利に傾き、彼は報酬として、彼が戦いに備えて心を落ち着かせるために使用していたペンダントをあなたに与えます。"
 
 msgid "Seeing-eye Pendant"
-msgstr "視力のペンダント"
+msgstr "眼力のペンダント"
 
 msgid "The %{name} makes all of the hero's troops immune to blindness spells."
 msgstr "%{name} はブラインド呪文の効果を無効化します。"
@@ -10564,7 +10564,7 @@ msgid ""
 msgstr "古戦場の真ん中にある弾薬運搬車が目に留まる。検査の結果、正常に動作することがわかったので、そのままお持ちください。"
 
 msgid "Tax Lien"
-msgstr "重税の証文"
+msgstr "税金先取権"
 
 msgid "The %{name} costs the hero %{count} gold pieces per day."
 msgstr "%{name} を持つ勇者は、1 日あたり黄金を %{count} ポイント失います。"
@@ -10579,7 +10579,7 @@ msgstr ""
 "ゴールドだけを引き出すことに同意します。 1 ドルを大統領選挙資金に寄付したい場合は、ここをチェックしてください。"
 
 msgid "Hideous Mask"
-msgstr "異形の仮面"
+msgstr "石仮面"
 
 msgid "The %{name} prevents all 'wandering' armies from joining the hero."
 msgstr "%{name} を持つ勇者の軍勢に中立の軍勢は仲間に加わらなくなります。"
