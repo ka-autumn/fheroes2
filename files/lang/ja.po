@@ -290,10 +290,10 @@ msgid "newMap|RANDOM"
 msgstr "ランダム"
 
 msgid "DIFFICULTY"
-msgstr "難易度"
+msgstr "DIFFICULTY"
 
 msgid "VIEW INTRO"
-msgstr "イントロを見る"
+msgstr "VIEW INTRO"
 
 msgid "RESET"
 msgstr "リセット"
@@ -5036,48 +5036,48 @@ msgstr ""
 "%{rating}"
 
 msgid "Start the selected scenario."
-msgstr "選択したシナリオを開始します。"
+msgstr "シナリオを開始します。"
 
 msgid "View Intro"
-msgstr "イントロを見る"
+msgstr "イントロムービーを見る"
 
 msgid "View the intro video for the current state of the campaign."
-msgstr "キャンペーンの現在の状況については、紹介ビデオをご覧ください。"
+msgstr "現在のシナリオのイントロムービーを再生します。"
 
 msgid ""
 "Select the campaign difficulty. This can be changed at any point during the "
 "campaign. However, the final score will be calculated based solely on the "
 "lowest difficulty of a completed scenario during the campaign."
 msgstr ""
-"キャンペーンの難易度を選択します。これはキャンペーン期間中いつでも変更できます。ただし、最終スコアはキャンペーン中に完了したシナリオの最も低い難易度のみに基づいて計算されます。"
+"キャンペーンの難易度を選択します。難易度はキャンペーン期間中いつでも変更できます。ただし、最終的なハイスコアはキャンペーン中にクリアしたシナリオの難易度のうち、最も低い難易度に基づいて計算されます。"
 
 msgid "Restart the current scenario."
-msgstr "現在のシナリオを再開します。"
+msgstr "現在のシナリオを始めからやり直します。"
 
 msgid "Difficulty"
-msgstr "難易度"
+msgstr "難易度の変更"
 
 msgid ""
 "You have changed the campaign difficulty. The final high score will be "
 "calculated based solely on the lowest difficulty level for a completed "
 "scenario during the campaign. Do you want to proceed?"
 msgstr ""
-"キャンペーンの難易度を変更しました。最終的なハイスコアは、キャンペーン中に完了したシナリオの最低難易度のみに基づいて計算されます。続行しますか?"
+"キャンペーンの難易度を変更しました。最終的なハイスコアは、キャンペーン中にクリアしたシナリオの難易度のうち、最も低い難易度に基づいて計算されます。続行しますか？"
 
 msgid "Are you sure you want to restart this scenario?"
-msgstr "このシナリオを再開してもよろしいですか?"
+msgstr "このシナリオを始めからやり直してもよろしいですか？"
 
 msgid "Campaign Scenario loading failure"
-msgstr "キャンペーンシナリオの読み込み失敗"
+msgstr "キャンペーンシナリオの読み込みエラー"
 
 msgid "Please make sure that campaign files are correct and present."
-msgstr "キャンペーン ファイルが正しく存在することを確認してください。"
+msgstr "正しいキャンペーンファイルが存在することを確認してください。"
 
 msgid "Days spent"
-msgstr "過ごした日数"
+msgstr "経過日数"
 
 msgid "The number of days spent on this campaign."
-msgstr "このキャンペーンに費やされた日数。"
+msgstr "このキャンペーンでこれまでに経過した日数。"
 
 msgid "Scenario Title"
 msgstr "シナリオタイトル"
