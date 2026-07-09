@@ -4929,16 +4929,16 @@ msgstr "自動プレイテストの結果"
 
 msgid "1 playthrough"
 msgid_plural "%{count} playthroughs"
-msgstr[0] "%{count} 回のプレイスルー"
+msgstr[0] "%{count} 回のプレイ"
 
 msgid " playthrough(s) reached the specified time limit"
-msgstr " プレイスルーが指定された制限時間に達しました"
+msgstr " プレイが指定された制限時間に達しました"
 
 msgid "Click to close the dialog."
 msgstr "クリックしてダイアログを閉じます。"
 
 msgid "Won %{percent}% of playthroughs."
-msgstr "プレイスルーの %{percent}% を獲得しました。"
+msgstr "プレイの %{percent}% を獲得しました。"
 
 msgid "Failed to prepare the map for auto playtest."
 msgstr "自動プレイテスト用のマップの準備に失敗しました。"
@@ -4969,7 +4969,7 @@ msgid ""
 "(playthrough %{current} of %{total})"
 msgstr ""
 "自動プレイテスト\n"
-"(プレイスルー %{current}/%{total})"
+"(プレイ %{current}/%{total})"
 
 msgid ""
 "Do you want to interrupt the automatic playtest? The effect will take place "
@@ -5947,7 +5947,7 @@ msgid "Your side defeats the opposing side."
 msgstr "あなた側が相手側を倒します。"
 
 msgid "Run out of time. (Fail to win by a certain point.)"
-msgstr "時間切れです。 （一定ポイントまでに勝てない場合）"
+msgstr "時間切れです。（一定ポイントまでに勝てない場合）"
 
 msgid "You must defeat the enemy %{enemies}."
 msgid_plural "You must defeat the enemy alliance of %{enemies}."
@@ -7762,7 +7762,7 @@ msgid ""
 "\"In my travels, I have learned much in the way of arcane magic. A great oracle taught me his skill. I have the answer you seek.\""
 msgstr ""
 "テントに入ると、魔法の宝石を見つめている老婦人が見えます。彼女は顔を上げて言います、\n"
-"「旅の中で、私は秘術の方法について多くのことを学びました。偉大な神託が私にその技術を教えてくれました。私はあなたが求めている答えを持っています。」"
+"「旅の中で、私は秘術の方法について多くのことを学びました。偉大な予言者が私にその技術を教えてくれました。私はあなたが求めている答えを持っています。」"
 
 msgid ""
 "The sting of your previous encounter still lingers, and you keep your "
