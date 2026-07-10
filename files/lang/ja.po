@@ -1040,7 +1040,7 @@ msgid "Battle Only"
 msgstr "戦闘のみ"
 
 msgid "Start"
-msgstr "始める"
+msgstr "戦闘開始"
 
 msgid "Start the battle."
 msgstr "戦闘を開始します。"
@@ -1052,17 +1052,17 @@ msgid "Reset"
 msgstr "リセット"
 
 msgid "Reset to default settings."
-msgstr "デフォルト設定にリセットします。"
+msgstr "設定をデフォルトに戻します。"
 
 msgid ""
 "The battle will take place on a randomly selected terrain. Click to change "
 "the terrain type."
-msgstr "戦闘はランダムに選択された地形で行われます。クリックして地形タイプを変更します。"
+msgstr "戦闘はランダムに選択された地形で行われます。クリックすると地形タイプが切り替わります。"
 
 msgid ""
 "The battle will take place on %{terrain-type} terrain. Click to change the "
 "terrain type."
-msgstr "戦闘は%{terrain-type}の地形で行われます。クリックして地形タイプを変更します。"
+msgstr "戦闘は%{terrain-type}の地形で行われます。クリックすると地形タイプが切り替わります。"
 
 msgid "Please select another hero."
 msgstr "別の勇者を選択してください。"
