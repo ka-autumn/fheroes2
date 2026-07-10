@@ -2870,7 +2870,7 @@ msgid "Build a new ship:"
 msgstr "新しい船を建造します。"
 
 msgid "Resource cost:"
-msgstr "リソースコスト:"
+msgstr "必要な資源："
 
 msgid "Total: "
 msgstr "合計： "
@@ -2995,25 +2995,25 @@ msgid "Map Description"
 msgstr "マップの説明"
 
 msgid "First select recipients!"
-msgstr "まず受信者を選択してください。"
+msgstr "資源を贈る相手を選択してください。"
 
 msgid "You cannot select %{resource}!"
-msgstr "%{resource} は選択できません。"
+msgstr "%{resource}は贈れません。"
 
 msgid "Set %{resource-type} Count"
-msgstr "%{resource-type} 個の数を設定"
+msgstr "贈る%{resource-type}の数量を設定"
 
 msgid "Select Recipients"
-msgstr "受信者の選択"
+msgstr "贈り先の選択"
 
 msgid "Your Funds"
-msgstr "あなたの資金"
+msgstr "あなたの資源"
 
 msgid "Planned Gift"
-msgstr "プレゼント企画"
+msgstr "相手に贈る資源"
 
 msgid "Gift from %{name}"
-msgstr "%{name}からの贈り物"
+msgstr "%{name}プレイヤーから贈られた資源"
 
 msgid "Resolution"
 msgstr "解像度"
