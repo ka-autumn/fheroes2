@@ -2716,16 +2716,16 @@ msgid "week"
 msgstr "週"
 
 msgid "View World"
-msgstr "世界地図を表示"
+msgstr "世界地図"
 
 msgid "View the entire world."
 msgstr "世界全体を見渡せます。"
 
 msgid "Puzzle"
-msgstr "パズル"
+msgstr "宝の地図"
 
 msgid "View the obelisk puzzle."
-msgstr "オベリスクのパズルを見てみましょう。"
+msgstr "オベリスクで見つけた宝の地図を見ます。"
 
 msgid "Scenario Information"
 msgstr "シナリオ情報"
@@ -2733,11 +2733,11 @@ msgstr "シナリオ情報"
 msgid "View information on the scenario you are currently playing."
 msgstr "現在プレイ中のシナリオの情報を表示します。"
 
-msgid "Dig for the Ultimate Artifact."
-msgstr "究極のアーティファクトを発掘しましょう。"
-
 msgid "Digging"
-msgstr "掘る"
+msgstr "発掘"
+
+msgid "Dig for the Ultimate Artifact."
+msgstr "究極の秘宝を発掘するため、地面を掘ります。"
 
 msgid "Arena"
 msgstr "アリーナ"
