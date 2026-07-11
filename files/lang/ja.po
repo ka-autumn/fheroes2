@@ -3130,20 +3130,20 @@ msgid "Click to choose the selected language."
 msgstr "クリックして選択した言語を選択します。"
 
 msgid "%{name} has gained a level."
-msgstr "%{name} はレベルを上げました。"
+msgstr "%{name} のレベルが上がりました。"
 
 msgid "%{skill} +1"
 msgstr "%{skill} +1"
 
 msgid "You have learned %{skill}."
-msgstr "あなたは %{skill} を学習しました。"
+msgstr "%{skill} を習得しました。"
 
 msgid ""
 "%{name} has gained a level.\n"
 "\n"
 "%{skill} +1"
 msgstr ""
-"%{name} はレベルを上げました。\n"
+"%{name} のレベルが上がりました。\n"
 "\n"
 "%{skill} +1"
 
@@ -3153,13 +3153,13 @@ msgid ""
 "or\n"
 "%{skill2}"
 msgstr ""
-"次のいずれかを学ぶことができます。\n"
+"次のいずれかを習得することができます。\n"
 "%{skill1}\n"
 "または\n"
 "%{skill2}"
 
 msgid "Learn %{secondary-skill}"
-msgstr "%{secondary-skill}を学ぶ"
+msgstr "%{secondary-skill}を習得"
 
 msgid "n/a"
 msgstr "該当なし"
@@ -7971,29 +7971,29 @@ msgid "Do you want to save the changes made?"
 msgstr "加えた変更を保存しますか?"
 
 msgid "Blood Morale"
-msgstr "血の士気"
+msgstr "熱狂的"
 
 msgid "%{morale} Morale"
-msgstr "%{morale} 士気"
+msgstr "士気 %{morale}"
 
 msgid "%{luck} Luck"
-msgstr "%{luck} 運"
+msgstr "運 %{luck}"
 
 msgid "Current Luck Modifiers:"
 msgstr "現在の運の修正値:"
 
 msgid "Current Morale Modifiers:"
-msgstr "現在の士気修飾子:"
+msgstr "現在の士気の修正値:"
 
 msgid "Entire army is undead, so morale does not apply."
-msgstr "軍隊全体がアンデッドであるため、士気は適用されません。"
+msgstr "部隊全体がアンデッドであるため、士気は適用されません。"
 
 msgid ""
 "Current experience %{exp1}.\n"
 " Next level %{exp2}."
 msgstr ""
-"現在のエクスペリエンスは %{exp1} です。\n"
-" 次のレベル %{exp2}。"
+"現在の経験値は %{exp1} です。\n"
+" 次のレベルまで %{exp2} の経験値が必要です。"
 
 msgid "million|M"
 msgstr "M"
