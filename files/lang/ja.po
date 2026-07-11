@@ -6682,10 +6682,10 @@ msgid "pyramid|%{object} raided"
 msgstr "%{object}が襲撃されました"
 
 msgid " gives you maximum morale"
-msgstr " 最大限の士気を与えてくれる"
+msgstr " 士気が 熱狂的 になります。"
 
 msgid " gives you maximum luck"
-msgstr " あなたに最大限の幸運をもたらします"
+msgstr " 運が 神がかり になります。"
 
 msgid "You cannot have multiple spell books."
 msgstr "複数の魔法書を持つことはできません。"
@@ -6694,13 +6694,13 @@ msgid "You cannot pick up this artifact, you already have a full load!"
 msgstr "この秘宝を拾うことはできません。すでに満載されています。"
 
 msgid "To cast spells, you must first buy a spell book for %{gold} gold."
-msgstr "呪文を唱えるには、まず呪文の本を %{gold} ゴールドで購入する必要があります。"
+msgstr "呪文を使うためには、まず呪文書を黄金 %{gold} ポイントで購入する必要があります。"
 
 msgid "Unfortunately, you seem to be a little short of cash at the moment."
-msgstr "残念ながら、現時点では少しお金が足りないようです。"
+msgstr "残念ながら、黄金が足りないようです。"
 
 msgid "Do you wish to buy one?"
-msgstr "購入したいですか?"
+msgstr "購入しますか？"
 
 msgid "%{count} / day"
 msgstr "%{count} / 日"
@@ -7776,20 +7776,20 @@ msgstr ""
 "あなたは、あなたの足をこすりながら喉を鳴らしている大きな猫に出会いました。魅了されて手を伸ばしますが、噛まれて逃げてしまいます。少なくとも、あなたの不幸を笑うことは、あなたの軍隊の気分を高揚させます。"
 
 msgid "No spell book is present."
-msgstr "魔法の本は存在しません。"
+msgstr "呪文書は存在しません。"
 
 msgid ""
 "This spell costs %{mana} spell points. You have no spell points, so you "
 "cannot cast it."
-msgstr "この呪文には %{mana} 呪文ポイントがかかります。呪文ポイントがないので唱えることはできません。"
+msgstr "この呪文には %{mana} 呪文ポイントが必要です。呪文ポイントがないので使えません。"
 
 msgid ""
 "This spell costs %{mana} spell points. You only have %{point} spell points, "
 "so you cannot cast it."
-msgstr "この呪文には %{mana} 呪文ポイントがかかります。呪文ポイントが %{point} しかないため、唱えることができません。"
+msgstr "この呪文には %{mana} 呪文ポイントが必要です。呪文ポイントが %{point} しかないため、使えません。"
 
 msgid "The spell was not found."
-msgstr "呪文は見つかりませんでした。"
+msgstr "呪文が見つかりませんでした。"
 
 msgid "Only heroes can cast this spell."
 msgstr "この呪文を唱えることができるのは勇者だけです。"
@@ -7798,13 +7798,13 @@ msgid "This hero is not able to cast adventure spells."
 msgstr "この勇者は冒険の呪文を唱えることができません。"
 
 msgid "This spell cannot be cast on a boat."
-msgstr "この呪文はボートの上では唱えることができません。"
+msgstr "この呪文はボート上では使えません。"
 
 msgid "Your hero is too tired to cast this spell today. Try again tomorrow."
 msgstr "あなたの勇者は疲れすぎて今日この呪文を唱えることができません。明日もう一度試してください。"
 
 msgid "This spell can only be cast near an ocean."
-msgstr "この呪文は海の近くでのみ唱えることができます。"
+msgstr "この呪文は海の近くでのみ使えます。"
 
 msgid ""
 "There are no boats available and no ocean adjacent to the hero where this "
@@ -7812,7 +7812,7 @@ msgid ""
 msgstr "この呪文が機能する勇者の近くには利用可能なボートも海もありません。"
 
 msgid "There are no boats available for this spell."
-msgstr "この呪文に使用できるボートはありません。"
+msgstr "召喚できるボートがありません。"
 
 msgid "There is no ocean adjacent to the hero where this spell will work."
 msgstr "勇者の近くには、この呪文が機能する海はありません。"
@@ -7835,7 +7835,7 @@ msgstr ""
 "この町はあなたの勇者 %{hero} によって占領されています。"
 
 msgid "This spell is already in effect."
-msgstr "この呪文はすでに有効になっています。"
+msgstr "この呪文は使用済みです。"
 
 msgid ""
 "No opponent neither has nor can have any hero under their command anymore. "
@@ -7850,15 +7850,15 @@ msgstr "現時点では、指揮下に勇者を持っている敵はいません
 msgid ""
 "You must be within %{count} spaces of a monster for the Visions spell to "
 "work."
-msgstr "ビジョンの呪文が機能するには、モンスターから %{count} スペース以内にいる必要があります。"
+msgstr "この呪文を使うためには、中立の軍勢と %{count} マス以内にいる必要があります。"
 
 msgid ""
 "You must be standing on the entrance to a mine (sawmills and alchemist labs "
 "do not count) to cast this spell."
-msgstr "この呪文を唱えるには、鉱山 (製材所や錬金術師の研究室はカウントされません) の入り口に立っている必要があります。"
+msgstr "この呪文は、鉱山（製材所や錬金術師の研究所は対象外）の入口でのみ使えます。"
 
 msgid "You must first defeat the ghosts guarding the mine to cast this spell."
-msgstr "この呪文を唱えるには、まず鉱山を守っている幽霊を倒す必要があります。"
+msgstr "この呪文を使うためには、まず鉱山を守っている幽霊を倒す必要があります。"
 
 msgid ""
 "There are already at least as many elementals guarding the mine as this hero"
@@ -8045,20 +8045,20 @@ msgid "Identify Hero"
 msgstr "勇者識別"
 
 msgid "Select town to port to."
-msgstr "港への町を選択してください。"
+msgstr "移動先の町を選択してください。"
 
 msgid "Town Portal"
 msgstr "タウンポータル"
 
 msgid "The creatures are willing to join us!"
-msgstr "生き物たちは喜んで私たちに加わります！"
+msgstr "彼らは喜んで君の仲間に加わるだろう！"
 
 msgid "All the creatures will join us..."
-msgstr "すべての生き物が私たちに加わります..."
+msgstr "彼らのすべてが君の仲間に加わるつもりだ..."
 
 msgid "The creature will join us..."
 msgid_plural "%{count} of the creatures will join us..."
-msgstr[0] "%{count} 匹の生き物が私たちに加わります..."
+msgstr[0] "彼らのうち %{count} 体が君の仲間に加わるつもりだ..."
 
 msgid ""
 "\n"
@@ -8068,10 +8068,10 @@ msgstr ""
 " 料金は %{gold} ゴールドです。"
 
 msgid "These weak creatures will surely flee before us."
-msgstr "この弱い生き物たちはきっと私たちの前から逃げ出すでしょう。"
+msgstr "彼らは弱い！君を見たら一目散に逃げ出すだろう。"
 
 msgid "I fear these creatures are in the mood for a fight."
-msgstr "この生き物たちは戦いを望んでいるのではないかと心配です。"
+msgstr "彼らは君と一戦を交えるつもりだ。"
 
 msgid "The hero's attack skill is a bonus added to each unit's attack skill."
 msgstr "勇者の攻撃技能は、各ユニットの攻撃技能に加算されるボーナスです。"
@@ -11519,15 +11519,13 @@ msgstr "この呪文は %{damage} ポイントのダメージを与えます。"
 msgid ""
 "This spell summons\n"
 "%{count} %{monster}."
-msgstr ""
-"この呪文が召喚するのは、\n"
-"%{count} %{monster}。"
+msgstr "%{count} 体の %{monster} を召喚します。"
 
 msgid "This spell restores %{hp} HP."
 msgstr "この呪文は HP を %{hp} 回復します。"
 
 msgid "This spell summons %{count} %{monster} to guard the mine."
-msgstr "この呪文は鉱山を守るために %{count} %{monster} を召喚します。"
+msgstr "鉱山を守るために %{count} 体の %{monster} を召喚します。"
 
 msgid "The nearest town is %{town}."
 msgstr "最も近い町は %{town} です。"
@@ -11538,9 +11536,7 @@ msgstr "この町はあなたの勇者 %{hero} によって占領されていま
 msgid ""
 "This spell controls up to\n"
 "%{hp} HP."
-msgstr ""
-"この呪文は以下を制御します\n"
-"%{hp}HP。"
+msgstr "この呪文はHPの合計が %{hp} 以下のユニットに使用可能です。"
 
 msgid "The ultimate artifact is really the %{name}."
 msgstr "究極の秘宝は実は %{name} である…"
