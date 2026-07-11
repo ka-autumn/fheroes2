@@ -5648,10 +5648,10 @@ msgid "Battle Screen"
 msgstr "戦闘画面"
 
 msgid "Town Screen"
-msgstr "タウンスクリーン"
+msgstr "町・城画面"
 
 msgid "Army Actions"
-msgstr "軍隊の行動"
+msgstr "部隊操作"
 
 msgid "The save file is corrupted."
 msgstr "保存ファイルが壊れています。"
