@@ -11545,11 +11545,11 @@ msgstr ""
 "%{hp}HP。"
 
 msgid "The ultimate artifact is really the %{name}."
-msgstr "究極のアーティファクトは実際には %{name} です。"
+msgstr "究極の秘宝は実は %{name} である…"
 
 msgid ""
 "The ultimate artifact may be found in the %{name} regions of the world."
-msgstr "究極のアーティファクトは、世界の %{name} 地域で見つかる可能性があります。"
+msgstr "究極の秘宝は %{name} の地方で見つかるかもしれない…"
 
 msgid "north-west"
 msgstr "北西"
@@ -11564,7 +11564,7 @@ msgid "west"
 msgstr "西"
 
 msgid "center"
-msgstr "中心"
+msgstr "中央"
 
 msgid "east"
 msgstr "東"
@@ -11579,22 +11579,22 @@ msgid "south-east"
 msgstr "南東"
 
 msgid "The truth is out there."
-msgstr "真実はそこにあります。"
+msgstr "真実はいつもそこにある…"
 
 msgid "The dark side is stronger."
-msgstr "ダークサイドの方が強いです。"
+msgstr "闇の勢力の方が強い…"
 
 msgid "The end of the world is near."
-msgstr "世界の終わりは近づいています。"
+msgstr "世界の終わりが近づいている…"
 
 msgid "The bones of Lord Slayer are buried in the foundation of the arena."
-msgstr "ロード・スレイヤーの骨は闘技場の基礎に埋められている。"
+msgstr "ロード・スレイヤーの骨は闘技場の地下に埋められている…"
 
 msgid "A Black Dragon will take out a Titan any day of the week."
-msgstr "ブラックドラゴンは曜日を問わずタイタンを倒します。"
+msgstr "最強の兵士はブラックドラゴンである…"
 
 msgid "He told her: Yada yada yada... and then she said: Blah, blah, blah..."
-msgstr "彼は彼女に「ヤダ、ヤダ、ヤダ...」と言いました。そして彼女はこう言いました: なんとか、なんとか、なんとか..."
+msgstr "男と女が話をしている…"
 
 msgid "An unknown force is being resurrected..."
 msgstr "未知なる力が復活する…"
