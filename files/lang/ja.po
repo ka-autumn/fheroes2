@@ -2575,7 +2575,7 @@ msgstr "守備隊長の間では、勇者が不在の場合に城の防衛を支
 msgid ""
 "The Mage Guild allows heroes to learn spells and replenish their spell "
 "points."
-msgstr "魔術師ギルドでは、勇者が呪文を学び、呪文ポイントを補充することができます。"
+msgstr "魔道師ギルドでは、勇者が呪文を学び、呪文ポイントを補充することができます。"
 
 msgid "Recruit %{name}"
 msgstr "%{name}を募集します"
@@ -2586,7 +2586,7 @@ msgstr "月: %{month}、週: %{week}、日: %{day}"
 msgid ""
 "You must purchase a spell book to use the mage guild, but you currently have"
 " no room for a spell book. Try giving one of your artifacts to another hero."
-msgstr "魔術師ギルドを利用するには呪文書が必要ですが、現在それを持つ空きがありません。秘宝を1つ、別の勇者に譲ってみてください。"
+msgstr "魔道師ギルドを利用するには呪文書が必要ですが、現在それを持つ空きがありません。秘宝を1つ、別の勇者に譲ってみてください。"
 
 msgid "Exit Castle"
 msgstr "城を出る"
@@ -2625,7 +2625,7 @@ msgid "The spells the hero can learn have been added to their book."
 msgstr "勇者が習得できる呪文が呪文書に追加されました。"
 
 msgid "Exit Mage Guild"
-msgstr "魔術師ギルドを出る"
+msgstr "魔道師ギルドを出る"
 
 msgid "A generous tip for the barkeep yields the following rumor:"
 msgstr "バーテンダーへの寛大なチップから、次のような噂が生まれました。"
@@ -3856,13 +3856,13 @@ msgid "Exit this dialog, discarding the changes made."
 msgstr "このダイアログを終了し、加えた変更を破棄します。"
 
 msgid "Click to ban spells from appearing in the Mage Guild."
-msgstr "クリックすると、魔術師ギルドでの呪文の出現が禁止されます。"
+msgstr "クリックすると、魔道師ギルドでの呪文の出現が禁止されます。"
 
 msgid "Banned Spells"
 msgstr "禁止された呪文"
 
 msgid "Select spells that will appear in the Mage Guild."
-msgstr "魔術師ギルドに表示される呪文を選択します。"
+msgstr "魔道師ギルドに表示される呪文を選択します。"
 
 msgid "SET SPELLS"
 msgstr "呪文を設定する"
@@ -3919,7 +3919,7 @@ msgid "Set custom Castle Army."
 msgstr "カスタム城軍を設定します。"
 
 msgid "Set spells to appear in the Mage Guild."
-msgstr "魔術師ギルドに表示される呪文を設定します。"
+msgstr "魔道師ギルドに表示される呪文を設定します。"
 
 msgid "Set Spells"
 msgstr "呪文を設定する"
