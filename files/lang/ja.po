@@ -6493,7 +6493,7 @@ msgid "Greek"
 msgstr "ギリシャ語"
 
 msgid "Esperanto"
-msgstr "エスペラント"
+msgstr "エスペラント語"
 
 msgid "Slow"
 msgstr "遅い"
