@@ -11011,7 +11011,7 @@ msgstr ""
 msgid ""
 "Causes a giant fireball to strike the selected area, damaging all nearby "
 "creatures."
-msgstr "巨大な火の玉が選択したエリアに衝突し、近くのすべての生き物にダメージを与えます。"
+msgstr "巨大な火の玉が選択したエリアに衝突し、近くのすべてのユニットにダメージを与えます。"
 
 msgid "Fireball"
 msgstr "ファイアボール"
@@ -11022,10 +11022,10 @@ msgstr "ファイアブラスト"
 msgid ""
 "An improved version of fireball, fireblast affects two hexes around the "
 "center point of the spell, rather than one."
-msgstr "ファイアボールの改良版であるファイアブラストは、呪文の中心点の周囲の 1 ヘクスではなく 2 ヘクスに影響を与えます。"
+msgstr "対象のマスの周囲2マスのユニットにダメージを与えます。この呪文はファイアボールの強化版です。"
 
 msgid "Causes a bolt of electrical energy to strike the selected creature."
-msgstr "電気エネルギーのボルトが選択したユニットを攻撃します。"
+msgstr "対象の敵ユニットに電撃によるダメージを与えます。"
 
 msgid "Lightning Bolt"
 msgstr "ライトニングボルト"
@@ -11038,16 +11038,14 @@ msgid ""
 "strike the nearest creature with half damage, then strike the NEXT nearest "
 "creature with half again damage, and so on, until it becomes too weak to be "
 "harmful. Warning: This spell can hit your own creatures!"
-msgstr ""
-"電気エネルギーのボルトが選択したユニットを攻撃し、次に最も近いユニットを半分のダメージで攻撃し、次に最も近いユニットを再び半分のダメージで攻撃するというように、害を及ぼすことができないほど弱くなるまで続けます。警告:"
-" この呪文は自分のユニットを攻撃する可能性があります。"
+msgstr "対象の敵ユニットに電撃によるダメージを与えます。その後、最も近いユニットに半分のダメージを与えることをダメージが0になるまで繰り返します。注意：この呪文は自分のユニットにダメージを与える可能性があります。"
 
 msgid "Teleport"
 msgstr "テレポート"
 
 msgid ""
 "Teleports the creature you select to any open position on the battlefield."
-msgstr "選択したユニットを戦場の空いている位置にテレポートします。"
+msgstr "選択したユニットを戦場の空いている位置に移動します。"
 
 msgid "Cure"
 msgstr "キュアー"
@@ -11055,7 +11053,7 @@ msgstr "キュアー"
 msgid ""
 "Removes all negative spells cast upon one of your units, and restores up to "
 "%{count} HP per level of spell power."
-msgstr "あなたのユニットの 1 つに唱えられたすべてのマイナス呪文を取り除き、呪文パワー レベルごとに最大 %{count} HP を回復します。"
+msgstr "対象の味方ユニットの悪い呪文の効果をすべて解除し、HPを最大で魔力×%{count}だけ回復します。"
 
 msgid "Mass Cure"
 msgstr "キュアー - グループ"
@@ -11063,14 +11061,13 @@ msgstr "キュアー - グループ"
 msgid ""
 "Removes all negative spells cast upon your forces, and restores up to "
 "%{count} HP per level of spell power, per creature."
-msgstr ""
-"あなたの部隊にかけられたすべてのマイナスの呪文を取り除き、ユニットごとに魔力のレベルごとに最大 %{count} の HP を回復します。"
+msgstr "味方のすべてのユニットの悪い呪文の効果をすべて解除し、HPを最大で魔力×%{count}だけ回復します。"
 
 msgid "Resurrect"
 msgstr "リザレークル"
 
 msgid "Resurrects creatures from a damaged or dead unit until end of combat."
-msgstr "戦闘が終了するまで、ダメージを受けたユニットまたは死亡したユニットからユニットを復活させます。"
+msgstr "戦闘が終了するまで、ダメージを受けたユニットまたは死亡したユニットを復活させます。"
 
 msgid "Resurrect True"
 msgstr "オール・リザレークル"
@@ -11082,16 +11079,16 @@ msgid "Haste"
 msgstr "スピードアップ"
 
 msgid "Increases the speed of any creature by %{count}."
-msgstr "あらゆるユニットの速度を%{count}増加させます。"
+msgstr "対象の味方ユニットの移動速度を%{count}増加させます。"
 
 msgid "Increases the speed of all of your creatures by %{count}."
-msgstr "すべてのユニットの速度を %{count} 増加させます。"
+msgstr "味方のすべてのユニットの移動速度を%{count}増加させます。"
 
 msgid "Mass Haste"
 msgstr "スピードアップ - グループ"
 
 msgid "Slows target to half movement rate."
-msgstr "ターゲットの移動速度を半分に遅くします。"
+msgstr "対象の敵ユニットの移動速度を半分にします。"
 
 msgid "spell|Slow"
 msgstr "スピードダウン"
@@ -11100,7 +11097,7 @@ msgid "Mass Slow"
 msgstr "スピードダウン - グループ"
 
 msgid "Slows all enemies to half movement rate."
-msgstr "敵全体の移動速度を半分に遅くします。"
+msgstr "敵のすべてのユニットの移動速度を半分にします。"
 
 msgid "spell|Blind"
 msgstr "ブラインド"
@@ -11108,22 +11105,22 @@ msgstr "ブラインド"
 msgid ""
 "Clouds the affected creatures' eyes, preventing them from moving and reduces"
 " the damage when retaliating by %{count} percent."
-msgstr "影響を受けたユニットの目を曇らせて動けなくなり、報復時のダメージを%{count}パーセント軽減します。"
+msgstr "対象の敵ユニットを失明させ行動できなくし、反撃時のダメージを%{count}パーセント軽減させます。"
 
 msgid "Bless"
 msgstr "ブレス"
 
 msgid "Causes the selected creatures to inflict maximum damage."
-msgstr "選択したユニットに最大のダメージを与えます。"
+msgstr "対象の味方ユニットが与えるダメージが最大値になります。"
 
 msgid "Causes all of your units to inflict maximum damage."
-msgstr "すべてのユニットに最大のダメージを与えます。"
+msgstr "味方のすべてのユニットが与えるダメージが最大値になります。"
 
 msgid "Mass Bless"
 msgstr "ブレス - グループ"
 
 msgid "Magically increases the defense skill of the selected creatures."
-msgstr "選択したユニットの防御技能を魔法で増加させます。"
+msgstr "対象の味方ユニットの防御技能を増加させます。"
 
 msgid "Stoneskin"
 msgstr "ストーンガード"
@@ -11134,29 +11131,29 @@ msgstr "スチールガード"
 msgid ""
 "Increases the defense skill of the targeted creatures. This is an improved "
 "version of Stoneskin."
-msgstr "対象のユニットの防御技能を増加させます。これはストーンスキンの改良版です。"
+msgstr "対象のユニットの防御技能を増加させます。これはストーンガードの強化版です。"
 
 msgid "Causes the selected creatures to inflict minimum damage."
-msgstr "選択したユニットに最小限のダメージを与えます。"
+msgstr "対象の敵ユニットが与えるダメージが最小値になります。"
 
 msgid "Curse"
 msgstr "呪い"
 
 msgid "Causes all enemy troops to inflict minimum damage."
-msgstr "すべての敵軍に最小限のダメージを与えます。"
+msgstr "敵のすべてのユニットが与えるダメージが最小値になります。"
 
 msgid "Mass Curse"
 msgstr "呪い - グループ"
 
 msgid "Damages all undead in the battle."
-msgstr "戦闘中のアンデッド全員にダメージを与える。"
+msgstr "すべてのアンデッドユニットにダメージを与えます。"
 
 msgid "Holy Word"
 msgstr "ホーリーワード"
 
 msgid ""
 "Damages all undead in the battle. This is an improved version of Holy Word."
-msgstr "戦闘中のアンデッド全員にダメージを与える。これは聖なる言葉の改良版です。"
+msgstr "すべてのアンデッドユニットにダメージを与えます。この呪文はホーリーワードの強化版です。"
 
 msgid "Holy Shout"
 msgstr "ホーリーシャウト"
@@ -11165,22 +11162,22 @@ msgid "Anti-Magic"
 msgstr "耐魔力"
 
 msgid "Prevents any magic against the selected creatures."
-msgstr "選択したユニットに対する魔法を防ぎます。"
+msgstr "対象の味方ユニットに対するあらゆる呪文の効果を防ぎます。"
 
 msgid "Dispel Magic"
 msgstr "ディスペル"
 
 msgid "Removes all magic spells from a single target."
-msgstr "単一のターゲットからすべての魔法の呪文を削除します。"
+msgstr "対象のユニットにかかっている呪文の効果をすべて解除します。"
 
 msgid "Mass Dispel"
 msgstr "ディスペル - グループ"
 
 msgid "Removes all magic spells from all creatures."
-msgstr "すべてのユニットからすべての魔法の呪文を取り除きます。"
+msgstr "すべてのユニットにかかっている呪文の効果をすべて解除します。"
 
 msgid "Causes a magic arrow to strike the selected target."
-msgstr "選択したターゲットに魔法の矢を発射します。"
+msgstr "対象の敵ユニットに魔法の矢を発射します。"
 
 msgid "Magic Arrow"
 msgstr "マジックアロー"
@@ -11189,25 +11186,25 @@ msgid "Berserker"
 msgstr "バーサーカー"
 
 msgid "Causes a creature to attack its nearest neighbor."
-msgstr "ユニットに最も近い隣人を攻撃させます。"
+msgstr "対象の敵ユニットに最も近いユニットを攻撃させます。"
 
 msgid "Armageddon"
 msgstr "ハルマゲドン"
 
 msgid ""
 "Holy terror strikes the battlefield, causing severe damage to all creatures."
-msgstr "聖なる恐怖が戦場を襲い、すべての生き物に深刻なダメージを与えます。"
+msgstr "聖なる業火が戦場を焼き尽くし、すべてのユニットに甚大なダメージを与えます。"
 
 msgid "Elemental Storm"
 msgstr "エレメンタルストーム"
 
 msgid "Magical elements pour down on the battlefield, damaging all creatures."
-msgstr "魔法の要素が戦場に降り注ぎ、すべての生き物にダメージを与えます。"
+msgstr "魔法の雨が戦場に降り注ぎ、すべてのユニットにダメージを与えます。"
 
 msgid ""
 "A rain of rocks strikes an area of the battlefield, damaging all nearby "
 "creatures."
-msgstr "岩の雨が戦場のエリアを襲い、近くのすべての生き物にダメージを与えます。"
+msgstr "戦場の対象エリアを岩の雨が襲い、近くのすべてのユニットにダメージを与えます。"
 
 msgid "Meteor Shower"
 msgstr "メテオシャワー"
@@ -11216,7 +11213,7 @@ msgid "Paralyze"
 msgstr "麻痺"
 
 msgid "The targeted creatures are paralyzed, unable to move or retaliate."
-msgstr "標的となった生き物は麻痺し、動くことも反撃することもできなくなります。"
+msgstr "対象の敵ユニットは麻痺し、動くことも反撃することもできなくなります。"
 
 msgid "Hypnotize"
 msgstr "催眠術"
@@ -11224,13 +11221,13 @@ msgstr "催眠術"
 msgid ""
 "Brings a single enemy unit under your control if its hits are less than "
 "%{count} times the caster's spell power."
-msgstr "ヒット数が術者の呪文威力の%{count}倍未満の場合、敵ユニット1体をあなたのコントロール下に置きます。"
+msgstr "HPの総量が術者の魔力の%{count}倍未満の敵ユニット1体をあなたのコントロール下に置くことができます。"
 
 msgid "Cold Ray"
 msgstr "コールドレイ"
 
 msgid "Drains body heat from a single enemy unit."
-msgstr "敵ユニット1体から体温を奪う。"
+msgstr "対象の敵ユニット1体に冷気によるダメージを与えます。"
 
 msgid "Cold Ring"
 msgstr "コールドリング"
@@ -11238,16 +11235,16 @@ msgstr "コールドリング"
 msgid ""
 "Drains body heat from all units surrounding the center point, but not "
 "including the center point."
-msgstr "中心点を除く、中心点を囲むすべてのユニットから体温を排出します。"
+msgstr "対象のマスを除く、対象のマスの周囲1マスにいるすべてのユニットに冷気によるダメージを与えます。"
 
 msgid "Disrupting Ray"
 msgstr "ディスラプティングレイ"
 
 msgid "Reduces the defense rating of an enemy unit by three."
-msgstr "敵ユニットの防御力を3下げる。"
+msgstr "対象の敵ユニットの防御力を3下げます。"
 
 msgid "Damages all living (non-undead) units in the battle."
-msgstr "戦闘中のすべての生きている（アンデッドではない）ユニットにダメージを与えます。"
+msgstr "すべての生物（アンデッドではない）ユニットにダメージを与えます。"
 
 msgid "Death Ripple"
 msgstr "死の波紋"
@@ -11258,25 +11255,25 @@ msgstr "死の波動"
 msgid ""
 "Damages all living (non-undead) units in the battle. This spell is an "
 "improved version of Death Ripple."
-msgstr "戦闘中のすべての生きている（アンデッドではない）ユニットにダメージを与えます。この呪文は死の波紋の改良版です。"
+msgstr "すべての生物（アンデッドではない）ユニットにダメージを与えます。この呪文は死の波紋の強化版です。"
 
 msgid "Dragon Slayer"
 msgstr "ドラゴンスレイヤー"
 
 msgid "Greatly increases a unit's attack skill vs. Dragons."
-msgstr "ユニットの対ドラゴン攻撃技能が大幅に上昇します。"
+msgstr "対象の味方ユニットがドラゴンに攻撃する際の攻撃技能が大幅に上昇します。"
 
 msgid "Blood Lust"
 msgstr "アタックパワーアップ"
 
 msgid "Increases a unit's attack skill."
-msgstr "ユニットの攻撃技能を上昇させます。"
+msgstr "対象の味方ユニットの攻撃技能を上昇させます。"
 
 msgid "Animate Dead"
 msgstr "アンデッド再生"
 
 msgid "Resurrects creatures from a damaged or dead undead unit permanently."
-msgstr "ダメージを受けた、または死亡したアンデッドユニットからユニットを永久に復活させます。"
+msgstr "ダメージを受けた、または死亡したアンデッドユニットを永久に復活させます。"
 
 msgid "Mirror Image"
 msgstr "分身"
@@ -11285,8 +11282,7 @@ msgid ""
 "Creates an illusionary unit that duplicates one of your existing units. This"
 " illusionary unit does the same damages as the original, but will vanish if "
 "it takes any damage."
-msgstr ""
-"既存のユニットの 1 つを複製する幻のユニットを作成します。この幻のユニットはオリジナルと同じダメージを与えますが、ダメージを受けると消滅します。"
+msgstr "既存1ユニットの分身を作成します。この分身ユニットは元のユニットと同じダメージを与えますが、ダメージを受けると消滅します。"
 
 msgid "Shield"
 msgstr "シールド"
@@ -11294,7 +11290,7 @@ msgstr "シールド"
 msgid ""
 "Halves damage received from ranged attacks for a single unit. Does not "
 "affect damage received from Turrets or Ballistae."
-msgstr "単体の遠距離攻撃で受けるダメージを半減する。タレットやバリスタから受けるダメージには影響しません。"
+msgstr "対象の味方ユニットが遠距離攻撃で受けるダメージを半減させます。砲塔から受けるダメージには影響しません。"
 
 msgid "Mass Shield"
 msgstr "シールド - グループ"
@@ -11302,76 +11298,76 @@ msgstr "シールド - グループ"
 msgid ""
 "Halves damage received from ranged attacks for all of your units. Does not "
 "affect damage received from Turrets or Ballistae."
-msgstr "全てのユニットの遠距離攻撃で受けるダメージを半減する。タレットやバリスタから受けるダメージには影響しません。"
+msgstr "味方のすべてのユニットが遠距離攻撃で受けるダメージを半減させます。砲塔から受けるダメージには影響しません。"
 
 msgid "Summon Earth Elemental"
 msgstr "アースエレメンタル召喚"
 
 msgid "Summons Earth Elementals to fight for your army."
-msgstr "アースエレメンタルを召喚して軍隊のために戦わせます。"
+msgstr "アースエレメンタルを召喚します。"
 
 msgid "Summon Air Elemental"
 msgstr "エアエレメンタル召喚"
 
 msgid "Summons Air Elementals to fight for your army."
-msgstr "エアエレメンタルを召喚して軍隊のために戦わせます。"
+msgstr "エアエレメンタルを召喚します。"
 
 msgid "Summon Fire Elemental"
 msgstr "ファイアエレメンタル召喚"
 
 msgid "Summons Fire Elementals to fight for your army."
-msgstr "あなたの軍隊のために戦うために火のエレメンタルを召喚します。"
+msgstr "ファイアエレメンタルを召喚します。"
 
 msgid "Summon Water Elemental"
 msgstr "ウォーターエレメンタル召喚"
 
 msgid "Summons Water Elementals to fight for your army."
-msgstr "水のエレメンタルを召喚して軍隊のために戦わせます。"
+msgstr "ウォーターエレメンタルを召喚します。"
 
 msgid "Damages castle walls."
-msgstr "城壁にダメージを与える。"
+msgstr "城壁にダメージを与えます。"
 
 msgid "Earthquake"
 msgstr "地震"
 
 msgid "Causes all mines across the land to become visible."
-msgstr "土地中のすべての地雷が見えるようになります。"
+msgstr "すべての鉱山の位置と種類を確認できます。"
 
 msgid "View Mines"
 msgstr "鉱山確認"
 
 msgid "Causes all resources across the land to become visible."
-msgstr "土地中のすべての資源が見えるようになります。"
+msgstr "すべての資源の位置と種類を確認できます。"
 
 msgid "View Resources"
 msgstr "資源確認"
 
 msgid "Causes all artifacts across the land to become visible."
-msgstr "土地中のすべての秘宝が見えるようになります。"
+msgstr "すべての秘宝の位置を確認できます。"
 
 msgid "View Artifacts"
 msgstr "秘宝確認"
 
 msgid "Causes all towns and castles across the land to become visible."
-msgstr "土地中のすべての町と城が見えるようになります。"
+msgstr "すべての町と城の位置を確認できます。"
 
 msgid "View Towns"
 msgstr "街確認"
 
 msgid "Causes all Heroes across the land to become visible."
-msgstr "土地中のすべての勇者が見えるようになります。"
+msgstr "すべての勇者の位置を確認できます。"
 
 msgid "View Heroes"
 msgstr "勇者確認"
 
 msgid "Causes the entire land to become visible."
-msgstr "土地全体が見えるようになります。"
+msgstr "勇者・町・城・資源・鉱山すべての位置と種類を確認できます。"
 
 msgid "View All"
 msgstr "全てを確認"
 
 msgid "Allows the caster to view detailed information on enemy Heroes."
-msgstr "術者は敵勇者の詳細情報を表示できます。"
+msgstr "対象の勇者の詳細情報を確認できます。"
 
 msgid "Summon Boat"
 msgstr "船召喚"
@@ -11380,11 +11376,10 @@ msgid ""
 "Summons the nearest unoccupied, friendly boat to an adjacent shore location."
 " A friendly boat is one which you just built or were the most recent player "
 "to occupy."
-msgstr ""
-"最も近い空いている友好的なボートを隣接する海岸の場所に呼び出します。フレンドリーなボートは、あなたが建造したばかりのボート、または最近プレイヤーが乗ったボートです。"
+msgstr "最も近くにある誰も乗っていない友好的なボートを隣接する海岸に呼び出します。友好的なボートとは、あなたが建造したばかりのボート、またはあなたが直近で乗船したボートを指します。"
 
 msgid "Allows the caster to magically transport to a nearby location."
-msgstr "術者が近くの場所に魔法のように移動できるようにします。"
+msgstr "近くの場所に移動できます。"
 
 msgid "Dimension Door"
 msgstr "次元扉"
@@ -11395,12 +11390,12 @@ msgstr "タウンゲート"
 msgid ""
 "Returns the caster to the nearest town or castle currently owned. This spell"
 " cannot be cast if the hero is already in a town or a castle."
-msgstr "術者を現在所有している最も近い町または城に戻します。勇者がすでに町または城にいる場合、この呪文は唱えることができません。"
+msgstr "使用した勇者を支配している最も近い町または城に移動させます。最も近い町または城にすでに勇者がいる場合、この呪文は使用できません。"
 
 msgid ""
 "Returns the hero to the town or castle of choice, provided it is controlled "
 "by you."
-msgstr "あなたが操作している場合、勇者を選択した町または城に戻します。"
+msgstr "使用した勇者を支配している町または城に移動させます。"
 
 msgid "Visions"
 msgstr "ヴィジョン"
@@ -11408,7 +11403,7 @@ msgstr "ヴィジョン"
 msgid ""
 "Visions predicts the likely outcome of an encounter with a neutral army "
 "camp."
-msgstr "ビジョンは、中立軍キャンプとの遭遇の起こり得る結果を予測します。"
+msgstr "対象の中立の部隊の行動を予測します。"
 
 msgid "Haunt"
 msgstr "亡霊"
@@ -11416,31 +11411,31 @@ msgstr "亡霊"
 msgid ""
 "Haunts a mine you control with Ghosts. This mine stops producing resources. "
 "(If I can't keep it, nobody will!)"
-msgstr "ゴーストであなたが管理する鉱山に出没します。この鉱山は資源の生産を停止します。 （私が守れなかったら、誰も守れないよ！）"
+msgstr "自分が管理する鉱山にゴーストを出現させます。その鉱山は資源の生産を停止します。（他の者に奪われるくらいなら、悪霊にくれてやる！）"
 
 msgid "Set Earth Guardian"
 msgstr "アースガーディアン召喚"
 
 msgid "Sets Earth Elementals to guard a mine against enemy armies."
-msgstr "アースエレメンタルを敵軍から地雷を守るように設定します。"
+msgstr "敵に鉱山を奪われるのを防ぐため、アースエレメンタルを召喚します。"
 
 msgid "Set Air Guardian"
 msgstr "エアガーディアン召喚"
 
 msgid "Sets Air Elementals to guard a mine against enemy armies."
-msgstr "エアエレメンタルを敵軍から地雷を守るように設定します。"
+msgstr "敵に鉱山を奪われるのを防ぐため、エアエレメンタルを召喚します。"
 
 msgid "Set Fire Guardian"
 msgstr "ファイアガーディアン召喚"
 
 msgid "Sets Fire Elementals to guard a mine against enemy armies."
-msgstr "敵軍から地雷を守るために火のエレメンタルを設定します。"
+msgstr "敵に鉱山を奪われるのを防ぐため、ファイアエレメンタルを召喚します。"
 
 msgid "Set Water Guardian"
 msgstr "ウォーターガーディアン召喚"
 
 msgid "Sets Water Elementals to guard a mine against enemy armies."
-msgstr "敵軍から地雷を守るために水のエレメンタルを設定します。"
+msgstr "敵に鉱山を奪われるのを防ぐため、ウォーターエレメンタルを召喚します。"
 
 msgid "Random Spell"
 msgstr "ランダムな呪文"
@@ -11484,7 +11479,7 @@ msgstr "石化"
 msgid ""
 "Turns the affected creature into stone. A petrified creature receives half "
 "damage from a direct attack."
-msgstr "影響を受けたユニットを石に変えます。石化したユニットは直接攻撃から半分のダメージを受けます。"
+msgstr "対象の敵ユニットを石化させます。石化したユニットは攻撃を受けるまで行動できませんが、直接攻撃で受けるダメージは半分になります。"
 
 msgid "You have no Magic Book, so you cannot cast a spell."
 msgstr "あなたは呪文書を持っていないので、呪文を唱えることはできません。"
