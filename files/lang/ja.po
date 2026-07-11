@@ -1950,7 +1950,7 @@ msgid "Blackridge"
 msgstr "ブラックリッジ"
 
 msgid "Hillstone"
-msgstr "ヒルストーン"
+msgstr "ヒルストン"
 
 msgid "Pinehurst"
 msgstr "パインハースト"
@@ -1959,7 +1959,7 @@ msgid "Whiteshield"
 msgstr "ホワイトシールド"
 
 msgid "Woodhaven"
-msgstr "ウッドヘブン"
+msgstr "ウッドヘイヴン"
 
 msgid "Blackwind"
 msgstr "ブラックウィンド"
@@ -1980,7 +1980,7 @@ msgid "Atlantium"
 msgstr "アトランティウム"
 
 msgid "Middle Gate"
-msgstr "中門"
+msgstr "ミドルゲート"
 
 msgid "Sansobar"
 msgstr "サンソバール"
@@ -1995,10 +1995,10 @@ msgid "Baywatch"
 msgstr "ベイウォッチ"
 
 msgid "Fountainhead"
-msgstr "水源"
+msgstr "ファウンテンヘッド"
 
 msgid "Vertigo"
-msgstr "めまい"
+msgstr "ヴェルティゴ"
 
 msgid "Wildabar"
 msgstr "ウィルダバー"
@@ -2010,19 +2010,19 @@ msgid "Brindamoor"
 msgstr "ブリンダムア"
 
 msgid "Lakeside"
-msgstr "湖畔"
+msgstr "レイクサイド"
 
 msgid "Nightshadow"
 msgstr "ナイトシャドウ"
 
 msgid "Olympus"
-msgstr "オリンパス"
+msgstr "オリンポス"
 
 msgid "Sandcaster"
 msgstr "サンドキャスター"
 
 msgid "Alamar"
-msgstr "アラマー"
+msgstr "アラマール"
 
 msgid "Burlock"
 msgstr "バーロック"
@@ -2040,19 +2040,19 @@ msgid "Algary"
 msgstr "アルガリー"
 
 msgid "Basenji"
-msgstr "バセンジー"
+msgstr "バセンジ"
 
 msgid "Blackfang"
 msgstr "ブラックファング"
 
 msgid "New Dawn"
-msgstr "新しい夜明け"
+msgstr "ニュードーン"
 
 msgid "Sorpigal"
-msgstr "ソーピガル"
+msgstr "ソルピガル"
 
 msgid "Avone"
-msgstr "アボン"
+msgstr "エイヴォン"
 
 msgid "Big Oak"
 msgstr "ビッグオーク"
@@ -2061,7 +2061,7 @@ msgid "Chandler"
 msgstr "チャンドラー"
 
 msgid "Erliquin"
-msgstr "アーリクイン"
+msgstr "エルリクィン"
 
 msgid "Hampshire"
 msgstr "ハンプシャー"
@@ -2073,13 +2073,13 @@ msgid "Avalon"
 msgstr "アヴァロン"
 
 msgid "Roc Haven"
-msgstr "ロックヘブン"
+msgstr "ロックヘイヴン"
 
 msgid "South Mill"
 msgstr "サウスミル"
 
 msgid "Weed Patch"
-msgstr "雑草パッチ"
+msgstr "ウィードパッチ"
 
 msgid "Brownston"
 msgstr "ブラウンストン"
@@ -2088,7 +2088,7 @@ msgid "Hilltop"
 msgstr "ヒルトップ"
 
 msgid "Weddington"
-msgstr "ウェントン"
+msgstr "ウェディントン"
 
 msgid "Westfork"
 msgstr "ウェストフォーク"
@@ -2097,10 +2097,10 @@ msgid "Whittingham"
 msgstr "ウィッティンガム"
 
 msgid "Cathcart"
-msgstr "カスカート"
+msgstr "キャスカート"
 
 msgid "Elk's Head"
-msgstr "エルクの頭"
+msgstr "エルクスヘッド"
 
 msgid "Roscomon"
 msgstr "ロスコモン"
@@ -2115,7 +2115,7 @@ msgid "Blackburn"
 msgstr "ブラックバーン"
 
 msgid "Blacksford"
-msgstr "ブラックフォード"
+msgstr "ブラックスフォード"
 
 msgid "Burton"
 msgstr "バートン"
@@ -2124,13 +2124,13 @@ msgid "Pig's Eye"
 msgstr "ピッグズアイ"
 
 msgid "Viper's Nest"
-msgstr "ヴァイパーの巣"
+msgstr "ヴァイパーズネスト"
 
 msgid "Fenton"
 msgstr "フェントン"
 
 msgid "Lankershire"
-msgstr "ランカーシャー"
+msgstr "ランカシャー"
 
 msgid "Lombard"
 msgstr "ロンバード"
@@ -2142,7 +2142,7 @@ msgid "Troy"
 msgstr "トロイ"
 
 msgid "Forder Oaks"
-msgstr "フォーダー オークス"
+msgstr "フォーダーオークス"
 
 msgid "Meramec"
 msgstr "メラメック"
@@ -2154,7 +2154,7 @@ msgid "Westmoor"
 msgstr "ウェストムーア"
 
 msgid "Willow"
-msgstr "柳"
+msgstr "ウィロー"
 
 msgid "Corackston"
 msgstr "コラックストン"
@@ -6133,7 +6133,7 @@ msgid "Sandro"
 msgstr "サンドロ"
 
 msgid "Crodo"
-msgstr "クロード"
+msgstr "クロド"
 
 msgid "Barock"
 msgstr "バロック"
@@ -6145,10 +6145,10 @@ msgid "Astra"
 msgstr "アストラ"
 
 msgid "Agar"
-msgstr "アガー"
+msgstr "アガール"
 
 msgid "Vatawna"
-msgstr "バトーナ"
+msgstr "ヴァトーナ"
 
 msgid "Vesper"
 msgstr "ヴェスパー"
@@ -6166,7 +6166,7 @@ msgid "Wrathmont"
 msgstr "ラスモント"
 
 msgid "Maximus"
-msgstr "マキシマス"
+msgstr "マクシマス"
 
 msgid "Next Hero"
 msgstr "次の勇者"
@@ -6535,7 +6535,7 @@ msgid "Sir Gallant"
 msgstr "サー・ギャラント"
 
 msgid "Tyro"
-msgstr "ティロ"
+msgstr "タイロー"
 
 msgid "Dimitry"
 msgstr "ディミトリ"
@@ -6547,13 +6547,13 @@ msgid "Crag Hack"
 msgstr "クラッグハック"
 
 msgid "Fineous"
-msgstr "細かい"
+msgstr "フィネオス"
 
 msgid "Jaclyn"
 msgstr "ジャクリン"
 
 msgid "Jezebel"
-msgstr "イゼベル"
+msgstr "ジェゼベル"
 
 msgid "Atlas"
 msgstr "アトラス"
@@ -6562,7 +6562,7 @@ msgid "Ergon"
 msgstr "エルゴン"
 
 msgid "Gem"
-msgstr "宝石"
+msgstr "ジェム"
 
 msgid "Natasha"
 msgstr "ナターシャ"
@@ -6580,28 +6580,28 @@ msgid "Barok"
 msgstr "バロック"
 
 msgid "Kastore"
-msgstr "カストーレ"
+msgstr "カストア"
 
 msgid "Falagar"
-msgstr "ファラガル"
+msgstr "ファラガール"
 
 msgid "Dawn"
-msgstr "夜明け"
+msgstr "ドーン"
 
 msgid "Flint"
 msgstr "フリント"
 
 msgid "Halon"
-msgstr "ハロン"
+msgstr "ヘイロン"
 
 msgid "Myra"
 msgstr "マイラ"
 
 msgid "Myrini"
-msgstr "ミリニ"
+msgstr "ミリーニ"
 
 msgid "Wilfrey"
-msgstr "ウィルフリー"
+msgstr "ウルフレイ"
 
 msgid "Mandigal"
 msgstr "マンディガル"
@@ -6613,7 +6613,7 @@ msgid "Charity"
 msgstr "チャリティー"
 
 msgid "Darlana"
-msgstr "ダーラナ"
+msgstr "ダルラナ"
 
 msgid "Ranloo"
 msgstr "ランルー"
@@ -6631,10 +6631,10 @@ msgid "Celia"
 msgstr "セリア"
 
 msgid "Roxana"
-msgstr "ロクサナ"
+msgstr "ロクサーナ"
 
 msgid "Lord Corlagon"
-msgstr "コラゴン卿"
+msgstr "コーラゴン卿"
 
 msgid "Lord Halton"
 msgstr "ハルトン卿"
@@ -6643,31 +6643,31 @@ msgid "Sister Eliza"
 msgstr "シスター・エリザ"
 
 msgid "Brother Brax"
-msgstr "ブラックス兄弟"
+msgstr "ブラザー・ブラックス"
 
 msgid "Dainwin"
 msgstr "デインウィン"
 
 msgid "Gallavant"
-msgstr "ギャラバント"
+msgstr "ギャラヴァント"
 
 msgid "Joseph"
 msgstr "ジョセフ"
 
 msgid "Mog"
-msgstr "モグよ。"
+msgstr "モグ"
 
 msgid "Solmyr"
-msgstr "ソルミル"
+msgstr "ソルミール"
 
 msgid "Ceallach"
-msgstr "セアラハ"
+msgstr "キャラフ"
 
 msgid "Drakonia"
 msgstr "ドラコニア"
 
 msgid "Elderian"
-msgstr "エルダーリアン"
+msgstr "エルデリアン"
 
 msgid "Jarkonas"
 msgstr "ヤルコナス"
