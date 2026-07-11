@@ -436,19 +436,19 @@ msgid ""
 "troop"
 msgstr ""
 "デフォルト\n"
-"軍隊"
+"部隊"
 
 msgid "View %{name}"
 msgstr "%{name} を表示"
 
 msgid "Move the %{name} "
-msgstr "%{name} を移動します "
+msgstr "%{name}を移動します "
 
 msgid "Move or right click to redistribute %{name}"
-msgstr "%{name} を再配布するには、移動または右クリックしてください"
+msgstr "%{name}を移動、または右クリックして部隊を分割します"
 
 msgid "Combine %{name} armies"
-msgstr "%{name}軍を統合する"
+msgstr "%{name}を1箇所にまとめます"
 
 msgid "Exchange %{name2} with %{name}"
 msgstr "%{name2} を %{name} と交換します"
@@ -457,10 +457,10 @@ msgid "Select %{name}"
 msgstr "%{name}を選択してください"
 
 msgid "Cannot move last troop"
-msgstr "最後の部隊を移動できません"
+msgstr "最後の部隊を移動することはできません"
 
 msgid "Move the %{name}"
-msgstr "%{name} を移動します"
+msgstr "%{name}を移動します"
 
 msgid "Set %{monster} Count:"
 msgstr "%{monster} 数を設定:"
@@ -6340,9 +6340,7 @@ msgstr "重度のハンディキャップを持つプレイヤーは少ないリ
 msgid ""
 "Default\n"
 "value"
-msgstr ""
-"デフォルト\n"
-"値"
+msgstr "デフォルト値"
 
 msgid "Set %{skill} Skill:"
 msgstr "%{skill} スキルを設定:"
@@ -6351,7 +6349,7 @@ msgid "Set %{skill} base value. Right-click to reset all skills to default."
 msgstr "%{skill} の基本値を設定します。右クリックしてすべてのスキルをデフォルトにリセットします。"
 
 msgid "View %{skill} Info"
-msgstr "%{skill} 情報を表示"
+msgstr "%{skill} の情報を表示"
 
 msgid ""
 "Default\n"
@@ -9758,7 +9756,7 @@ msgid "% damage from "
 msgstr "%ダメージ: "
 
 msgid "The three Anduran artifacts magically combine into one."
-msgstr "3 つのアンデュラの秘宝が魔法のように 1 つに結合します。"
+msgstr "3つのアンデュラの秘宝が不思議な力で1つに合体した。"
 
 msgid "View Spells"
 msgstr "呪文を表示"
@@ -9770,10 +9768,10 @@ msgid "Move %{name}"
 msgstr "%{name}を移動"
 
 msgid "Cannot move the Spellbook"
-msgstr "魔法書を移動できません"
+msgstr "呪文書は移動できません"
 
 msgid "This item can't be traded."
-msgstr "このアイテムは取引できません。"
+msgstr "このアイテムは交換できません。"
 
 msgid "Invalid Artifact"
 msgstr "無効な秘宝"
