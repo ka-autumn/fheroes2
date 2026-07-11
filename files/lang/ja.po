@@ -481,7 +481,7 @@ msgstr "呪文は失敗しました!"
 msgid ""
 "The Sphere of Negation artifact is in effect for this battle, disabling all "
 "combat spells."
-msgstr "この戦闘では否定の球体アーティファクトが有効となり、すべての戦闘呪文が無効になります。"
+msgstr "この戦闘では否定の球体秘宝が有効となり、すべての戦闘呪文が無効になります。"
 
 msgid "You cannot cast spells without a commanding hero."
 msgstr "指揮官なしでは呪文をキャストすることはできません。"
@@ -605,7 +605,7 @@ msgid "Restart"
 msgstr "Restart"
 
 msgid "You have captured an enemy artifact!"
-msgstr "敵のアーティファクトを捕獲しました!"
+msgstr "敵の秘宝を捕獲しました!"
 
 msgid "As you reach for the %{name}, it mysteriously disappears."
 msgstr "%{name} に手を伸ばすと、不思議なことにそれは消えてしまいます。"
@@ -1373,7 +1373,7 @@ msgstr "帝国にこの地域で活動するための施設を提供するため
 msgid ""
 "Eliminate all opposition in this area. Then the first piece of the artifact "
 "will be yours."
-msgstr "この地域の反対派をすべて排除してください。そうすれば、アーティファクトの最初の部分があなたのものになります。"
+msgstr "この地域の反対派をすべて排除してください。そうすれば、秘宝の最初の部分があなたのものになります。"
 
 msgid ""
 "The sorceresses to the northeast are rebelling! For the good of the empire "
@@ -1573,7 +1573,7 @@ msgid " will be willing to join your army."
 msgstr " あなたの軍隊に喜んで参加するでしょう。"
 
 msgid "\"%{artifact}\" artifact will be carried over in the campaign."
-msgstr "「%{artifact}」アーティファクトはキャンペーンに引き継がれます。"
+msgstr "「%{artifact}」秘宝はキャンペーンに引き継がれます。"
 
 msgid "The army will be carried over in the campaign."
 msgstr "軍隊はキャンペーンに引き継がれます。"
@@ -1864,7 +1864,7 @@ msgstr "上級 学問"
 msgid ""
 "The main hero will have the \"%{artifact}\" artifact at the start of the "
 "scenario."
-msgstr "勇者はシナリオの開始時に「%{artifact}」アーティファクトを持ちます。"
+msgstr "勇者はシナリオの開始時に「%{artifact}」秘宝を持ちます。"
 
 msgid ""
 "The kingdom will receive %{amount} additional %{resource} at the start of "
@@ -2586,7 +2586,7 @@ msgstr "月: %{month}、週: %{week}、日: %{day}"
 msgid ""
 "You must purchase a spell book to use the mage guild, but you currently have"
 " no room for a spell book. Try giving one of your artifacts to another hero."
-msgstr "魔術師ギルドを利用するには魔法の本が必要ですが、現在それを持つ空きがありません。アーティファクトを1つ、別の勇者に譲ってみてください。"
+msgstr "魔術師ギルドを利用するには魔法の本が必要ですが、現在それを持つ空きがありません。秘宝を1つ、別の勇者に譲ってみてください。"
 
 msgid "Exit Castle"
 msgstr "城を出る"
@@ -2637,13 +2637,13 @@ msgid "%{name} is a level %{value} %{race} "
 msgstr "%{name}はレベル%{value}の%{race}で、"
 
 msgid "with %{count} artifacts."
-msgstr "%{count}個のアーティファクトを所持しています。"
+msgstr "%{count}個の秘宝を所持しています。"
 
 msgid "with 1 artifact."
-msgstr "アーティファクトを1個所持しています。"
+msgstr "秘宝を1個所持しています。"
 
 msgid "without artifacts."
-msgstr "アーティファクトは所持していません。"
+msgstr "秘宝は所持していません。"
 
 msgid "Recruit %{name} the %{race}"
 msgstr "%{race}の%{name}を募集します"
@@ -3467,10 +3467,10 @@ msgid "Select Spell:"
 msgstr "呪文を選択します:"
 
 msgid "There are no artifacts to select from."
-msgstr "選択できるアーティファクトはありません。"
+msgstr "選択できる秘宝はありません。"
 
 msgid "Select Artifact:"
-msgstr "アーティファクトを選択します:"
+msgstr "秘宝を選択します:"
 
 msgid "There are no monsters to select from."
 msgstr "選択できるモンスターはありません。"
@@ -3488,7 +3488,7 @@ msgid "Select Monsters:"
 msgstr "モンスターを選択します:"
 
 msgid "Select Artifacts:"
-msgstr "アーティファクトを選択します:"
+msgstr "秘宝を選択します:"
 
 msgid "race|Random"
 msgstr "ランダム"
@@ -3654,7 +3654,7 @@ msgid "Defeat a specific hero."
 msgstr "特定の勇者を倒します。"
 
 msgid "Find a specific artifact."
-msgstr "特定のアーティファクトを見つけます。"
+msgstr "特定の秘宝を見つけます。"
 
 msgid "Your side must defeat the opposing side."
 msgstr "あなた側は相手側を倒さなければなりません。"
@@ -3820,7 +3820,7 @@ msgid "Obelisks Found:"
 msgstr "見つかったオベリスク:"
 
 msgid "Artifacts:"
-msgstr "アーティファクト:"
+msgstr "秘宝:"
 
 msgid "Total Army Strength:"
 msgstr "軍隊の総戦力:"
@@ -4028,16 +4028,16 @@ msgid "Set Experience value:"
 msgstr "経験値の設定:"
 
 msgid "Artifact"
-msgstr "アーティファクト"
+msgstr "秘宝"
 
 msgid "No artifact will be given by the event."
-msgstr "イベントではアーティファクトは付与されません。"
+msgstr "イベントでは秘宝は付与されません。"
 
 msgid "Delete Artifact"
-msgstr "アーティファクトの削除"
+msgstr "秘宝の削除"
 
 msgid "Delete an artifact from the event."
-msgstr "イベントからアーティファクトを削除します。"
+msgstr "イベントから秘宝を削除します。"
 
 msgid "No Secondary Skill will be given by the event."
 msgstr "イベントではセカンダリスキルは付与されません。"
@@ -4074,7 +4074,7 @@ msgstr "%{objects} を水の上に置くことはできません。"
 msgid ""
 "The Ultimate Artifact can only be placed on terrain where digging is "
 "possible."
-msgstr "究極のアーティファクトは、掘削が可能な地形にのみ配置できます。"
+msgstr "究極の秘宝は、掘削が可能な地形にのみ配置できます。"
 
 msgid "%{objects} must be placed on water."
 msgstr "%{objects} は水の上に置く必要があります。"
@@ -4172,13 +4172,13 @@ msgid "Input %{object} text:"
 msgstr "%{object} テキストを入力:"
 
 msgid "Set Random Ultimate Artifact Radius:"
-msgstr "ランダムな究極のアーティファクト半径を設定:"
+msgstr "ランダムな究極の秘宝半径を設定:"
 
 msgid "%{object} has no properties to change."
 msgstr "%{object} には変更するプロパティがありません。"
 
 msgid "This artifact"
-msgstr "このアーティファクト"
+msgstr "この秘宝"
 
 msgid "The total number of obelisks is %{count}."
 msgstr "オベリスクの総数は %{count} です。"
@@ -4205,7 +4205,7 @@ msgid "Failed to update player information."
 msgstr "プレイヤー情報の更新に失敗しました。"
 
 msgid "Only one Random Ultimate Artifact can be placed on the map."
-msgstr "マップ上に配置できるランダムな究極アーティファクトは 1 つだけです。"
+msgstr "マップ上に配置できるランダムな究極秘宝は 1 つだけです。"
 
 msgid "A maximum of %{count} obelisks can be placed on the map."
 msgstr "最大 %{count} 個のオベリスクをマップ上に配置できます。"
@@ -4289,7 +4289,7 @@ msgid "Miscellaneous"
 msgstr "その他"
 
 msgid "Artifacts"
-msgstr "アーティファクト"
+msgstr "秘宝"
 
 msgid "Dwellings"
 msgstr "住居"
@@ -4446,7 +4446,7 @@ msgstr "アドベンチャーオブジェクトモード"
 msgid ""
 "Used to place adventure objects (artifacts, dwellings, mines, treasures, "
 "etc.) on the map."
-msgstr "マップ上に冒険オブジェクト(アーティファクト、住居、鉱山、宝物など)を配置するために使用されます。"
+msgstr "マップ上に冒険オブジェクト(秘宝、住居、鉱山、宝物など)を配置するために使用されます。"
 
 msgid "Kingdom Objects Mode"
 msgstr "キングダムオブジェクトモード"
@@ -4901,10 +4901,10 @@ msgid "Riddle"
 msgstr "謎"
 
 msgid "No artifact will be given as a reward."
-msgstr "報酬としてアーティファクトは与えられません。"
+msgstr "報酬として秘宝は与えられません。"
 
 msgid "Delete an artifact from the reward."
-msgstr "報酬からアーティファクトを削除します。"
+msgstr "報酬から秘宝を削除します。"
 
 msgid "Day: %{day} Week: %{week} Month: %{month}"
 msgstr "日: %{day} 週: %{week} 月: %{month}"
@@ -5871,7 +5871,7 @@ msgstr ""
 "あなたのクエストは完了しました。"
 
 msgid "Ultimate Artifact"
-msgstr "究極のアーティファクト"
+msgstr "究極の秘宝"
 
 msgid ""
 "The enemy is beaten.\n"
@@ -5971,10 +5971,10 @@ msgid "Defeat the hero '%{name}'."
 msgstr "勇者「%{name}」を倒します。"
 
 msgid "Find the ultimate artifact."
-msgstr "究極のアーティファクトを見つけます。"
+msgstr "究極の秘宝を見つけます。"
 
 msgid "Find the '%{name}' artifact."
-msgstr "「%{name}」アーティファクトを見つけます。"
+msgstr "「%{name}」秘宝を見つけます。"
 
 msgid "Accumulate %{count} gold."
 msgstr "%{count} ゴールドを貯めます。"
@@ -6243,10 +6243,10 @@ msgstr "陸上で探してみてください！"
 msgid ""
 "Searching for the Ultimate Artifact is fruitless. Your hero could not carry "
 "it even if he found it - all his artifact slots are full."
-msgstr "究極のアーティファクトを探しても無駄です。たとえ見つけたとしても、あなたの勇者はそれを運べません。アーティファクトスロットがすべて埋まっているからです。"
+msgstr "究極の秘宝を探しても無駄です。たとえ見つけたとしても、あなたの勇者はそれを運べません。秘宝スロットがすべて埋まっているからです。"
 
 msgid "Digging for artifacts requires a whole day, try again tomorrow."
-msgstr "アーティファクトを掘るには丸1日かかります。明日もう一度試してください。"
+msgstr "秘宝を掘るには丸1日かかります。明日もう一度試してください。"
 
 msgid ""
 "After spending many hours digging here, you have uncovered the %{artifact}."
@@ -6693,7 +6693,7 @@ msgid "You cannot have multiple spell books."
 msgstr "複数の魔法書を持つことはできません。"
 
 msgid "You cannot pick up this artifact, you already have a full load!"
-msgstr "このアーティファクトを拾うことはできません。すでに満載されています。"
+msgstr "この秘宝を拾うことはできません。すでに満載されています。"
 
 msgid "To cast spells, you must first buy a spell book for %{gold} gold."
 msgstr "呪文を唱えるには、まず呪文の本を %{gold} ゴールドで購入する必要があります。"
@@ -7099,7 +7099,7 @@ msgid ""
 "ocean. Grateful, he says, \"I would give you an artifact as a reward, but "
 "you're all full.\""
 msgstr ""
-"あなたは、難破船の生存者を、容赦のない海で確実な死から救い出しました。彼は感謝して、「報酬としてアーティファクトをあげたいけど、もうお腹いっぱいだよ」と言いました。"
+"あなたは、難破船の生存者を、容赦のない海で確実な死から救い出しました。彼は感謝して、「報酬として秘宝をあげたいけど、もうお腹いっぱいだよ」と言いました。"
 
 msgid ""
 "You've pulled a shipwreck survivor from certain death in an unforgiving "
@@ -7119,7 +7119,7 @@ msgid ""
 msgstr "レプラコーンは、%{gold} ゴールドと %{count} %{res} という低価格で %{art} を提供します。"
 
 msgid "Do you wish to buy this artifact?"
-msgstr "このアーティファクトを購入しますか?"
+msgstr "この秘宝を購入しますか?"
 
 msgid ""
 "You try to pay the leprechaun, but realize that you can't afford it. The "
@@ -7132,7 +7132,7 @@ msgid ""
 msgstr "彼の寛大な申し出をあなたが拒否したことに侮辱されたレプラコーンは足を踏み鳴らしてあなたを無視します。"
 
 msgid "You've found the artifact: "
-msgstr "アーティファクトが見つかりました: "
+msgstr "秘宝が見つかりました: "
 
 msgid ""
 "You've found the humble dwelling of a withered hermit. The hermit tells you "
@@ -7162,7 +7162,7 @@ msgid ""
 "guarded by a nearby %{monster}. Do you want to fight the %{monster} for the "
 "artifact?"
 msgstr ""
-"空き地を通って古代の遺物を観察します。残念ながら、近くの %{monster} によって守られています。アーティファクトを求めて %{monster} "
+"空き地を通って古代の遺物を観察します。残念ながら、近くの %{monster} によって守られています。秘宝を求めて %{monster} "
 "と戦いますか?"
 
 msgid "Victorious, you take your prize, the %{art}."
@@ -7619,7 +7619,7 @@ msgid ""
 msgid_plural ""
 "After you consent to pay the requested amount of gold, the alchemist grabs "
 "all cursed artifacts and throws them into his magical cauldron."
-msgstr[0] "要求された金額のゴールドを支払うことに同意すると、錬金術師はすべての呪われたアーティファクトをつかみ、魔法の大釜に投げ込みます。"
+msgstr[0] "要求された金額のゴールドを支払うことに同意すると、錬金術師はすべての呪われた秘宝をつかみ、魔法の大釜に投げ込みます。"
 
 msgid ""
 "You hear a voice from behind the locked door, \"You don't have enough gold "
@@ -7947,7 +7947,7 @@ msgid "Set army combat formation to 'Grouped'"
 msgstr "軍隊の戦闘フォーメーションを「グループ化」に設定します"
 
 msgid "Set hero's Artifacts. Right-click to reset Artifact."
-msgstr "勇者のアーティファクトを設定します。右クリックしてアーティファクトをリセットします。"
+msgstr "勇者の秘宝を設定します。右クリックして秘宝をリセットします。"
 
 msgid "Set hero's Secondary Skills. Right-click to reset skill."
 msgstr "勇者のセカンダリスキルを設定します。右クリックでスキルをリセットします。"
@@ -8017,16 +8017,16 @@ msgid "hero|Level %{level}"
 msgstr "レベル %{level}"
 
 msgid "Move all artifacts from %{from_hero_name} to %{to_hero_name}."
-msgstr "すべてのアーティファクトを %{from_hero_name} から %{to_hero_name} に移動します。"
+msgstr "すべての秘宝を %{from_hero_name} から %{to_hero_name} に移動します。"
 
 msgid "Artifact Transfer"
-msgstr "アーティファクトの転送"
+msgstr "秘宝の転送"
 
 msgid "Swap Artifacts"
-msgstr "アーティファクトの交換"
+msgstr "秘宝の交換"
 
 msgid "Swap all artifacts between heroes."
-msgstr "勇者間ですべてのアーティファクトを交換します。"
+msgstr "勇者間ですべての秘宝を交換します。"
 
 msgid "Move army from %{from_hero_name} to %{to_hero_name}."
 msgstr "軍隊を%{from_hero_name}から%{to_hero_name}に移動させます。"
@@ -8935,10 +8935,10 @@ msgid "Boat"
 msgstr "ボート"
 
 msgid "Random Ultimate Artifact"
-msgstr "ランダム究極のアーティファクト"
+msgstr "ランダム究極の秘宝"
 
 msgid "Random Artifact"
-msgstr "ランダムアーティファクト"
+msgstr "ランダム秘宝"
 
 msgid "Random Resource"
 msgstr "ランダムリソース"
@@ -9128,13 +9128,13 @@ msgid "Barrow Mounds"
 msgstr "古墳"
 
 msgid "Random Artifact - Treasure"
-msgstr "ランダムアーティファクト - 宝物"
+msgstr "ランダム秘宝 - 宝物"
 
 msgid "Random Artifact - Minor"
-msgstr "ランダムアーティファクト - マイナー"
+msgstr "ランダム秘宝 - マイナー"
 
 msgid "Random Artifact - Major"
-msgstr "ランダムアーティファクト - メジャー"
+msgstr "ランダム秘宝 - メジャー"
 
 msgid "Barrier"
 msgstr "バリア"
@@ -9758,7 +9758,7 @@ msgid "% damage from "
 msgstr "%ダメージ: "
 
 msgid "The three Anduran artifacts magically combine into one."
-msgstr "3 つのアンデュラのアーティファクトが魔法のように 1 つに結合します。"
+msgstr "3 つのアンデュラの秘宝が魔法のように 1 つに結合します。"
 
 msgid "View Spells"
 msgstr "呪文を表示"
@@ -9776,7 +9776,7 @@ msgid "This item can't be traded."
 msgstr "このアイテムは取引できません。"
 
 msgid "Invalid Artifact"
-msgstr "無効なアーティファクト"
+msgstr "無効な秘宝"
 
 msgid "The %{name} increases the hero's knowledge by %{count}."
 msgstr "%{name} を持つ勇者は知識が %{count} ポイント増加します。"
@@ -10710,13 +10710,13 @@ msgstr ""
 " 「ここだよ！」彼は熱心に「印刷機だよ」と言いました。そしてあなたが言葉を発する前に、彼はあなたに魔法の本を手渡します。"
 
 msgid "Victory can be achieved by finding any Ultimate Artifact."
-msgstr "究極のアーティファクトを見つけることで勝利を達成できます。"
+msgstr "究極の秘宝を見つけることで勝利を達成できます。"
 
 msgid "Dummy 2"
 msgstr "ダミー2"
 
 msgid "The reserved artifact."
-msgstr "予約されたアーティファクト。"
+msgstr "予約された秘宝。"
 
 msgid "Dummy 3"
 msgstr "ダミー3"
@@ -10796,7 +10796,7 @@ msgid ""
 "attack, defense, and spell power). It also provides maximum luck and morale "
 "for the hero's troops and gives the hero the Town Portal spell."
 msgstr ""
-"%{name} は、3 つのアンデュラン アーティファクトの力を組み合わせたものです (攻撃技能、防御技能、魔力が "
+"%{name} は、3 つのアンデュランの秘宝の力を組み合わせたものです (攻撃技能、防御技能、魔力が "
 "+5)。また、勇者の軍隊に最大限の幸運と士気をもたらし、勇者にタウンポータルの呪文を与えます。"
 
 msgid ""
@@ -11349,7 +11349,7 @@ msgid "View Resources"
 msgstr "資源確認"
 
 msgid "Causes all artifacts across the land to become visible."
-msgstr "土地中のすべてのアーティファクトが見えるようになります。"
+msgstr "土地中のすべての秘宝が見えるようになります。"
 
 msgid "View Artifacts"
 msgstr "秘宝確認"
