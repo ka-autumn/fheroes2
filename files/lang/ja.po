@@ -5251,10 +5251,10 @@ msgid "Unknown Hero"
 msgstr "知られざる勇者"
 
 msgid "Standard"
-msgstr "標準"
+msgstr "スタンダード"
 
 msgid "View High Scores for Standard Maps."
-msgstr "標準マップのハイスコアを表示します。"
+msgstr "スタンダードマップのハイスコアを表示します。"
 
 msgid "Campaign"
 msgstr "キャンペーン"
@@ -6115,7 +6115,7 @@ msgid "Tsabu"
 msgstr "ツァブ"
 
 msgid "Sir Galant"
-msgstr "ギャラン卿"
+msgstr "サー・ギャラント"
 
 msgid "Thundax"
 msgstr "サンダックス"
