@@ -2578,7 +2578,7 @@ msgid ""
 msgstr "魔道師ギルドでは、勇者が呪文を学び、呪文ポイントを補充することができます。"
 
 msgid "Recruit %{name}"
-msgstr "%{name}を募集します"
+msgstr "%{name}をスカウトする"
 
 msgid "Month: %{month}, Week: %{week}, Day: %{day}"
 msgstr "月: %{month}、週: %{week}、日: %{day}"
@@ -2692,7 +2692,7 @@ msgid "Hire all creatures in the town."
 msgstr "町にいるすべてのユニットを雇います。"
 
 msgid "Max"
-msgstr "最大"
+msgstr "最大値を設定"
 
 msgid "Available"
 msgstr "利用可能"
@@ -3181,7 +3181,7 @@ msgid "I can offer you 1 unit of %{resto} for %{count} units of %{resfrom}."
 msgstr "%{resfrom} %{count} 単位で %{resto} を 1 単位提供できます。"
 
 msgid "Min"
-msgstr "最小"
+msgstr "最小値を設定"
 
 msgid "Qty to trade"
 msgstr "取引数量"
@@ -3310,22 +3310,22 @@ msgid "Return to the previous menu."
 msgstr "前のメニューに戻ります。"
 
 msgid "Cost per troop:"
-msgstr "ユニットあたりのコスト:"
+msgstr "1ユニットのコスト:"
 
 msgid "Available: %{count}"
-msgstr "利用可能: %{count}"
+msgstr "スカウト可能: %{count}"
 
 msgid "Number to buy:"
-msgstr "購入数:"
+msgstr "スカウト数:"
 
 msgid "Recruit selected monsters."
-msgstr "選択したモンスターを募集します。"
+msgstr "指定した数のユニットをスカウトします。"
 
 msgid "Select maximum monsters to be recruited."
-msgstr "募集するモンスターの最大数を選択します。"
+msgstr "スカウト数をスカウト可能な最大値に設定します。"
 
 msgid "Select only 1 monster to be recruited."
-msgstr "募集するモンスターを1体だけ選択してください。"
+msgstr "スカウト数を1に設定します。"
 
 msgid "Select this game resolution."
 msgstr "このゲームの解像度を選択します。"
