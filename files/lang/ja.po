@@ -10581,7 +10581,7 @@ msgid ""
 msgstr "休息を取り、焚き火のため、君は近くの枯れ木の山から薪を引き抜いた。その際、君はいくら引き抜いてもその山は少しも減る気配がないことに気づく。どうやらこの薪には魔法がかけられているらしい。その不思議な薪の束を、君は喜んで荷物に加えた。"
 
 msgid "Endless Cart of Ore"
-msgstr "不思議な鉱石のカート"
+msgstr "不思議な鉱石の荷車"
 
 msgid "The %{name} provides %{count} unit of ore per day."
 msgstr "%{name} を持つ勇者は、1 日あたり鉱石を %{count} 個得ます。"
@@ -10857,7 +10857,7 @@ msgid ""
 msgstr "逃げ出した牝馬を捕まえようとする農民を、君は立ち止まって手助けした。感謝のしるしとして受け取った小さな球体を握りしめた瞬間、君は手足から魔法のエネルギーが吸い取られていくのを感じた……。"
 
 msgid "Staff of Wizardry"
-msgstr "ウィザードリィの杖"
+msgstr "大賢者の杖"
 
 msgid "The %{name} boosts the hero's spell power by %{count}."
 msgstr "%{name} を持つ勇者は魔力が %{count} ポイント増加します。"
