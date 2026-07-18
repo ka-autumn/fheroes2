@@ -2172,7 +2172,7 @@ msgid "Cannot afford a Hero."
 msgstr "スカウトに必要な資金が足りません。"
 
 msgid "There is no room in the garrison for this army."
-msgstr "駐屯地にはこの軍隊が入る余地はありません。"
+msgstr "守備隊にこの部隊を入れる空きがありません。"
 
 msgid "Fortifications"
 msgstr "防壁"
@@ -2619,16 +2619,16 @@ msgid "Town"
 msgstr "町"
 
 msgid "The above spells are available here."
-msgstr "上記の呪文はここで入手できます。"
+msgstr "上の呪文を習得できます。"
 
 msgid "The spells the hero can learn have been added to their book."
-msgstr "勇者が習得できる呪文が呪文書に追加されました。"
+msgstr "上の呪文が呪文書に加わりました。"
 
 msgid "Exit Mage Guild"
 msgstr "魔道師ギルドを出る"
 
 msgid "A generous tip for the barkeep yields the following rumor:"
-msgstr "バーテンダーへの寛大なチップから、次のような噂が生まれました。"
+msgstr "バーテンダーにチップをはずむと、次のような噂を教えてくれた。"
 
 msgid "Recruit Hero"
 msgstr "勇者のスカウト"
@@ -2677,19 +2677,19 @@ msgid "Grouped Formation"
 msgstr "グループ化されたフォーメーション"
 
 msgid "Not enough resources to recruit creatures."
-msgstr "ユニットを募集するのに十分なリソースがありません。"
+msgstr "ユニットをスカウトするのに十分な資源がありません。"
 
 msgid "You are unable to recruit at this time, your ranks are full."
 msgstr "ランクが満員のため、現時点では募集できません。"
 
 msgid "No creatures available for purchase."
-msgstr "購入できるユニットはありません。"
+msgstr "スカウトできるユニットはありません。"
 
 msgid "Recruit Creatures"
-msgstr "ユニットを募集する"
+msgstr "ユニットをスカウトする"
 
 msgid "Hire all creatures in the town."
-msgstr "町にいるすべてのユニットを雇います。"
+msgstr "町にいるすべてのユニットをスカウトします。"
 
 msgid "Max"
 msgstr "最大値を設定"
@@ -2698,7 +2698,7 @@ msgid "Available"
 msgstr "利用可能"
 
 msgid "Town Population Information and Statistics"
-msgstr "町の人口情報と統計"
+msgstr "町のユニット情報"
 
 msgid "Damage"
 msgstr "ダメージ"
@@ -2710,7 +2710,7 @@ msgid "Speed"
 msgstr "スピード"
 
 msgid "Growth"
-msgstr "成長"
+msgstr "増加率"
 
 msgid "week"
 msgstr "週"
