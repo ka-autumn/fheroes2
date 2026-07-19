@@ -11418,10 +11418,10 @@ msgid "You have no Magic Book, so you cannot cast a spell."
 msgstr "あなたは呪文書を持っていないので、呪文を唱えることはできません。"
 
 msgid "No spell to cast."
-msgstr "唱える呪文はありません。"
+msgstr "唱えられる呪文がありません。"
 
 msgid "Your hero has %{sp} spell points remaining out of %{max}."
-msgstr "あなたの勇者の呪文ポイントは %{max} のうち %{sp} ポイント残っています。"
+msgstr "あなたの呪文ポイントは%{max}のうち%{sp}ポイント残っています。"
 
 msgid "View Adventure Spells"
 msgstr "冒険呪文を表示"
