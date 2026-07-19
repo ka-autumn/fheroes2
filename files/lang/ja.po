@@ -557,7 +557,7 @@ msgid "Exit this menu."
 msgstr "このメニューを終了します。"
 
 msgid "Okay"
-msgstr "Okay"
+msgstr "決定"
 
 msgid "The enemy has surrendered!"
 msgstr "敵は降伏した！"
@@ -658,7 +658,7 @@ msgid "Surrender"
 msgstr "降伏"
 
 msgid "Cancel"
-msgstr "Cancel"
+msgstr "キャンセル"
 
 msgid "Hero Screen"
 msgstr "勇者画面"
@@ -1046,7 +1046,7 @@ msgid "Start the battle."
 msgstr "戦闘を開始します。"
 
 msgid "Exit"
-msgstr "Exit"
+msgstr "終了"
 
 msgid "Reset"
 msgstr "リセット"
@@ -1926,7 +1926,7 @@ msgid "Requires:"
 msgstr "必要なもの："
 
 msgid "Exit this menu without doing anything."
-msgstr "何もせずにこのメニューを終了します。"
+msgstr "何もせずにメニューを終了します。"
 
 msgid "Cannot build %{name}. The castle is too far away from an ocean."
 msgstr "%{name}を建設することはできません。海に隣接している必要があります。"
@@ -2785,7 +2785,7 @@ msgid "Upgrade your troops."
 msgstr "軍隊をアップグレードします。"
 
 msgid "Dismiss"
-msgstr "Dismiss"
+msgstr "部隊の解散"
 
 msgid "Dismiss this army."
 msgstr "この軍隊を解散します。"
@@ -2885,7 +2885,7 @@ msgid "There was an issue during saving."
 msgstr "保存中に問題が発生しました。"
 
 msgid "New Game"
-msgstr "New Game"
+msgstr "新しいゲームの開始"
 
 msgid "Start a single or multi-player game."
 msgstr "シングルまたはマルチプレイヤーゲームを開始します。"
@@ -2900,7 +2900,7 @@ msgid "Restart the scenario."
 msgstr "シナリオを再開します。"
 
 msgid "Save Game"
-msgstr "Save Game"
+msgstr "ゲームの保存"
 
 msgid "Save the current game."
 msgstr "現在のゲームを保存します。"
@@ -2912,7 +2912,7 @@ msgid "Save the current game without name selection."
 msgstr "名前を選択せずに現在のゲームを保存します。"
 
 msgid "Quit"
-msgstr "Quit"
+msgstr "ゲームの終了"
 
 msgid "Quit out of Heroes of Might and Magic II."
 msgstr "Heroes of Might and Magic II を終了します。"
@@ -3355,10 +3355,10 @@ msgid "Click to apply the entered number."
 msgstr "入力した数値を適用します。"
 
 msgid "Click to apply the entered text."
-msgstr "クリックして入力したテキストを適用します。"
+msgstr "入力したテキストを確定します。"
 
 msgid "Click to open the Virtual Keyboard dialog."
-msgstr "クリックして「仮想キーボード」ダイアログを開きます。"
+msgstr "「仮想キーボード」ダイアログを開きます。"
 
 msgid "Open Virtual Keyboard"
 msgstr "仮想キーボードを開く"
@@ -3561,7 +3561,7 @@ msgid "%{mineName} appearance:"
 msgstr "%{mineName}の外観:"
 
 msgid "Click to select the color."
-msgstr "クリックして色を選択します。"
+msgstr "色の選択を確定します。"
 
 msgid "Click to select %{object} as the resource generator to be placed."
 msgstr "配置するリソースジェネレーターとして%{object}をクリックして選択します。"
@@ -3850,7 +3850,7 @@ msgid "BANNED SPELLS"
 msgstr "禁止された呪文"
 
 msgid "Click to accept the changes made."
-msgstr "クリックして変更を受け入れます。"
+msgstr "変更内容を確定します。"
 
 msgid "Exit this dialog, discarding the changes made."
 msgstr "このダイアログを終了し、加えた変更を破棄します。"
@@ -3968,7 +3968,7 @@ msgid "Message:"
 msgstr "メッセージ:"
 
 msgid "Click to save the Event properties."
-msgstr "クリックしてイベントのプロパティを保存します。"
+msgstr "イベントのプロパティを保存します。"
 
 msgid "No resources will be given as a reward."
 msgstr "報酬としてリソースは与えられません。"
@@ -4526,7 +4526,7 @@ msgid "A map should have at least one language."
 msgstr "マップには少なくとも 1 つの言語が必要です。"
 
 msgid "Click to apply changes."
-msgstr "クリックして変更を適用します。"
+msgstr "変更内容を確定します。"
 
 msgid "Add Language"
 msgstr "言語を追加"
@@ -5239,10 +5239,10 @@ msgid "To exit fheroes2, press the Home button or swipe up."
 msgstr "fheroes2 を終了するには、ホームボタンを押すか、上にスワイプします。"
 
 msgid "Are you sure you want to quit?"
-msgstr "本当に辞めてもよろしいですか？"
+msgstr "本当にゲームを終了しますか？"
 
 msgid "High Scores"
-msgstr "High Scores"
+msgstr "ハイスコア"
 
 msgid "Your Name"
 msgstr "あなたの名前"
@@ -5712,13 +5712,13 @@ msgstr ""
 "ホットシートゲームをプレイします。2人から6人のプレイヤーが同じコンピュータを囲んでプレイし、順番が来たら「ホットシート」に切り替えます。"
 
 msgid "Cancel back to the main menu."
-msgstr "キャンセルしてメインメニューに戻ります。"
+msgstr "メインメニューに戻ります。"
 
 msgid "fheroes2 Resurrection Team presents"
-msgstr "fheroes2復活チームpresents"
+msgstr "fheroes2 Resurrection Team presents"
 
 msgid "Welcome to Heroes of Might and Magic II powered by fheroes2 engine!"
-msgstr "fheroes2 エンジンを搭載した Heroes of Might and Magic II へようこそ!"
+msgstr "fheroes2 エンジンを搭載した Heroes of Might and Magic II へようこそ！"
 
 msgid ""
 "\n"
@@ -5727,7 +5727,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"タッチによる右クリックをシミュレートしてさまざまな項目に関する情報を取得するには、まず対象の項目をタッチしてタッチし続け、次に画面上の他の場所をタッチする必要があります。 2 本目の指を押したまま、1 本目の指を画面から削除し、アイテムの情報を表示し続けることができます。"
+"各項目の詳しい情報を見たい場合、まず対象の項目をタッチし続けて、次に画面の別の場所を（2本目の指で）タッチします。その後、2本目の指をタッチしたまま1本目の指を離せば、その情報を表示したままにできます。"
 
 msgid ""
 "\n"
@@ -5739,19 +5739,19 @@ msgstr ""
 "ゲームを開始する前に、ゲームの解像度を選択してください。"
 
 msgid "Greetings!"
-msgstr "こんにちは！"
+msgstr "ようこそ！"
 
 msgid "Quit Heroes of Might and Magic II and return to the operating system."
-msgstr "Heroes of Might and Magic II を終了し、オペレーティング システムに戻ります。"
+msgstr "Heroes of Might and Magic II を終了します。"
 
 msgid "Credits"
-msgstr "Credits"
+msgstr "クレジット"
 
 msgid "View the credits screen."
-msgstr "クレジット画面を表示します。"
+msgstr "制作陣の情報を表示します。"
 
 msgid "View the high scores screen."
-msgstr "ハイスコア画面を表示します。"
+msgstr "ハイスコアを表示します。"
 
 msgid "Create new or modify existing maps."
 msgstr "新しいマップを作成するか、既存のマップを変更します。"
