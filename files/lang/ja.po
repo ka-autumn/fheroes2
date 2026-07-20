@@ -43,7 +43,7 @@ msgid "OKAY"
 msgstr "OKAY"
 
 msgid "HEROES"
-msgstr "勇者たち"
+msgstr "HEROES"
 
 msgid ""
 "TOWNS/\n"
