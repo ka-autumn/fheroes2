@@ -489,7 +489,7 @@ msgstr "%{monster} 数を設定:"
 
 msgid "%{name} destroys half the enemy troops!"
 msgid_plural "%{name} destroy half the enemy troops!"
-msgstr[0] "%{name}は敵軍の半分を破壊します!"
+msgstr[0] "%{name}は敵ユニットの半分を破壊します！"
 
 msgid "%{name} has turned off the auto combat"
 msgstr "%{name}は自動戦闘をオフにしました"
@@ -498,7 +498,7 @@ msgid "%{name} has turned on the auto combat"
 msgstr "%{name}は自動戦闘をオンにしました"
 
 msgid "Spell failed!"
-msgstr "呪文は失敗しました!"
+msgstr "呪文が失敗しました！"
 
 msgid ""
 "The Sphere of Negation artifact is in effect for this battle, disabling all "
@@ -734,7 +734,7 @@ msgid "View %{monster} info"
 msgstr "%{monster}の情報を表示"
 
 msgid "Fly %{monster} here"
-msgstr "%{monster}をここへ飛ばす"
+msgstr "%{monster}をここに移動する"
 
 msgid "Move %{monster} here"
 msgstr "%{monster}をここに移動する"
@@ -744,7 +744,7 @@ msgstr "%{monster}を撃つ"
 
 msgid "(1 shot left)"
 msgid_plural "(%{count} shots left)"
-msgstr[0] "(残り %{count} ショット)"
+msgstr[0] "(残弾数：%{count})"
 
 msgid "Attack %{monster}"
 msgstr "%{monster}を攻撃する"
@@ -759,10 +759,10 @@ msgid "Invalid teleport destination"
 msgstr "無効なテレポート先です"
 
 msgid "Cast %{spell} on %{monster}"
-msgstr "%{monster}に%{spell}をキャストする"
+msgstr "%{monster}に%{spell}を使います"
 
 msgid "Cast %{spell}"
-msgstr "%{spell}をキャストする"
+msgstr "%{spell}を使います"
 
 msgid "Select spell target"
 msgstr "呪文の対象を選択する"
@@ -871,103 +871,103 @@ msgstr "クイック戦闘"
 
 msgid "The %{name} skips their turn."
 msgid_plural "The %{name} skip their turn."
-msgstr[0] "%{name}はターンをスキップします。"
+msgstr[0] "%{name}はターンをスキップした。"
 
 msgid "%{attacker} does %{damage} damage."
 msgid_plural "%{attacker} do %{damage} damage."
-msgstr[0] "%{attacker}は%{damage}のダメージを与えます。"
+msgstr[0] "%{attacker}が%{damage}ダメージを与えた。"
 
 msgid "1 creature perishes."
 msgid_plural "%{count} creatures perish."
-msgstr[0] "%{count} 体のユニットが滅びます。"
+msgstr[0] "%{count} 体のユニットが壊滅した。"
 
 msgid "1 %{defender} perishes."
 msgid_plural "%{count} %{defender} perish."
-msgstr[0] "%{count} 体の%{defender}が滅びます。"
+msgstr[0] "%{count} 体の%{defender}が壊滅した。"
 
 msgid "1 soul is incorporated."
 msgid_plural "%{count} souls are incorporated."
-msgstr[0] "%{count}つの魂を取り込みます。"
+msgstr[0] "%{count}つの魂を取り込んだ。"
 
 msgid "1 %{unit} is revived."
 msgid_plural "%{count} %{unit} are revived."
-msgstr[0] "%{count} 体の%{unit}が復活します。"
+msgstr[0] "%{count} 体の%{unit}が復活した。"
 
 msgid "Moved %{monster}: from [%{src}] to [%{dst}]."
-msgstr "%{monster}: [%{src}] から [%{dst}] に移動しました。"
+msgstr "%{monster}を[%{src}]から[%{dst}]に移動しました。"
 
 msgid "The %{name} resists the spell!"
 msgid_plural "The %{name} resist the spell!"
-msgstr[0] "%{name} は呪文に抵抗します!"
+msgstr[0] "%{name} は呪文に抵抗した！"
 
 msgid "%{name} casts %{spell} on the %{troop}."
-msgstr "%{name}は%{spell}を%{troop}にキャストします。"
+msgstr "%{name}が%{troop}に「%{spell}」の呪文を唱えた。"
 
 msgid "%{name} casts %{spell}."
-msgstr "%{name}は%{spell}をキャストします。"
+msgstr "%{name}が「%{spell}」の呪文を唱えた。"
 
 msgid "The %{spell} does %{damage} damage to one undead creature."
-msgstr "%{spell}はアンデッド・ユニット1体に%{damage}のダメージを与えます。"
+msgstr "「%{spell}」がアンデッド・ユニット1体に%{damage}のダメージを与えた。"
 
 msgid "The %{spell} does %{damage} damage to all undead creatures."
-msgstr "%{spell}はすべてのアンデッド・ユニットに%{damage}のダメージを与えます。"
+msgstr "「%{spell}」がすべてのアンデッド・ユニットに%{damage}のダメージを与えた。"
 
 msgid "The %{spell} does %{damage} damage, %{count} creatures perish."
-msgstr "%{spell}は%{damage}のダメージを与え、%{count}のユニットが滅びます。"
+msgstr "「%{spell}」が%{damage}のダメージを与えた。%{count}体のユニットが壊滅した。"
 
 msgid "The %{spell} does %{damage} damage."
-msgstr "%{spell}は%{damage}のダメージを与えます。"
+msgstr "「%{spell}」が%{damage}のダメージを与えた。"
 
 msgid "The %{spell} does %{damage} damage to one living creature."
-msgstr "%{spell}は1匹の生き物に%{damage}のダメージを与えます。"
+msgstr "「%{spell}」は命あるユニット1体に%{damage}のダメージを与えた。"
 
 msgid "The %{spell} does %{damage} damage to all living creatures."
-msgstr "%{spell}はすべての生き物に%{damage}のダメージを与えます。"
+msgstr "「%{spell}」はすべての命あるユニットに%{damage}のダメージを与えた。"
 
 msgid "The %{attacker}'s attack blinds the %{target}!"
 msgid_plural "The %{attacker}' attack blinds the %{target}!"
-msgstr[0] "%{attacker}の攻撃で%{target}の目が見えなくなります!"
+msgstr[0] "%{attacker}の攻撃で%{target}は失明した！"
 
 msgid "The %{attacker}'s gaze turns the %{target} to stone!"
 msgid_plural "The %{attacker}' gaze turns the %{target} to stone!"
-msgstr[0] "%{attacker}の視線は%{target}を石に変えます!"
+msgstr[0] "%{attacker}の攻撃で%{target}は石化した！"
 
 msgid "The %{attacker}'s curse falls upon the %{target}!"
 msgid_plural "The %{attacker}' curse falls upon the %{target}!"
-msgstr[0] "%{attacker}の呪いが%{target}に降りかかります!"
+msgstr[0] "%{attacker}の呪いが%{target}に降りかかった！"
 
 msgid "The %{target} is paralyzed by the %{attacker}!"
 msgid_plural "The %{target} are paralyzed by the %{attacker}!"
-msgstr[0] "%{target}は%{attacker}によって麻痺しています!"
+msgstr[0] "%{target}は%{attacker}によって麻痺した!"
 
 msgid "The %{attacker} dispels all good spells on your %{target}!"
 msgid_plural "The %{attacker} dispel all good spells on your %{target}!"
-msgstr[0] "%{attacker}はあなたの%{target}にかかるすべての良い呪文を打ち消します!"
+msgstr[0] "%{attacker}はあなたの%{target}にかかっているすべての良い呪文を打ち消した！"
 
 msgid "The %{attacker} casts %{spell} on the %{target}!"
 msgid_plural "The %{attacker} cast %{spell} on the %{target}!"
-msgstr[0] "%{attacker}は%{target}に%{spell}をキャストします!"
+msgstr[0] "%{attacker}は%{target}に「%{spell}」の呪文を唱えた。"
 
 msgid "Bad luck descends on the %{attacker}."
-msgstr "%{attacker}に不運が降りかかります。"
+msgstr "%{attacker}に不運が降りかかった。"
 
 msgid "Good luck shines on the %{attacker}."
-msgstr "%{attacker}には幸運が輝きます。"
+msgstr "%{attacker}の頭上に幸運が輝いた。"
 
 msgid "High morale enables the %{monster} to attack again."
-msgstr "高い士気により、%{monster}は再び攻撃することができます。"
+msgstr "士気が高いので、%{monster}はもう1回攻撃できる。"
 
 msgid "Low morale causes the %{monster} to freeze in panic."
-msgstr "士気の低下により、%{monster}はパニックに陥って固まってしまいます。"
+msgstr "士気が低いので、%{monster}はパニックに陥って動けない。"
 
 msgid "%{tower} does %{damage} damage."
-msgstr "%{tower}は%{damage}のダメージを与えます。"
+msgstr "%{tower}が%{damage}ダメージを与えた。"
 
 msgid "The mirror image is created."
-msgstr "鏡像が作成されます。"
+msgstr "分身が現れた。"
 
 msgid "The mirror image is destroyed!"
-msgstr "鏡像が破壊されます!"
+msgstr "分身が消えてしまった！"
 
 msgid "Are you sure you want to interrupt the auto combat mode?"
 msgstr "自動戦闘モードを中断してもよろしいですか?"
@@ -1050,7 +1050,7 @@ msgstr "ハイライトされたユニットの移動領域の表示のオンと
 msgid ""
 "Through eagle-eyed observation, %{name} is able to learn the magic spell "
 "%{spell}."
-msgstr "鋭い観察により、%{name} は魔法の呪文 %{spell} を学ぶことができます。"
+msgstr "観察眼により、%{name} は呪文「%{spell}」を習得しました。"
 
 msgid "Human"
 msgstr "人間"
@@ -1126,7 +1126,7 @@ msgstr "%{name}は破壊されています。"
 
 msgid "%{count} %{name} rises from the dead!"
 msgid_plural "%{count} %{name} rise from the dead!"
-msgstr[0] "%{count} %{name}が死から蘇ります!"
+msgstr[0] "%{count}体の%{name}が死から蘇った！"
 
 msgid "Dwarven Alliance"
 msgstr "ドワーフ同盟"
