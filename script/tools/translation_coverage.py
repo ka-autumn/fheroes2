@@ -27,35 +27,80 @@ import os
 import re
 import sys
 
+# The .po files are parsed here instead of being passed to "msgfmt --statistics",
+# because gettext cannot be assumed to be present on Windows, which is a supported
+# development platform for this project
 MSGID = re.compile(r'^msgid\s+"(.*)"')
-MSGSTR = re.compile(r'^msgstr\s+"(.*)"')
+MSGSTR = re.compile(r'^msgstr(?:\[[0-9]+\])?\s+"(.*)"')
+CONTINUATION = re.compile(r'^"(.*)"')
 
 
 def count_entries(path):
     total = 0
     translated = 0
 
-    with open(path) as handle:
-        pending = False
+    # .po files are always UTF-8, do not let the locale of the system decide
+    with open(path, "r", encoding="utf-8") as handle:
+        # The header of a .po file is its very first entry. It cannot be recognized by
+        # an empty msgid, because a regular entry whose text is spread over several
+        # lines also starts with an empty msgid
+        is_header = True
+        in_entry = False
+        # Continuation lines belong to the msgstr only right after a msgstr line
+        in_msgstr = False
+        entry_is_translated = False
 
         for line in handle:
             line = line.strip()
 
             if MSGID.match(line):
-                # The header entry of a .po file has an empty msgid, skip it
-                if MSGID.match(line).group(1) == "":
-                    pending = False
-                    continue
+                if in_entry:
+                    if is_header:
+                        is_header = False
+                    else:
+                        total += 1
 
-                pending = True
-                total += 1
+                        if entry_is_translated:
+                            translated += 1
+
+                in_entry = True
+                in_msgstr = False
+                entry_is_translated = False
                 continue
 
-            if pending and MSGSTR.match(line):
-                if MSGSTR.match(line).group(1) != "":
-                    translated += 1
+            if not in_entry:
+                continue
 
-                pending = False
+            msgstr_match = MSGSTR.match(line)
+
+            if msgstr_match:
+                if in_msgstr:
+                    # A plural entry has one msgstr per plural form, and it is
+                    # translated only when none of these forms is empty
+                    entry_is_translated = (
+                        entry_is_translated and msgstr_match.group(1) != ""
+                    )
+                else:
+                    entry_is_translated = msgstr_match.group(1) != ""
+
+                in_msgstr = True
+                continue
+
+            continuation_match = CONTINUATION.match(line)
+
+            if in_msgstr and continuation_match:
+                if continuation_match.group(1) != "":
+                    entry_is_translated = True
+
+                continue
+
+            in_msgstr = False
+
+        if in_entry and not is_header:
+            total += 1
+
+            if entry_is_translated:
+                translated += 1
 
     return total, translated
 
