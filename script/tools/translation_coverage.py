@@ -28,34 +28,61 @@ import re
 import sys
 
 MSGID = re.compile(r'^msgid\s+"(.*)"')
-MSGSTR = re.compile(r'^msgstr\s+"(.*)"')
+MSGSTR = re.compile(r'^msgstr(?:\[[0-9]+\])?\s+"(.*)"')
+CONTINUATION = re.compile(r'^"(.*)"')
 
 
 def count_entries(path):
     total = 0
     translated = 0
 
-    with open(path) as handle:
-        pending = False
+    with open(path, encoding="utf-8") as handle:
+        content = handle.read()
 
-        for line in handle:
+    # Entries are separated by empty lines
+    for block in content.split("\n\n"):
+        msgid = None
+        msgstrs = []
+        current = None
+
+        for line in block.splitlines():
             line = line.strip()
 
-            if MSGID.match(line):
-                # The header entry of a .po file has an empty msgid, skip it
-                if MSGID.match(line).group(1) == "":
-                    pending = False
-                    continue
-
-                pending = True
-                total += 1
+            match = MSGID.match(line)
+            if match:
+                msgid = match.group(1)
+                current = MSGID
                 continue
 
-            if pending and MSGSTR.match(line):
-                if MSGSTR.match(line).group(1) != "":
-                    translated += 1
+            match = MSGSTR.match(line)
+            if match:
+                msgstrs.append(match.group(1))
+                current = MSGSTR
+                continue
 
-                pending = False
+            # A string containing line breaks is continued on the following lines
+            match = CONTINUATION.match(line)
+            if match:
+                if current is MSGID:
+                    msgid += match.group(1)
+                elif current is MSGSTR:
+                    msgstrs[-1] += match.group(1)
+
+                continue
+
+            # Comments, msgid_plural and obsolete entries do not continue a string
+            current = None
+
+        # The header entry of a .po file has an empty msgid, skip it. Blocks
+        # without a msgid at all (comments, obsolete entries) are skipped too
+        if not msgid:
+            continue
+
+        total += 1
+
+        # A plural entry is translated only when every one of its forms is filled in
+        if msgstrs and all(msgstrs):
+            translated += 1
 
     return total, translated
 
