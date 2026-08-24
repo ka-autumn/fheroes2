@@ -5270,7 +5270,7 @@ msgid "Your Name"
 msgstr "あなたの名前"
 
 msgid "Unknown Hero"
-msgstr "知られざる勇者"
+msgstr "名もなき勇者"
 
 msgid "Standard"
 msgstr "スタンダード"
