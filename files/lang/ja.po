@@ -8125,19 +8125,19 @@ msgid "skill|Expert"
 msgstr "上級"
 
 msgid "Pathfinding"
-msgstr "経路探索"
+msgstr "先導"
 
 msgid "Archery"
-msgstr "アーチェリー"
+msgstr "弓術"
 
 msgid "Logistics"
-msgstr "ロジスティクス"
+msgstr "行軍"
 
 msgid "Scouting"
-msgstr "スカウティング"
+msgstr "偵察"
 
 msgid "Diplomacy"
-msgstr "外交"
+msgstr "交渉"
 
 msgid "Navigation"
 msgstr "ナビゲーション"
@@ -8146,22 +8146,22 @@ msgid "Leadership"
 msgstr "リーダーシップ"
 
 msgid "Wisdom"
-msgstr "知恵"
+msgstr "学問"
 
 msgid "Mysticism"
-msgstr "神秘主義"
+msgstr "神秘学"
 
 msgid "Ballistics"
 msgstr "弾道学"
 
 msgid "Eagle Eye"
-msgstr "イーグルアイ"
+msgstr "観察眼"
 
 msgid "Necromancy"
-msgstr "ネクロマンシー"
+msgstr "妖術"
 
 msgid "Estates"
-msgstr "不動産"
+msgstr "財産"
 
 msgid "Advanced Archery"
 msgstr "中級 弓術"
