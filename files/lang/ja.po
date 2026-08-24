@@ -3996,7 +3996,7 @@ msgid "No resources will be given as a reward."
 msgstr "報酬としてリソースは与えられません。"
 
 msgid "Resources"
-msgstr "リソース"
+msgstr "資源"
 
 msgid "Resources will be given as a reward."
 msgstr "報酬としてリソースが与えられます。"
@@ -4065,7 +4065,7 @@ msgid "No Secondary Skill will be given by the event."
 msgstr "イベントではセカンダリスキルは付与されません。"
 
 msgid "Secondary Skill"
-msgstr "セカンダリスキル"
+msgstr "スキル"
 
 msgid "Delete Secondary Skill"
 msgstr "セカンダリスキルの削除"
