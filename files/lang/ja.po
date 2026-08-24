@@ -2693,10 +2693,10 @@ msgid "Exit Castle Options"
 msgstr "城の設定を終了"
 
 msgid "Spread Formation"
-msgstr "分散フォーメーション"
+msgstr "分散"
 
 msgid "Grouped Formation"
-msgstr "グループ化されたフォーメーション"
+msgstr "密集"
 
 msgid "Not enough resources to recruit creatures."
 msgstr "ユニットをスカウトするのに十分な資源がありません。"
