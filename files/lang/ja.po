@@ -3791,7 +3791,7 @@ msgid "Def."
 msgstr "防"
 
 msgid "Power"
-msgstr "力"
+msgstr "魔力"
 
 msgid "Knowl"
 msgstr "知"
@@ -3830,7 +3830,7 @@ msgid "Number of Heroes:"
 msgstr "勇者の数:"
 
 msgid "Gold in Treasury:"
-msgstr "国庫の金:"
+msgstr "所持金:"
 
 msgid "Wood & Ore:"
 msgstr "木材と鉱石:"
@@ -3839,28 +3839,28 @@ msgid "Gems, Cr, Slf & Mer:"
 msgstr "宝石、水晶、硫黄、水銀:"
 
 msgid "Obelisks Found:"
-msgstr "見つかったオベリスク:"
+msgstr "見つけたオベリスク:"
 
 msgid "Artifacts:"
 msgstr "秘宝:"
 
 msgid "Total Army Strength:"
-msgstr "軍隊の総戦力:"
+msgstr "総軍事力:"
 
 msgid "Income:"
-msgstr "所得:"
+msgstr "収入:"
 
 msgid "Best Hero:"
-msgstr "最優秀勇者:"
+msgstr "最強の勇者:"
 
 msgid "Best Hero Stats:"
-msgstr "最優秀勇者統計:"
+msgstr "最強の勇者の能力値:"
 
 msgid "Personality:"
-msgstr "人格:"
+msgstr "性格:"
 
 msgid "Best Monster:"
-msgstr "最優秀モンスター:"
+msgstr "最強のユニット:"
 
 msgid "Random Castle Name"
 msgstr "ランダムな城名"
