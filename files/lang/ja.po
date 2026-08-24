@@ -8613,34 +8613,34 @@ msgid "doubleLinedRace|Random"
 msgstr "ランダム"
 
 msgid "speed|Standing"
-msgstr "スタンディング"
+msgstr "スピード0"
 
 msgid "speed|Crawling"
-msgstr "クロール"
+msgstr "スピード1"
 
 msgid "speed|Very Slow"
-msgstr "非常に遅い"
+msgstr "スピード2"
 
 msgid "speed|Slow"
-msgstr "遅い"
+msgstr "スピード3"
 
 msgid "speed|Average"
-msgstr "平均"
+msgstr "スピード4"
 
 msgid "speed|Fast"
-msgstr "速い"
+msgstr "スピード5"
 
 msgid "speed|Very Fast"
-msgstr "非常に速い"
+msgstr "スピード6"
 
 msgid "speed|Ultra Fast"
-msgstr "超高速"
+msgstr "スピード7"
 
 msgid "speed|Blazing"
-msgstr "ブレイジング"
+msgstr "スピード8"
 
 msgid "speed|Instant"
-msgstr "インスタント"
+msgstr "スピード9"
 
 msgid "Click this button to adjust the level of zoom."
 msgstr "このボタンをクリックしてズームのレベルを調整します。"
@@ -9634,19 +9634,19 @@ msgid "Random Monsters 4"
 msgstr "ランダムモンスター4"
 
 msgid "Double shot"
-msgstr "ダブルショット"
+msgstr "2回射撃"
 
 msgid "2-hex monster"
-msgstr "2ヘクスモンスター"
+msgstr "2マスユニット"
 
 msgid "Double strike"
-msgstr "ダブルストライク"
+msgstr "2回攻撃"
 
 msgid "Double damage to Undead"
 msgstr "アンデッドへのダメージ2倍"
 
 msgid "% magic resistance"
-msgstr "% 魔法耐性"
+msgstr "%の魔法耐性"
 
 msgid "Immune to Mind spells"
 msgstr "精神の呪文に対する耐性"
@@ -9661,49 +9661,49 @@ msgid "Immune to Cold spells"
 msgstr "冷気の呪文に対する耐性"
 
 msgid "Immune to "
-msgstr "免疫: "
+msgstr "耐性: "
 
 msgid "% immunity to %{spell} spell"
-msgstr "% %{spell}の呪文に対する耐性"
+msgstr "%の耐性（%{spell}）"
 
 msgid "% damage from Elemental spells"
-msgstr "エレメンタル呪文によるダメージの割合"
+msgstr "%のダメージを受ける（エレメンタル呪文）"
 
 msgid "% damage from %{spell} spell"
-msgstr "% %{spell}の呪文によるダメージ"
+msgstr "%のダメージを受ける（%{spell}）"
 
 msgid "% chance to Dispel beneficial spells"
-msgstr "% の確率で有益な呪文を解呪します"
+msgstr "%の確率で解呪する（有益な呪文）"
 
 msgid "% chance to Paralyze"
-msgstr "% の確率で麻痺する"
+msgstr "%の確率で麻痺させる"
 
 msgid "% chance to Petrify"
-msgstr "% の確率で石化する"
+msgstr "%の確率で石化させる"
 
 msgid "% chance to Blind"
-msgstr "% の確率で盲目になる"
+msgstr "%の確率で失明させる"
 
 msgid "% chance to Curse"
-msgstr "% の確率で呪われる"
+msgstr "%の確率で呪いをかける"
 
 msgid "% chance to cast %{spell} spell"
-msgstr "% の確率で %{spell} の呪文を唱える"
+msgstr "%の確率で唱える（%{spell}）"
 
 msgid "HP regeneration"
 msgstr "HP回復"
 
 msgid "Two hexes attack"
-msgstr "2ヘクス攻撃"
+msgstr "2マス攻撃"
 
 msgid "Flyer"
 msgstr "飛行"
 
 msgid "Unlimited retaliation"
-msgstr "無制限の報復"
+msgstr "常に反撃"
 
 msgid "Attacks all adjacent enemies"
-msgstr "隣接する敵全体への攻撃"
+msgstr "全体攻撃"
 
 msgid "No melee penalty"
 msgstr "近接ペナルティなし"
@@ -9715,19 +9715,19 @@ msgid "Undead"
 msgstr "アンデッド"
 
 msgid "No enemy retaliation"
-msgstr "敵の報復なし"
+msgstr "反撃無効"
 
 msgid "HP drain"
-msgstr "HPドレイン"
+msgstr "HP吸収"
 
 msgid "Cloud attack"
-msgstr "クラウド攻撃"
+msgstr "範囲射撃"
 
 msgid "Decreases enemy's morale by "
 msgstr "敵の士気低下: "
 
 msgid "% chance to halve enemy"
-msgstr "% の確率で敵を半分にする"
+msgstr "%の確率で敵の数を半減させる"
 
 msgid "Soul Eater"
 msgstr "ソウルイーター"
@@ -9736,7 +9736,7 @@ msgid "Elemental"
 msgstr "エレメンタル"
 
 msgid "No Morale"
-msgstr "士気なし"
+msgstr "士気の影響を受けない"
 
 msgid "Earth creature"
 msgstr "土のユニット"
@@ -9769,13 +9769,13 @@ msgid "Double damage from Water creatures"
 msgstr "水のユニットからのダメージが2倍になる"
 
 msgid "Lightning"
-msgstr "稲妻"
+msgstr "雷撃"
 
 msgid "% immunity to "
-msgstr "%免疫: "
+msgstr "%の耐性: "
 
 msgid "% damage from "
-msgstr "%ダメージ: "
+msgstr "%のダメージを受ける: "
 
 msgid "The three Anduran artifacts magically combine into one."
 msgstr "3つのアンデュラの秘宝が不思議な力で1つに合体した。"
