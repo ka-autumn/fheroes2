@@ -2778,13 +2778,13 @@ msgid "Defense Skill"
 msgstr "防御技能"
 
 msgid "Shots"
-msgstr "ショット"
+msgstr "射撃回数"
 
 msgid "Shots Left"
 msgstr "残りショット数"
 
 msgid "Hit Points"
-msgstr "ヒットポイント"
+msgstr "HP"
 
 msgid "Hit Points Left"
 msgstr "残りヒットポイント"
@@ -2820,7 +2820,7 @@ msgstr ""
 "受け入れますか？"
 
 msgid "Followers"
-msgstr "仲間"
+msgstr "志願兵"
 
 msgid ""
 "The %{monster} is swayed by your diplomatic tongue, and offers to join your army for the sum of %{gold} gold.\n"
@@ -8494,10 +8494,10 @@ msgid "View Towns and Castles."
 msgstr "町と城を表示。"
 
 msgid "luck|Cursed"
-msgstr "呪われた"
+msgstr "絶望的"
 
 msgid "luck|Awful"
-msgstr "ひどい"
+msgstr "最悪"
 
 msgid "luck|Bad"
 msgstr "悪い"
@@ -8509,10 +8509,10 @@ msgid "luck|Good"
 msgstr "良い"
 
 msgid "luck|Great"
-msgstr "素晴らしい"
+msgstr "最高"
 
 msgid "luck|Irish"
-msgstr "アイルランド語"
+msgstr "神がかり"
 
 msgid ""
 "%{luck-type} luck sometimes falls on the hero's units in combat, causing "
@@ -8530,25 +8530,25 @@ msgid ""
 msgstr "%{luck-type} の運により、勇者のユニットが戦闘中に幸運な攻撃 (2 倍の強さ) を得ることができることがあります。"
 
 msgid "morale|Treason"
-msgstr "反逆者"
+msgstr "反抗的"
 
 msgid "morale|Awful"
-msgstr "ひどい"
+msgstr "最悪"
 
 msgid "morale|Poor"
 msgstr "低い"
 
 msgid "morale|Normal"
-msgstr "通常"
+msgstr "普通"
 
 msgid "morale|Good"
 msgstr "良い"
 
 msgid "morale|Great"
-msgstr "素晴らしい"
+msgstr "最高"
 
 msgid "morale|Blood!"
-msgstr "血だ!"
+msgstr "熱狂的"
 
 msgid "%{morale-type} morale may cause the hero's units to freeze in combat."
 msgstr "%{morale-type} の士気により、勇者のユニットが戦闘中にフリーズする可能性があります。"
