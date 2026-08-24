@@ -1006,13 +1006,13 @@ msgid "battle_turn_order|Bottom"
 msgstr "画面下部"
 
 msgid "Turn Order"
-msgstr "ターン順序"
+msgstr "行動順"
 
 msgid "Grid"
 msgstr "グリッド"
 
 msgid "Damage Info"
-msgstr "被害情報"
+msgstr "ダメージ情報"
 
 msgid "Shadow Movement"
 msgstr "移動ハイライト"
