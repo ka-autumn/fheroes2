@@ -1141,7 +1141,7 @@ msgid "Ogre Alliance"
 msgstr "オーガ同盟"
 
 msgid "Dwarfbane"
-msgstr "ドワーフベイン"
+msgstr "ドワーフ殺し"
 
 msgid "Dragon Alliance"
 msgstr "ドラゴン同盟"
@@ -1150,10 +1150,10 @@ msgid "Elven Alliance"
 msgstr "エルフ同盟"
 
 msgid "Kraeger defeated"
-msgstr "クレーガーは敗北した"
+msgstr "クレーガーの敗北"
 
 msgid "Wayward Son"
-msgstr "放浪の息子"
+msgstr "放蕩息子"
 
 msgid "Uncle Ivan"
 msgstr "イワンおじさん"
@@ -1162,7 +1162,7 @@ msgid "Annexation"
 msgstr "併合"
 
 msgid "Force of Arms"
-msgstr "フォース・オブ・アームズ"
+msgstr "武力"
 
 msgid "Save the Dwarves"
 msgstr "ドワーフを救え"
@@ -1171,25 +1171,25 @@ msgid "Carator Mines"
 msgstr "カラトル鉱山"
 
 msgid "Turning Point"
-msgstr "ターニングポイント"
+msgstr "転機"
 
 msgid "scenarioName|Defender"
-msgstr "ディフェンダー"
+msgstr "防衛者"
 
 msgid "Corlagon's Defense"
-msgstr "コーラゴンの防御"
+msgstr "コーラゴンの防衛"
 
 msgid "The Crown"
-msgstr "クラウン"
+msgstr "王冠"
 
 msgid "The Gauntlet"
-msgstr "ガントレット"
+msgstr "試練の道"
 
 msgid "Betrayal"
 msgstr "裏切り"
 
 msgid "Final Justice"
-msgstr "最後の正義"
+msgstr "最後の裁き"
 
 msgid ""
 "Roland needs you to defeat the lords near his castle to begin his war of "
@@ -1268,19 +1268,19 @@ msgstr ""
 "陣営を切り替えると、敵の城に対して 3 つの城が残ります。この戦いは、残りの戦争であなたが直面する最も簡単な戦いになるでしょう...裏切り者。"
 
 msgid "Barbarian Wars"
-msgstr "バーバリアン・ウォーズ"
+msgstr "バーバリアン戦争"
 
 msgid "First Blood"
-msgstr "ファーストブラッド"
+msgstr "初陣"
 
 msgid "Necromancers"
 msgstr "ネクロマンサー"
 
 msgid "Slay the Dwarves"
-msgstr "ドワーフを倒す"
+msgstr "ドワーフを討て"
 
 msgid "Country Lords"
-msgstr "田舎の領主"
+msgstr "地方領主たち"
 
 msgid "Dragon Master"
 msgstr "ドラゴンマスター"
@@ -1292,7 +1292,7 @@ msgid "Apocalypse"
 msgstr "黙示録"
 
 msgid "Greater Glory"
-msgstr "グレーター・グローリー"
+msgstr "さらなる栄光"
 
 msgid ""
 "King Archibald requires you to defeat the three enemies in this region. They"
@@ -1364,13 +1364,13 @@ msgstr ""
 "これが最後の戦いです。あなたもあなたの敵も徹底的に武装しており、全員があなたに対して同盟を結んでいます。ローランドを捕らえて戦争に勝利し、アーチボルドを戦いで失わないようにしてください!"
 
 msgid "Arrow's Flight"
-msgstr "アローの飛行"
+msgstr "矢の飛翔"
 
 msgid "Island of Chaos"
 msgstr "混沌の島"
 
 msgid "The Abyss"
-msgstr "アビス"
+msgstr "深淵"
 
 msgid "Uprising"
 msgstr "蜂起"
@@ -1379,13 +1379,13 @@ msgid "Aurora Borealis"
 msgstr "オーロラ"
 
 msgid "Betrayal's End"
-msgstr "裏切りの終わり"
+msgstr "裏切りの終焉"
 
 msgid "Corruption's Heart"
 msgstr "堕落の心"
 
 msgid "The Giant's Pass"
-msgstr "ジャイアンツパス"
+msgstr "巨人の峠"
 
 msgid ""
 "Subdue the unruly local lords in order to provide the Empire with facilities"
@@ -1434,28 +1434,28 @@ msgstr ""
 "ついに、あなたは帝国からネクロマンサーの悪を取り除く機会と設備を手に入れました。それらを完全に根絶すれば、あなたは永遠に英雄として歌い継がれるでしょう。"
 
 msgid "Border Towns"
-msgstr "国境の町"
+msgstr "国境の町々"
 
 msgid "Conquer and Unify"
-msgstr "征服して統一する"
+msgstr "征服と統一"
 
 msgid "Crazy Uncle Ivan"
-msgstr "狂ったイワンおじさん"
+msgstr "奇人イワン叔父さん"
 
 msgid "The Wayward Son"
-msgstr "放浪の息子"
+msgstr "放蕩息子"
 
 msgid "Ivory Gates"
-msgstr "アイボリーゲート"
+msgstr "象牙の門"
 
 msgid "The Elven Lands"
-msgstr "エルフの土地"
+msgstr "エルフの地"
 
 msgid "The Epic Battle"
-msgstr "壮大な戦い"
+msgstr "大決戦"
 
 msgid "The Southern War"
-msgstr "南部戦争"
+msgstr "南方戦争"
 
 msgid ""
 "Conquer and unite all the enemy tribes. Don't lose the hero Jarkonas, the "
@@ -1504,16 +1504,16 @@ msgid ""
 msgstr "これは敵対するハロンデール王国との最後の戦いです。全員を排除し、勇者ヤルコナス 6 世を失わないようにしてください。"
 
 msgid "Fount of Wizardry"
-msgstr "ウィザードリィの泉"
+msgstr "魔術の源泉"
 
 msgid "Power's End"
-msgstr "パワーズエンド"
+msgstr "魔力の終焉"
 
 msgid "The Eternal Scrolls"
 msgstr "永遠の巻物"
 
 msgid "The Shrouded Isles"
-msgstr "シュラウド・アイルズ"
+msgstr "霧に包まれた島々"
 
 msgid ""
 "Your mission is to vanquish the warring mages in the magical Shrouded Isles."
@@ -1541,16 +1541,16 @@ msgid ""
 msgstr "あなたは魔法の泉がある魔法の城を支配しなければなりません。そうすればあなたの勝利は最高のものとなるでしょう。"
 
 msgid "Blood is Thicker"
-msgstr "血のつながり"
+msgstr "血は水よりも濃い"
 
 msgid "King and Country"
-msgstr "王様と国"
+msgstr "王と祖国"
 
 msgid "Pirate Isles"
-msgstr "海賊の島"
+msgstr "海賊諸島"
 
 msgid "Stranded"
-msgstr "座礁"
+msgstr "漂着"
 
 msgid ""
 "Capture the town on the island off the southeast shore in order to construct"
@@ -1574,16 +1574,16 @@ msgid ""
 msgstr "アルベロン卿の堅固な君主制を打倒し、あなたの名においてすべての土地を主張しましょう。ギャラヴァントは死んではいけない。"
 
 msgid " bane"
-msgstr " ベイン"
+msgstr "殺し"
 
 msgid " alliance"
-msgstr " 同盟"
+msgstr "同盟"
 
 msgid "Carry-over forces"
 msgstr "軍隊の引き継ぎ"
 
 msgid " bonus"
-msgstr " ボーナス"
+msgstr "ボーナス"
 
 msgid " defeated"
 msgstr "の敗北"
