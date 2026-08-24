@@ -2958,7 +2958,7 @@ msgid "Toggle colored cursor on or off. This is only an aesthetic choice."
 msgstr "色付きカーソルのオンとオフを切り替えます。これは単に美的観点からの選択です。"
 
 msgid "Interface Type"
-msgstr "インターフェースの種類"
+msgstr "外観"
 
 msgid "Toggle the type of interface you want to use."
 msgstr "使用するインターフェースのタイプを切り替えます。"
@@ -4788,7 +4788,7 @@ msgid "Animation"
 msgstr "アニメーション"
 
 msgid "Passability"
-msgstr "通行可能性"
+msgstr "通行可否表示"
 
 msgid "Toggle animation of the objects."
 msgstr "オブジェクトのアニメーションを切り替えます。"
