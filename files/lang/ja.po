@@ -1104,7 +1104,7 @@ msgid "%{race1} %{name1} vs %{race2} %{name2}"
 msgstr "%{race1} %{name1} 対 %{race2} %{name2}"
 
 msgid "Monsters"
-msgstr "モンスター"
+msgstr "ユニット"
 
 msgid "N/A"
 msgstr "該当なし"
@@ -4305,7 +4305,7 @@ msgid "Trees"
 msgstr "木"
 
 msgid "Water Objects"
-msgstr "水のオブジェクト"
+msgstr "海上オブジェクト"
 
 msgid "Miscellaneous"
 msgstr "その他"
@@ -4314,16 +4314,16 @@ msgid "Artifacts"
 msgstr "秘宝"
 
 msgid "Dwellings"
-msgstr "住居"
+msgstr "居住施設"
 
 msgid "Mines"
 msgstr "鉱山"
 
 msgid "Power-ups"
-msgstr "パワーアップ"
+msgstr "能力強化"
 
 msgid "Treasures"
-msgstr "宝物"
+msgstr "財宝"
 
 msgid "Heroes"
 msgstr "勇者"
@@ -4347,7 +4347,7 @@ msgid "editorErasure|Rocks"
 msgstr "岩"
 
 msgid "editorErasure|Trees"
-msgstr "木"
+msgstr "樹木"
 
 msgid "editorErasure|Miscellaneous and Water landscape objects"
 msgstr "その他および水の風景オブジェクト"
@@ -4362,7 +4362,7 @@ msgid "editorErasure|Adventure pickable objects"
 msgstr "取得可能なアドベンチャーオブジェクト"
 
 msgid "editorErasure|Monsters"
-msgstr "モンスター"
+msgstr "ユニット"
 
 msgid "editorErasure|Heroes"
 msgstr "勇者"
@@ -4384,22 +4384,22 @@ msgid ""
 msgstr "%{size}マス×%{size}マス単位でオブジェクトを消去します。"
 
 msgid "Small Brush"
-msgstr "小ブラシ"
+msgstr "ブラシ（小）"
 
 msgid "Medium Brush"
-msgstr "中ブラシ"
+msgstr "ブラシ（中）"
 
 msgid "Large Brush"
-msgstr "大ブラシ"
+msgstr "ブラシ（大）"
 
 msgid "Area Fill"
-msgstr "エリアフィル"
+msgstr "塗りつぶし"
 
 msgid "Used to click and drag for filling in large areas."
 msgstr "広い領域を塗りつぶすには、クリックしてドラッグします。"
 
 msgid "Clear Area"
-msgstr "クリアエリア"
+msgstr "範囲クリア"
 
 msgid "Used to click and drag for clearing large areas."
 msgstr "広い領域をクリアするには、クリックしてドラッグします。"
@@ -4444,13 +4444,13 @@ msgstr ""
 "タイプを選択するには、このボタンを押したままにします。"
 
 msgid "Terrain Mode"
-msgstr "地形モード"
+msgstr "地形編集モード"
 
 msgid "Used to draw the underlying grass, dirt, water, etc. on the map."
 msgstr "マップの下地となる草、土、水などを描画するために使用されます。"
 
 msgid "Landscape Objects Mode"
-msgstr "ランドスケープオブジェクトモード"
+msgstr "景観物編集モード"
 
 msgid ""
 "Used to place landscape objects (mountains, rocks, trees, etc.) on the map."
@@ -4463,7 +4463,7 @@ msgid "Used for moving or customizing objects."
 msgstr "オブジェクトの移動またはカスタマイズに使用されます。"
 
 msgid "Adventure Objects Mode"
-msgstr "アドベンチャーオブジェクトモード"
+msgstr "資源・施設編集モード"
 
 msgid ""
 "Used to place adventure objects (artifacts, dwellings, mines, treasures, "
@@ -4471,13 +4471,13 @@ msgid ""
 msgstr "マップ上に冒険オブジェクト(秘宝、住居、鉱山、宝物など)を配置するために使用されます。"
 
 msgid "Kingdom Objects Mode"
-msgstr "キングダムオブジェクトモード"
+msgstr "町・城・勇者編集モード"
 
 msgid "Used to place kingdom objects (towns, castles and heroes) on the map."
 msgstr "王国のオブジェクト(町、城、勇者)をマップ上に配置するために使用されます。"
 
 msgid "Monsters Mode"
-msgstr "モンスターモード"
+msgstr "ユニット編集モード"
 
 msgid "Used to place monsters on the map."
 msgstr "マップ上にモンスターを配置するために使用します。"
@@ -4486,13 +4486,13 @@ msgid "Allows you to draw streams by clicking and dragging."
 msgstr "クリックしてドラッグすることでストリームを描画できます。"
 
 msgid "Stream Mode"
-msgstr "小川モード"
+msgstr "小川編集モード"
 
 msgid "Allows you to draw roads by clicking and dragging."
 msgstr "クリックしてドラッグすることで道路を描画できます。"
 
 msgid "Road Mode"
-msgstr "道路モード"
+msgstr "道路編集モード"
 
 msgid "Erase Mode"
 msgstr "消去モード"
@@ -4522,7 +4522,7 @@ msgid "Edit map title, description, and other general information."
 msgstr "マップのタイトル、説明、その他の一般情報を編集します。"
 
 msgid "Specifications"
-msgstr "仕様"
+msgstr "基本設定"
 
 msgid "File Options"
 msgstr "ファイル設定"
