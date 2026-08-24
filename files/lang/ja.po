@@ -3953,7 +3953,7 @@ msgid "Message Text:"
 msgstr "メッセージテキスト:"
 
 msgid "Reward:"
-msgstr "褒美:"
+msgstr "報酬:"
 
 msgid "Player colors allowed to get event:"
 msgstr "イベントを取得できるプレイヤーの色:"
@@ -4011,7 +4011,7 @@ msgid "Day: %{day}"
 msgstr "%{day}日目"
 
 msgid "Daily events:"
-msgstr "毎日のイベント:"
+msgstr "日毎のイベント:"
 
 msgid "Click to save the events."
 msgstr "クリックしてイベントを保存します。"
@@ -8646,7 +8646,7 @@ msgid "Click this button to adjust the level of zoom."
 msgstr "このボタンをクリックしてズームのレベルを調整します。"
 
 msgid "Zoom"
-msgstr "ズーム"
+msgstr "表示倍率"
 
 msgid "week|Squirrel"
 msgstr "リス"
