@@ -2762,7 +2762,7 @@ msgid "Dig for the Ultimate Artifact."
 msgstr "究極の秘宝を発掘するため、地面を掘ります。"
 
 msgid "Arena"
-msgstr "アリーナ"
+msgstr "闘技場"
 
 msgid ""
 "You enter the arena and face a pack of vicious lions. You handily defeat "
@@ -4302,7 +4302,7 @@ msgid "Rocks"
 msgstr "岩"
 
 msgid "Trees"
-msgstr "木"
+msgstr "樹木"
 
 msgid "Water Objects"
 msgstr "海上オブジェクト"
@@ -8733,22 +8733,22 @@ msgid "Desert"
 msgstr "砂漠"
 
 msgid "Snow"
-msgstr "雪"
+msgstr "雪原"
 
 msgid "Wasteland"
 msgstr "荒れ地"
 
 msgid "Beach"
-msgstr "ビーチ"
+msgstr "砂浜"
 
 msgid "Lava"
 msgstr "溶岩"
 
 msgid "Dirt"
-msgstr "ダート"
+msgstr "土"
 
 msgid "Grass"
-msgstr "草"
+msgstr "草地"
 
 msgid "Ocean"
 msgstr "海"
@@ -8817,7 +8817,7 @@ msgid "Gems Mine"
 msgstr "宝石鉱山"
 
 msgid "Gold Mine"
-msgstr "金鉱山"
+msgstr "黄金鉱山"
 
 msgid "Mine"
 msgstr "鉱山"
@@ -8838,10 +8838,10 @@ msgid "No object"
 msgstr "オブジェクトがありません"
 
 msgid "Alchemist Lab"
-msgstr "アルケミストラボ"
+msgstr "錬金術師の研究所"
 
 msgid "Sign"
-msgstr "サイン"
+msgstr "立て札"
 
 msgid "Buoy"
 msgstr "ブイ"
@@ -8850,13 +8850,13 @@ msgid "Skeleton"
 msgstr "スケルトン"
 
 msgid "Daemon Cave"
-msgstr "デーモンの洞窟"
+msgstr "悪魔の洞窟"
 
 msgid "Treasure Chest"
 msgstr "宝箱"
 
 msgid "Faerie Ring"
-msgstr "フェアリーリング"
+msgstr "妖精の輪"
 
 msgid "Campfire"
 msgstr "キャンプファイヤー"
@@ -8865,19 +8865,19 @@ msgid "Fountain"
 msgstr "噴水"
 
 msgid "Gazebo"
-msgstr "ガゼボ"
+msgstr "あずまや"
 
 msgid "Genie Lamp"
-msgstr "魔神のランプ"
+msgstr "ジンのランプ"
 
 msgid "Archer's House"
-msgstr "アーチャーズハウス"
+msgstr "弓兵の家"
 
 msgid "Goblin Hut"
 msgstr "ゴブリン小屋"
 
 msgid "Dwarf Cottage"
-msgstr "ドワーフコテージ"
+msgstr "ドワーフのコテージ"
 
 msgid "Peasant Hut"
 msgstr "農民小屋"
@@ -8892,7 +8892,7 @@ msgid "Event"
 msgstr "イベント"
 
 msgid "Dragon City"
-msgstr "ドラゴンシティ"
+msgstr "竜の都"
 
 msgid "Lighthouse"
 msgid_plural "Lighthouses"
@@ -8903,7 +8903,7 @@ msgid_plural "Water Wheels"
 msgstr[0] "水車"
 
 msgid "Monster"
-msgstr "モンスター"
+msgstr "ユニット"
 
 msgid "Obelisk"
 msgstr "オベリスク"
@@ -8912,113 +8912,113 @@ msgid "Oasis"
 msgstr "オアシス"
 
 msgid "Resource"
-msgstr "リソース"
+msgstr "資源"
 
 msgid "Sawmill"
 msgstr "製材所"
 
 msgid "Oracle"
-msgstr "オラクル"
+msgstr "神託所"
 
 msgid "Shrine of the First Circle"
-msgstr "ファーストサークルの神殿"
+msgstr "第1のサークルの聖地"
 
 msgid "Shipwreck"
 msgstr "難破船"
 
 msgid "Sea Chest"
-msgstr "シーチェスト"
+msgstr "宝箱（海）"
 
 msgid "Desert Tent"
 msgstr "砂漠のテント"
 
 msgid "Stone Liths"
-msgstr "ストーンリス"
+msgstr "石板"
 
 msgid "Wagon Camp"
-msgstr "ワゴンキャンプ"
+msgstr "ならず者の野営地"
 
 msgid "Hut of the Magi"
 msgstr "賢者の小屋"
 
 msgid "Whirlpool"
-msgstr "渦巻き"
+msgstr "渦"
 
 msgid "Windmill"
 msgid_plural "Windmills"
 msgstr[0] "風車"
 
 msgid "Mermaid"
-msgstr "マーメイド"
+msgstr "人魚"
 
 msgid "Boat"
 msgstr "ボート"
 
 msgid "Random Ultimate Artifact"
-msgstr "ランダム究極の秘宝"
+msgstr "ランダムな秘宝（究極）"
 
 msgid "Random Artifact"
-msgstr "ランダム秘宝"
+msgstr "ランダムな秘宝"
 
 msgid "Random Resource"
-msgstr "ランダムリソース"
+msgstr "ランダムな資源"
 
 msgid "Random Monster"
 msgstr "ランダムモンスター"
 
 msgid "Random Town"
-msgstr "ランダム町"
+msgstr "ランダムな町"
 
 msgid "Random Castle"
-msgstr "ランダム城"
+msgstr "ランダムな城"
 
 msgid "Eye of the Magi"
 msgstr "賢者の目"
 
 msgid "Random Monster - weak"
-msgstr "ランダムモンスター - 弱い"
+msgstr "ランダムなユニット（弱）"
 
 msgid "Random Monster - medium"
-msgstr "ランダムモンスター - 中"
+msgstr "ランダムなユニット（中）"
 
 msgid "Random Monster - strong"
-msgstr "ランダムモンスター - 強い"
+msgstr "ランダムなユニット（強）"
 
 msgid "Random Monster - very strong"
-msgstr "ランダムモンスター - 非常に強い"
+msgstr "ランダムなユニット（超強）"
 
 msgid "Nothing Special"
-msgstr "特別なことは何もありません"
+msgstr "その他の装飾"
 
 msgid "Mossy Rock"
 msgstr "苔むした岩"
 
 msgid "Watch Tower"
-msgstr "ものみの塔"
+msgstr "物見の塔"
 
 msgid "Tree House"
-msgstr "ツリーハウス"
+msgstr "樹の家"
 
 msgid "Tree City"
-msgstr "ツリーシティ"
+msgstr "樹の都"
 
 msgid "Ruins"
-msgstr "遺跡"
+msgstr "廃墟"
 
 msgid "Fort"
 msgstr "砦"
 
 msgid "Abandoned Mine"
-msgstr "廃坑"
+msgstr "廃鉱"
 
 msgid "Sirens"
-msgstr "サイレン"
+msgstr "セイレーン"
 
 msgid "Standing Stones"
-msgstr "立石"
+msgstr "ストーンサークル"
 
 msgid "Idol"
-msgstr "偶像"
+msgstr "石の像"
 
 msgid "Tree of Knowledge"
 msgstr "知識の木"
@@ -9027,22 +9027,22 @@ msgid "Witch Doctor's Hut"
 msgstr "呪術師の小屋"
 
 msgid "Temple"
-msgstr "寺"
+msgstr "神殿"
 
 msgid "Hill Fort"
-msgstr "ヒルフォート"
+msgstr "丘の砦"
 
 msgid "Halfling Hole"
-msgstr "ハーフリングホール"
+msgstr "ハーフリングの穴"
 
 msgid "Mercenary Camp"
-msgstr "傭兵キャンプ"
+msgstr "軍人の野営地"
 
 msgid "Shrine of the Second Circle"
-msgstr "セカンドサークルの神殿"
+msgstr "第2のサークルの聖地"
 
 msgid "Shrine of the Third Circle"
-msgstr "サードサークルの神殿"
+msgstr "第3のサークルの聖地"
 
 msgid "City of the Dead"
 msgstr "死者の街"
@@ -9051,28 +9051,28 @@ msgid "Sphinx"
 msgstr "スフィンクス"
 
 msgid "Wagon"
-msgstr "ワゴン"
+msgstr "荷馬車"
 
 msgid "Tar Pit"
-msgstr "タールピット"
+msgstr "タール沼"
 
 msgid "Artesian Spring"
-msgstr "自噴泉"
+msgstr "魔力の泉"
 
 msgid "Troll Bridge"
 msgstr "トロル橋"
 
 msgid "Watering Hole"
-msgstr "水飲み場"
+msgstr "湧水地"
 
 msgid "Witch's Hut"
 msgstr "魔女の小屋"
 
 msgid "Xanadu"
-msgstr "ザナドゥ"
+msgstr "達人の館"
 
 msgid "Lean-To"
-msgstr "リーントゥ"
+msgstr "荷物小屋"
 
 msgid "Magellan's Maps"
 msgstr "マゼランの地図"
@@ -9087,20 +9087,20 @@ msgid "Shipwreck Survivor"
 msgstr "難破船の生存者"
 
 msgid "Bottle"
-msgstr "ボトル"
+msgstr "メッセージボトル"
 
 msgid "Magic Well"
 msgstr "魔法の井戸"
 
 msgid "Magic Garden"
 msgid_plural "Magic Gardens"
-msgstr[0] "マジックガーデン"
+msgstr[0] "魔法の花園"
 
 msgid "Observation Tower"
-msgstr "展望塔"
+msgstr "物見の塔"
 
 msgid "Freeman's Foundry"
-msgstr "フリーマンズファウンドリ"
+msgstr "自由民の鋳造所"
 
 msgid "Reefs"
 msgstr "サンゴ礁"
@@ -9139,43 +9139,43 @@ msgid "Dune"
 msgstr "砂丘"
 
 msgid "Lava Pool"
-msgstr "溶岩プール"
+msgstr "溶岩だまり"
 
 msgid "Shrub"
 msgstr "低木"
 
 msgid "Barrow Mounds"
-msgstr "古墳"
+msgstr "墳墓"
 
 msgid "Random Artifact - Treasure"
-msgstr "ランダム秘宝 - 宝物"
+msgstr "ランダムな秘宝（下級）"
 
 msgid "Random Artifact - Minor"
-msgstr "ランダム秘宝 - マイナー"
+msgstr "ランダムな秘宝（中級）"
 
 msgid "Random Artifact - Major"
-msgstr "ランダム秘宝 - メジャー"
+msgstr "ランダムな秘宝（上級）"
 
 msgid "Barrier"
-msgstr "バリア"
+msgstr "魔法の結界"
 
 msgid "Traveller's Tent"
-msgstr "トラベラーズテント"
+msgstr "旅人のテント"
 
 msgid "Jail"
-msgstr "刑務所"
+msgstr "牢獄"
 
 msgid "Fire Summoning Altar"
-msgstr "火の召喚祭壇"
+msgstr "火の祭壇"
 
 msgid "Air Summoning Altar"
-msgstr "風の召喚祭壇"
+msgstr "風の祭壇"
 
 msgid "Earth Summoning Altar"
-msgstr "土の召喚祭壇"
+msgstr "土の祭壇"
 
 msgid "Water Summoning Altar"
-msgstr "水の召喚祭壇"
+msgstr "水の祭壇"
 
 msgid "Swampy Lake"
 msgstr "沼地の湖"
