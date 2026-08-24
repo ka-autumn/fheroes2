@@ -3625,10 +3625,10 @@ msgid "Size Icon"
 msgstr "サイズアイコン"
 
 msgid "The Succession Wars"
-msgstr "後継者戦争"
+msgstr "王位継承戦争"
 
 msgid "The Price of Loyalty"
-msgstr "忠誠心の代償"
+msgstr "忠誠の代償"
 
 msgid "Resurrection"
 msgstr "リザレクション"
@@ -3691,7 +3691,7 @@ msgid "Map difficulty:"
 msgstr "マップの難易度:"
 
 msgid "N"
-msgstr "N"
+msgstr "他"
 
 msgid "Are you sure you want to delete the map:"
 msgstr "マップを削除してもよろしいですか:"
