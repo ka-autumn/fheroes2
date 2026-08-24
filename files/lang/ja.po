@@ -8563,7 +8563,7 @@ msgid ""
 msgstr "%{morale-type} の士気により、戦闘中に勇者のユニットに追加の攻撃が与えられる場合があります。"
 
 msgid "Blood"
-msgstr "血"
+msgstr "熱狂的"
 
 msgid "Knight"
 msgstr "ナイト"
