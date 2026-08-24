@@ -295,7 +295,7 @@ msgstr ""
 "CAMPAIGN"
 
 msgid "editorMainMenu|BACK"
-msgstr "戻る"
+msgstr "BACK"
 
 msgid ""
 "newMap|FROM\n"
@@ -303,7 +303,7 @@ msgid ""
 msgstr "ゼロ\nから"
 
 msgid "newMap|RANDOM"
-msgstr "ランダム"
+msgstr "RANDOM"
 
 msgid "DIFFICULTY"
 msgstr "DIFFICULTY"
