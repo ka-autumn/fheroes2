@@ -6399,7 +6399,7 @@ msgid "Click to switch between keyboard types."
 msgstr "クリックしてキーボードの種類を切り替えます。"
 
 msgid "Keyboard|SPACE"
-msgstr "スペース"
+msgstr "空白"
 
 msgid "Change language"
 msgstr "言語の変更"
