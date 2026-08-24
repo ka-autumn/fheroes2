@@ -7897,7 +7897,7 @@ msgid "Random %{race} hero (Level %{level})"
 msgstr "ランダムな %{race} 勇者 (レベル %{level})"
 
 msgid "Hero class:"
-msgstr "勇者クラス:"
+msgstr "勇者のクラス:"
 
 msgid "Are you sure you want to dismiss this Hero?"
 msgstr "この勇者を解雇してもよろしいですか?"
