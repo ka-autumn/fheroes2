@@ -6022,7 +6022,7 @@ msgid "%{color} player has been vanquished!"
 msgstr "%{color} プレイヤーが倒されました!"
 
 msgid "Major Event!"
-msgstr "一大イベント！"
+msgstr "重要情報！"
 
 msgid "Scenario:"
 msgstr "シナリオ:"
@@ -6344,7 +6344,7 @@ msgid ""
 msgstr "開始リソースとターンごとのリソース収入に特別な制限はありません。"
 
 msgid "Mild Handicap"
-msgstr "軽度のハンディキャップ"
+msgstr "軽いハンディキャップ"
 
 msgid ""
 "Players with mild handicap start with fewer resources and earn 15% fewer "
@@ -6352,7 +6352,7 @@ msgid ""
 msgstr "軽度のハンディキャップを持つプレイヤーは少ないリソースで開始し、ターンごとに獲得するリソースが 15% 少なくなります。"
 
 msgid "Severe Handicap"
-msgstr "重度のハンディキャップ"
+msgstr "重いハンディキャップ"
 
 msgid ""
 "Players with severe handicap start with fewer resources and earn 30% fewer "
