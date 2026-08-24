@@ -3227,10 +3227,10 @@ msgid "(available: %{count})"
 msgstr "(利用可能: %{count})"
 
 msgid "(empty)"
-msgstr "(空の)"
+msgstr "(空)"
 
 msgid "already learned"
-msgstr "すでに学んだ"
+msgstr "習得済み"
 
 msgid "treeOfKnowledge|free"
 msgstr "無料"
@@ -3242,10 +3242,10 @@ msgid "not claimed"
 msgstr "未受け取り"
 
 msgid "already knows this skill"
-msgstr "このスキルはすでに習得済みです"
+msgstr "習得済み"
 
 msgid "already has max skills"
-msgstr "セカンダリスキルの上限に達しています"
+msgstr "これ以上スキルを習得できません"
 
 msgid "(already visited)"
 msgstr "(訪問済み)"
@@ -3254,7 +3254,7 @@ msgid "(not visited)"
 msgstr "(未訪問)"
 
 msgid "%{color} Barrier"
-msgstr "%{color} バリア"
+msgstr "魔法の結界（%{color}）"
 
 msgid "(tent visited)"
 msgstr "(テント訪問)"
@@ -3275,19 +3275,19 @@ msgid "penalty: %{cost}"
 msgstr "ペナルティ: %{cost}"
 
 msgid "Defenders:"
-msgstr "守備側:"
+msgstr "守備隊:"
 
 msgid "Unknown"
 msgstr "不明"
 
 msgid "heroQuickInfo|(Level %{level})"
-msgstr "(レベル %{level})"
+msgstr "(レベル%{level})"
 
 msgid "Attack:"
-msgstr "攻撃:"
+msgstr "攻撃技能:"
 
 msgid "Defense:"
-msgstr "防御:"
+msgstr "防御技能:"
 
 msgid "Spell Power:"
 msgstr "魔力:"
