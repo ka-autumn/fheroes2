@@ -534,7 +534,7 @@ msgid "battleAnimation|Speed"
 msgstr "スピード"
 
 msgid "Interface"
-msgstr "インターフェース"
+msgstr "操作画面"
 
 msgid "Settings"
 msgstr "設定"
@@ -555,7 +555,7 @@ msgid "Change the interface settings of the game."
 msgstr "ゲームのインターフェース設定を変更します。"
 
 msgid "Interface Settings"
-msgstr "インターフェース設定"
+msgstr "操作画面設定"
 
 msgid ""
 "Toggle whether or not the computer will cast spells for you when auto combat"
@@ -2862,13 +2862,13 @@ msgid "Effects"
 msgstr "効果音"
 
 msgid "MIDI"
-msgstr "MIDI"
+msgstr "MIDI音源"
 
 msgid "MIDI Expansion"
-msgstr "MIDI拡張"
+msgstr "拡張版MIDI音源"
 
 msgid "External"
-msgstr "外部"
+msgstr "外部音源"
 
 msgid "Music Type"
 msgstr "音楽の種類"
@@ -3062,7 +3062,7 @@ msgid "Nearest"
 msgstr "ニアレスト"
 
 msgid "Screen Scaling Type"
-msgstr "画面スケーリングの種類"
+msgstr "画面スケーリング方式"
 
 msgid "Linear"
 msgstr "リニア"
@@ -3115,10 +3115,10 @@ msgid "Army Estimation"
 msgstr "軍隊の推定"
 
 msgid "Canonical"
-msgstr "正規"
+msgstr "言葉で表示"
 
 msgid "Numeric"
-msgstr "数値"
+msgstr "数値で表示"
 
 msgid "Toggle interface visibility."
 msgstr "インターフェースの表示を切り替えます。"
@@ -3750,22 +3750,22 @@ msgid "Selected Map Description"
 msgstr "選択したマップの説明"
 
 msgid "Jump"
-msgstr "ジャンプ"
+msgstr "即時"
 
 msgid "Hero Speed"
-msgstr "勇者の速度"
+msgstr "勇者の移動速度"
 
 msgid "Don't Show"
-msgstr "表示しない"
+msgstr "非表示"
 
 msgid "Enemy Speed"
-msgstr "敵の速度"
+msgstr "敵勇者の移動速度"
 
 msgid "Auto Resolve"
-msgstr "自動解決"
+msgstr "自動・呪文あり"
 
 msgid "Auto, No Spells"
-msgstr "自動、呪文なし"
+msgstr "自動・呪文なし"
 
 msgid "Battles"
 msgstr "戦闘"
@@ -6518,28 +6518,28 @@ msgid "Esperanto"
 msgstr "エスペラント語"
 
 msgid "Slow"
-msgstr "遅い"
+msgstr "低速"
 
 msgid "Fast"
-msgstr "速い"
+msgstr "高速"
 
 msgid "Very Fast"
-msgstr "非常に速い"
+msgstr "最高速"
 
 msgid "Dynamic"
-msgstr "動的"
+msgstr "自動切替"
 
 msgid "Good"
-msgstr "良い"
+msgstr "善"
 
 msgid "Evil"
 msgstr "悪"
 
 msgid "Black & White"
-msgstr "ブラック&ホワイト"
+msgstr "白黒"
 
 msgid "Color"
-msgstr "色"
+msgstr "カラー"
 
 msgid "Configure"
 msgstr "設定する"
