@@ -3413,7 +3413,7 @@ msgid ""
 "\n"
 "\n"
 "Location: "
-msgstr "\n\n位置: "
+msgstr "\n\n保存場所: "
 
 msgid "saveLoadDialog|Name"
 msgstr "名前"
@@ -3631,7 +3631,7 @@ msgid "The Price of Loyalty"
 msgstr "忠誠心の代償"
 
 msgid "Resurrection"
-msgstr "復活"
+msgstr "リザレクション"
 
 msgid "This map is made for \"%{game-version}\" version of the game."
 msgstr "このマップはゲームの「%{game-version}」バージョン用に作成されています。"
@@ -4851,7 +4851,7 @@ msgid "Save Map:"
 msgstr "マップを保存:"
 
 msgid "Click to save the current map."
-msgstr "クリックして現在のマップを保存します。"
+msgstr "現在のマップを保存します。"
 
 msgid "Click to enable all secondary skills."
 msgstr "クリックすると、すべてのセカンダリスキルが有効になります。"
