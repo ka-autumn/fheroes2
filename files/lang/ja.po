@@ -4667,7 +4667,7 @@ msgid "{%number} alliance: "
 msgstr "{%number} 同盟: "
 
 msgid "Gold:"
-msgstr "ゴールド:"
+msgstr "黄金:"
 
 msgid "Select a Town to capture to achieve victory"
 msgstr "勝利を達成するために占領する町を選択してください"
@@ -4708,16 +4708,16 @@ msgid "Map Difficulty"
 msgstr "マップの難易度"
 
 msgid "RUMORS"
-msgstr "噂"
+msgstr "RUMORS"
 
 msgid "EVENTS"
-msgstr "イベント"
+msgstr "EVENTS"
 
 msgid "LANGUAGE"
-msgstr "言語"
+msgstr "LANGUAGE"
 
 msgid "map|ABOUT"
-msgstr "について"
+msgstr "ABOUT"
 
 msgid "Change Map Name:"
 msgstr "マップ名を変更:"
