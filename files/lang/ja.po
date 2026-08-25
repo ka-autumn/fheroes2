@@ -1886,36 +1886,36 @@ msgstr "上級 学問"
 msgid ""
 "The main hero will have the \"%{artifact}\" artifact at the start of the "
 "scenario."
-msgstr "勇者はシナリオの開始時に「%{artifact}」秘宝を持ちます。"
+msgstr "秘宝「%{artifact}」を所持した状態でシナリオを開始する。"
 
 msgid ""
 "The kingdom will receive %{amount} additional %{resource} at the start of "
 "the scenario."
-msgstr "王国はシナリオ開始時に追加で %{amount} 個の %{resource} を受け取ります。"
+msgstr "%{resource}%{amount}ポイントが追加された状態でシナリオを開始する。"
 
 msgid ""
 "The kingdom will have %{amount} less %{resource} at the start of the "
 "scenario."
-msgstr "シナリオ開始時点で王国は%{resource}が%{amount}少なくなります。"
+msgstr "%{resource}%{amount}ポイントを失った状態でシナリオを開始する。"
 
 msgid ""
 "The main hero will have %{count} %{monster} at the start of the scenario."
-msgstr "勇者はシナリオの開始時に %{count} %{monster} を持ちます。"
+msgstr "%{monster}を%{count}体率いた状態でシナリオを開始する。"
 
 msgid ""
 "The main hero will have the \"%{spell}\" spell at the start of the scenario."
-msgstr "勇者はシナリオの開始時に「%{spell}」の呪文を持ちます。"
+msgstr "呪文「%{spell}」を習得した状態でシナリオを開始する。"
 
 msgid "The starting alignment of the scenario will be %{race}."
-msgstr "シナリオの開始種族は%{race}になります。"
+msgstr "%{race}でシナリオを開始する。"
 
 msgid ""
 "The main hero will receive a +%{count} to their %{skill} at the start of the"
 " scenario."
-msgstr "勇者はシナリオ開始時に自分の %{skill} に +%{count} を受け取ります。"
+msgstr "%{skill}が+%{count}ポイントされた状態でシナリオを開始する。"
 
 msgid "The main hero will have %{skill} at the start of the scenario."
-msgstr "勇者はシナリオの開始時に %{skill} を持ちます。"
+msgstr "%{skill}を習得した状態でシナリオを開始する。"
 
 msgid "Roland"
 msgstr "ローランド"
@@ -1924,16 +1924,16 @@ msgid "Archibald"
 msgstr "アーチボルド"
 
 msgid "Price of Loyalty"
-msgstr "忠誠心の代償"
+msgstr "忠誠の代償"
 
 msgid "Voyage Home"
-msgstr "帰郷の航海"
+msgstr "故郷への航海"
 
 msgid "Wizard's Isle"
 msgstr "魔法使いの島"
 
 msgid "Descendants"
-msgstr "子孫"
+msgstr "末裔"
 
 msgid "Cannot build. You have already built here today."
 msgstr "建設できません。本日はここでの建設は実施済みです。"
@@ -10930,7 +10930,7 @@ msgid ""
 msgstr "盛り上がった土の塊に、一本の薄汚れたシャベルが突き刺さっていた。調べた結果、君はそれが定命の者の間ではとうの昔に失われたと考えられていた、墓掘り人の魔法のシャベルであることに気づいた。"
 
 msgid "spellBonus|selected by user"
-msgstr "ユーザーが選択"
+msgstr "ユーザー指定"
 
 msgid "Wood"
 msgstr "木材"
