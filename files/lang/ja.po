@@ -3305,7 +3305,7 @@ msgid "Uncharted Territory"
 msgstr "未知の領域"
 
 msgid "Random Map Generator"
-msgstr "ランダムマップジェネレーター"
+msgstr "ランダムマップ作成"
 
 msgid "rmg|Player count:"
 msgstr "プレイヤー数:"
@@ -3317,7 +3317,7 @@ msgid "rmg|Water percentage:"
 msgstr "水域の割合:"
 
 msgid "rmg|Monster strength:"
-msgstr "モンスターの強さ:"
+msgstr "ユニットの強さ:"
 
 msgid "rmg|Resource availability:"
 msgstr "資源の量:"
