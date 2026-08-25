@@ -4978,7 +4978,7 @@ msgid "autoPlaytest|Animation speed:"
 msgstr "アニメーション速度:"
 
 msgid "autoPlaytest|Sound Effects"
-msgstr "サウンドエフェクト"
+msgstr "効果音"
 
 msgid "Left-clicking at any point will interrupt the playtest."
 msgstr "任意の時点で左クリックすると、プレイテストが中断されます。"
