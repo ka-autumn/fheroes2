@@ -2955,13 +2955,13 @@ msgid "Mouse Cursor"
 msgstr "マウスカーソル"
 
 msgid "Toggle colored cursor on or off. This is only an aesthetic choice."
-msgstr "色付きカーソルのオンとオフを切り替えます。これは単に美的観点からの選択です。"
+msgstr "色付きカーソルのオンとオフを切り替えます。この設定は見た目にのみ影響します。"
 
 msgid "Interface Type"
 msgstr "外観"
 
 msgid "Toggle the type of interface you want to use."
-msgstr "使用するインターフェースのタイプを切り替えます。"
+msgstr "ゲーム画面の外観を切り替えます。"
 
 msgid "Text Support"
 msgstr "テキストサポート"
@@ -4791,10 +4791,10 @@ msgid "Passability"
 msgstr "通行可否表示"
 
 msgid "Toggle animation of the objects."
-msgstr "オブジェクトのアニメーションを切り替えます。"
+msgstr "オブジェクトのアニメーションのオンとオフを切り替えます。"
 
 msgid "Toggle display of objects' passability."
-msgstr "オブジェクトの通行可能性の表示を切り替えます。"
+msgstr "オブジェクトの通行可否表示を切り替えます。"
 
 msgid "Rumors:"
 msgstr "噂:"
