@@ -549,7 +549,7 @@ msgid "On"
 msgstr "オン"
 
 msgid "Set the speed of combat actions and animations."
-msgstr "戦闘アクションとアニメーションの速度を設定します。"
+msgstr "戦闘速度を設定します。"
 
 msgid "Change the interface settings of the game."
 msgstr "ゲームのインターフェース設定を変更します。"
@@ -1024,28 +1024,28 @@ msgid "Movement Area"
 msgstr "移動エリア"
 
 msgid "Toggle to display the turn order during the battle."
-msgstr "戦闘中のターン順の表示を切り替えます。"
+msgstr "戦闘中の行動順の表示方法を切り替えます。"
 
 msgid ""
 "Toggle the hex grid on or off. The hex grid always underlies movement, even "
 "if turned off. This switch only determines if the grid is visible."
 msgstr ""
-"グリッドのオンとオフを切り替えます。グリッドは、オフになっている場合でも、常に動きの基礎となります。このスイッチは、グリッドが表示されるかどうかのみを決定します。"
+"グリッドの表示と非表示を切り替えます。非表示でもユニットの移動はグリッドに従い、この設定が変えるのは表示の有無だけです。"
 
 msgid "Toggle to display damage information during the battle."
-msgstr "戦闘中のダメージ情報の表示を切り替えます。"
+msgstr "戦闘中にダメージ情報を表示するかどうかを切り替えます。"
 
 msgid ""
 "Toggle on or off shadows showing where your creatures can move and attack."
-msgstr "ユニットが移動して攻撃できる場所を示すハイライトのオンとオフを切り替えます。"
+msgstr "行動中のユニットが移動・攻撃できるマスを示すハイライトのオンとオフを切り替えます。"
 
 msgid ""
 "Toggle on or off a shadow showing the current hex location of the mouse "
 "cursor."
-msgstr "マウスカーソルの現在のグリッド位置を示すハイライトのオンとオフを切り替えます。"
+msgstr "マウスカーソルがあるマスを示すハイライトのオンとオフを切り替えます。"
 
 msgid "Toggle showing the movement area of a highlighted creature on or off."
-msgstr "ハイライトされたユニットの移動領域の表示のオンとオフを切り替えます。"
+msgstr "カーソルを合わせたユニットの移動エリア表示のオンとオフを切り替えます。"
 
 msgid ""
 "Through eagle-eyed observation, %{name} is able to learn the magic spell "
