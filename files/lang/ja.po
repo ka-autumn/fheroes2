@@ -300,7 +300,7 @@ msgstr "BACK"
 msgid ""
 "newMap|FROM\n"
 "SCRATCH"
-msgstr "ゼロ\nから"
+msgstr "FROM\nSCRATCH"
 
 msgid "newMap|RANDOM"
 msgstr "RANDOM"
@@ -855,7 +855,7 @@ msgid ""
 "autoCombat|This can be interrupted at any moment by pressing the Auto Combat"
 " hotkey or the default Cancel key, or by performing a left or right click "
 "anywhere on the game screen."
-msgstr "これは、自動戦闘ホットキーまたはデフォルトのキャンセルキーを押すか、ゲーム画面の任意の場所で左または右クリックすることによって、いつでも中断できます。"
+msgstr "自動戦闘のホットキーか通常のキャンセルキーを押す、またはゲーム画面上を左クリックか右クリックすると、いつでも中断できます。"
 
 msgid "Auto Combat"
 msgstr "自動戦闘"
@@ -4782,7 +4782,7 @@ msgid ""
 msgstr "%{object}\n(%{color}プレイヤー)"
 
 msgid "editor|%{count} %{resource}"
-msgstr "%{count} %{resource}"
+msgstr "%{resource}%{count}ポイント"
 
 msgid "Animation"
 msgstr "アニメーション"
@@ -4854,34 +4854,34 @@ msgid "Click to save the current map."
 msgstr "現在のマップを保存します。"
 
 msgid "Click to enable all secondary skills."
-msgstr "クリックすると、すべてのセカンダリスキルが有効になります。"
+msgstr "すべてのスキルを有効にします。"
 
 msgid "Enable All Secondary Skills"
-msgstr "すべてのセカンダリスキルを有効にする"
+msgstr "全スキルを有効"
 
 msgid "Click to disable all secondary skills."
-msgstr "クリックすると、すべてのセカンダリスキルが無効になります。"
+msgstr "すべてのスキルを無効にします。"
 
 msgid "Disable All Secondary Skills"
-msgstr "すべてのセカンダリスキルを無効にする"
+msgstr "全スキルを無効"
 
 msgid "Click to show only level %{level} spells."
-msgstr "クリックすると、レベル %{level} の呪文のみが表示されます。"
+msgstr "レベル%{level}の呪文のみを表示します。"
 
 msgid "Spells level"
 msgstr "呪文レベル"
 
 msgid "Click to enable all spells."
-msgstr "クリックしてすべての呪文を有効にします。"
+msgstr "すべての呪文を有効にします。"
 
 msgid "Enable All Spells"
-msgstr "すべての呪文を有効にする"
+msgstr "全呪文を有効"
 
 msgid "Click to disable all spells."
-msgstr "クリックするとすべての呪文が無効になります。"
+msgstr "すべての呪文を無効にします。"
 
 msgid "Disable All Spells"
-msgstr "すべての呪文を無効にする"
+msgstr "全呪文を無効"
 
 msgid "Riddle:"
 msgstr "謎:"
@@ -4929,7 +4929,7 @@ msgid "Delete an artifact from the reward."
 msgstr "報酬から秘宝を削除します。"
 
 msgid "Day: %{day} Week: %{week} Month: %{month}"
-msgstr "日: %{day} 週: %{week} 月: %{month}"
+msgstr "月: %{month}、週: %{week}、日: %{day}"
 
 msgid "difficulty|Easy"
 msgstr "簡単"
@@ -7745,7 +7745,7 @@ msgid ""
 "sphinx|'\n"
 "\n"
 "Your answer?"
-msgstr "'\n\nあなたの答え？"
+msgstr "'\n\n答えは？"
 
 msgid ""
 "\"You guessed incorrectly,\" the Sphinx says, smiling. The Sphinx swipes at "
