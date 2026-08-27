@@ -4896,28 +4896,28 @@ msgid "Answer"
 msgstr "答え"
 
 msgid "This answer exists in the list."
-msgstr "この回答はリストにあります。"
+msgstr "同じ内容の答えがすでに登録されています。"
 
 msgid "Click to save the Sphinx properties."
-msgstr "クリックしてスフィンクスのプロパティを保存します。"
+msgstr "スフィンクスの設定を保存します。"
 
 msgid "Add Answer"
-msgstr "回答を追加"
+msgstr "答えの追加"
 
 msgid "Add an additional answer for the question."
-msgstr "質問に対する追加の回答を追加します。"
+msgstr "新しい答えを追加します。"
 
 msgid "Edit Answer"
-msgstr "回答を編集"
+msgstr "答えの編集"
 
 msgid "Edit an existing answer for the question."
-msgstr "質問に対する既存の回答を編集します。"
+msgstr "選択した答えを編集します。"
 
 msgid "Delete Answer"
-msgstr "回答を削除"
+msgstr "答えの削除"
 
 msgid "Delete an existing answer for the question."
-msgstr "質問に対する既存の回答を削除します。"
+msgstr "選択した答えを削除します。"
 
 msgid "Riddle"
 msgstr "謎"
