@@ -8031,34 +8031,34 @@ msgstr ""
 "倍です。特別なイベントを通じて、勇者が最大呪文ポイントを超えることがあります。"
 
 msgid "%{name1} meets %{name2}"
-msgstr "%{name1} と %{name2} の出会い"
+msgstr "%{name1}と%{name2}の合流"
 
 msgid "hero|Level %{level}"
-msgstr "レベル %{level}"
+msgstr "レベル%{level}"
 
 msgid "Move all artifacts from %{from_hero_name} to %{to_hero_name}."
-msgstr "すべての秘宝を %{from_hero_name} から %{to_hero_name} に移動します。"
+msgstr "%{from_hero_name}の秘宝をすべて%{to_hero_name}へ移します。"
 
 msgid "Artifact Transfer"
-msgstr "秘宝の転送"
+msgstr "秘宝の移動"
 
 msgid "Swap Artifacts"
 msgstr "秘宝の交換"
 
 msgid "Swap all artifacts between heroes."
-msgstr "勇者間ですべての秘宝を交換します。"
+msgstr "2人の勇者が持つ秘宝をすべて交換します。"
 
 msgid "Move army from %{from_hero_name} to %{to_hero_name}."
-msgstr "軍隊を%{from_hero_name}から%{to_hero_name}に移動させます。"
+msgstr "%{from_hero_name}の部隊を%{to_hero_name}へ移します。"
 
 msgid "Army Transfer"
-msgstr "軍隊の移動"
+msgstr "部隊の移動"
 
 msgid "Swap Armies"
-msgstr "軍隊の交換"
+msgstr "部隊の交換"
 
 msgid "Swap armies between heroes."
-msgstr "勇者間で軍隊を交換します。"
+msgstr "2人の勇者が率いる部隊を交換します。"
 
 msgid "Enemy heroes are now fully identifiable."
 msgstr "敵の勇者が完全に識別できるようになりました。"
