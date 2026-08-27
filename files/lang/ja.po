@@ -4806,28 +4806,28 @@ msgid "Rumor"
 msgstr "噂"
 
 msgid "This rumor already exists in the list."
-msgstr "この噂はすでにリストに存在します。"
+msgstr "同じ内容の噂がすでに登録されています。"
 
 msgid "Click to save the rumors."
-msgstr "クリックして噂を保存します。"
+msgstr "噂を保存します。"
 
 msgid "Add Rumor"
-msgstr "噂を追加"
+msgstr "噂の追加"
 
 msgid "Add an additional rumor."
-msgstr "追加の噂を追加します。"
+msgstr "新しい噂を追加します。"
 
 msgid "Edit Rumor"
 msgstr "噂の編集"
 
 msgid "Edit an existing rumor."
-msgstr "既存の噂を編集します。"
+msgstr "選択した噂を編集します。"
 
 msgid "Delete Rumor"
-msgstr "噂を削除"
+msgstr "噂の削除"
 
 msgid "Delete an existing rumor."
-msgstr "既存の噂を削除します。"
+msgstr "選択した噂を削除します。"
 
 msgid ""
 "\n"
