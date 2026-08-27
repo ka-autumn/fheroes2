@@ -6442,11 +6442,11 @@ msgid "Kingdom Income"
 msgstr "王国の収入"
 
 msgid "Kingdom Income per day."
-msgstr "王国の1日あたりの収入。"
+msgstr "王国が1日に得る収入です。"
 
 msgid ""
 "For every lighthouse controlled, your ships will move further each day."
-msgstr "灯台を制御するたびに、船は毎日さらに遠くへ進みます。"
+msgstr "支配している灯台1基につき、船の1日の移動距離が伸びます。"
 
 msgid "English"
 msgstr "英語"
@@ -8482,16 +8482,16 @@ msgid "Garrison"
 msgstr "駐屯地"
 
 msgid "Gold Per Day:"
-msgstr "1日あたりのゴールド:"
+msgstr "1日あたりの収入:"
 
 msgid "View Heroes."
-msgstr "勇者を表示。"
+msgstr "勇者の一覧を表示します。"
 
 msgid "Towns/Castles"
 msgstr "町・城"
 
 msgid "View Towns and Castles."
-msgstr "町と城を表示。"
+msgstr "町と城の一覧を表示します。"
 
 msgid "luck|Cursed"
 msgstr "絶望的"
