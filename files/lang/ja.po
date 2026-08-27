@@ -1074,23 +1074,23 @@ msgid "Reset"
 msgstr "リセット"
 
 msgid "Reset to default settings."
-msgstr "設定をデフォルトに戻します。"
+msgstr "設定を初期状態に戻します。"
 
 msgid ""
 "The battle will take place on a randomly selected terrain. Click to change "
 "the terrain type."
-msgstr "戦闘はランダムに選択された地形で行われます。クリックすると地形タイプが切り替わります。"
+msgstr "戦闘の地形はランダムに決まります。クリックすると地形が切り替わります。"
 
 msgid ""
 "The battle will take place on %{terrain-type} terrain. Click to change the "
 "terrain type."
-msgstr "戦闘は%{terrain-type}の地形で行われます。クリックすると地形タイプが切り替わります。"
+msgstr "戦闘は%{terrain-type}で行われます。クリックすると地形が切り替わります。"
 
 msgid "Please select another hero."
 msgstr "別の勇者を選択してください。"
 
 msgid "Click to select a hero."
-msgstr "クリックして勇者を選択します。"
+msgstr "クリックすると勇者を選択できます。"
 
 msgid "Hero"
 msgstr "勇者"
@@ -1098,7 +1098,7 @@ msgstr "勇者"
 msgid ""
 "If this checkbox is checked, the defending hero is going be human-"
 "controlled."
-msgstr "このチェックボックスがチェックされている場合、防御側の勇者は人間によって制御されます。"
+msgstr "チェックすると、防御側の勇者を人間が操作します。"
 
 msgid "%{race1} %{name1} vs %{race2} %{name2}"
 msgstr "%{race1} %{name1} 対 %{race2} %{name2}"
