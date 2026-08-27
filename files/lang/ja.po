@@ -585,31 +585,31 @@ msgid "The enemy has surrendered!"
 msgstr "敵は降伏した！"
 
 msgid "Their cowardice costs them %{gold} gold."
-msgstr "彼らの卑劣さには、%{gold} ゴールドがかかります。"
+msgstr "敵は臆病の代償に黄金%{gold}ポイントを支払った。"
 
 msgid "The enemy has fled!"
-msgstr "敵は逃げた！"
+msgstr "敵は逃げ出した！"
 
 msgid "A glorious victory!"
-msgstr "輝かしい勝利だ！"
+msgstr "輝かしき勝利だ！"
 
 msgid "For valor in combat, %{name} receives %{exp} experience."
-msgstr "戦闘での勇気により、%{name}は%{exp}の経験値を受け取ります。"
+msgstr "その勇猛な戦いぶりによって%{name}は%{exp}ポイントの経験を獲得した。"
 
 msgid "The cowardly %{name} flees from battle."
-msgstr "臆病な%{name}は戦いから逃げます。"
+msgstr "%{name}は無様にも戦場から逃げ出した。"
 
 msgid "%{name} surrenders to the enemy, and departs in shame."
-msgstr "%{name}は敵に降伏し、恥を忍んで去ります。"
+msgstr "%{name}は敵に降伏し、恥辱にまみれて立ち去った。"
 
 msgid "Your forces suffer a bitter defeat, and %{name} abandons your cause."
-msgstr "あなたの軍隊は痛ましい敗北を喫し、%{name}はあなたの大義を放棄します。"
+msgstr "君の軍勢は手痛い敗北を喫し、%{name}は君を見放した。"
 
 msgid "Your forces suffer a bitter defeat."
-msgstr "あなたの軍隊は苦い敗北を喫します。"
+msgstr "君の軍勢は手痛い敗北を喫した。"
 
 msgid "Battlefield Casualties"
-msgstr "戦場での死傷者"
+msgstr "戦死者"
 
 msgid "Attacker"
 msgstr "攻撃側"
@@ -618,22 +618,22 @@ msgid "Defender"
 msgstr "防御側"
 
 msgid "Click to leave the battle results."
-msgstr "クリックして戦闘結果を閉じます。"
+msgstr "戦闘結果画面を閉じます。"
 
 msgid "Click to restart the battle in manual mode."
-msgstr "クリックすると手動モードで戦闘が再開されます。"
+msgstr "戦闘を手動モードでやり直します。"
 
 msgid "Restart"
 msgstr "Restart"
 
 msgid "You have captured an enemy artifact!"
-msgstr "敵の秘宝を捕獲しました!"
+msgstr "敵の秘宝を奪い取った！"
 
 msgid "As you reach for the %{name}, it mysteriously disappears."
-msgstr "%{name} に手を伸ばすと、不思議なことにそれは消えてしまいます。"
+msgstr "あなたが手を伸ばすと、%{name}は不思議にも消えてしまった。"
 
 msgid "As your enemy reaches for the %{name}, it mysteriously disappears."
-msgstr "敵が %{name} に手を伸ばすと、それは不思議なことに消えてしまいます。"
+msgstr "敵が手を伸ばすと、%{name}は不思議にも消えてしまった。"
 
 msgid "Necromancy!"
 msgstr "死霊術!"
@@ -694,13 +694,13 @@ msgstr "勇者の設定"
 msgid ""
 "Cast a magical spell. You may only cast one spell per combat round. The "
 "round is reset when every creature has had a turn."
-msgstr "魔法の呪文をキャストします。戦闘ラウンドごとにキャストできる呪文は1つだけです。すべてのユニットにターンが完了すると、ラウンドはリセットされます。"
+msgstr "呪文を唱えます。各戦闘ラウンドで唱えることができる呪文は1つだけです。すべてのユニットが行動を終えると、新しいラウンドが始まります。"
 
 msgid ""
 "Retreat your hero, abandoning your creatures. Your hero will be available "
 "for you to recruit again, however, the hero will have only a novice hero's "
 "forces."
-msgstr "勇者を撤退させると、ユニットは放棄されます。勇者は再び募集できますが、部隊は新人のものだけになります。"
+msgstr "勇者を撤退させます。勇者は再び雇用できますが、率いているのは初期部隊となります。"
 
 msgid ""
 "Surrendering costs gold. However if you pay the ransom, the hero and all of "
@@ -708,19 +708,19 @@ msgid ""
 "of surrender is half of the total cost of the non-temporary troops remaining"
 " in the army."
 msgstr ""
-"降伏にはゴールドがかかります。ただし、身代金を支払った場合、勇者とその生き残ったすべての生き物は再び募集できるようになります。降伏費用は、軍に残留する非臨時部隊の総費用の半分です。"
+"降伏には黄金が必要です。身代金を支払えば、勇者を生き残ったすべてのユニットとともに再び雇用できます。降伏費用は、部隊に残っているユニット（一時的に加わったものを除く）の総雇用費の半額です。"
 
 msgid "Open Hero Screen to view full information about the hero."
-msgstr "勇者画面を開いて、勇者に関する完全な情報を表示します。"
+msgstr "勇者画面を開き、勇者の詳しい情報を確認します。"
 
 msgid "Return to the battle."
 msgstr "戦闘に戻ります。"
 
 msgid "Not enough gold (%{gold})"
-msgstr "ゴールドが足りません (%{gold})"
+msgstr "黄金が%{gold}ポイント足りません"
 
 msgid "%{name} states:"
-msgstr "%{name}は次のように述べています:"
+msgstr "%{name}は高らかにこう叫んだ："
 
 msgid "Captain of %{name} states:"
 msgstr "%{name}の守備隊長は次のように述べています:"
@@ -728,7 +728,7 @@ msgstr "%{name}の守備隊長は次のように述べています:"
 msgid ""
 "\"I will accept your surrender and grant you and your troops safe passage "
 "for the price of %{price} gold.\""
-msgstr "「私はあなたの降伏を受け入れ、%{price}ゴールドと引き換えにあなたとあなたの軍隊の安全な通行を許可します。」"
+msgstr "「黄金%{price}ポイントを支払うなら、降伏を受け入れ、お前と部隊の安全な退路を保障しよう。」"
 
 msgid "View %{monster} info"
 msgstr "%{monster}の情報を表示"
@@ -976,16 +976,16 @@ msgid "Error"
 msgstr "エラー"
 
 msgid "No spells to cast."
-msgstr "キャストできる呪文がありません。"
+msgstr "唱えることができる呪文がありません。"
 
 msgid "Are you sure you want to retreat?"
-msgstr "撤退してもよろしいですか?"
+msgstr "本当に撤退しますか？"
 
 msgid "Retreat disabled"
-msgstr "撤退無効"
+msgstr "撤退できません。"
 
 msgid "Surrender disabled"
-msgstr "降伏無効"
+msgstr "降伏できません。"
 
 msgid "Damage: %{max}"
 msgstr "ダメージ: %{max}"
