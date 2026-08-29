@@ -3619,10 +3619,10 @@ msgid ""
 "is small (36 x 36), medium\n"
 "(72 x 72), large (108 x 108),\n"
 "or extra large (144 x 144)."
-msgstr "このマップが小 (36 x 36)、中 (72 x 72)、大 (108 x 108)、特大 (144 x 144) のいずれのサイズであるかを示します。"
+msgstr "マップのサイズ（小：36×36、中：72×72、大：108×108、特大：144×144）を示します。"
 
 msgid "Size Icon"
-msgstr "サイズアイコン"
+msgstr "マップサイズ"
 
 msgid "The Succession Wars"
 msgstr "王位継承戦争"
@@ -3649,7 +3649,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"サポートされている言語:\n"
+"対応言語:\n"
 
 msgid "Lose all your heroes and towns."
 msgstr "すべての勇者と町を失います。"
@@ -3661,13 +3661,13 @@ msgid "Lose a specific hero."
 msgstr "特定の勇者を失います。"
 
 msgid "Run out of time. Fail to win by a certain point."
-msgstr "時間切れです。一定のポイントまでに勝利できません。"
+msgstr "制限時間内に勝利できなければ敗北します。"
 
 msgid "Loss Condition"
 msgstr "敗北条件"
 
 msgid "Defeat all enemy heroes and towns."
-msgstr "すべての敵の勇者を倒し、町を占領します。"
+msgstr "すべての敵の勇者を倒し、すべての敵の町と城を占領します。"
 
 msgid "Capture a specific town."
 msgstr "特定の町を占領します。"
@@ -3679,7 +3679,7 @@ msgid "Find a specific artifact."
 msgstr "特定の秘宝を見つけます。"
 
 msgid "Your side must defeat the opposing side."
-msgstr "あなた側は相手側を倒さなければなりません。"
+msgstr "自分の陣営が敵の陣営を倒せば勝利します。"
 
 msgid "Accumulate a large amount of gold."
 msgstr "大量のゴールドを貯めます。"
@@ -3688,55 +3688,55 @@ msgid "Victory Condition"
 msgstr "勝利条件"
 
 msgid "Map difficulty:"
-msgstr "マップの難易度:"
+msgstr "マップ難易度:"
 
 msgid "N"
 msgstr "他"
 
 msgid "Are you sure you want to delete the map:"
-msgstr "マップを削除してもよろしいですか:"
+msgstr "次のマップを削除しますか？"
 
 msgid "No maps exist at that size."
-msgstr "そのサイズのマップは存在しません。"
+msgstr "そのサイズのマップはありません。"
 
 msgid "Small Maps"
 msgstr "小マップ"
 
 msgid "View only maps of size small (36 x 36)."
-msgstr "小さいサイズ (36 x 36) のマップのみを表示します。"
+msgstr "小サイズ（36×36）のマップのみ表示します。"
 
 msgid "Medium Maps"
-msgstr "中型マップ"
+msgstr "中マップ"
 
 msgid "View only maps of size medium (72 x 72)."
-msgstr "中サイズ (72 x 72) のマップのみを表示します。"
+msgstr "中サイズ（72×72）のマップのみ表示します。"
 
 msgid "Large Maps"
 msgstr "大マップ"
 
 msgid "View only maps of size large (108 x 108)."
-msgstr "大きいサイズ (108 x 108) のマップのみを表示します。"
+msgstr "大サイズ（108×108）のマップのみ表示します。"
 
 msgid "Extra Large Maps"
 msgstr "特大マップ"
 
 msgid "View only maps of size extra large (144 x 144)."
-msgstr "特大サイズ (144 x 144) のマップのみを表示します。"
+msgstr "特大サイズ（144×144）のマップのみ表示します。"
 
 msgid "All Maps"
 msgstr "すべてのマップ"
 
 msgid "View all maps, regardless of size."
-msgstr "サイズに関係なく、すべてのマップを表示します。"
+msgstr "サイズを問わず、すべてのマップを表示します。"
 
 msgid "Selected Name"
-msgstr "選択した名前"
+msgstr "選択中のマップ名"
 
 msgid "The name of the currently selected map."
-msgstr "現在選択されているマップの名前。"
+msgstr "選択中のマップ名です。"
 
 msgid "Selected Map Difficulty"
-msgstr "選択したマップの難易度"
+msgstr "選択中のマップの難易度"
 
 msgid ""
 "The map difficulty of the currently selected map. The map difficulty is "
@@ -3744,10 +3744,10 @@ msgid ""
 "or stronger enemies, fewer resources, or other special conditions making "
 "things tougher for the human player."
 msgstr ""
-"現在選択されているマップのマップ難易度。マップの難易度はシナリオデザイナーによって決定されます。より難しいマップには、より多くのまたはより強力な敵、より少ないリソース、または人間のプレイヤーにとって状況を難しくするその他の特別な条件が含まれる場合があります。"
+"選択中のマップに設定された難易度です。難易度はシナリオ作成者が設定します。難しいマップでは、敵の数や強さ、得られる資源の少なさなどにより、人間プレイヤーに不利な条件が設定されている場合があります。"
 
 msgid "Selected Map Description"
-msgstr "選択したマップの説明"
+msgstr "選択中のマップの説明"
 
 msgid "Jump"
 msgstr "即時"
