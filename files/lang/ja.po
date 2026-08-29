@@ -3959,13 +3959,13 @@ msgid "Player colors allowed to get event:"
 msgstr "イベントを取得できるプレイヤーの色:"
 
 msgid "Computer colors allowed to get event:"
-msgstr "イベントの取得を許可されるコンピューターの色:"
+msgstr "イベントの対象となるコンピュータープレイヤーの色:"
 
 msgid "First day of occurrence:"
-msgstr "発生初日:"
+msgstr "最初の発生日:"
 
 msgid "Repeat period (days):"
-msgstr "繰り返し期間(日):"
+msgstr "繰り返し間隔(日):"
 
 msgid "Allow %{color} human player to get event"
 msgstr "%{color}の人間プレイヤーにイベントの取得を許可する"
@@ -3993,13 +3993,13 @@ msgid "Click to save the Event properties."
 msgstr "イベントのプロパティを保存します。"
 
 msgid "No resources will be given as a reward."
-msgstr "報酬としてリソースは与えられません。"
+msgstr "報酬として与えられる資源はありません。"
 
 msgid "Resources"
 msgstr "資源"
 
 msgid "Resources will be given as a reward."
-msgstr "報酬としてリソースが与えられます。"
+msgstr "報酬として資源が与えられます。"
 
 msgid "Click here to change the event message."
 msgstr "ここをクリックして、イベントメッセージを変更します。"
@@ -4014,25 +4014,25 @@ msgid "Daily events:"
 msgstr "日毎のイベント:"
 
 msgid "Click to save the events."
-msgstr "クリックしてイベントを保存します。"
+msgstr "イベントを保存します。"
 
 msgid "Add Event"
 msgstr "イベントの追加"
 
 msgid "Add an additional event."
-msgstr "追加のイベントを追加します。"
+msgstr "新しいイベントを追加します。"
 
 msgid "Edit Event"
 msgstr "イベントの編集"
 
 msgid "Edit an existing event."
-msgstr "既存のイベントを編集します。"
+msgstr "選択したイベントを編集します。"
 
 msgid "Delete Event"
 msgstr "イベントの削除"
 
 msgid "Delete an existing event."
-msgstr "既存のイベントを削除します。"
+msgstr "選択したイベントを削除します。"
 
 msgid "Effects:"
 msgstr "効果:"
