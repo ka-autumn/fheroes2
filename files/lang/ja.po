@@ -2608,7 +2608,7 @@ msgstr "月: %{month}、週: %{week}、日: %{day}"
 msgid ""
 "You must purchase a spell book to use the mage guild, but you currently have"
 " no room for a spell book. Try giving one of your artifacts to another hero."
-msgstr "魔道師ギルドを利用するには呪文書が必要ですが、現在それを持つ空きがありません。秘宝を1つ、別の勇者に譲ってみてください。"
+msgstr "魔道師ギルドを利用するには呪文書を購入する必要がありますが、現在は呪文書を持てる空きがありません。秘宝を1つ別の勇者に渡してみてください。"
 
 msgid "Exit Castle"
 msgstr "城を出る"
@@ -2629,13 +2629,13 @@ msgid "View Hero"
 msgstr "勇者を表示"
 
 msgid "Click to show the next town."
-msgstr "クリックすると次の町が表示されます。"
+msgstr "次の町を表示します。"
 
 msgid "Click to show the previous town."
-msgstr "クリックすると前の町が表示されます。"
+msgstr "前の町を表示します。"
 
 msgid "This town may not be upgraded to a castle."
-msgstr "この町は城に格上げできません。"
+msgstr "この町は城にグレードアップできません。"
 
 msgid "Town"
 msgstr "町"
@@ -2673,21 +2673,21 @@ msgstr "%{race}の%{name}をスカウトします。"
 msgid ""
 "'Spread' combat formation spreads the castle's units from the top to the "
 "bottom of the battlefield, with at least one empty space between each unit."
-msgstr "「分散」戦闘フォーメーションは、城のユニットを戦場の上から下まで広げ、各ユニット間に少なくとも1つの空きスペースを設けます。"
+msgstr "「分散」の戦闘陣形では、城のユニットを戦場の上端から下端まで、各ユニットの間を最低1マス空けて配置します。"
 
 msgid ""
 "'Grouped' combat formation bunches the castle's units together in the center"
 " of the castle's side of the battlefield."
-msgstr "「グループ化」戦闘フォーメーションは、城のユニットを戦場の城側の中央に集めます。"
+msgstr "「密集」の戦闘陣形では、城のユニットを自陣側の中央にまとめて配置します。"
 
 msgid "Castle Options. Month: %{month}, Week: %{week}, Day: %{day}"
 msgstr "城の設定。月: %{month}、週: %{week}、日: %{day}"
 
 msgid "Set garrison combat formation to 'Spread'"
-msgstr "駐屯地の戦闘フォーメーションを「分散」に設定する"
+msgstr "守備隊の戦闘陣形を「分散」に設定"
 
 msgid "Set garrison combat formation to 'Grouped'"
-msgstr "駐屯地の戦闘フォーメーションを「グループ化」に設定する"
+msgstr "守備隊の戦闘陣形を「密集」に設定"
 
 msgid "Exit Castle Options"
 msgstr "城の設定を終了"
