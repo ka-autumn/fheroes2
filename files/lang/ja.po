@@ -671,7 +671,7 @@ msgid "Spell Points"
 msgstr "呪文ポイント"
 
 msgid "Cast Spell"
-msgstr "呪文をキャストする"
+msgstr "呪文を唱える"
 
 msgid "Retreat"
 msgstr "撤退"
@@ -2904,7 +2904,7 @@ msgid "Restart Game"
 msgstr "ゲームを再開する"
 
 msgid "There was an issue during saving."
-msgstr "保存中に問題が発生しました。"
+msgstr "ゲームを保存できませんでした。"
 
 msgid "New Game"
 msgstr "新しいゲームの開始"
@@ -6201,8 +6201,7 @@ msgstr "勇者の移動"
 msgid ""
 "Start the Hero's movement along the current path or re-visit the object "
 "occupied by the Hero. Press and hold this button to reset the Hero's path."
-msgstr ""
-"現在のパスに沿って勇者の移動を開始するか、勇者が占有しているオブジェクトを再訪問します。このボタンを押し続けると、勇者のパスがリセットされます。"
+msgstr "設定した経路に沿って勇者を移動させるか、勇者がいるオブジェクトを再訪問します。長押しすると、勇者の移動経路を解除します。"
 
 msgid "Kingdom Summary"
 msgstr "王国概要"
@@ -6211,13 +6210,13 @@ msgid "View a summary of your Kingdom."
 msgstr "王国概要を表示します。"
 
 msgid "Cast an adventure spell."
-msgstr "冒険の呪文を唱えます。"
+msgstr "冒険用の呪文を唱えます。"
 
 msgid "End Turn"
 msgstr "ターン終了"
 
 msgid "End your turn and let the computer take its turn."
-msgstr "自分のターンを終了し、コンピューターに順番を渡します。"
+msgstr "自分のターンを終了し、次のプレイヤーに手番を渡します。"
 
 msgid "Adventure Options"
 msgstr "探索画面設定"
@@ -6239,51 +6238,51 @@ msgstr "勇者の移動ポイント"
 msgid ""
 "The hero's army cannot move anymore today. The movement points will be "
 "refilled tomorrow after you end your turn."
-msgstr "勇者の軍隊は今日はもう移動できません。移動ポイントは明日のターン終了後に補充されます。"
+msgstr "この勇者は今日はもう移動できません。移動ポイントは次の日に回復します。"
 
 msgid ""
 "One or more heroes may still move, are you sure you want to end your turn?"
-msgstr "1 人以上の勇者がまだ移動する可能性があります。ターンを終了してもよろしいですか?"
+msgstr "まだ移動できる勇者がいます。ターンを終了しますか？"
 
 msgid "Are you sure you want to restart? (Your current game will be lost.)"
-msgstr "再起動してもよろしいですか? (現在のゲームは失われます。)"
+msgstr "現在のゲームを終了して、新しいゲームを始めますか？未保存の進行状況は失われます。"
 
 msgid "Are you sure you want to overwrite the save with this name?"
-msgstr "この名前で保存を上書きしてもよろしいですか?"
+msgstr "同じ名前のセーブデータがあります。上書きしますか？"
 
 msgid "Game saved successfully."
-msgstr "ゲームは正常に保存されました。"
+msgstr "ゲームを保存しました。"
 
 msgid ""
 "Are you sure you want to load a new game? (Your current game will be lost.)"
-msgstr "新しいゲームをロードしてもよろしいですか? (現在のゲームは失われます。)"
+msgstr "現在のゲームを終了して、別のゲームを読み込みますか？未保存の進行状況は失われます。"
 
 msgid "Try looking on land!!!"
-msgstr "陸上で探してみてください！"
+msgstr "陸上で探してください！"
 
 msgid ""
 "Searching for the Ultimate Artifact is fruitless. Your hero could not carry "
 "it even if he found it - all his artifact slots are full."
-msgstr "究極の秘宝を探しても無駄です。たとえ見つけたとしても、あなたの勇者はそれを運べません。秘宝スロットがすべて埋まっているからです。"
+msgstr "秘宝を持てる空きがないため、究極の秘宝を探しても無駄です。見つけても持ち運べません。"
 
 msgid "Digging for artifacts requires a whole day, try again tomorrow."
-msgstr "秘宝を掘るには丸1日かかります。明日もう一度試してください。"
+msgstr "秘宝を掘り出すには丸1日かかります。明日また試してください。"
 
 msgid ""
 "After spending many hours digging here, you have uncovered the %{artifact}."
-msgstr "ここを掘るのに何時間も費やした結果、%{artifact} を発見しました。"
+msgstr "何時間も掘り続けた末、ついに%{artifact}を掘り当てた！"
 
 msgid "Congratulations!"
 msgstr "おめでとう！"
 
 msgid "Nothing here. Where could it be?"
-msgstr "ここには何もありません。それはどこにあるでしょうか？"
+msgstr "ここには何もない。いったいどこにあるのだろうか？"
 
 msgid "Try searching on clear ground."
-msgstr "きれいな地面で探してみてください。"
+msgstr "何もない平地で探してください。"
 
 msgid "A miniature view of the known world. Left click to move viewing area."
-msgstr "既知の世界の縮図。左クリックして表示領域を移動します。"
+msgstr "探索済みの範囲を縮小表示します。左クリックすると、表示範囲を移動できます。"
 
 msgid "Month: %{month} Week: %{week}"
 msgstr "%{month}ヶ月目の第%{week}週"
