@@ -2781,42 +2781,42 @@ msgid "Shots"
 msgstr "射撃回数"
 
 msgid "Shots Left"
-msgstr "残りショット数"
+msgstr "残弾数"
 
 msgid "Hit Points"
 msgstr "HP"
 
 msgid "Hit Points Left"
-msgstr "残りヒットポイント"
+msgstr "残りHP"
 
 msgid "You can't afford to upgrade your troops!"
-msgstr "軍隊をアップグレードする余裕はありません！"
+msgstr "ユニットのグレードアップに必要な黄金が足りません！"
 
 msgid ""
 "Your troops can be upgraded, but it will cost you dearly. Do you wish to "
 "upgrade them?"
-msgstr "軍隊はアップグレードできますが、それには多額の費用がかかります。アップグレードしますか?"
+msgstr "ユニットのグレードアップが可能ですが、そのためにはかなりの費用が必要です。グレードアップしますか？"
 
 msgid "Are you sure you want to dismiss this army?"
-msgstr "この軍隊を解散させてもよろしいですか?"
+msgstr "この部隊を解散しますか？"
 
 msgid "Upgrade"
-msgstr "アップグレード"
+msgstr "グレードアップ"
 
 msgid "Upgrade your troops."
-msgstr "軍隊をアップグレードします。"
+msgstr "ユニットをグレードアップします。"
 
 msgid "Dismiss"
 msgstr "部隊の解散"
 
 msgid "Dismiss this army."
-msgstr "この軍隊を解散します。"
+msgstr "この部隊を解散します。"
 
 msgid ""
 "A group of %{monster} with a desire for greater glory wish to join you.\n"
 "Do you accept?"
 msgstr ""
-"さらなる栄光を求める%{monster}のグループがあなたに加わりたいと考えています。\n"
+"さらなる栄光を求める%{monster}の一団が、あなたの部隊に加わることを望んでいます。\n"
 "受け入れますか？"
 
 msgid "Followers"
@@ -2826,27 +2826,27 @@ msgid ""
 "The %{monster} is swayed by your diplomatic tongue, and offers to join your army for the sum of %{gold} gold.\n"
 "Do you accept?"
 msgstr ""
-"%{monster} はあなたの外交的な舌に振り回され、合計 %{gold} ゴールドであなたの軍隊に参加することを申し出ます。\n"
+"%{monster}はあなたの巧みな話術に心を動かされ、黄金%{gold}ポイントで部隊に加わると申し出ています。\n"
 "受け入れますか？"
 
 msgid ""
 "The creatures are swayed by your diplomatic\n"
 "tongue, and make you an offer:\n"
 "\n"
-msgstr "ユニットたちはあなたの巧みな話術に心を動かされ、次のような提案をしてきます。\n\n"
+msgstr "ユニットたちはあなたの巧みな話術に心を動かされ、次のような提案をしてきた。\n\n"
 
 msgid ""
 "%{offer} of the %{total} %{monster} will join your army, and the rest will leave you alone, for the sum of %{gold} gold.\n"
 "Do you accept?"
 msgstr ""
-"%{total} %{monster} のうち %{offer} があなたの軍隊に加わり、残りはあなたを放っておいて、合計 %{gold} ゴールドが支払われます。\n"
+"全%{total}体の%{monster}のうち%{offer}体が黄金%{gold}ポイントで部隊に加わり、残りは戦わずに立ち去ります。\n"
 "受け入れますか？"
 
 msgid ""
 "All %{offer} of the %{monster} will join your army for the sum of %{gold} gold.\n"
 "Do you accept?"
 msgstr ""
-"%{monster} のすべての %{offer} が合計 %{gold} ゴールドで軍隊に加わります。\n"
+"%{monster}全%{offer}体が黄金%{gold}ポイントで部隊に加わります。\n"
 "受け入れますか？"
 
 msgid "(Rate: %{percent})"
