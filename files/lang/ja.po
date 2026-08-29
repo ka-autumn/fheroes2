@@ -9854,7 +9854,7 @@ msgstr "神秘のネックレス"
 msgid ""
 "After rescuing a Sorceress from a cursed tomb, she rewards your heroism with"
 " an exquisite jeweled necklace."
-msgstr "呪われた墓から魔術師を救出した後、彼女はあなたの英雄的な行為に見事な宝石のネックレスを贈ります。"
+msgstr "君が呪われた墓所から一人のソーサレスを救い出すと、彼女はお礼に美しい宝石をあしらったネックレスをくれた。"
 
 msgid "Caster's Bracelet of Magic"
 msgstr "魔法のブレスレット"
