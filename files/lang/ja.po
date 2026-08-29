@@ -6128,7 +6128,7 @@ msgstr "%{color} プレイヤーは本日中に町を占領できなければ、
 msgid ""
 "%{color} player, your heroes abandon you, and you are banished from this "
 "land."
-msgstr "%{color} プレイヤー、あなたの勇者はあなたを見捨て、あなたはこの地から追放されます。"
+msgstr "%{color}プレイヤーはこの地から追放されました。"
 
 msgid "Lord Kilburn"
 msgstr "キルバーン卿"
