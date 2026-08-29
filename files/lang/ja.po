@@ -4947,23 +4947,23 @@ msgid "difficulty|Impossible"
 msgstr "インポッシブル"
 
 msgid "Auto Playtest Results"
-msgstr "自動プレイテストの結果"
+msgstr "自動テストプレイの結果"
 
 msgid "1 playthrough"
 msgid_plural "%{count} playthroughs"
 msgstr[0] "%{count} 回のプレイ"
 
 msgid " playthrough(s) reached the specified time limit"
-msgstr " プレイが指定された制限時間に達しました"
+msgstr " 回のプレイが指定した最大日数に達しました"
 
 msgid "Click to close the dialog."
-msgstr "クリックしてダイアログを閉じます。"
+msgstr "結果画面を閉じます。"
 
 msgid "Won %{percent}% of playthroughs."
-msgstr "プレイの %{percent}% を獲得しました。"
+msgstr "全プレイの%{percent}%で勝利しました。"
 
 msgid "Failed to prepare the map for auto playtest."
-msgstr "自動プレイテスト用のマップの準備に失敗しました。"
+msgstr "マップを自動テストプレイ用に準備できませんでした。"
 
 msgid "autoPlaytest|Number of playthroughs:"
 msgstr "プレイ回数:"
@@ -4981,22 +4981,22 @@ msgid "autoPlaytest|Sound Effects"
 msgstr "効果音"
 
 msgid "Left-clicking at any point will interrupt the playtest."
-msgstr "任意の時点で左クリックすると、プレイテストが中断されます。"
+msgstr "自動テストプレイ中に画面を左クリックすると、中断確認が表示されます。"
 
 msgid "Click to run an automated map playtest."
-msgstr "クリックすると、自動マップのプレイテストが実行されます。"
+msgstr "マップの自動テストプレイを実行します。"
 
 msgid ""
 "Auto playtest\n"
 "(playthrough %{current} of %{total})"
 msgstr ""
-"自動プレイテスト\n"
-"(プレイ %{current}/%{total})"
+"自動テストプレイ\n"
+"(%{total}回中%{current}回目)"
 
 msgid ""
 "Do you want to interrupt the automatic playtest? The effect will take place "
 "only on the next turn."
-msgstr "自動プレイテストを中断しますか?効果は次のターンにのみ発生します。"
+msgstr "自動テストプレイを中断しますか? 中断は次のターンから反映されます。"
 
 msgid "and more..."
 msgstr "さらに..."
