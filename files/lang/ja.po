@@ -6387,7 +6387,7 @@ msgid "Uppercase"
 msgstr "大文字"
 
 msgid "Click to switch to uppercase letters."
-msgstr "クリックすると大文字に切り替わります。"
+msgstr "大文字入力に切り替えます。"
 
 msgid "Keyboard|123"
 msgstr "123"
@@ -6396,7 +6396,7 @@ msgid "Keyboard type"
 msgstr "キーボードの種類"
 
 msgid "Click to switch between keyboard types."
-msgstr "クリックしてキーボードの種類を切り替えます。"
+msgstr "文字入力と数字・記号入力を切り替えます。"
 
 msgid "Keyboard|SPACE"
 msgstr "空白"
@@ -6405,19 +6405,19 @@ msgid "Change language"
 msgstr "言語の変更"
 
 msgid "Click to switch between languages."
-msgstr "クリックして言語を切り替えます。"
+msgstr "入力言語を切り替えます。"
 
 msgid "Backspace"
 msgstr "バックスペース"
 
 msgid "Click to remove characters."
-msgstr "クリックすると文字が削除されます。"
+msgstr "文字を1つ削除します。"
 
 msgid "Lowercase"
 msgstr "小文字"
 
 msgid "Click to switch to lowercase letters."
-msgstr "クリックすると小文字に切り替わります。"
+msgstr "小文字入力に切り替えます。"
 
 msgid "Keyboard|ABC"
 msgstr "ABC"
@@ -6426,7 +6426,7 @@ msgid "Swap sign"
 msgstr "符号切替"
 
 msgid "Click to switch between signed and unsigned numbers."
-msgstr "クリックすると、符号付き数値と符号なし数値が切り替わります。"
+msgstr "数値の符号を切り替えます。"
 
 msgid "The entered value is invalid."
 msgstr "入力された値は無効です。"
@@ -6436,7 +6436,7 @@ msgid ""
 "It should be not less than %{minValue} and not more than %{maxValue}."
 msgstr ""
 "入力された値は範囲外です。\n"
-"%{minValue} 以上、%{maxValue} 以下である必要があります。"
+"%{minValue}以上%{maxValue}以下の値を入力してください。"
 
 msgid "Kingdom Income"
 msgstr "王国の収入"
