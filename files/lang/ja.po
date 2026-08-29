@@ -7814,16 +7814,16 @@ msgid "The spell was not found."
 msgstr "呪文が見つかりませんでした。"
 
 msgid "Only heroes can cast this spell."
-msgstr "この呪文を唱えることができるのは勇者だけです。"
+msgstr "この呪文を使えるのは勇者だけです。"
 
 msgid "This hero is not able to cast adventure spells."
-msgstr "この勇者は冒険の呪文を唱えることができません。"
+msgstr "この勇者は冒険用の呪文を使えません。"
 
 msgid "This spell cannot be cast on a boat."
 msgstr "この呪文はボート上では使えません。"
 
 msgid "Your hero is too tired to cast this spell today. Try again tomorrow."
-msgstr "あなたの勇者は疲れすぎて今日この呪文を唱えることができません。明日もう一度試してください。"
+msgstr "この勇者は疲れすぎているため、今日はこの呪文を使えません。明日また試してください。"
 
 msgid "This spell can only be cast near an ocean."
 msgstr "この呪文は海の近くでのみ使えます。"
@@ -7831,21 +7831,21 @@ msgstr "この呪文は海の近くでのみ使えます。"
 msgid ""
 "There are no boats available and no ocean adjacent to the hero where this "
 "spell will work."
-msgstr "この呪文が機能する勇者の近くには利用可能なボートも海もありません。"
+msgstr "召喚できるボートがなく、召喚先となる海上マスも勇者の隣にありません。"
 
 msgid "There are no boats available for this spell."
 msgstr "召喚できるボートがありません。"
 
 msgid "There is no ocean adjacent to the hero where this spell will work."
-msgstr "勇者の近くには、この呪文が機能する海はありません。"
+msgstr "召喚先となる海上マスが勇者の隣にありません。"
 
 msgid ""
 "You do not own any town or castle that is not currently occupied by a hero. "
 "This spell will have no effect."
-msgstr "あなたは現在勇者が住んでいない町や城を所有していません。この呪文は効果がありません。"
+msgstr "現在、勇者のいない町や城を所有していません。この呪文を使っても効果はありません。"
 
 msgid "This hero is already in a town, so this spell will have no effect."
-msgstr "この勇者はすでに町にいるため、この呪文は効果がありません。"
+msgstr "この勇者はすでに町か城にいるため、この呪文を使っても効果はありません。"
 
 msgid ""
 "The nearest town is %{town}.\n"
@@ -7854,7 +7854,7 @@ msgid ""
 msgstr ""
 "最も近い町は %{town} です。\n"
 "\n"
-"この町はあなたの勇者 %{hero} によって占領されています。"
+"この町にはあなたの勇者 %{hero} がいます。"
 
 msgid "This spell is already in effect."
 msgstr "この呪文は使用済みです。"
@@ -7862,12 +7862,12 @@ msgstr "この呪文は使用済みです。"
 msgid ""
 "No opponent neither has nor can have any hero under their command anymore. "
 "Casting this spell will have no effect."
-msgstr "もうどの敵も、自分の指揮下に勇者を持たず、また持つこともできません。この呪文を唱えても効果はありません。"
+msgstr "現在勇者を率いている敵はおらず、どの敵も今後勇者を雇うことはできません。この呪文を使っても効果はありません。"
 
 msgid ""
 "No opponent has a hero under their command at this time. Casting this spell "
 "will have no effect."
-msgstr "現時点では、指揮下に勇者を持っている敵はいません。この呪文を唱えても効果はありません。"
+msgstr "現在、勇者を率いている敵はいません。この呪文を使っても効果はありません。"
 
 msgid ""
 "You must be within %{count} spaces of a monster for the Visions spell to "
@@ -7885,7 +7885,7 @@ msgstr "この呪文を使うためには、まず鉱山を守っている幽霊
 msgid ""
 "There are already at least as many elementals guarding the mine as this hero"
 " can generate. Casting this spell will have no effect."
-msgstr "少なくともこの勇者が生成できるのと同じ数のエレメンタルがすでに鉱山を守っています。この呪文を唱えても効果はありません。"
+msgstr "この勇者が召喚できる数以上のエレメンタルが、すでに鉱山を守っています。この呪文を使っても効果はありません。"
 
 msgid "%{name} the %{race} (Level %{level})"
 msgstr "%{race}の%{name} (レベル %{level})"
@@ -8060,7 +8060,7 @@ msgid "Swap armies between heroes."
 msgstr "2人の勇者が率いる部隊を交換します。"
 
 msgid "Enemy heroes are now fully identifiable."
-msgstr "敵の勇者が完全に識別できるようになりました。"
+msgstr "敵の勇者の詳細情報を確認できるようになりました。"
 
 msgid "Identify Hero"
 msgstr "勇者識別"
@@ -11480,7 +11480,7 @@ msgid "The nearest town is %{town}."
 msgstr "最も近い町は %{town} です。"
 
 msgid "This town is occupied by your hero %{hero}."
-msgstr "この町はあなたの勇者 %{hero} によって占領されています。"
+msgstr "この町にはあなたの勇者 %{hero} がいます。"
 
 msgid ""
 "This spell controls up to\n"
