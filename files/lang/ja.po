@@ -3950,13 +3950,13 @@ msgid "Castle Settings"
 msgstr "城の設定"
 
 msgid "Message Text:"
-msgstr "メッセージテキスト:"
+msgstr "メッセージ本文:"
 
 msgid "Reward:"
 msgstr "報酬:"
 
 msgid "Player colors allowed to get event:"
-msgstr "イベントを取得できるプレイヤーの色:"
+msgstr "イベントの対象となる人間プレイヤーの色:"
 
 msgid "Computer colors allowed to get event:"
 msgstr "イベントの対象となるコンピュータープレイヤーの色:"
@@ -3968,20 +3968,20 @@ msgid "Repeat period (days):"
 msgstr "繰り返し間隔(日):"
 
 msgid "Allow %{color} human player to get event"
-msgstr "%{color}の人間プレイヤーにイベントの取得を許可する"
+msgstr "人間が操作する%{color}のプレイヤーを対象にする"
 
 msgid ""
 "If this checkbox is checked, this event will trigger for the %{color} player"
 " if they are controlled by a human."
-msgstr "このチェックボックスがオンになっている場合、人間によって制御されている%{color}プレイヤーに対してこのイベントがトリガーされます。"
+msgstr "オンにすると、人間が操作する%{color}のプレイヤーがイベントの対象となります。"
 
 msgid "Allow %{color} computer player to get event"
-msgstr "%{color}コンピュータープレイヤーにイベントの取得を許可する"
+msgstr "コンピューターが操作する%{color}のプレイヤーを対象にする"
 
 msgid ""
 "If this checkbox is checked, this event will trigger for the %{color} player"
 " if they are controlled by a computer."
-msgstr "このチェックボックスをオンにすると、%{color}プレイヤーがコンピューターによって制御されている場合、このイベントがトリガーされます。"
+msgstr "オンにすると、コンピューターが操作する%{color}のプレイヤーがイベントの対象となります。"
 
 msgid "Set %{resource-type} Count:"
 msgstr "%{resource-type} 数を設定:"
@@ -4002,10 +4002,10 @@ msgid "Resources will be given as a reward."
 msgstr "報酬として資源が与えられます。"
 
 msgid "Click here to change the event message."
-msgstr "ここをクリックして、イベントメッセージを変更します。"
+msgstr "イベントメッセージを変更します。"
 
 msgid "Event Message Text"
-msgstr "イベントメッセージテキスト"
+msgstr "イベントメッセージ"
 
 msgid "Day: %{day}"
 msgstr "%{day}日目"
@@ -4041,10 +4041,10 @@ msgid "Conditions:"
 msgstr "条件:"
 
 msgid "Cancel event after first visit"
-msgstr "初回訪問後にイベントをキャンセルする"
+msgstr "イベントを1回限りにする"
 
 msgid "Computer colors allowed to get the event:"
-msgstr "イベントを取得できるコンピューターの色:"
+msgstr "イベントの対象となるコンピュータープレイヤーの色:"
 
 msgid "Set Experience value:"
 msgstr "経験値の設定:"
@@ -4053,39 +4053,38 @@ msgid "Artifact"
 msgstr "秘宝"
 
 msgid "No artifact will be given by the event."
-msgstr "イベントでは秘宝は付与されません。"
+msgstr "このイベントで得られる秘宝はありません。"
 
 msgid "Delete Artifact"
 msgstr "秘宝の削除"
 
 msgid "Delete an artifact from the event."
-msgstr "イベントから秘宝を削除します。"
+msgstr "イベントに設定した秘宝を削除します。"
 
 msgid "No Secondary Skill will be given by the event."
-msgstr "イベントではセカンダリスキルは付与されません。"
+msgstr "このイベントで得られるスキルはありません。"
 
 msgid "Secondary Skill"
 msgstr "スキル"
 
 msgid "Delete Secondary Skill"
-msgstr "セカンダリスキルの削除"
+msgstr "スキルの削除"
 
 msgid "Delete the Secondary Skill from the event."
-msgstr "イベントからセカンダリスキルを削除します。"
+msgstr "イベントに設定したスキルを削除します。"
 
 msgid "No resources will be part of this event."
-msgstr "このイベントにはリソースは含まれません。"
+msgstr "このイベントに含まれる資源はありません。"
 
 msgid "These resources will be a part of the event."
-msgstr "これらのリソースはイベントの一部となります。"
+msgstr "このイベントに含まれる資源です。"
 
 msgid ""
 "If this checkbox is checked, the event will trigger only once. If not "
 "checked, the event will trigger every time one of the specified players "
 "crosses the event tile."
 msgstr ""
-"このチェックボックスをオンにすると、イベントは 1 回だけトリガーされます。チェックされていない場合、指定されたプレイヤーの 1 人がイベント "
-"タイルを横切るたびにイベントがトリガーされます。"
+"オンにすると、イベントは1回だけ発生します。オフの場合は、指定したプレイヤーがイベントマスを通過するたびに発生します。"
 
 msgid "Click to make selection."
 msgstr "クリックして選択します。"
