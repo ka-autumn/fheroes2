@@ -4164,10 +4164,10 @@ msgid "New Map"
 msgstr "新しいマップ"
 
 msgid "Load Map"
-msgstr "マップをロード"
+msgstr "マップを読み込む"
 
 msgid "Load an existing map."
-msgstr "既存のマップをロードします。"
+msgstr "既存のマップを読み込みます。"
 
 msgid "Save Map"
 msgstr "マップを保存"
@@ -4563,23 +4563,23 @@ msgid "Delete an existing language."
 msgstr "既存の言語を削除します。"
 
 msgid "Failed to generate a random map with given parameters."
-msgstr "指定されたパラメーターを使用してランダムマップを生成できませんでした。"
+msgstr "指定した条件でランダムマップを生成できませんでした。"
 
 msgid ""
 "Create a new map, either from scratch or using the random map generator."
-msgstr "新しいマップを最初から作成するか、ランダムマップジェネレーターを使用して作成します。"
+msgstr "新しいマップを作成します。空のマップかランダム生成マップを作成できます。"
 
 msgid "Exit the Editor and return to the game's Main Menu."
-msgstr "エディタを終了し、ゲームのメインメニューに戻ります。"
+msgstr "エディタを終了して、ゲームのメインメニューに戻ります。"
 
 msgid "From Scratch"
-msgstr "ゼロから"
+msgstr "空のマップ作成"
 
 msgid "Start from scratch with a blank map."
-msgstr "真っ白なマップを使ってゼロからスタートします。"
+msgstr "空のマップを作成します。"
 
 msgid "Create a randomly generated map."
-msgstr "ランダムに生成されたマップを作成します。"
+msgstr "ランダムマップを生成します。"
 
 msgid "Random"
 msgstr "ランダム"
@@ -4588,20 +4588,20 @@ msgid "Back"
 msgstr "戻る"
 
 msgid "Return to the Editor's main menu options."
-msgstr "エディタのメインメニューオプションに戻ります。"
+msgstr "エディタのメインメニューに戻ります。"
 
 msgid ""
 "Generate a random map that is %{size} squares wide and %{size} squares high."
-msgstr "幅%{size}マス、高さ%{size}マスのランダムなマップを生成します。"
+msgstr "縦横%{size}マスのランダムマップを生成します。"
 
 msgid "Create a map that is %{size} squares wide and %{size} squares high."
-msgstr "幅%{size}マス、高さ%{size}マスのマップを作成します。"
+msgstr "縦横%{size}マスのマップを作成します。"
 
 msgid "Return to the previous menu options."
-msgstr "前のメニューオプションに戻ります。"
+msgstr "前のメニューに戻ります。"
 
 msgid "No maps available!"
-msgstr "利用可能なマップはありません!"
+msgstr "利用できるマップがありません！"
 
 msgid "[%{pos}]: %{race} hero"
 msgstr "[%{pos}]: %{race} 勇者"
