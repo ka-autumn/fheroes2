@@ -570,7 +570,7 @@ msgid "Change the audio settings of the game."
 msgstr "ゲームのオーディオ設定を変更します。"
 
 msgid "Check and configure all the hot keys present in the game."
-msgstr "ゲーム内に存在するすべてのホットキーを確認して設定します。"
+msgstr "ゲーム内のすべてのホットキーを確認・設定します。"
 
 msgid "Hot Keys"
 msgstr "ホットキー"
@@ -2877,16 +2877,16 @@ msgid "3D Audio"
 msgstr "3Dオーディオ"
 
 msgid "Toggle ambient music level."
-msgstr "アンビエントミュージックのレベルを切り替えます。"
+msgstr "音楽の音量を調整します。"
 
 msgid "Toggle foreground sounds level."
-msgstr "前景サウンドのレベルを切り替えます。"
+msgstr "効果音の音量を調整します。"
 
 msgid "Change the type of music."
 msgstr "音楽の種類を変更します。"
 
 msgid "Toggle the 3D effect of foreground sounds."
-msgstr "前景サウンドの 3D 効果を切り替えます。"
+msgstr "効果音の3Dオーディオを切り替えます。"
 
 msgid "Build a new ship:"
 msgstr "新しい船を建造します。"
@@ -2940,10 +2940,10 @@ msgid "Quit out of Heroes of Might and Magic II."
 msgstr "Heroes of Might and Magic II を終了します。"
 
 msgid "Change the language of the game."
-msgstr "ゲームの言語を変更します。"
+msgstr "ゲームで使用する言語を変更します。"
 
 msgid "Select Game Language"
-msgstr "ゲーム言語の選択"
+msgstr "言語の選択"
 
 msgid "Change the graphics settings of the game."
 msgstr "ゲームのグラフィックス設定を変更します。"
@@ -2969,7 +2969,7 @@ msgstr "テキストサポート"
 msgid ""
 "Toggle text support mode to output extra information about windows and "
 "events in the game."
-msgstr "テキストサポートモードを切り替えて、ゲーム内のウィンドウとイベントに関する追加情報を出力します。"
+msgstr "ゲーム内の画面やイベントに関する補足情報を出力する、テキストサポートモードを切り替えます。"
 
 msgid ""
 "Map\n"
@@ -3071,7 +3071,7 @@ msgid "Change the resolution of the game."
 msgstr "ゲームの解像度を変更します。"
 
 msgid "Select Game Resolution"
-msgstr "ゲーム解像度の選択"
+msgstr "解像度の選択"
 
 msgid "Toggle between fullscreen and windowed modes."
 msgstr "全画面表示とウィンドウ表示を切り替えます。"
@@ -3081,17 +3081,15 @@ msgid ""
 "resized screen image blurry while nearest scaling preserves the sharpness of"
 " the original game. The nearest scaling looks best on integer scales, for "
 "example 2.0x or 3.0x."
-msgstr ""
-"使用する画面スケーリングのタイプを切り替えます。線形スケーリングでは、サイズ変更された画面イメージがぼやけますが、最も近いスケーリングでは元のゲームの鮮明さが維持されます。最も近いスケーリングは、2.0x"
-" や 3.0x などの整数スケールで最もよく見えます。"
+msgstr "使用する画面拡大方式を切り替えます。リニアでは拡大後の画面がぼやけますが、ニアレストでは元の画像の鮮明さが保たれます。ニアレストは2.0倍や3.0倍などの整数倍率で最もきれいに表示されます。"
 
 msgid ""
 "The V-Sync option can be enabled to resolve flickering issues on some "
 "monitors."
-msgstr "V-Sync オプションを有効にすると、一部のモニターのちらつきの問題を解決できます。"
+msgstr "V-Syncを有効にすると、一部のモニターで発生するちらつきが解消される場合があります。"
 
 msgid "Show extra information such as FPS and current time."
-msgstr "FPS や現在時刻などの追加情報を表示します。"
+msgstr "FPSや現在時刻などの追加情報を表示します。"
 
 msgid "Hotkey: "
 msgstr "ホットキー: "
@@ -3121,7 +3119,7 @@ msgid "Numeric"
 msgstr "数値で表示"
 
 msgid "Toggle interface visibility."
-msgstr "インターフェースの表示を切り替えます。"
+msgstr "インターフェースの表示／非表示を切り替えます。"
 
 msgid "Scroll Speed"
 msgstr "スクロール速度"
@@ -3136,20 +3134,20 @@ msgid ""
 "\n"
 "Numeric: Army sizes are shown as numeric ranges (e.g. \"1-4\")."
 msgstr ""
-"アドベンチャー マップで軍隊を右クリックしたときに軍隊の規模がどのように表示されるかを切り替えます。 \n"
+"アドベンチャーマップ上の軍隊を右クリックしたときの規模表示を切り替えます。\n"
 "\n"
-"標準: 軍隊の規模は説明文として表示されます (例: 「少数」)。\n"
+"言葉で表示：規模を「少数」などの言葉で表示します。\n"
 "\n"
-"数値: 軍隊のサイズは数値範囲 (例: \"1-4\") で表示されます。"
+"数値で表示：規模を「1～4」などの数値範囲で表示します。"
 
 msgid "Select Game Language:"
-msgstr "ゲーム言語を選択します:"
+msgstr "言語の選択："
 
 msgid "Select Language:"
-msgstr "言語を選択してください:"
+msgstr "マップに追加する言語の選択："
 
 msgid "Click to choose the selected language."
-msgstr "クリックして選択した言語を選択します。"
+msgstr "言語の選択を確定します。"
 
 msgid "%{name} has gained a level."
 msgstr "%{name}のレベルが上がりました。"
@@ -3350,7 +3348,7 @@ msgid "Select only 1 monster to be recruited."
 msgstr "スカウト数を1に設定します。"
 
 msgid "Select this game resolution."
-msgstr "このゲームの解像度を選択します。"
+msgstr "この解像度を選択します。"
 
 msgid ""
 "Selecting this resolution will set a resolution that is scaled from the original resolution (%{resolution}) by multiplying it with the number in the brackets (%{scale}).\n"
@@ -3362,10 +3360,10 @@ msgstr ""
 "きれいな整数の解像度 (2.0x、3.0x など) は、ピクセルが水平方向と垂直方向の両方に均等にアップスケールされるため、通常は見栄えがよくなります。"
 
 msgid "Select Game Resolution:"
-msgstr "ゲーム解像度を選択します:"
+msgstr "解像度の選択："
 
 msgid "Click to apply the selected resolution."
-msgstr "クリックして選択した解像度を適用します。"
+msgstr "選択した解像度を適用します。"
 
 msgid "Click to select the maximum amount."
 msgstr "最大数量を設定します。"
@@ -3774,15 +3772,15 @@ msgid "combatMode|Manual"
 msgstr "手動"
 
 msgid "Change the speed at which your heroes move on the main screen."
-msgstr "メイン画面上で勇者が移動する速度を変更します。"
+msgstr "アドベンチャーマップ上での勇者の移動速度を変更します。"
 
 msgid ""
 "Sets the speed that computer heroes move at. You can also elect not to view "
 "computer movement at all."
-msgstr "コンピューター勇者の移動速度を設定します。コンピューターの動作をまったく表示しないことも選択できます。"
+msgstr "コンピューターが操作する敵勇者の移動速度を設定します。移動を表示しない設定も選択できます。"
 
 msgid "Toggle instant battle mode."
-msgstr "インスタントバトルモードを切り替えます。"
+msgstr "戦闘モード（手動／自動・呪文あり／自動・呪文なし）を切り替えます。"
 
 msgid "Att."
 msgstr "攻"
