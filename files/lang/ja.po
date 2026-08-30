@@ -4603,34 +4603,34 @@ msgid "No maps available!"
 msgstr "利用できるマップがありません！"
 
 msgid "[%{pos}]: %{race} hero"
-msgstr "[%{pos}]: %{race} 勇者"
+msgstr "[%{pos}]: 勇者（%{race}）"
 
 msgid "[%{pos}]: %{name}, %{race} hero"
-msgstr "[%{pos}]: %{name}、%{race} 勇者"
+msgstr "[%{pos}]: 勇者：%{name}（%{race}）"
 
 msgid "[%{pos}]: %{race} castle"
-msgstr "[%{pos}]: %{race} 城"
+msgstr "[%{pos}]: 城（%{race}）"
 
 msgid "[%{pos}]: %{race} town"
-msgstr "[%{pos}]: %{race} 町"
+msgstr "[%{pos}]: 町（%{race}）"
 
 msgid "[%{pos}]: %{name}, %{race} castle"
-msgstr "[%{pos}]: %{name}、%{race} 城"
+msgstr "[%{pos}]: 城：%{name}（%{race}）"
 
 msgid "[%{pos}]: %{name}, %{race} town"
-msgstr "[%{pos}]: %{name}、%{race} 町"
+msgstr "[%{pos}]: 町：%{name}（%{race}）"
 
 msgid "None."
 msgstr "なし。"
 
 msgid "One side defeats the other."
-msgstr "一方がもう一方を破ります。"
+msgstr "相手陣営を倒す。"
 
 msgid "Accumulate gold."
-msgstr "ゴールドを貯めます。"
+msgstr "指定量の黄金を貯める。"
 
 msgid "Run out of time."
-msgstr "時間切れです。"
+msgstr "指定日を過ぎる。"
 
 msgid "alliance|1st"
 msgstr "第1"
@@ -4654,54 +4654,54 @@ msgid "Special Victory Condition"
 msgstr "特別な勝利条件"
 
 msgid "Allow standard victory conditions"
-msgstr "標準的な勝利条件を許可する"
+msgstr "通常の勝利条件も有効にする"
 
 msgid "Allow this condition also for AI"
-msgstr "AI にもこの条件を許可する"
+msgstr "この条件をAIにも適用する"
 
 msgid "Set alliances:"
-msgstr "同盟を設定:"
+msgstr "同盟の設定:"
 
 msgid "{%number} alliance: "
-msgstr "{%number} 同盟: "
+msgstr "{%number}同盟: "
 
 msgid "Gold:"
 msgstr "黄金:"
 
 msgid "Select a Town to capture to achieve victory"
-msgstr "勝利を達成するために占領する町を選択してください"
+msgstr "占領すると勝利する町の選択"
 
 msgid "Click here to change the town needed to capture to achieve victory."
-msgstr "ここをクリックして、勝利を達成するために占領する必要がある町を変更します。"
+msgstr "占領すると勝利する町を変更します。"
 
 msgid "Select a Hero to defeat to achieve victory"
-msgstr "勝利を達成するために倒す勇者を選択してください"
+msgstr "倒すと勝利する勇者の選択"
 
 msgid "Click here to change the hero needed to defeat to achieve victory."
-msgstr "ここをクリックして、勝利を達成するために倒す必要がある勇者を変更します。"
+msgstr "倒すと勝利する勇者を変更します。"
 
 msgid "Put %{color} player in the %{alliance} alliance"
-msgstr "%{color}プレイヤーを%{alliance}同盟に加えます"
+msgstr "%{color}のプレイヤーを%{alliance}同盟に追加"
 
 msgid ""
 "If this checkbox is checked, the %{color} player will be in the %{alliance} "
 "alliance."
-msgstr "このチェックボックスがチェックされている場合、%{color}プレイヤーは%{alliance}同盟に所属します。"
+msgstr "オンにすると、%{color}のプレイヤーが%{alliance}同盟に追加されます。"
 
 msgid "Days:"
 msgstr "日数:"
 
 msgid "Select a Town to lose to suffer defeat"
-msgstr "敗北を喫するには、失う町を選択してください"
+msgstr "失うと敗北する町の選択"
 
 msgid "Click here to change the town whose loss would mean defeat."
-msgstr "ここをクリックして、敗北を意味する町を変更します。"
+msgstr "失うと敗北する町を変更します。"
 
 msgid "Select a Hero to lose to suffer defeat"
-msgstr "敗北を喫するために失う勇者を選択してください"
+msgstr "失うと敗北する勇者の選択"
 
 msgid "Click here to change the hero whose loss would mean defeat."
-msgstr "ここをクリックして、敗北を意味する勇者を変更します。"
+msgstr "失うと敗北する勇者を変更します。"
 
 msgid "Map Difficulty"
 msgstr "マップの難易度"
@@ -4719,51 +4719,51 @@ msgid "map|ABOUT"
 msgstr "ABOUT"
 
 msgid "Change Map Name:"
-msgstr "マップ名を変更:"
+msgstr "マップ名の変更:"
 
 msgid "Change Map Description:"
-msgstr "マップの説明を変更:"
+msgstr "マップ説明の変更:"
 
 msgid "map|About"
 msgstr "概要"
 
 msgid "Click to edit custom rumors."
-msgstr "クリックしてカスタム噂を編集します。"
+msgstr "マップ固有の噂を編集します。"
 
 msgid "Rumors"
 msgstr "噂"
 
 msgid "Click to edit daily events."
-msgstr "クリックして毎日のイベントを編集します。"
+msgstr "日毎のイベントを編集します。"
 
 msgid "Events"
 msgstr "イベント"
 
 msgid "Click to change the language of the map."
-msgstr "クリックしてマップの言語を変更します。"
+msgstr "マップの言語を変更します。"
 
 msgid ""
 "Click to edit notes from the map creator. These notes are optional and do "
 "not appear during gameplay."
-msgstr "クリックしてマップ作成者からのメモを編集します。これらのメモはオプションであり、ゲームプレイ中には表示されません。"
+msgstr "マップ作成者のメモを編集します。このメモは任意で、ゲーム中には表示されません。"
 
 msgid "Click to change your map name."
-msgstr "クリックしてマップ名を変更します。"
+msgstr "マップ名を変更します。"
 
 msgid "Map Name"
 msgstr "マップ名"
 
 msgid "Click to change the description of the current map."
-msgstr "クリックすると、現在のマップの説明が変更されます。"
+msgstr "マップの説明を変更します。"
 
 msgid "Click to change the victory condition of the current map."
-msgstr "クリックすると、現在のマップの勝利条件が変更されます。"
+msgstr "マップの勝利条件を変更します。"
 
 msgid "Click to change the loss condition of the current map."
-msgstr "クリックすると、現在のマップの敗北条件が変更されます。"
+msgstr "マップの敗北条件を変更します。"
 
 msgid "Indicates the player types in the scenario. Click to change."
-msgstr "シナリオ内のプレイヤーのタイプを示します。クリックして変更します。"
+msgstr "プレイヤーを人間とコンピューターのどちらが操作できるかを示します。クリックすると切り替わります。"
 
 msgid "Player Type"
 msgstr "プレイヤータイプ"
@@ -4773,7 +4773,7 @@ msgid ""
 "stronger enemies, fewer resources, or other special conditions making things"
 " tougher for the human player."
 msgstr ""
-"クリックしてマップの難易度を設定します。より難しいマップには、より多くのまたはより強力な敵、より少ないリソース、または人間のプレイヤーにとって状況を難しくするその他の特別な条件が含まれる場合があります。"
+"マップの難易度を設定します。難しいマップでは、敵の数や強さ、得られる資源の少なさなどにより、人間プレイヤーに不利な条件が設定されている場合があります。"
 
 msgid ""
 "editor|%{object}\n"
