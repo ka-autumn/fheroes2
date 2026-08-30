@@ -457,7 +457,7 @@ msgid ""
 "Default\n"
 "troop"
 msgstr ""
-"デフォルト\n"
+"デフォルトの\n"
 "部隊"
 
 msgid "View %{name}"
@@ -6358,13 +6358,15 @@ msgstr "重度のハンディキャップを持つプレイヤーは少ないリ
 msgid ""
 "Default\n"
 "value"
-msgstr "デフォルト値"
+msgstr ""
+"デフォルト\n"
+"値"
 
 msgid "Set %{skill} Skill:"
-msgstr "%{skill} スキルを設定:"
+msgstr "%{skill}の基本値設定："
 
 msgid "Set %{skill} base value. Right-click to reset all skills to default."
-msgstr "%{skill} の基本値を設定します。右クリックしてすべてのスキルをデフォルトにリセットします。"
+msgstr "%{skill}の基本値を設定します。右クリックすると、すべての基本能力をデフォルト値に戻します。"
 
 msgid "View %{skill} Info"
 msgstr "%{skill} の情報を表示"
@@ -6373,7 +6375,7 @@ msgid ""
 "Default\n"
 "skill"
 msgstr ""
-"デフォルト\n"
+"デフォルトの\n"
 "スキル"
 
 msgid "The available values range from %{min} to %{max}."
@@ -7884,107 +7886,107 @@ msgid ""
 msgstr "この勇者が召喚できる数以上のエレメンタルが、すでに鉱山を守っています。この呪文を使っても効果はありません。"
 
 msgid "%{name} the %{race} (Level %{level})"
-msgstr "%{race}の%{name} (レベル %{level})"
+msgstr "勇者：%{name}（%{race}、レベル%{level}）"
 
 msgid "Random hero (Level %{level})"
-msgstr "ランダムな勇者 (レベル %{level})"
+msgstr "勇者（ランダム、レベル%{level}）"
 
 msgid "Random %{race} hero (Level %{level})"
-msgstr "ランダムな %{race} 勇者 (レベル %{level})"
+msgstr "勇者（%{race}、名前はランダム、レベル%{level}）"
 
 msgid "Hero class:"
 msgstr "勇者のクラス:"
 
 msgid "Are you sure you want to dismiss this Hero?"
-msgstr "この勇者を解雇してもよろしいですか?"
+msgstr "この勇者を解雇しますか？"
 
 msgid "Set custom Experience value. Current value is default."
-msgstr "カスタム経験値を設定します。現在の値はデフォルトです。"
+msgstr "経験値を個別に設定します。現在はデフォルト値です。"
 
 msgid "Change Experience value. Right-click to reset to default value."
-msgstr "経験値を変更します。右クリックしてデフォルト値にリセットします。"
+msgstr "経験値を変更します。右クリックするとデフォルト値に戻します。"
 
 msgid "View Experience Info"
-msgstr "経験値情報を表示"
+msgstr "経験値情報の表示"
 
 msgid "Set custom Spell Points value. Current value is default."
-msgstr "カスタムの呪文ポイント値を設定します。現在の値はデフォルトです。"
+msgstr "呪文ポイントを個別に設定します。現在はデフォルト値です。"
 
 msgid "Change Spell Points value. Right-click to reset to default value."
-msgstr "呪文ポイントの値を変更します。右クリックしてデフォルト値にリセットします。"
+msgstr "呪文ポイントを変更します。右クリックするとデフォルト値に戻します。"
 
 msgid "Set Spell Points value:"
-msgstr "呪文ポイントの設定:"
+msgstr "呪文ポイントの設定："
 
 msgid "View Spell Points Info"
 msgstr "呪文ポイント情報の表示"
 
 msgid "Set patrol radius in tiles:"
-msgstr "パトロール半径（タイル数）の設定:"
+msgstr "パトロール半径（タイル数）の設定："
 
 msgid "Enter hero's name:"
-msgstr "勇者の名前を入力してください:"
+msgstr "勇者名の入力："
 
 msgid "Click to change class."
-msgstr "クリックしてクラスを変更します。"
+msgstr "クラスを変更します。"
 
 msgid ""
 "'Spread' combat formation spreads the hero's units from the top to the "
 "bottom of the battlefield, with at least one empty space between each unit."
-msgstr "「分散」戦闘フォーメーションは、勇者のユニットを戦場の上から下まで広げ、各ユニットの間に少なくとも1つの空きスペースを設けます。"
+msgstr "「分散」では、勇者のユニットを戦場の上から下まで、各ユニットの間を最低1マス空けて配置します。"
 
 msgid ""
 "'Grouped' combat formation bunches the hero's army together in the center of"
 " their side of the battlefield."
-msgstr "「グループ化」戦闘フォーメーションは、勇者の軍隊を戦場の味方側の中央にまとめます。"
+msgstr "「密集」では、勇者のユニットを戦場の味方側中央にまとめて配置します。"
 
 msgid "Exit Hero Screen"
-msgstr "勇者画面を終了します"
+msgstr "勇者画面を閉じます。"
 
 msgid "You cannot dismiss a hero in a castle"
-msgstr "城では勇者を解雇することはできません"
+msgstr "城にいる勇者は解雇できません。"
 
 msgid "Dismissal of %{name} the %{race} is prohibited by scenario"
-msgstr "%{race}の%{name}の解雇はシナリオにより禁止されています"
+msgstr "シナリオの設定により、勇者：%{name}（%{race}）は解雇できません。"
 
 msgid "Dismiss %{name} the %{race}"
-msgstr "%{race}の%{name}を解雇します"
+msgstr "勇者：%{name}（%{race}）を解雇します。"
 
 msgid "Show previous hero"
-msgstr "前の勇者を表示"
+msgstr "前の勇者を表示します。"
 
 msgid "Show next hero"
-msgstr "次の勇者を表示"
+msgstr "次の勇者を表示します。"
 
 msgid "Set army combat formation to 'Spread'"
-msgstr "軍隊の戦闘フォーメーションを「分散」に設定します"
+msgstr "軍隊の戦闘フォーメーションを「分散」に設定します。"
 
 msgid "Set army combat formation to 'Grouped'"
-msgstr "軍隊の戦闘フォーメーションを「グループ化」に設定します"
+msgstr "軍隊の戦闘フォーメーションを「密集」に設定します。"
 
 msgid "Set hero's Artifacts. Right-click to reset Artifact."
-msgstr "勇者の秘宝を設定します。右クリックして秘宝をリセットします。"
+msgstr "勇者の秘宝を設定します。右クリックすると秘宝を初期状態に戻します。"
 
 msgid "Set hero's Secondary Skills. Right-click to reset skill."
-msgstr "勇者のセカンダリスキルを設定します。右クリックでスキルをリセットします。"
+msgstr "勇者のスキルを設定します。右クリックするとスキルを初期状態に戻します。"
 
 msgid "Set hero's Army. Right-click to reset unit."
-msgstr "勇者の軍隊を設定します。右クリックしてユニットをリセットします。"
+msgstr "勇者の軍隊を設定します。右クリックするとユニットを初期状態に戻します。"
 
 msgid "Set hero's portrait. Right-click to reset to default."
-msgstr "勇者のポートレートを設定します。右クリックしてデフォルトにリセットします。"
+msgstr "勇者のポートレートを設定します。右クリックするとデフォルトに戻します。"
 
 msgid "Click to change hero's name. Right-click to reset to default."
-msgstr "クリックして勇者の名前を変更します。右クリックしてデフォルトにリセットします。"
+msgstr "勇者名を変更します。右クリックするとデフォルトに戻します。"
 
 msgid "Hero is in patrol mode in %{tiles} tiles radius. Click to disable it."
-msgstr "勇者は半径%{tiles}タイルでパトロールモードになっています。クリックして無効にします。"
+msgstr "勇者は半径%{tiles}タイルを巡回するパトロールモードです。クリックすると解除します。"
 
 msgid "Click to enable hero's patrol mode."
-msgstr "クリックして勇者のパトロールモードを有効にします。"
+msgstr "勇者のパトロールモードを有効にします。"
 
 msgid "Do you want to save the changes made?"
-msgstr "加えた変更を保存しますか?"
+msgstr "変更内容を保存しますか？"
 
 msgid "Blood Morale"
 msgstr "熱狂的"
