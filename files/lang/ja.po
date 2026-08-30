@@ -2484,12 +2484,12 @@ msgid "The Skull Pile increases production of Skeletons by %{count} per week."
 msgstr "ドクロの山があるとスケルトンの週あたりの増加率が%{count}体多くなります。"
 
 msgid "The Special building gives a specific bonus to the chosen castle type."
-msgstr "特別な建物は、選択した城タイプに特定のボーナスを与えます。"
+msgstr "種族固有の建物は、決定された城の種類に応じたボーナスをもたらします。"
 
 msgid ""
 "The Horde Building increases the growth rate of the level 1 creatures by 8 "
 "per week."
-msgstr "大群の建物は、レベル1のユニットの成長率を1週間あたり8ずつ増加させます。"
+msgstr "群れの巣は、レベル1ユニットの週間成長数を8増やします。"
 
 msgid "Thieves' Guild"
 msgstr "盗賊ギルド"
@@ -3869,85 +3869,85 @@ msgid "Random Town Name"
 msgstr "ランダムな町名"
 
 msgid "BANNED SPELLS"
-msgstr "禁止された呪文"
+msgstr "BANNED SPELLS"
 
 msgid "Click to accept the changes made."
 msgstr "変更内容を確定します。"
 
 msgid "Exit this dialog, discarding the changes made."
-msgstr "このダイアログを終了し、加えた変更を破棄します。"
+msgstr "変更を破棄してダイアログを閉じます。"
 
 msgid "Click to ban spells from appearing in the Mage Guild."
-msgstr "クリックすると、魔道師ギルドでの呪文の出現が禁止されます。"
+msgstr "魔道師ギルドに出現させない呪文を設定します。"
 
 msgid "Banned Spells"
-msgstr "禁止された呪文"
+msgstr "禁止呪文"
 
 msgid "Select spells that will appear in the Mage Guild."
-msgstr "魔道師ギルドに表示される呪文を選択します。"
+msgstr "魔道師ギルドに出現させる呪文を選択します。"
 
 msgid "SET SPELLS"
-msgstr "呪文を設定する"
+msgstr "SET SPELLS"
 
 msgid "Allow Castle build"
-msgstr "城の建設を許可する"
+msgstr "城へのグレードアップを許可"
 
 msgid "Default Buildings"
-msgstr "デフォルトの建物"
+msgstr "デフォルトの建物設定"
 
 msgid "RESTRICT"
 msgstr "制限"
 
 msgid "Default Army"
-msgstr "デフォルトの軍隊"
+msgstr "デフォルトの守備隊"
 
 msgid "Castle Army"
-msgstr "城軍"
+msgstr "城の守備隊"
 
 msgid "Town Army"
-msgstr "町軍"
+msgstr "町の守備隊"
 
 msgid "You have unsaved changes. Do you wish to proceed?"
-msgstr "未保存の変更があります。続行しますか?"
+msgstr "保存されていない変更があります。変更を破棄して終了しますか？"
 
 msgid "Click to change the Castle name."
-msgstr "クリックして城の名前を変更します。"
+msgstr "名前を変更します。"
 
 msgid "Enter Castle name:"
-msgstr "城の名前を入力:"
+msgstr "名前の入力:"
 
 msgid "Reset the Castle name."
-msgstr "城の名前をリセットします。"
+msgstr "名前を初期状態に戻します。"
 
 msgid "Allow to build a castle in this town."
-msgstr "この町に城を建てることを許可します。"
+msgstr "オンにすると、この町を城へグレードアップできるようになります。"
 
 msgid "Toggle the use of default buildings. Custom buildings will be reset!"
-msgstr "デフォルトの建物の使用を切り替えます。カスタム建物はリセットされます!"
+msgstr "デフォルトの建物設定の使用を切り替えます。デフォルトに戻すと、個別の建物設定はリセットされます！"
 
 msgid "Toggle building construction restriction mode."
-msgstr "建物の建設制限モードを切り替えます。"
+msgstr "建設制限モードを切り替えます。"
 
 msgid "Restrict Building Construction"
-msgstr "建物の建設を制限する"
+msgstr "建物の建設制限"
 
 msgid "Use default defenders army."
-msgstr "デフォルトの防御軍を使用します。"
+msgstr "デフォルトの守備隊を使用します。"
 
 msgid "Reset the army."
-msgstr "軍隊をリセットします。"
+msgstr "守備隊を初期状態に戻します。"
 
 msgid "Set custom Castle Army."
-msgstr "カスタム城軍を設定します。"
+msgstr "守備隊を個別に設定します。"
 
 msgid "Set spells to appear in the Mage Guild."
-msgstr "魔道師ギルドに表示される呪文を設定します。"
+msgstr "魔道師ギルドに出現させる呪文を設定します。"
 
 msgid "Set Spells"
-msgstr "呪文を設定する"
+msgstr "呪文設定"
 
 msgid "Castle Settings"
-msgstr "城の設定"
+msgstr "町・城の設定"
 
 msgid "Message Text:"
 msgstr "メッセージ本文:"
@@ -9184,19 +9184,19 @@ msgid "Barrel"
 msgstr "樽"
 
 msgid "randomRace|level 1 creatures"
-msgstr "レベル 1 のユニット"
+msgstr "レベル1のユニット"
 
 msgid "randomRace|level 2 creatures"
-msgstr "レベル 2 ユニット"
+msgstr "レベル2のユニット"
 
 msgid "randomRace|level 3 creatures"
-msgstr "レベル 3 ユニット"
+msgstr "レベル3のユニット"
 
 msgid "randomRace|level 4 creatures"
-msgstr "レベル 4 のユニット"
+msgstr "レベル4のユニット"
 
 msgid "randomRace|level 5 creatures"
-msgstr "レベル 5 のユニット"
+msgstr "レベル5のユニット"
 
 msgid "randomRace|level 6 creatures"
 msgstr "レベル6のユニット"
@@ -11390,37 +11390,37 @@ msgid "Random Spell"
 msgstr "ランダムな呪文"
 
 msgid "Randomly selected spell of any level."
-msgstr "任意のレベルの呪文がランダムに選択されます。"
+msgstr "全レベルの呪文からランダムに1つ選択されます。"
 
 msgid "Random 1st Level Spell"
 msgstr "ランダムなレベル1の呪文"
 
 msgid "Randomly selected 1st level spell."
-msgstr "ランダムに選択される第 1 レベルの呪文。"
+msgstr "レベル1の呪文からランダムに1つ選択されます。"
 
 msgid "Random 2nd Level Spell"
 msgstr "ランダムなレベル2の呪文"
 
 msgid "Randomly selected 2nd level spell."
-msgstr "ランダムに選択される第 2 レベルの呪文。"
+msgstr "レベル2の呪文からランダムに1つ選択されます。"
 
 msgid "Random 3rd Level Spell"
 msgstr "ランダムなレベル3の呪文"
 
 msgid "Randomly selected 3rd level spell."
-msgstr "ランダムに選択される第 3 レベルの呪文。"
+msgstr "レベル3の呪文からランダムに1つ選択されます。"
 
 msgid "Random 4th Level Spell"
 msgstr "ランダムなレベル4の呪文"
 
 msgid "Randomly selected 4th level spell."
-msgstr "ランダムに選択される第 4 レベルの呪文。"
+msgstr "レベル4の呪文からランダムに1つ選択されます。"
 
 msgid "Random 5th Level Spell"
 msgstr "ランダムなレベル5の呪文"
 
 msgid "Randomly selected 5th level spell."
-msgstr "ランダムに選択される第 5 レベルの呪文。"
+msgstr "レベル5の呪文からランダムに1つ選択されます。"
 
 msgid "Petrification"
 msgstr "石化"
