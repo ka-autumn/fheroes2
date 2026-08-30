@@ -3454,88 +3454,88 @@ msgid "Terrain object"
 msgstr "地形オブジェクト"
 
 msgid "There is nothing to select from."
-msgstr "選択できるものは何もありません。"
+msgstr "選択できる項目がありません。"
 
 msgid "There are no castles to select from."
 msgstr "選択できる城はありません。"
 
 msgid "Accept the choice made."
-msgstr "行われた選択を受け入れます。"
+msgstr "選択内容を確定します。"
 
 msgid "Click to enable all items."
-msgstr "クリックしてすべての項目を有効にします。"
+msgstr "すべての項目を有効にします。"
 
 msgid "Enable All Items"
-msgstr "すべての項目を有効にする"
+msgstr "全項目を有効"
 
 msgid "Click to disable all items."
-msgstr "クリックしてすべての項目を無効にします。"
+msgstr "すべての項目を無効にします。"
 
 msgid "Disable All Items"
-msgstr "すべての項目を無効にする"
+msgstr "全項目を無効"
 
 msgid "There are no secondary skills to select from."
-msgstr "選択できるセカンダリスキルはありません。"
+msgstr "選択できるスキルはありません。"
 
 msgid "Select Skill:"
-msgstr "スキルを選択します:"
+msgstr "スキルの選択："
 
 msgid "There are no spells to select."
 msgstr "選択できる呪文はありません。"
 
 msgid "Select Spell:"
-msgstr "呪文を選択します:"
+msgstr "呪文の選択："
 
 msgid "There are no artifacts to select from."
 msgstr "選択できる秘宝はありません。"
 
 msgid "Select Artifact:"
-msgstr "秘宝を選択します:"
+msgstr "秘宝の選択："
 
 msgid "There are no monsters to select from."
-msgstr "選択できるモンスターはありません。"
+msgstr "選択できるユニットはいません。"
 
 msgid "Select Monster:"
-msgstr "モンスターを選択します:"
+msgstr "ユニットの選択："
 
 msgid "There are no heroes to select from."
 msgstr "選択できる勇者はありません。"
 
 msgid "Select Hero:"
-msgstr "勇者を選択します:"
+msgstr "勇者の選択："
 
 msgid "Select Monsters:"
-msgstr "モンスターを選択:"
+msgstr "ユニットの選択："
 
 msgid "Select Artifacts:"
-msgstr "秘宝を選択:"
+msgstr "秘宝の選択："
 
 msgid "race|Random"
 msgstr "ランダム"
 
 msgid "Click to start placing the selected hero."
-msgstr "クリックすると、選択した勇者の配置が開始されます。"
+msgstr "選択した勇者の配置を開始します。"
 
 msgid "%{color} %{race}"
-msgstr "%{color} %{race}"
+msgstr "勇者（種族：%{race}、色：%{color}）"
 
 msgid "You will place"
-msgstr "配置します"
+msgstr "配置内容"
 
 msgid "Click to select this class."
-msgstr "クリックしてこのクラスを選択します。"
+msgstr "このクラスを選択します。"
 
 msgid "Click to select this color."
-msgstr "クリックしてこの色を選択します。"
+msgstr "この色を選択します。"
 
 msgid "Select Treasure:"
-msgstr "宝物を選択します:"
+msgstr "財宝の選択："
 
 msgid "Select Ocean Object:"
-msgstr "海洋オブジェクトを選択します:"
+msgstr "海上オブジェクトの選択："
 
 msgid "Castle/town placing:"
-msgstr "城/町の配置:"
+msgstr "町・城の配置："
 
 msgid "doubleLinedRace|Neutral"
 msgstr "中立"
@@ -3547,62 +3547,62 @@ msgid "CASTLE"
 msgstr "城"
 
 msgid "Click to start placing the selected castle/town."
-msgstr "クリックすると、選択した城/町の配置が開始されます。"
+msgstr "選択した町・城の配置を開始します。"
 
 msgid "Click to select town placing."
-msgstr "クリックして町の配置を選択します。"
+msgstr "町を配置対象にします。"
 
 msgid "Click to select castle placing."
-msgstr "クリックして城の配置を選択します。"
+msgstr "城を配置対象にします。"
 
 msgid "%{color} %{race} %{townOrCastle}"
-msgstr "%{color} %{race} %{townOrCastle}"
+msgstr "%{townOrCastle}（種族：%{race}、色：%{color}）"
 
 msgid "race|Neutral"
 msgstr "中立"
 
 msgid "Select Dwelling:"
-msgstr "住居を選択します:"
+msgstr "居住施設の選択："
 
 msgid "Select Landscape Object:"
-msgstr "風景オブジェクトを選択します:"
+msgstr "景観物の選択："
 
 msgid "Mine placing:"
-msgstr "鉱山の配置:"
+msgstr "資源施設の配置："
 
 msgid ""
 "Resource\n"
 "type:"
 msgstr ""
-"リソース\n"
-"タイプ:"
+"資源の\n"
+"種類："
 
 msgid "%{mineName} appearance:"
-msgstr "%{mineName}の外観:"
+msgstr "%{mineName}の外観："
 
 msgid "Click to select the color."
 msgstr "色の選択を確定します。"
 
 msgid "Click to select %{object} as the resource generator to be placed."
-msgstr "配置するリソースジェネレーターとして%{object}をクリックして選択します。"
+msgstr "配置する資源施設として%{object}を選択します。"
 
 msgid "Select Mountain Object:"
-msgstr "山オブジェクトを選択します:"
+msgstr "山の選択："
 
 msgid "Select Rock Object:"
-msgstr "岩オブジェクトを選択します:"
+msgstr "岩の選択："
 
 msgid "Select Tree Object:"
-msgstr "ツリーオブジェクトを選択します:"
+msgstr "樹木の選択："
 
 msgid "Select Power Up Object:"
-msgstr "パワーアップオブジェクトを選択します:"
+msgstr "能力強化オブジェクトの選択："
 
 msgid "Select Adventure Object:"
-msgstr "アドベンチャーオブジェクトを選択します:"
+msgstr "資源・施設の選択："
 
 msgid "Select color:"
-msgstr "色を選択します:"
+msgstr "色の選択："
 
 msgid "Players Icon"
 msgstr "プレイヤーのアイコン"
@@ -10953,9 +10953,7 @@ msgid ""
 "virtually everything. Wood and ore are used for most buildings. Gems, "
 "Mercury, Sulfur and Crystal are rare magical resources used for the most "
 "powerful creatures and buildings."
-msgstr ""
-"Heroes 2 には 7 "
-"つのリソースがあり、城の建設と改善、軍隊の購入、勇者の募集に使用されます。ゴールドが最も一般的で、事実上あらゆるものに必要です。ほとんどの建物には木材と鉱石が使用されます。宝石、水銀、硫黄、水晶は、最も強力な生き物や建物に使用される希少な魔法の資源です。"
+msgstr "Heroes of Might and Magic IIには7種類の資源があり、町や城の建設・発展、ユニットや勇者のスカウトに使われます。黄金は最も一般的な資源で、ほぼすべてのことに必要です。木材と鉱石は、ほとんどの建物に使われます。宝石、水銀、硫黄、水晶は希少な魔法の資源で、強力なユニットや建物に使われます。"
 
 msgid ""
 "Causes a giant fireball to strike the selected area, damaging all nearby "
