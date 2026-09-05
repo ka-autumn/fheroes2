@@ -485,7 +485,7 @@ msgid "Move the %{name}"
 msgstr "%{name}を移動します"
 
 msgid "Set %{monster} Count:"
-msgstr "%{monster} 数を設定:"
+msgstr "%{monster}の数を設定："
 
 msgid "%{name} destroys half the enemy troops!"
 msgid_plural "%{name} destroy half the enemy troops!"
@@ -3972,7 +3972,7 @@ msgid ""
 msgstr "オンにすると、%{color}のCPUプレイヤーがイベントの対象となります。"
 
 msgid "Set %{resource-type} Count:"
-msgstr "%{resource-type} 数を設定:"
+msgstr "%{resource-type}の量を設定："
 
 msgid "Message:"
 msgstr "メッセージ:"
@@ -4075,45 +4075,45 @@ msgstr ""
 "オンにすると、イベントは1回だけ発生します。オフの場合は、指定したプレイヤーがイベントマスを通過するたびに発生します。"
 
 msgid "Click to make selection."
-msgstr "クリックして選択します。"
+msgstr "選択画面を表示します。"
 
 msgid "%{objects} cannot be placed on water."
-msgstr "%{objects} を水の上に置くことはできません。"
+msgstr "%{objects}は水上に配置できません。"
 
 msgid ""
 "The Ultimate Artifact can only be placed on terrain where digging is "
 "possible."
-msgstr "究極の秘宝は、掘削が可能な地形にのみ配置できます。"
+msgstr "究極の秘宝は、発掘可能な地形にのみ配置できます。"
 
 msgid "%{objects} must be placed on water."
-msgstr "%{objects} は水の上に置く必要があります。"
+msgstr "%{objects}は水上に配置する必要があります。"
 
 msgid "Action objects cannot be placed outside the map."
-msgstr "アクションオブジェクトはマップの外に配置できません。"
+msgstr "アクションオブジェクトはマップ外に配置できません。"
 
 msgid "Action objects must be placed on clear tiles."
-msgstr "アクションオブジェクトは空いているタイル上に配置する必要があります。"
+msgstr "アクションオブジェクトは空いているタイルに配置する必要があります。"
 
 msgid "A maximum of %{count} %{objects} can be placed on the map."
-msgstr "最大%{count}の%{objects}をマップ上に配置できます。"
+msgstr "マップ上に配置できる%{objects}の上限は%{count}です。"
 
 msgid ""
 "To exit fheroes2, press the Home button or swipe up. (Any unsaved changes to"
 " the current map will be lost.)"
-msgstr "fheroes2を終了するには、ホームボタンを押すか、上にスワイプします。(現在のマップに対する未保存の変更は失われます。)"
+msgstr "fheroes2を終了するには、ホームボタンを押すか、上にスワイプしてください。現在のマップへの未保存の変更は失われます。"
 
 msgid ""
 "Are you sure you want to quit? (Any unsaved changes to the current map will "
 "be lost.)"
-msgstr "本当に終了してもよろしいですか?(現在のマップに対する未保存の変更は失われます。)"
+msgstr "fheroes2を終了しますか？現在のマップへの未保存の変更は失われます。"
 
 msgid "Not able to generate a map with given parameters."
-msgstr "指定されたパラメーターを使用してマップを生成できません。"
+msgstr "指定した条件ではランダムマップを生成できません。"
 
 msgid ""
 "Do you wish to return to the game's Main Menu? All unsaved changes will be "
 "lost."
-msgstr "ゲームのメインメニューに戻りますか?未保存の変更はすべて失われます。"
+msgstr "ゲームのメインメニューに戻りますか？未保存の変更はすべて失われます。"
 
 msgid "Editor"
 msgstr "エディタ"
@@ -4121,12 +4121,12 @@ msgstr "エディタ"
 msgid ""
 "Are you sure you want to load a new map? (Any unsaved changes to the current"
 " map will be lost.)"
-msgstr "新しいマップをロードしてもよろしいですか? (現在のマップに対する未保存の変更は失われます。)"
+msgstr "別のマップを読み込みますか？現在のマップへの未保存の変更は失われます。"
 
 msgid ""
 "Are you sure you want to create a new map? (Any unsaved changes to the "
 "current map will be lost.)"
-msgstr "新しいマップを作成してもよろしいですか? (現在のマップに対する未保存の変更は失われます。)"
+msgstr "新しいマップを作成しますか？現在のマップへの未保存の変更は失われます。"
 
 msgid "Main Menu"
 msgstr "メインメニュー"
@@ -4134,7 +4134,7 @@ msgstr "メインメニュー"
 msgid ""
 "Do you wish to return to the game's Main Menu? (Any unsaved changes to the "
 "current map will be lost.)"
-msgstr "ゲームのメインメニューに戻りますか?(現在のマップに対する未保存の変更は失われます。)"
+msgstr "ゲームのメインメニューに戻りますか？現在のマップへの未保存の変更は失われます。"
 
 msgid "Start Map"
 msgstr "マップを開始"
@@ -4142,10 +4142,10 @@ msgstr "マップを開始"
 msgid ""
 "Do you wish to leave the Editor and start the map? (Any unsaved changes to "
 "the current map will be lost.)"
-msgstr "エディタを終了してマップを開始しますか? (現在のマップに対する未保存の変更は失われます。)"
+msgstr "エディタを終了してマップを開始しますか？現在のマップへの未保存の変更は失われます。"
 
 msgid "Create a new map from scratch."
-msgstr "新しいマップを一から作成します。"
+msgstr "新しい空のマップを作成します。"
 
 msgid "New Map"
 msgstr "新しいマップ"
@@ -4175,25 +4175,25 @@ msgid "Return to the game's Main Menu."
 msgstr "ゲームのメインメニューに戻ります。"
 
 msgid "Leave the Editor and play the map in the Standard Game mode."
-msgstr "エディタを終了し、標準ゲームモードでマップをプレイします。"
+msgstr "エディタを終了して、スタンダードゲームでマップをプレイします。"
 
 msgid "Input %{object} text:"
-msgstr "%{object} テキストを入力:"
+msgstr "%{object}に表示する文章を入力："
 
 msgid "Set Random Ultimate Artifact Radius:"
-msgstr "ランダムな究極の秘宝半径を設定:"
+msgstr "ランダムな秘宝（究極）の範囲を設定："
 
 msgid "%{object} has no properties to change."
-msgstr "%{object} には変更するプロパティがありません。"
+msgstr "%{object}には変更できる設定がありません。"
 
 msgid "This artifact"
 msgstr "この秘宝"
 
 msgid "The total number of obelisks is %{count}."
-msgstr "オベリスクの総数は %{count} です。"
+msgstr "マップ上にあるオベリスクは全部で%{count}個です。"
 
 msgid "There are no players on the map, so no one can own this object."
-msgstr "マップ上にはプレイヤーがいないため、誰もこのオブジェクトを所有できません。"
+msgstr "マップにプレイヤーがいないため、このオブジェクトの所有者を設定できません。"
 
 msgid "Roads"
 msgstr "道路"
@@ -4204,41 +4204,41 @@ msgstr "小川"
 msgid ""
 "A maximum of %{count} heroes including jailed heroes can be placed on the "
 "map."
-msgstr "投獄された勇者を含む最大 %{count} 人の勇者をマップ上に配置できます。"
+msgstr "投獄された勇者を含め、マップ上に配置できる勇者は最大%{count}人です。"
 
 msgid ""
 "A maximum of %{count} heroes of the same color can be placed on the map."
-msgstr "同じ色の勇者を最大 %{count} 人までマップ上に配置できます。"
+msgstr "同じプレイヤーカラーの勇者は、マップ上に最大%{count}人まで配置できます。"
 
 msgid "Failed to update player information."
-msgstr "プレイヤー情報の更新に失敗しました。"
+msgstr "プレイヤー情報を更新できませんでした。"
 
 msgid "Only one Random Ultimate Artifact can be placed on the map."
-msgstr "マップ上に配置できるランダムな究極秘宝は 1 つだけです。"
+msgstr "マップ上に配置できるランダムな秘宝（究極）は1つだけです。"
 
 msgid "A maximum of %{count} obelisks can be placed on the map."
-msgstr "最大 %{count} 個のオベリスクをマップ上に配置できます。"
+msgstr "マップ上に配置できるオベリスクは最大%{count}個です。"
 
 msgid "The same object exists on the tile."
-msgstr "同じオブジェクトがタイル上に存在します。"
+msgstr "同じオブジェクトがすでにこのタイルにあります。"
 
 msgid "The map is corrupted."
-msgstr "マップが壊れています。"
+msgstr "マップデータが破損しています。"
 
 msgid "Unable to locate data directory to save the map."
-msgstr "マップを保存するデータディレクトリが見つかりません。"
+msgstr "fheroes2のデータフォルダが見つからないため、マップを保存できません。"
 
 msgid "Unable to create a directory to save the map."
-msgstr "マップを保存するディレクトリを作成できません。"
+msgstr "マップの保存先フォルダを作成できません。"
 
 msgid "Unable to locate a directory to save the map."
-msgstr "マップを保存するディレクトリが見つかりません。"
+msgstr "マップの保存先フォルダが見つかりません。"
 
 msgid "Are you sure you want to overwrite the existing map?"
-msgstr "既存のマップを上書きしてもよろしいですか?"
+msgstr "同じ名前のマップがすでにあります。上書きしますか？"
 
 msgid "Map saved to: "
-msgstr "マップの保存場所: "
+msgstr "マップの保存先："
 
 msgid "Failed to save the map."
 msgstr "マップの保存に失敗しました。"
@@ -4250,34 +4250,31 @@ msgid ""
 "This map has either terrain changes, undo history or has not yet been saved to a file.\n"
 "\n"
 "Do you wish to save the current map?"
-msgstr ""
-"このマップには、地形の変更、元に戻す履歴が含まれているか、まだファイルに保存されていません。\n"
-"\n"
-"現在のマップを保存しますか?"
+msgstr "このマップは、地形が変更されているか、元に戻せる操作履歴があるか、まだファイルに保存されていません。\n\n現在のマップを保存しますか？"
 
 msgid ""
 "This map is not playable. You need at least one human player for the map to "
 "be playable."
-msgstr "このマップはプレイできません。マップをプレイ可能にするには、少なくとも 1 人の人間のプレイヤーが必要です。"
+msgstr "このマップをプレイするには、人間プレイヤーが1人以上必要です。"
 
 msgid "Unplayable Map"
-msgstr "プレイ不可能なマップ"
+msgstr "プレイできないマップ"
 
 msgid "Used to place %{object}."
-msgstr "%{object} を配置するために使用されます。"
+msgstr "%{object}を配置します。"
 
 msgid "Select object type"
-msgstr "オブジェクトタイプを選択してください"
+msgstr "オブジェクトの種類を選択"
 
 msgid ""
 "Click here to\n"
 "select a monster."
-msgstr "ここをクリックして\nモンスターを選択します。"
+msgstr "ユニットを\n選択します。"
 
 msgid ""
 "Click here to\n"
 "select another monster."
-msgstr "ここをクリックして\n別のモンスターを選択します。"
+msgstr "別のユニットを\n選択します。"
 
 msgid "Erase"
 msgstr "消去"
@@ -4337,7 +4334,7 @@ msgid "editorErasure|Trees"
 msgstr "樹木"
 
 msgid "editorErasure|Miscellaneous and Water landscape objects"
-msgstr "その他および水の風景オブジェクト"
+msgstr "その他・海上の景観物"
 
 msgid "editorErasure|Adventure non pickable objects"
 msgstr "取得不可のアドベンチャーオブジェクト"
@@ -4363,12 +4360,12 @@ msgstr "小川"
 msgid ""
 "Draws terrain in\n"
 "%{size} by %{size} square increments."
-msgstr "地形を%{size}マス×%{size}マス単位で描画します。"
+msgstr "地形を%{size}×%{size}単位で描画します。"
 
 msgid ""
 "Erases objects in\n"
 "%{size} by %{size} square increments."
-msgstr "%{size}マス×%{size}マス単位でオブジェクトを消去します。"
+msgstr "%{size}×%{size}単位でオブジェクトを消去します。"
 
 msgid "Small Brush"
 msgstr "ブラシ（小）"
@@ -4383,24 +4380,24 @@ msgid "Area Fill"
 msgstr "塗りつぶし"
 
 msgid "Used to click and drag for filling in large areas."
-msgstr "広い領域を塗りつぶすには、クリックしてドラッグします。"
+msgstr "ドラッグした範囲を塗りつぶします。"
 
 msgid "Clear Area"
 msgstr "範囲クリア"
 
 msgid "Used to click and drag for clearing large areas."
-msgstr "広い領域をクリアするには、クリックしてドラッグします。"
+msgstr "ドラッグした範囲内のオブジェクトを消去します。"
 
 msgid ""
 "Costs %{rate} times normal movement for all heroes. (Pathfinding reduces or "
 "eliminates the penalty.)"
-msgstr "すべての勇者の通常の移動コストは%{rate}倍です。(パスファインディングによりペナルティが軽減または排除されます。)"
+msgstr "勇者の移動コストは通常の%{rate}倍です。先導により、このペナルティは軽減または無効化されます。"
 
 msgid "Traversable only by boat."
-msgstr "ボートでのみ通行可能。"
+msgstr "ボートでのみ通行できます。"
 
 msgid "No special modifiers."
-msgstr "特別な移動効果はありません。"
+msgstr "移動コストへの補正はありません。"
 
 msgid "Edit objects on the Adventure Map."
 msgstr "アドベンチャーマップ上のオブジェクトを編集します。"
@@ -4412,42 +4409,38 @@ msgid "Copy objects on the Adventure Map."
 msgstr "アドベンチャーマップ上のオブジェクトをコピーします。"
 
 msgid "Toggle the erasure of %{type} objects."
-msgstr "%{type}オブジェクトの消去を切り替えます。"
+msgstr "%{type}を消去対象にするか切り替えます。"
 
 msgid ""
 "Objects of this type will be deleted with the Erase tool. Left-click here to"
 " deselect this type. Press and hold this button to deselect all other object"
 " types."
-msgstr ""
-"このタイプのオブジェクトは消去ツールで削除されます。このタイプの選択を解除するには、ここを左クリックします。このボタンを押し続けると、他のすべてのオブジェクト"
-" タイプの選択が解除されます。"
+msgstr "この種類のオブジェクトは消去ツールの対象です。対象から外すには、ここを左クリックします。このボタンを長押しすると、ほかの種類をすべて対象から外します。"
 
 msgid ""
 "Objects of this type will NOT be deleted with the Erase tool. Left-click "
 "here to select this type. Press and hold this button to select all other "
 "object types."
-msgstr ""
-"このタイプのオブジェクトは、消去ツールでは削除されません。ここを左クリックしてこのタイプを選択します。他のすべてのオブジェクト "
-"タイプを選択するには、このボタンを押したままにします。"
+msgstr "この種類のオブジェクトは消去ツールの対象ではありません。対象に加えるには、ここを左クリックします。このボタンを長押しすると、ほかの種類もすべて対象に加えます。"
 
 msgid "Terrain Mode"
 msgstr "地形編集モード"
 
 msgid "Used to draw the underlying grass, dirt, water, etc. on the map."
-msgstr "マップの下地となる草、土、水などを描画するために使用されます。"
+msgstr "マップの下地となる草地、土、水などの地形を描画します。"
 
 msgid "Landscape Objects Mode"
 msgstr "景観物編集モード"
 
 msgid ""
 "Used to place landscape objects (mountains, rocks, trees, etc.) on the map."
-msgstr "マップ上に風景オブジェクト(山、岩、木など)を配置するために使用されます。"
+msgstr "山、岩、樹木などの景観物をマップ上に配置します。"
 
 msgid "Detail Mode"
 msgstr "詳細モード"
 
 msgid "Used for moving or customizing objects."
-msgstr "オブジェクトの移動またはカスタマイズに使用されます。"
+msgstr "オブジェクトの移動や詳細設定に使用します。"
 
 msgid "Adventure Objects Mode"
 msgstr "資源・施設編集モード"
@@ -4455,28 +4448,28 @@ msgstr "資源・施設編集モード"
 msgid ""
 "Used to place adventure objects (artifacts, dwellings, mines, treasures, "
 "etc.) on the map."
-msgstr "マップ上に冒険オブジェクト(秘宝、住居、鉱山、宝物など)を配置するために使用されます。"
+msgstr "秘宝、居住施設、鉱山、財宝などの資源・施設をマップ上に配置します。"
 
 msgid "Kingdom Objects Mode"
 msgstr "町・城・勇者編集モード"
 
 msgid "Used to place kingdom objects (towns, castles and heroes) on the map."
-msgstr "王国のオブジェクト(町、城、勇者)をマップ上に配置するために使用されます。"
+msgstr "町、城、勇者をマップ上に配置します。"
 
 msgid "Monsters Mode"
 msgstr "ユニット編集モード"
 
 msgid "Used to place monsters on the map."
-msgstr "マップ上にモンスターを配置するために使用します。"
+msgstr "ユニットをマップ上に配置します。"
 
 msgid "Allows you to draw streams by clicking and dragging."
-msgstr "クリックしてドラッグすることでストリームを描画できます。"
+msgstr "ドラッグして小川を描画します。"
 
 msgid "Stream Mode"
 msgstr "小川編集モード"
 
 msgid "Allows you to draw roads by clicking and dragging."
-msgstr "クリックしてドラッグすることで道路を描画できます。"
+msgstr "ドラッグして道路を描画します。"
 
 msgid "Road Mode"
 msgstr "道路編集モード"
@@ -4485,10 +4478,10 @@ msgid "Erase Mode"
 msgstr "消去モード"
 
 msgid "Used to erase objects from the map."
-msgstr "マップからオブジェクトを消去するために使用されます。"
+msgstr "マップ上のオブジェクトを消去します。"
 
 msgid "Change between zoom and normal view."
-msgstr "ズームと通常ビューを切り替えます。"
+msgstr "拡大表示と通常表示を切り替えます。"
 
 msgid "Magnify"
 msgstr "拡大する"
@@ -4497,16 +4490,16 @@ msgid "Undo"
 msgstr "元に戻す"
 
 msgid "Undo your last action."
-msgstr "最後の操作を元に戻します。"
+msgstr "直前の操作を元に戻します。"
 
 msgid "Redo"
 msgstr "やり直し"
 
 msgid "Redo the last undone action."
-msgstr "最後に元に戻した操作をやり直します。"
+msgstr "直前に元に戻した操作をやり直します。"
 
 msgid "Edit map title, description, and other general information."
-msgstr "マップのタイトル、説明、その他の一般情報を編集します。"
+msgstr "マップのタイトル、説明、その他の基本情報を編集します。"
 
 msgid "Specifications"
 msgstr "基本設定"
@@ -4517,10 +4510,10 @@ msgstr "ファイル設定"
 msgid ""
 "Open the file options menu, where you can save or load maps, or quit out of "
 "the editor."
-msgstr "ファイル設定メニューを開くと、マップを保存またはロードしたり、エディタを終了したりできます。"
+msgstr "マップの保存や読み込み、エディタの終了などを行うメニューを開きます。"
 
 msgid "View the editor system options, which let you customize the editor."
-msgstr "エディターをカスタマイズできるエディターのシステム設定を表示します。"
+msgstr "言語、グラフィックス、音声、操作、エディタ表示の設定画面を開きます。"
 
 msgid "Supported languages:"
 msgstr "サポートされている言語:"
