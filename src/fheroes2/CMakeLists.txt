@@ -113,6 +113,16 @@ target_link_libraries(
 	${USE_SDL_VERSION}::${USE_SDL_VERSION}main
 	)
 
+if(NOT MACOS_APP_BUNDLE)
+	add_custom_command(
+		TARGET fheroes2 POST_BUILD
+		COMMAND ${CMAKE_COMMAND} -E make_directory "${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/files/lang"
+		COMMAND ${CMAKE_COMMAND} -E copy_if_different
+		"${PROJECT_SOURCE_DIR}/files/lang/ja.map-translation.tsv"
+		"${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/files/lang/ja.map-translation.tsv"
+		)
+endif(NOT MACOS_APP_BUNDLE)
+
 if(FHEROES2_CJK_TEXT_AVAILABLE)
 	target_compile_definitions(fheroes2 PRIVATE WITH_CJK_TEXT)
 	target_link_libraries(fheroes2 ${USE_SDL_VERSION}_ttf::${USE_SDL_VERSION}_ttf)

@@ -28,6 +28,7 @@ if exist music (
 
 xcopy /D /Y /S /Q files\data "$(OutDir)files\data\"
 xcopy /D /Y /Q files\lang\*.mo "$(OutDir)files\lang\"
+xcopy /D /Y /Q files\lang\*.map-translation.tsv "$(OutDir)files\lang\"
 xcopy /D /Y /S /Q files\timidity "$(OutDir)files\timidity\"
 
 %(Command)</Command>

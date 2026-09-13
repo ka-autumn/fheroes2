@@ -32,6 +32,7 @@ CCFLAGS := $(CCFLAGS) \
 LDFLAGS := $(LDFLAGS) \
 	$(patsubst %, --preload-file ../%@/files/data/, $(wildcard ../../files/data/*.h2d)) \
 	$(patsubst %, --preload-file ../%@/files/lang/, $(wildcard ../../files/lang/*.mo)) \
+	$(patsubst %, --preload-file ../%@/files/lang/, $(wildcard ../../files/lang/*.map-translation.tsv)) \
 	--preload-file ../../../files/timidity/timidity.cfg@/files/timidity/ \
 	$(patsubst %, --preload-file ../%@/files/timidity/instruments/, $(wildcard ../../files/timidity/instruments/*.pat)) \
 	$(patsubst %, --preload-file ../%@/maps/, $(wildcard ../../maps/*.fh2m)) \

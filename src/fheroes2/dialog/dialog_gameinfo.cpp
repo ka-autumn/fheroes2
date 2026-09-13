@@ -35,6 +35,7 @@
 #include "icn.h"
 #include "image.h"
 #include "localevent.h"
+#include "map_translation.h"
 #include "maps.h"
 #include "maps_fileinfo.h"
 #include "math_base.h"
@@ -85,6 +86,7 @@ void Dialog::GameInfo()
     const Maps::FileInfo & mapInfo = conf.getCurrentMapInfo();
 
     const auto mapLanguage = mapInfo.getSupportedLanguage();
+    const Maps::MapTextForDisplay mapText = Maps::resolveMapTextForDisplay( mapInfo );
 
     // setup cursor
     const CursorRestorer cursorRestorer( true, Cursor::POINTER );
@@ -118,7 +120,7 @@ void Dialog::GameInfo()
     const int32_t scenarioNameMaxWidth{ 349 };
     const fheroes2::Rect scenarioNameRoi{ 37 + shadowOffset.x, 29 + shadowOffset.y, scenarioNameMaxWidth - ( isCreatorInfoPresent ? buttonAboutWidth : 0 ), 19 };
 
-    fheroes2::Text text( mapInfo.name, fheroes2::FontType::normalWhite(), mapLanguage );
+    fheroes2::Text text( mapText.name, fheroes2::FontType::normalWhite(), mapText.language );
     // We deduct 2 to have at least 1 pixel space between text and text field borders.
     text.fitToOneRow( scenarioNameRoi.width - 2 );
     if ( isCreatorInfoPresent ) {
@@ -163,7 +165,7 @@ void Dialog::GameInfo()
 
     const fheroes2::Rect scenarioDescripionRoi{ shadowOffset.x + SCENARIO_DESCRIPTION_OFFSET, shadowOffset.y + 107, SCENARIO_DESCRIPTION_WIDTH, 37 };
 
-    text.set( mapInfo.description, fheroes2::FontType::smallWhite(), mapLanguage );
+    text.set( mapText.description, fheroes2::FontType::smallWhite(), mapText.language );
     text.fitToArea( scenarioDescripionRoi.width, scenarioDescripionRoi.height );
     text.draw( scenarioDescripionRoi.x, scenarioDescripionRoi.y, scenarioDescripionRoi.width, display );
 
@@ -228,11 +230,11 @@ void Dialog::GameInfo()
 
         if ( le.isMouseRightButtonPressedInArea( scenarioDescripionRoi ) ) {
             const fheroes2::Text header( _( "Map Description" ), fheroes2::FontType::normalYellow() );
-            const fheroes2::Text body( mapInfo.description, fheroes2::FontType::normalWhite(), mapLanguage );
+            const fheroes2::Text body( mapText.description, fheroes2::FontType::normalWhite(), mapText.language );
             fheroes2::showMessage( header, body, Dialog::ZERO, {} );
         }
         else if ( le.isMouseRightButtonPressedInArea( scenarioNameRoi ) ) {
-            text.set( mapInfo.name, fheroes2::FontType::normalYellow(), mapLanguage );
+            text.set( mapText.name, fheroes2::FontType::normalYellow(), mapText.language );
             fheroes2::showMessage( text, fheroes2::Text{}, Dialog::ZERO );
         }
         else if ( le.isMouseRightButtonPressedInArea( buttonOk.area() ) ) {
