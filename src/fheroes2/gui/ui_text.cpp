@@ -1221,7 +1221,7 @@ namespace
                 SDL_UnlockSurface( surface.get() );
             }
 
-            glyph.sprite.setPosition( minX - paddingLeft, getCjkGlyphVerticalOffset( font, fontType.size, paddingTop ) );
+            glyph.sprite.setPosition( std::min( minX, 0 ) - paddingLeft, getCjkGlyphVerticalOffset( font, fontType.size, paddingTop ) );
             applyCjkButtonGlyphEffects( glyph.sprite, fontType );
 
             glyph.advance = advance + getCjkGlyphExtraAdvance( fontType, codePoint );
