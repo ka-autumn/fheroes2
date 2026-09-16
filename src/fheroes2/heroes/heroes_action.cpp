@@ -65,6 +65,7 @@
 #include "logging.h"
 #include "m82.h"
 #include "map_object_info.h"
+#include "map_translation.h"
 #include "maps.h"
 #include "maps_fileinfo.h"
 #include "maps_objects.h"
@@ -2884,8 +2885,9 @@ namespace
             elementUI.emplace_back( experienceUI.get() );
         }
 
+        const Maps::MapEventTextForDisplay eventText = Maps::resolveMapEventTextForDisplay( Settings::Get().getCurrentMapInfo(), mapEvent->message );
         const fheroes2::Text emptyText;
-        const fheroes2::Text body( mapEvent->message, fheroes2::FontType::normalWhite(), Settings::Get().getCurrentMapInfo().getSupportedLanguage() );
+        const fheroes2::Text body( eventText.text, fheroes2::FontType::normalWhite(), eventText.language );
 
         int32_t dialogHeight = fheroes2::getDialogHeight( emptyText, body, Dialog::OK, elementUI );
         const int32_t displayHeight = fheroes2::Display::instance().height();

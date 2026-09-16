@@ -123,6 +123,7 @@ tasks.register('copyTranslations', Copy) {
     from('../../files/lang') {
         include '*.mo'
         include '*.map-translation.tsv'
+        include '*.map-event-translation.tsv'
     }
     into 'src/main/assets/files/lang'
 }

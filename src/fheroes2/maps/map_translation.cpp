@@ -36,6 +36,15 @@ namespace
         std::string translatedDescription;
     };
 
+    struct MapEventTranslationRecord
+    {
+        std::string fileName;
+        std::string sourceName;
+        std::string sourceDescription;
+        std::string sourceEventText;
+        std::string translatedEventText;
+    };
+
     bool splitCatalogLine( const std::string & line, std::array<std::string, 5> & fields )
     {
         size_t fieldBegin = 0;
@@ -118,6 +127,63 @@ namespace
 
         return records;
     }
+
+    std::vector<MapEventTranslationRecord> loadJapaneseMapEventTranslations()
+    {
+        constexpr const char * catalogFileName = "ja.map-event-translation.tsv";
+
+#if defined( MACOS_APP_BUNDLE )
+        const ListFiles catalogs = Settings::FindFiles( "translations", catalogFileName, false );
+#else
+        const ListFiles catalogs = Settings::FindFiles( System::concatPath( "files", "lang" ), catalogFileName, false );
+#endif
+
+        if ( catalogs.empty() ) {
+            ERROR_LOG( "Map event translation catalog " << catalogFileName << " was not found." )
+            return {};
+        }
+
+        std::ifstream input( catalogs.back(), std::ios::binary );
+        if ( !input ) {
+            ERROR_LOG( "Unable to open map event translation catalog '" << catalogs.back() << "'." )
+            return {};
+        }
+
+        std::vector<MapEventTranslationRecord> records;
+        std::string line;
+        size_t lineNumber = 0;
+        while ( std::getline( input, line ) ) {
+            ++lineNumber;
+            if ( !line.empty() && line.back() == '\r' ) {
+                line.pop_back();
+            }
+            if ( line.empty() || line.front() == '#' ) {
+                continue;
+            }
+
+            std::array<std::string, 5> fields;
+            if ( !splitCatalogLine( line, fields ) ) {
+                ERROR_LOG( "Invalid map event translation catalog entry at line " << lineNumber << " in '" << catalogs.back() << "'." )
+                continue;
+            }
+            if ( std::any_of( fields.cbegin(), fields.cend(), []( const std::string & field ) { return field.empty(); } ) ) {
+                ERROR_LOG( "Empty map event translation catalog field at line " << lineNumber << " in '" << catalogs.back() << "'." )
+                continue;
+            }
+
+            const bool duplicate = std::any_of( records.cbegin(), records.cend(), [&fields]( const MapEventTranslationRecord & record ) {
+                return record.fileName == fields[0] && record.sourceName == fields[1] && record.sourceDescription == fields[2] && record.sourceEventText == fields[3];
+            } );
+            if ( duplicate ) {
+                ERROR_LOG( "Duplicate map event translation catalog entry at line " << lineNumber << " in '" << catalogs.back() << "'." )
+                continue;
+            }
+
+            records.push_back( { std::move( fields[0] ), std::move( fields[1] ), std::move( fields[2] ), std::move( fields[3] ), std::move( fields[4] ) } );
+        }
+
+        return records;
+    }
 }
 
 Maps::MapTextForDisplay Maps::resolveMapTextForDisplay( const FileInfo & info )
@@ -143,4 +209,30 @@ Maps::MapTextForDisplay Maps::resolveMapTextForDisplay( const FileInfo & info )
     }
 
     return { info.name, info.description, info.getSupportedLanguage() };
+}
+
+Maps::MapEventTextForDisplay Maps::resolveMapEventTextForDisplay( const FileInfo & info, const std::string & sourceEventText )
+{
+    if ( info.version == GameVersion::RESURRECTION || fheroes2::getCurrentLanguage() != fheroes2::SupportedLanguage::Japanese ) {
+        return { sourceEventText, info.getSupportedLanguage() };
+    }
+
+    static const std::vector<MapEventTranslationRecord> records = loadJapaneseMapEventTranslations();
+    const std::string fileName = System::GetFileName( info.filename );
+
+    const auto record = std::find_if( records.cbegin(), records.cend(), [&fileName, &info, &sourceEventText]( const MapEventTranslationRecord & candidate ) {
+        return candidate.fileName == fileName && candidate.sourceName == info.name && candidate.sourceDescription == info.description
+               && candidate.sourceEventText == sourceEventText;
+    } );
+    if ( record != records.cend() ) {
+        return { record->translatedEventText, fheroes2::SupportedLanguage::Japanese };
+    }
+
+    static std::set<std::string> loggedEventKeys;
+    const std::string eventKey = fileName + '\n' + info.name + '\n' + info.description + '\n' + sourceEventText;
+    if ( loggedEventKeys.emplace( eventKey ).second ) {
+        VERBOSE_LOG( "No Japanese map event translation matched the composite key for '" << fileName << "'. Displaying the original text." )
+    }
+
+    return { sourceEventText, info.getSupportedLanguage() };
 }

@@ -26,6 +26,15 @@ namespace Maps
         std::optional<fheroes2::SupportedLanguage> language;
     };
 
+    struct MapEventTextForDisplay
+    {
+        const std::string & text;
+        std::optional<fheroes2::SupportedLanguage> language;
+    };
+
     // The canonical FileInfo strings are deliberately not replaced because persistence and map identity depend on them.
     MapTextForDisplay resolveMapTextForDisplay( const FileInfo & info );
+
+    // The canonical event text is deliberately not replaced because it is persisted in save files.
+    MapEventTextForDisplay resolveMapEventTextForDisplay( const FileInfo & info, const std::string & sourceEventText );
 }

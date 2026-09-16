@@ -135,7 +135,7 @@ if(MACOS_APP_BUNDLE)
 		app_bundle_translations
 		ALL
 		COMMAND mkdir -p ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/${PROJECT_NAME}.app/Contents/Resources/translations
-		COMMAND cp *.mo *.map-translation.tsv ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/${PROJECT_NAME}.app/Contents/Resources/translations
+		COMMAND cp *.mo *.map-translation.tsv *.map-event-translation.tsv ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/${PROJECT_NAME}.app/Contents/Resources/translations
 		DEPENDS translations
 		WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}/files/lang
 		)
@@ -243,6 +243,7 @@ if(NOT MACOS_APP_BUNDLE)
 			FILES_MATCHING
 			PATTERN *.mo
 			PATTERN *.map-translation.tsv
+			PATTERN *.map-event-translation.tsv
 			)
 		install(
 			FILES script/demo/download_demo_version.sh
