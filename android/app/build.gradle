@@ -124,6 +124,7 @@ tasks.register('copyTranslations', Copy) {
         include '*.mo'
         include '*.map-translation.tsv'
         include '*.map-event-translation.tsv'
+        include '*.map-object-translation.tsv'
     }
     into 'src/main/assets/files/lang'
 }

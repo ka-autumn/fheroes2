@@ -344,8 +344,14 @@ namespace
             return;
         }
 
+        const MP2::MapObjectType objectType = world.getTile( tileIndex ).getMainObjectType();
+        const Maps::MapObjectTextKind textKind
+            = objectType == MP2::OBJ_BOTTLE ? Maps::MapObjectTextKind::BottleMessage : Maps::MapObjectTextKind::SignMessage;
+        const Maps::MapObjectTextForDisplay message
+            = Maps::resolveMapObjectTextForDisplay( Settings::Get().getCurrentMapInfo(), textKind, sign->message.text );
+
         const fheroes2::Text title{ MP2::StringObject( MP2::OBJ_SIGN ), fheroes2::FontType::normalYellow() };
-        const fheroes2::Text body{ sign->message.text, fheroes2::FontType::normalWhite(), sign->message.language };
+        const fheroes2::Text body{ message.text, fheroes2::FontType::normalWhite(), message.language };
         fheroes2::showMessage( title, body, Dialog::OK );
     }
 

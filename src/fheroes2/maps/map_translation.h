@@ -10,6 +10,7 @@
 
 #pragma once
 
+#include <cstdint>
 #include <optional>
 #include <string>
 
@@ -18,6 +19,14 @@
 namespace Maps
 {
     struct FileInfo;
+
+    enum class MapObjectTextKind : uint8_t
+    {
+        CastleName,
+        HeroName,
+        SignMessage,
+        BottleMessage
+    };
 
     struct MapTextForDisplay
     {
@@ -32,9 +41,18 @@ namespace Maps
         std::optional<fheroes2::SupportedLanguage> language;
     };
 
+    struct MapObjectTextForDisplay
+    {
+        const std::string & text;
+        std::optional<fheroes2::SupportedLanguage> language;
+    };
+
     // The canonical FileInfo strings are deliberately not replaced because persistence and map identity depend on them.
     MapTextForDisplay resolveMapTextForDisplay( const FileInfo & info );
 
     // The canonical event text is deliberately not replaced because it is persisted in save files.
     MapEventTextForDisplay resolveMapEventTextForDisplay( const FileInfo & info, const std::string & sourceEventText );
+
+    // The canonical object text is deliberately not replaced because custom names and messages are persisted in save files.
+    MapObjectTextForDisplay resolveMapObjectTextForDisplay( const FileInfo & info, MapObjectTextKind textKind, const std::string & sourceObjectText );
 }

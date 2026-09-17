@@ -45,7 +45,18 @@ namespace
         std::string translatedEventText;
     };
 
-    bool splitCatalogLine( const std::string & line, std::array<std::string, 5> & fields )
+    struct MapObjectTranslationRecord
+    {
+        std::string fileName;
+        std::string sourceName;
+        std::string sourceDescription;
+        Maps::MapObjectTextKind textKind;
+        std::string sourceObjectText;
+        std::string translatedObjectText;
+    };
+
+    template<size_t fieldCount>
+    bool splitCatalogLine( const std::string & line, std::array<std::string, fieldCount> & fields )
     {
         size_t fieldBegin = 0;
 
@@ -69,6 +80,24 @@ namespace
         }
 
         return false;
+    }
+
+    std::optional<Maps::MapObjectTextKind> parseMapObjectTextKind( const std::string & value )
+    {
+        if ( value == "castle-name" ) {
+            return Maps::MapObjectTextKind::CastleName;
+        }
+        if ( value == "hero-name" ) {
+            return Maps::MapObjectTextKind::HeroName;
+        }
+        if ( value == "sign-message" ) {
+            return Maps::MapObjectTextKind::SignMessage;
+        }
+        if ( value == "bottle-message" ) {
+            return Maps::MapObjectTextKind::BottleMessage;
+        }
+
+        return std::nullopt;
     }
 
     std::vector<MapTranslationRecord> loadJapaneseMapTranslations()
@@ -184,6 +213,71 @@ namespace
 
         return records;
     }
+
+    std::vector<MapObjectTranslationRecord> loadJapaneseMapObjectTranslations()
+    {
+        constexpr const char * catalogFileName = "ja.map-object-translation.tsv";
+
+#if defined( MACOS_APP_BUNDLE )
+        const ListFiles catalogs = Settings::FindFiles( "translations", catalogFileName, false );
+#else
+        const ListFiles catalogs = Settings::FindFiles( System::concatPath( "files", "lang" ), catalogFileName, false );
+#endif
+
+        if ( catalogs.empty() ) {
+            ERROR_LOG( "Map object translation catalog " << catalogFileName << " was not found." )
+            return {};
+        }
+
+        std::ifstream input( catalogs.back(), std::ios::binary );
+        if ( !input ) {
+            ERROR_LOG( "Unable to open map object translation catalog '" << catalogs.back() << "'." )
+            return {};
+        }
+
+        std::vector<MapObjectTranslationRecord> records;
+        std::string line;
+        size_t lineNumber = 0;
+        while ( std::getline( input, line ) ) {
+            ++lineNumber;
+            if ( !line.empty() && line.back() == '\r' ) {
+                line.pop_back();
+            }
+            if ( line.empty() || line.front() == '#' ) {
+                continue;
+            }
+
+            std::array<std::string, 6> fields;
+            if ( !splitCatalogLine( line, fields ) ) {
+                ERROR_LOG( "Invalid map object translation catalog entry at line " << lineNumber << " in '" << catalogs.back() << "'." )
+                continue;
+            }
+            if ( std::any_of( fields.cbegin(), fields.cend(), []( const std::string & field ) { return field.empty(); } ) ) {
+                ERROR_LOG( "Empty map object translation catalog field at line " << lineNumber << " in '" << catalogs.back() << "'." )
+                continue;
+            }
+
+            const std::optional<Maps::MapObjectTextKind> textKind = parseMapObjectTextKind( fields[3] );
+            if ( !textKind ) {
+                ERROR_LOG( "Unknown map object text kind at line " << lineNumber << " in '" << catalogs.back() << "'." )
+                continue;
+            }
+
+            const bool duplicate = std::any_of( records.cbegin(), records.cend(), [&fields, textKind]( const MapObjectTranslationRecord & record ) {
+                return record.fileName == fields[0] && record.sourceName == fields[1] && record.sourceDescription == fields[2] && record.textKind == *textKind
+                       && record.sourceObjectText == fields[4];
+            } );
+            if ( duplicate ) {
+                ERROR_LOG( "Duplicate map object translation catalog entry at line " << lineNumber << " in '" << catalogs.back() << "'." )
+                continue;
+            }
+
+            records.push_back(
+                { std::move( fields[0] ), std::move( fields[1] ), std::move( fields[2] ), *textKind, std::move( fields[4] ), std::move( fields[5] ) } );
+        }
+
+        return records;
+    }
 }
 
 Maps::MapTextForDisplay Maps::resolveMapTextForDisplay( const FileInfo & info )
@@ -235,4 +329,26 @@ Maps::MapEventTextForDisplay Maps::resolveMapEventTextForDisplay( const FileInfo
     }
 
     return { sourceEventText, info.getSupportedLanguage() };
+}
+
+Maps::MapObjectTextForDisplay Maps::resolveMapObjectTextForDisplay( const FileInfo & info, const MapObjectTextKind textKind,
+                                                                   const std::string & sourceObjectText )
+{
+    if ( info.filename.empty() || info.version == GameVersion::RESURRECTION || fheroes2::getCurrentLanguage() != fheroes2::SupportedLanguage::Japanese ) {
+        return { sourceObjectText, info.getSupportedLanguage() };
+    }
+
+    static const std::vector<MapObjectTranslationRecord> records = loadJapaneseMapObjectTranslations();
+    const std::string fileName = System::GetFileName( info.filename );
+
+    const auto record
+        = std::find_if( records.cbegin(), records.cend(), [&fileName, &info, textKind, &sourceObjectText]( const MapObjectTranslationRecord & candidate ) {
+              return candidate.fileName == fileName && candidate.sourceName == info.name && candidate.sourceDescription == info.description
+                     && candidate.textKind == textKind && candidate.sourceObjectText == sourceObjectText;
+          } );
+    if ( record != records.cend() ) {
+        return { record->translatedObjectText, fheroes2::SupportedLanguage::Japanese };
+    }
+
+    return { sourceObjectText, info.getSupportedLanguage() };
 }

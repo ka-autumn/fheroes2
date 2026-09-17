@@ -123,6 +123,9 @@ if(NOT MACOS_APP_BUNDLE)
 		COMMAND ${CMAKE_COMMAND} -E copy_if_different
 		"${PROJECT_SOURCE_DIR}/files/lang/ja.map-event-translation.tsv"
 		"${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/files/lang/ja.map-event-translation.tsv"
+		COMMAND ${CMAKE_COMMAND} -E copy_if_different
+		"${PROJECT_SOURCE_DIR}/files/lang/ja.map-object-translation.tsv"
+		"${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/files/lang/ja.map-object-translation.tsv"
 		)
 endif(NOT MACOS_APP_BUNDLE)
 
