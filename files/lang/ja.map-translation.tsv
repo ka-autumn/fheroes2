@@ -1,5 +1,99 @@
 # fheroes2 original-map translation catalog, version 1
 # file name<TAB>source name<TAB>source description<TAB>translated name<TAB>translated description
 Alteris.mp2	Alteris	With your realm destroyed by undead, the only way to gain enough power to drive them back someday is to capture castle Visimir!!!!	アルテリス	不死者に王国を滅ぼされたあなたが、いつか彼らを撃退できるだけの力を得る唯一の道は、ヴィシミール城を占領することです！
+Alteris2.mp2	Alteris2	You have captured the Barbarian lands, and now you prepare for the war against the Undead armies.  But, the Death King has not been Idle!	アルテリス2	君はバーバリアンの領地を制圧し、アンデッドの軍勢との戦いに備えている。だが、死の王も手をこまねいてはいない！
+BELTWAY.MP2	Beltway	A balanced scenario with lots of resources and land to explore.	ベルトウェイ	豊かな資源と、探索を待つ広大な大地。勢力の均衡した戦いが、いま始まる。
 Betrayal.mp2	Betrayal	Your diplomats have been attacked... this means war!	裏切り	あなたの外交官が襲撃されました……これは戦争を意味します！
 BlackFor.mp2	Black Forest	Four lords vie for control of a forestland full of dragons and vagabonds.  Oracle tourn. version.  Re-edited by maker.	黒い森	4人の領主が、ドラゴンと放浪者のひしめく森林地帯の支配権を争います。オラクル・トーナメント版。作者による再編集です。
+BROKENA.MP2	Broken Alliance	The alliance has crumbled and all are at war. Lots of resources but little time to prepare.	引き裂かれた同盟	同盟関係が崩れ、全員が戦争状態にある。資源は豊富だが、準備を整える時間は多くない。
+DdDragon.mp2	Dead Dragons	An evil sorceress has discovered a source of great power in the land, and she is harnessing it from her home stronghold, the Nest.	死せるドラゴン	邪悪なソーサレスが、この地に眠る強大な力の源を発見した。彼女は本拠地「巣」にこもり、その力を引き出している。
+DEATHG.MP2	Deathgate	Capture the necromancer's dreaded castle "Death Gate" and free the land from the undead plague.	死の門	ネクロマンサーが支配する恐怖の城「デスゲート」を奪い、アンデッドの災厄に覆われたこの地を解放せよ。
+DRAGONR.MP2	Dragon Rider	While away seeking the Ultimate Artifact, Kastor's kingdom is invaded!	ドラゴンライダー	カストアが究極の秘宝を求めて国を離れている隙に、彼の王国へ侵略者が押し寄せた！
+DRAGONW.MP2	Dragon Wars	Three Warlocks in the land of Dragons. Lose thy home and all will be lost. Conquer thy enemies and the land shall forever be yours!	ドラゴン戦争	ドラゴンの地に君臨する3人のウォーロック。居城を失えば、すべてを失う。敵を征服すれば、この地は永遠に君のものとなる！
+ENROTH.MP2	Enroth	The land of Heroes II.	エンロス	ここは、Heroes IIの物語が繰り広げられる地、エンロス。
+FORSAKEN.MP2	Forsaken Lands	A legion of peasants stands between you and this unclaimed island.	見捨てられた地	まだ誰のものでもない島を目前にして、農民の大軍が君の行く手を阻んでいる。
+GateHell.mp2	Gates of Hell	The guardians of the Gates of Hell have been lured into a trap!  Can they free their forces in time?  A 2-player alliance scenario.	地獄の門	地獄の門を守る者たちは、罠におびき出されてしまった！　手遅れになる前に、閉じ込められた味方の軍勢を救い出せるだろうか？　2人のプレイヤーが力を合わせる同盟シナリオ。
+GoAskAli.mp2	Go Ask Alice...	Wonderland Chess... Heroes Style.  This is for the Red (Warlock) Player.	アリスに聞いてごらん……	不思議の国を舞台にしたチェスを、Heroes流に。赤のウォーロックプレイヤーのための物語。
+GOODVS.MP2	Good vs. Evil	The Gods have given you 6 months to prove yourself. Good or Evil - who shall prevail? (Blue,Green and Red vs Yellow, Orange and Purple)	善と悪	神々は、君が自らの価値を証明するために6か月の猶予を与えた。善と悪、最後に勝利をつかむのはどちらか？（青・緑・赤 対 黄色・オレンジ・紫）
+GrimReap.MP2	Grim Reaper	Death himself is attempting to turn your entire world into a place more befitting his tastes.	死神	死神が、君の世界を自らの好みにふさわしい場所へ変えようとしている。
+HEROES.MP2	Heroes	Five heroes vie for control of a familiar land.	勇者たち	5人の勇者が、どこか見覚えのある地の支配権を巡って争う。
+HOTSPOT.MP2	Hot Spot	When you're ready, take the teleport to the Island's Hot Spot!	ホットスポット	準備が整ったなら、テレポートで島のホットスポットへ向かえ！
+LOSTCON.MP2	Lost Continent	Six factions have established a foothold on a huge, unexplored continent.  Can you eliminate the other five?	失われた大陸	6つの勢力が、広大な未踏の大陸に足場を築いた。君は残る5勢力をすべて排除できるだろうか？
+LOSTRELI.MP2	Lost Relic	The gods have granted this world a great artifact, to find it means victory.	失われた秘宝	神々はこの世界に偉大な秘宝を授けた。それを見つけた者に、勝利がもたらされるだろう。
+MerryMen.mp2	Merry Men	The sheriff has seized your lands and relocated you to one of his former holdings.	愉快な仲間たち	領地を奪った保安官は、君をかつて自らが治めていた土地の一つへ追いやった。
+MIGHTV.MP2	Might vs. Magic	Play the Knight or Barbarian in an alliance in this classic duel against the four spell casters. (Blue and Green vs Red)	剣と魔法の決戦	ナイトまたはバーバリアンとして同盟を組み、4人の呪文使いに挑む古典的な決闘を戦え。（青・緑 対 赤）
+MINERALW.MP2	Mineral Wars	All mines are grouped by type. Trade is your only hope.	鉱山戦争	鉱山は種類ごとに一か所へ集められている。生き残る望みは交易だけだ。
+MOUNT.MP2	Mountain king	It's windy at the top.  Defend, Divide, and Conquer.	キングオブマウンテン	頂には風が吹き荒れる。守り、分断し、征服せよ。
+OVERLORD.MP2	Overlord	The Overlord has given you 4 months to conquer this land or deliver to him the sum of 150,000 gold.	大王	大王は君に4か月の猶予を与えた。この地を征服するか、15万ゴールドを献上せよ。
+PANDAMON.MP2	Pandemonium	The King will sell you this land for 200,000 gold or you can take it by force. The choice is yours.	パンデモニウム	この地を手に入れる方法は2つに1つ。王から200000ポイントの黄金で買うか、武力で奪い取るかだ。選択は君に任されている。
+PYRAMID.MP2	Pyramid	Your opponents are allied against you and each is twice as powerful as his predecessor! Is it possible to win?	ピラミッド	敵は同盟を結び、弱い勢力から順に、その力は倍々に増していく！　君に勝機はあるのか？
+RdHome.mp2	The Road Home	A mighty army awaits you at home... but can you reach it before your enemies reach you?	故郷への道	故郷では強大な軍勢が君の帰還を待っている……だが、敵に追いつかれる前にたどり着けるだろうか？
+REVOLU.MP2	Revolution	You've ruled with an iron fist (and an army of undead), but now your kingdom has turned against you!	革命	君は鉄拳とアンデッドの軍勢で国を支配してきた。だが今、その王国が君に牙をむいた！
+RiddleMe.mp2	Riddle Me This..	The land is torn apart by civil war and other evils.  Conquer your enemies and be the first to find the Great Crown or fail the good people of the land.	この謎を解け……	内戦とさまざまな悪がこの地を引き裂いている。敵を征服し、誰よりも早く「大いなる王冠」を見つけ出せ。さもなくば、この地の善良な民を失望させることになる。
+RIVER.MP2	River Crossing	Your castle is the last outpost in the area, Don't lose it! 	川渡り	君の城は、この地域に残された最後の砦だ。決して失うな！
+SCORCH.MP2	Scorched Earth	An enemy from across the sea has seized half your towns.  Can you put aside your own feud with your brother to fight this common enemy?	焦土	海の彼方から来た敵が、君の町の半分を奪った。兄弟との確執を捨て、共通の敵に立ち向かえるだろうか？
+SEVENL.MP2	Seven Lakes	Plenty of resources and lots of ground to cover. Watch out for Orange and Purple!	七つの湖	資源は豊富だが、踏破すべき大地は果てしなく広い。オレンジと紫には用心せよ！
+SHIPW.MP2	Shipwrecked!	Your expedition has taken a turn for the worse... you now have no way to get home!	遭難	君の遠征は思わぬ災難に見舞われた……故郷へ帰るすべは、もうない！
+SlayerLeg.mp2	Slayer Legacy	The children of Lord Slayer try to rebuild his empire, and retrieve his remains from the Arena in the North.	スレイヤーの遺産	ロード・スレイヤーの子どもたちは、父の帝国を再建し、北の闘技場からその亡骸を取り戻そうとしている。
+SLUGFEST.MP2	Slugfest	Six heroes with large armies prepare to slug it out for total domination!	大乱戦	大軍を率いる6人の勇者が、全土の覇権を懸けた大乱戦に備えている！
+SPELLC.MP2	Spell Casters	The four spell casters face off with substantial starting armies. Can the crusaders keep the peace?	魔法使いたち	4人の魔法使いが、大軍を率いて対峙する。クルセイダーたちは平和を守れるだろうか？
+SuddenSe.mp2	Sudden Siege	The liths seemed a good idea at the time.  Now they're nothing but a dangerous nuisance.  Can you survive these sudden sieges???	突然の包囲戦	味方への近道だった石板も、今では敵を呼び込む危険な厄介者だ。突然の包囲戦を生き延びられるか？
+TELEPORT.MP2	Teleporters	For a total of 400,000 gold your opponents will become "loyal" subjects, otherwise... let them eat cake!	テレポーター	総額400000ポイントの黄金を支払えば、敵は「忠実な」臣下となる。さもなくば……奴らにはケーキでも食わせておけ！
+TERRAF.MP2	Terra Firma	A wild magic has allowed a bridge to form between two lands...  Your one hope is to capture castle "Black Fang".	テラ・ファーマ	荒々しい魔力が二つの大地の間に橋を生み出した……君に残された唯一の望みは、ブラックファング城を占領することだ。
+THECLEAR.MP2	The Clearing	Find the Ultimate Artifact and be proclaimed King, or smash the opposition and take control.	開けた大地	究極の秘宝を見つけて王を名乗るか、敵を打ち砕いてこの地の支配権を奪え。
+THEOTHER.MP2	The Other Side	A resource rich valley keeps the Wizard and the Necromancer apart. Your opponent's army will arrive in 3 months so hurry.	向こう側	資源豊かな谷が、ウィザードとネクロマンサーを隔てている。3か月後には敵軍が到着する。急げ。
+UNDEADA.MP2	Undead Armies	A plague of undead is upon us. Who will unite the living against the dead?	アンデッドの軍勢	アンデッドの災厄が迫っている。生者をまとめ上げ、死者に立ち向かうのは誰だ？
+UNHOLY.MP2	Unholy Alliance	A Knight and Necromancer team up against the Barbarian and Sorceress. (Blue and Green vs Red and Yellow)	不浄なる同盟	ナイトとネクロマンサーが手を組み、バーバリアンとソーサレスの連合に挑む。（青・緑 対 赤・黄色）
+VIKINGS.MP2	Vikings!	Barbarians from the north threaten all civilization. Can you repel the hordes?	ヴァイキング！	北方のバーバリアンが、文明世界を脅かしている。君はその大軍を退けられるか？
+WARIORK.MP2	Warrior Knight	Pick one of four Knights in this large and inhospitable land.	戦場の騎士	広大で過酷なこの地で、4人のナイトから一人を選べ。
+WASTL.MP2	Wastelands	The Barbarian's lands are being invaded. Are you strong enough to resist the invasion?	荒れ地	バーバリアンの領地が侵略を受けている。君は押し寄せる敵を退け、この地を守り抜けるか？
+WHOAM.MP2	Who am I?	A stranded Wizard with only a small force must conquer an entire continent of hostile forces.	我は何者か？	わずかな軍勢しか持たず、異郷に取り残された一人のウィザード。敵対勢力がひしめく大陸全土を征服しなければならない。
+WINTERL.MP2	Winterlands	A large map with lots of resources and treasure. Exploration and victory will require many heroes.	冬の大地	資源と財宝に満ちた広大な地。探索を進め、勝利をつかむには、多くの勇者が必要となる。
+WIZLAND1.MP2	Wizard's Land 1	You have been apprenticed to your master for years, but now you've found out that he has sinister plans for you.	ウィザードの地1	君は長年、師のもとで修行してきた。だが今、師が君に邪悪な企みを抱いていることを知ってしまった。
+ARRAX.MX2	Arrax the Jerk	Overthrow House Arrax, and establish your own Tyrannical Empire.  Find the secret treasures hidden about the landscape.	ろくでなしアラックス	アラックス家を打ち倒し、君自身の専制帝国を築け。各地に隠された秘密の財宝も探し出せ。
+CARMINE.MX2	Carmine	Your brother Carmine has long since moved away, but now he has been attacked and needs your help.  Team up with him to defeat the Red player!	カーマイン	君の兄弟カーマインは、ずいぶん前に遠くへ移り住んだ。だが今、彼は襲撃を受け、君の助けを必要としている。彼と力を合わせ、赤のプレイヤーを倒せ！
+ClouXeen.MX2	Clouds of Xeen	Cloudside of World of Xeen. Explore this vast land and defeat the evil Lord Xeen to be proclaimed the supreme ruler. Based on Might & Magic 4.	クラウズ・オブ・ジーン	ワールド・オブ・ジーンの表側世界。広大な大地を探索し、邪悪なロード・ジーンを倒して、至高の支配者を名乗れ。Might & Magic IVを基にしたシナリオ。
+ColosCav.MX2	Colossal Cavern	Explore the underworld and conquer its inhabitants. Save your village and build an empire in the dungeons below. All you need is cash!	大洞窟	地下世界を探索し、そこに住む者たちを征服せよ。村を救い、地下洞窟に帝国を築くのだ。必要なのは金だけだ！
+DECISION.MX2	Decisions	Your town is undefended and your heroes are scattered.  Do you attack or defend?	決断	君の町は無防備で、勇者たちは散り散りになっている。攻めるか、守るか？
+DOMINION.MX2	Dominion	The King is dead, his kingdom has been shattered, and six leaders seek to seize power for themselves.	覇権	王は死に、王国は砕け散った。6人の指導者が、覇権を我が物にしようと動き始める。
+DRAGON.MX2	Dragon's Eye	Your castle, founded inside the center of a mile wide crater, is besieged by those who desire your mineral wealth.	ドラゴンの眼	幅1マイルのクレーター中央に築かれた君の城は、豊かな鉱物資源を狙う者たちに包囲されている。
+Dungeonb.mx2	Dungeon Below	The Wizards and the Warlocks are fighting over control of a mysterious dungeon just discovered.	地下迷宮	ウィザードとウォーロックが、発見されたばかりの謎めいた地下迷宮を巡って争っている。
+FamReun.MX2	Family Reunion	Dracor has broken from his bounds and seeks to control the kingdom. Worse, his children want to join in the fun as well!	血族の集結	ドラコールが束縛を破り、王国の支配をもくろんでいる。さらに悪いことに、彼の子どもたちまで騒ぎに加わろうとしている！
+FOOLGOLD.MX2	Fool's Gold	A chance to end a bitter war has finally arrived as a new resource-laden land has been discovered.	愚者の黄金	資源に満ちた新たな大地が発見され、長く続く凄惨な戦争を終わらせる好機がついに訪れた。
+FORHONOR.MX2	For Honor	The Red Tide of War rolls North.  Stopping the flood seems hopeless.  Yet, Honor demands you and your ally die trying.	名誉のために	戦火の赤い波が北へ押し寄せる。その流れを止める望みはほとんどない。それでも君と盟友は、名誉に懸けて命尽きるまで抗う道を選んだ。
+FORTRESS.MX2	Fortress Isle	Four players must work together to assault the Wizards' Stronghold.	要塞島	4人のプレイヤーは力を合わせ、ウィザードの要塞を攻略しなければならない。
+FULLHSE.MX2	Full House	Start with five castles!  How could you lose!?  Oh yeah, everyone else starts with five, too.	フルハウス	5つの城を持って始める！　負けるはずがない！……そう、敵も全員5つずつ持っているのだ。
+GhostPlt.MX2	Ghost Planet 1.1	You crash land on a haunted world where all your Might & Magic may not save you. When the Undead rule, how can you stay "alive" on ...Ghost Planet?	ゴーストプラネット1.1	君は幽霊に取り憑かれた世界へ不時着した。持てる力と魔法を尽くしても、救われるとは限らない。アンデッドが支配するゴーストプラネットで、君はどうやって「生き残る」？
+GREED.MX2	Greed	After centuries of friendship, the Wizards have suddenly decided to stop sharing their Library with the rest of the world.  This can't be good!	強欲	何世紀にもわたる友情を捨て、ウィザードたちは突如として図書館を世界に開放するのをやめた。これはただ事ではない！
+GROUNDZE.MX2	Ground Zero	The four factions race to capture a mystical castle.	グラウンド・ゼロ	4つの勢力が、神秘の城を巡る争奪戦に挑む。
+GRWar2.MX2	Great War II	The lands were at peace for a long time, but now once again good and evil vie for supremacy.	大戦II	長く平和が続いたこの地で、今また善と悪が覇権を巡り争い始めた。
+GUARDWAR.MX2	Guardian War	You and your ally's families were given custody of The Isle of Knowledge.  Other Lords feel the time has come for new guardians...	守護者の戦い	君と盟友の一族は、知識の島を守る任を託されていた。だが他の領主たちは、守護者を替える時が来たと考えている……
+HUNICORN.MX2	Hail Unicorns!	This twisted maze of sorceress towns has three factions struggling for sole control.  Use your resources wisely!	ユニコーン万歳！	入り組んだ迷路のようなソーサレスの町々で、3つの勢力が唯一の支配者となるべく争っている。資源を賢く使え！
+ISLEMAZE.MX2	Isle Maze	Remember, you're searching for the Ultimate Artifact... don't get distracted!	迷宮島	忘れるな。君の目的は究極の秘宝だ……道草を食うな！
+KINGDTH.MX2	King of Death	Find and destroy the evil beings who rule the wastelands.	死の王	荒れ地を支配する邪悪な者たちを探し出し、滅ぼせ。
+LastHope.mx2	Last Hope	They've finally cornered you into this infernal swamp.  Now its just you, some crusaders, and this last outpost of goodness against THEM.	最後の希望	奴らはついに、君をこの忌まわしい沼地へ追い詰めた。今や君と数人のクルセイダー、そして善の最後の砦だけが、奴らに立ち向かう。
+Leopoldv.mx2	Leopoldville	Leopoldville- A city gone mad since the crown disappeared.  Can you retrieve it and bring order back to the city?	レオポルドヴィル	王冠が消えて以来、狂気に陥った町レオポルドヴィル。王冠を取り戻し、町に秩序をもたらせるか？
+Ludicrou.mx2	Ludicrosity	               What the?>>>                                                                                                                (note... read accompanying text file before playing..)	荒唐無稽	何だ、これは？>>>（注……プレイ前に付属のテキストファイルを読むこと……）
+MAGIC3.MX2	Magic Three	Seek out the Ultimate Artifact to be victorious in this strangely shaped land.	マジック・スリー	奇妙な形をしたこの地で、究極の秘宝を探し出し、勝利をつかめ。
+MireStra.MX2	Mire Straits	Your opponent lays beyond the straits.  But a common adversary controls the water ways.	沼地の海峡	君の敵は海峡の向こうにいる。だが水路を支配するのは、君たち双方にとっての共通の敵だ。
+NEWENEMY.MX2	New Enemies	With the year long eruption of Mt. Kitisland, your three worst enemies now have a ground bridge to your eastern continent.	新たな敵	キティスランド山が1年にわたり噴火を続けた結果、君の宿敵3人は東の大陸へ渡る陸橋を手に入れた。
+NVSS.MX2	North vs. South	It's a battle for supremacy as the Blue and Green heroes take on Red and Orange in team competition!	南北対決	覇権を懸け、青・緑の勇者たちと赤・オレンジの勇者たちが激突する！
+PEASANTS.MX2	Peasants	Help peasant farmers regain their castle and land, else they'll take your crops.	農民たち	農民たちが城と領地を取り戻すのを助けよ。さもなくば、君の作物を奪われるぞ。
+PIRATE.MX2	Pirate Utopia	The Fortune of Infamous Uae was buried on one of these islands. She died without ever revealing it.  Find it before the other cutthroats.	海賊の楽園	悪名高きウアエの財宝が、この島々のどこかに埋められている。彼女はその場所を明かさぬまま死んだ。他のならず者に先を越される前に探し出せ。
+PlainAek.MX2	Plains of Aekon	Each side has a single stronghold, and resources are scarce.  But real power can be found in the sinewy seas which divide the lands...	エイコン平原	双方の砦は一つずつ。資源も乏しい。だが、大地を隔てる入り組んだ海にこそ、本当の力が眠っている……
+PORTALS.MX2	Portals	You can only reach your enemies via teleporters, but each jump is a leap of faith.	ポータル	敵のもとへ至る道はテレポーターだけ。だが、一度跳ぶたびに運命を賭けることになる。
+Quadrup.mx2	Quadruplets	Astral Wizard HOMM2 League.  Alliance Competition.  Expansion Map.  Created by Timothy Duncan (tduncan(a)haverford.edu)	四つ子	アストラル・ウィザードHOMM2リーグ用。同盟戦。拡張版マップ。制作：Timothy Duncan（tduncan(a)haverford.edu）
+RocRound.MX2	Roc 'Round the .	Roc Round the Clock - a High -Flying Quest with the Wizard's Feathered Friends. The other Magicians will just  have to wing it!	ロック鳥・アラウンド・ザ・クロック	ロック鳥と夜通し飛び回る、ウィザードと翼ある仲間たちの空高き冒険。他の魔法使いたちも、翼に任せてやるしかない！
+SANDTIME.MX2	Sands of Time	A desert isle rich in resources rewards the quick.  Just be sure to watch your back!	時の砂	資源豊かな砂漠の島は、素早く動く者に報いる。ただし、背後には気をつけろ！
+SEASONS.MX2	Seasons Change	None of the four leaders like being stuck in a land that has only one season. 	四季の大地	4人の指導者は、ただ一つの季節に閉ざされたこの地にうんざりしている。
+SHRKANIA.MX2	Sharkania	Four kingdoms race to capture the island of Sharkania.	シャーカニア	4つの王国が、シャーカニア島の占領を目指して争う。
+SKIRMISH.MX2	Skirmish	You will clash quickly on this small head-to-head map, so stay on your toes!	小競り合い	この小さな対戦マップでは、すぐに敵とぶつかる。気を抜くな！
+SURFTURF.MX2	Surf and Turf	More water than land, you'll still spend lots of time on foot as you search a literal horde of islands.	海原と大地	陸より海が広い。それでも、無数の島々を探索する君は、長い時間を自らの足で歩くことになる。
+TERRAIN.MX2	Terrain Wars	This rugged land will have rivals fighting the terrain as well as each other.	地形戦争	起伏の激しいこの地では、敵同士だけでなく、地形そのものとの戦いを強いられる。
+THEBACK.MX2	The Back Door	Many guardians stand between you and your enemies, but anybody can sneak through the back door!	裏口	君と敵の間には多くの守護者が立ちはだかる。だが、誰でも裏口から忍び込める！
+Threedom.mx2	Threedom	Astral Wizard HOMM2 League Slugfest Competition.  Expansion Map.  Created by Timothy Duncan (tduncan(at)haverford.edu)	スリーダム	アストラル・ウィザードHOMM2リーグ乱戦部門用。拡張版マップ。制作：Timothy Duncan（tduncan(at)haverford.edu）
+Thunk.mx2	THUNK	The Sequel to Last Hope.  After his previous struggle, Corribus decides to take a vacation down the Calamazar River.  Big mistake...	ドスン！	「最後の希望」の続編。前回の苦闘を終えたコリバスは、カラマザール川を下る休暇に出ることにした。大間違いだった……
+VALLEY.MX2	Valley of Death	You have six months to destroy the Necromancer Stronghold in the heart of the valley.	死の谷	君に残された時間は6か月。谷の中心にあるネクロマンサーの要塞を破壊せよ。
+WITCHHNT.MX2	Witch Hunt	You must search the world for your mortal enemy, Wilgatus.  Can you find him before its too late?	魔女狩り	宿敵ウィルガトゥスを求め、世界中を探さなければならない。手遅れになる前に見つけ出せるか？
+WIZLAND2.MX2	Wizard's Land 2	You've ruled your land well, but now the brother of your long-dead master has come to visit, and he is not happy with you.	ウィザードの地2	君はこの地に善政を敷いてきた。だが今、亡き師の兄弟が訪れた。彼は君に強い不満を抱いている。
+WIZLAND3.MX2	Wizard's Land 3	Your kingdom has been placed in a magical stasis, and you must find out who's behind it.                                                      (dedicated to Princess Diana)	ウィザードの地3	君の王国は、魔法の力で動きを封じられた。誰が背後で糸を引いているのか、突き止めなければならない。（ダイアナ妃に捧ぐ）
