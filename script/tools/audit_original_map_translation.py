@@ -21,7 +21,6 @@
 ###########################################################################
 
 import argparse
-import csv
 import struct
 import sys
 from collections import Counter
@@ -225,9 +224,11 @@ def extract_text_entries(map_path: Path) -> tuple[MapIdentity, list[TextEntry]]:
 def read_tsv(path: Path, expected_columns: int) -> list[list[str]]:
     rows: list[list[str]] = []
     with path.open(encoding="utf-8", newline="") as catalog:
-        for line_number, row in enumerate(csv.reader(catalog, delimiter="\t"), start=1):
-            if not row or row[0].startswith("#"):
+        for line_number, raw_line in enumerate(catalog, start=1):
+            line = raw_line.removesuffix("\n").removesuffix("\r")
+            if not line or line.startswith("#"):
                 continue
+            row = line.split("\t")
             if len(row) != expected_columns or any(not field for field in row):
                 raise ValueError(f"{path}:{line_number}: expected {expected_columns} non-empty columns")
             rows.append(row)
