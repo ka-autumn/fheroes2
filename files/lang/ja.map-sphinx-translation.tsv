@@ -1,2 +1,5 @@
 # fheroes2 original-map sphinx translation catalog, version 1
 # file name<TAB>source name<TAB>source description<TAB>text kind (sphinx-riddle or sphinx-answer)<TAB>source text<TAB>translated riddle or additional answer
+Betrayal.mp2	Betrayal	Your diplomats have been attacked... this means war!	sphinx-riddle	The Egyptians mummified sacred animals as well as people. Name one of these sacred animals...	エジプト人は、人間だけでなく聖なる動物もミイラにした。そうした聖なる動物を一つ挙げよ……
+Betrayal.mp2	Betrayal	Your diplomats have been attacked... this means war!	sphinx-riddle	What Egyptian Sky God, son of Osiris, is often portrayed with a falcon's head? 	オシリスの息子で、ハヤブサの頭を持つ姿でよく描かれるエジプトの天空神の名は？
+Betrayal.mp2	Betrayal	Your diplomats have been attacked... this means war!	sphinx-riddle	Genies generally come out of lamps. What other items have been known to contain genies?	ジンは、たいていランプから現れる。ほかに、ジンが入っていたと言われる品は何か？
