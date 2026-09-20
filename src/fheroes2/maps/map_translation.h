@@ -76,7 +76,8 @@ namespace Maps
     MapSphinxRiddleForDisplay resolveMapSphinxRiddleForDisplay( const FileInfo & info, const std::string & sourceRiddleText );
 
     // Returns true if the input matches an additional answer registered for one of the canonical answers. The canonical answers are not replaced.
-    // Additional answers are compared for equality after trimming whitespace and unifying full-width and half-width ASCII characters, and only while
+    // The canonical answers are compared ignoring ASCII case because the game lowercases them when a map is loaded, and the additional answers are
+    // compared for equality after trimming whitespace and unifying full-width and half-width ASCII characters, and only while
     // the Japanese UI language is active. The caller is still responsible for checking the canonical answers.
     bool isAdditionalSphinxAnswerAccepted( const FileInfo & info, const std::list<std::string> & sourceAnswers, const std::string & input );
 }

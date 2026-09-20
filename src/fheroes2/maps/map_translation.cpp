@@ -291,7 +291,8 @@ namespace
         std::string translatedText;
     };
 
-    // Reads a Japanese sidecar catalog and passes every well-formed row to `addRecord`, which returns false for a row that must be rejected.
+    // Reads a Japanese sidecar catalog and passes every well-formed row to `addRecord`, which returns nullptr to accept the row
+    // or the reason why the row must be rejected.
     template<size_t fieldCount, typename AddRecord>
     void readCatalog( const char * catalogFileName, const char * label, AddRecord && addRecord )
     {
@@ -333,8 +334,8 @@ namespace
                 continue;
             }
 
-            if ( !addRecord( fields ) ) {
-                ERROR_LOG( "Rejected " << label << " catalog entry at line " << lineNumber << " in '" << catalogs.back() << "'." )
+            if ( const char * rejectionReason = addRecord( fields ); rejectionReason != nullptr ) {
+                ERROR_LOG( rejectionReason << " " << label << " catalog entry at line " << lineNumber << " in '" << catalogs.back() << "'." )
             }
         }
     }
@@ -343,16 +344,16 @@ namespace
     {
         std::vector<MapEventTranslationRecord> records;
 
-        readCatalog<5>( "ja.map-rumor-translation.tsv", "Map rumor translation", [&records]( std::array<std::string, 5> & fields ) {
+        readCatalog<5>( "ja.map-rumor-translation.tsv", "Map rumor translation", [&records]( std::array<std::string, 5> & fields ) -> const char * {
             const bool duplicate = std::any_of( records.cbegin(), records.cend(), [&fields]( const MapEventTranslationRecord & record ) {
                 return record.fileName == fields[0] && record.sourceName == fields[1] && record.sourceDescription == fields[2] && record.sourceEventText == fields[3];
             } );
             if ( duplicate ) {
-                return false;
+                return "Duplicate";
             }
 
             records.push_back( { std::move( fields[0] ), std::move( fields[1] ), std::move( fields[2] ), std::move( fields[3] ), std::move( fields[4] ) } );
-            return true;
+            return nullptr;
         } );
 
         return records;
@@ -362,9 +363,9 @@ namespace
     {
         std::vector<MapSphinxTranslationRecord> records;
 
-        readCatalog<6>( "ja.map-sphinx-translation.tsv", "Map sphinx translation", [&records]( std::array<std::string, 6> & fields ) {
+        readCatalog<6>( "ja.map-sphinx-translation.tsv", "Map sphinx translation", [&records]( std::array<std::string, 6> & fields ) -> const char * {
             if ( fields[3] != "sphinx-riddle" && fields[3] != "sphinx-answer" ) {
-                return false;
+                return "Unknown text kind in";
             }
 
             const bool isAnswer = fields[3] == "sphinx-answer";
@@ -375,14 +376,32 @@ namespace
                        && record.sourceText == fields[4] && ( !isAnswer || record.translatedText == fields[5] );
             } );
             if ( duplicate ) {
-                return false;
+                return "Duplicate";
             }
 
             records.push_back( { std::move( fields[0] ), std::move( fields[1] ), std::move( fields[2] ), isAnswer, std::move( fields[4] ), std::move( fields[5] ) } );
-            return true;
+            return nullptr;
         } );
 
         return records;
+    }
+
+    // Both sphinx lookups share one catalog, so it is read only once.
+    const std::vector<MapSphinxTranslationRecord> & getJapaneseMapSphinxTranslations()
+    {
+        static const std::vector<MapSphinxTranslationRecord> records = loadJapaneseMapSphinxTranslations();
+        return records;
+    }
+
+    std::string toLowerAscii( std::string text )
+    {
+        for ( char & ch : text ) {
+            if ( ch >= 'A' && ch <= 'Z' ) {
+                ch = static_cast<char>( ch - 'A' + 'a' );
+            }
+        }
+
+        return text;
     }
 
     // Unifies full-width and half-width ASCII characters, removes leading and trailing whitespace and lowers the case.
@@ -422,13 +441,7 @@ namespace
         const size_t end = result.size() - static_cast<size_t>( std::find_if_not( result.crbegin(), result.crend(), isWhitespace ) - result.crbegin() );
         result = result.substr( begin, end - begin );
 
-        for ( char & ch : result ) {
-            if ( ch >= 'A' && ch <= 'Z' ) {
-                ch = static_cast<char>( ch - 'A' + 'a' );
-            }
-        }
-
-        return result;
+        return toLowerAscii( std::move( result ) );
     }
 }
 
@@ -531,7 +544,7 @@ Maps::MapSphinxRiddleForDisplay Maps::resolveMapSphinxRiddleForDisplay( const Fi
         return { sourceRiddleText, info.getSupportedLanguage() };
     }
 
-    static const std::vector<MapSphinxTranslationRecord> records = loadJapaneseMapSphinxTranslations();
+    const std::vector<MapSphinxTranslationRecord> & records = getJapaneseMapSphinxTranslations();
     const std::string fileName = System::GetFileName( info.filename );
 
     const auto record = std::find_if( records.cbegin(), records.cend(), [&fileName, &info, &sourceRiddleText]( const MapSphinxTranslationRecord & candidate ) {
@@ -556,12 +569,13 @@ bool Maps::isAdditionalSphinxAnswerAccepted( const FileInfo & info, const std::l
         return false;
     }
 
-    static const std::vector<MapSphinxTranslationRecord> records = loadJapaneseMapSphinxTranslations();
+    const std::vector<MapSphinxTranslationRecord> & records = getJapaneseMapSphinxTranslations();
     const std::string fileName = System::GetFileName( info.filename );
 
     return std::any_of( records.cbegin(), records.cend(), [&]( const MapSphinxTranslationRecord & candidate ) {
         return candidate.isAnswer && candidate.fileName == fileName && candidate.sourceName == info.name && candidate.sourceDescription == info.description
-               && std::find( sourceAnswers.cbegin(), sourceAnswers.cend(), candidate.sourceText ) != sourceAnswers.cend()
+               && std::any_of( sourceAnswers.cbegin(), sourceAnswers.cend(),
+                               [&candidate]( const std::string & answer ) { return toLowerAscii( answer ) == toLowerAscii( candidate.sourceText ); } )
                && normalizeAnswerForComparison( candidate.translatedText ) == normalizedInput;
     } );
 }
