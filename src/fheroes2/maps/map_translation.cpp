@@ -29,35 +29,7 @@
 
 namespace
 {
-    struct MapTranslationRecord
-    {
-        std::string fileName;
-        std::string sourceName;
-        std::string sourceDescription;
-        std::string translatedName;
-        std::string translatedDescription;
-    };
-
-    struct MapEventTranslationRecord
-    {
-        std::string fileName;
-        std::string sourceName;
-        std::string sourceDescription;
-        std::string sourceEventText;
-        std::string translatedEventText;
-    };
-
-    struct MapObjectTranslationRecord
-    {
-        std::string fileName;
-        std::string sourceName;
-        std::string sourceDescription;
-        Maps::MapObjectTextKind textKind;
-        std::string sourceObjectText;
-        std::string translatedObjectText;
-    };
-
-    template<size_t fieldCount>
+    template <size_t fieldCount>
     bool splitCatalogLine( const std::string & line, std::array<std::string, fieldCount> & fields )
     {
         size_t fieldBegin = 0;
@@ -84,217 +56,9 @@ namespace
         return false;
     }
 
-    std::optional<Maps::MapObjectTextKind> parseMapObjectTextKind( const std::string & value )
-    {
-        if ( value == "castle-name" ) {
-            return Maps::MapObjectTextKind::CastleName;
-        }
-        if ( value == "hero-name" ) {
-            return Maps::MapObjectTextKind::HeroName;
-        }
-        if ( value == "sign-message" ) {
-            return Maps::MapObjectTextKind::SignMessage;
-        }
-        if ( value == "bottle-message" ) {
-            return Maps::MapObjectTextKind::BottleMessage;
-        }
-
-        return std::nullopt;
-    }
-
-    std::vector<MapTranslationRecord> loadJapaneseMapTranslations()
-    {
-        constexpr const char * catalogFileName = "ja.map-translation.tsv";
-
-#if defined( MACOS_APP_BUNDLE )
-        const ListFiles catalogs = Settings::FindFiles( "translations", catalogFileName, false );
-#else
-        const ListFiles catalogs = Settings::FindFiles( System::concatPath( "files", "lang" ), catalogFileName, false );
-#endif
-
-        if ( catalogs.empty() ) {
-            ERROR_LOG( "Map translation catalog " << catalogFileName << " was not found." )
-            return {};
-        }
-
-        std::ifstream input( catalogs.back(), std::ios::binary );
-        if ( !input ) {
-            ERROR_LOG( "Unable to open map translation catalog '" << catalogs.back() << "'." )
-            return {};
-        }
-
-        std::vector<MapTranslationRecord> records;
-        std::string line;
-        size_t lineNumber = 0;
-        while ( std::getline( input, line ) ) {
-            ++lineNumber;
-            if ( !line.empty() && line.back() == '\r' ) {
-                line.pop_back();
-            }
-            if ( line.empty() || line.front() == '#' ) {
-                continue;
-            }
-
-            std::array<std::string, 5> fields;
-            if ( !splitCatalogLine( line, fields ) ) {
-                ERROR_LOG( "Invalid map translation catalog entry at line " << lineNumber << " in '" << catalogs.back() << "'." )
-                continue;
-            }
-            if ( std::any_of( fields.cbegin(), fields.cend(), []( const std::string & field ) { return field.empty(); } ) ) {
-                ERROR_LOG( "Empty map translation catalog field at line " << lineNumber << " in '" << catalogs.back() << "'." )
-                continue;
-            }
-
-            const bool duplicate = std::any_of( records.cbegin(), records.cend(), [&fields]( const MapTranslationRecord & record ) {
-                return record.fileName == fields[0] && record.sourceName == fields[1] && record.sourceDescription == fields[2];
-            } );
-            if ( duplicate ) {
-                ERROR_LOG( "Duplicate map translation catalog entry at line " << lineNumber << " in '" << catalogs.back() << "'." )
-                continue;
-            }
-
-            records.push_back( { std::move( fields[0] ), std::move( fields[1] ), std::move( fields[2] ), std::move( fields[3] ), std::move( fields[4] ) } );
-        }
-
-        return records;
-    }
-
-    std::vector<MapEventTranslationRecord> loadJapaneseMapEventTranslations()
-    {
-        constexpr const char * catalogFileName = "ja.map-event-translation.tsv";
-
-#if defined( MACOS_APP_BUNDLE )
-        const ListFiles catalogs = Settings::FindFiles( "translations", catalogFileName, false );
-#else
-        const ListFiles catalogs = Settings::FindFiles( System::concatPath( "files", "lang" ), catalogFileName, false );
-#endif
-
-        if ( catalogs.empty() ) {
-            ERROR_LOG( "Map event translation catalog " << catalogFileName << " was not found." )
-            return {};
-        }
-
-        std::ifstream input( catalogs.back(), std::ios::binary );
-        if ( !input ) {
-            ERROR_LOG( "Unable to open map event translation catalog '" << catalogs.back() << "'." )
-            return {};
-        }
-
-        std::vector<MapEventTranslationRecord> records;
-        std::string line;
-        size_t lineNumber = 0;
-        while ( std::getline( input, line ) ) {
-            ++lineNumber;
-            if ( !line.empty() && line.back() == '\r' ) {
-                line.pop_back();
-            }
-            if ( line.empty() || line.front() == '#' ) {
-                continue;
-            }
-
-            std::array<std::string, 5> fields;
-            if ( !splitCatalogLine( line, fields ) ) {
-                ERROR_LOG( "Invalid map event translation catalog entry at line " << lineNumber << " in '" << catalogs.back() << "'." )
-                continue;
-            }
-            if ( std::any_of( fields.cbegin(), fields.cend(), []( const std::string & field ) { return field.empty(); } ) ) {
-                ERROR_LOG( "Empty map event translation catalog field at line " << lineNumber << " in '" << catalogs.back() << "'." )
-                continue;
-            }
-
-            const bool duplicate = std::any_of( records.cbegin(), records.cend(), [&fields]( const MapEventTranslationRecord & record ) {
-                return record.fileName == fields[0] && record.sourceName == fields[1] && record.sourceDescription == fields[2] && record.sourceEventText == fields[3];
-            } );
-            if ( duplicate ) {
-                ERROR_LOG( "Duplicate map event translation catalog entry at line " << lineNumber << " in '" << catalogs.back() << "'." )
-                continue;
-            }
-
-            records.push_back( { std::move( fields[0] ), std::move( fields[1] ), std::move( fields[2] ), std::move( fields[3] ), std::move( fields[4] ) } );
-        }
-
-        return records;
-    }
-
-    std::vector<MapObjectTranslationRecord> loadJapaneseMapObjectTranslations()
-    {
-        constexpr const char * catalogFileName = "ja.map-object-translation.tsv";
-
-#if defined( MACOS_APP_BUNDLE )
-        const ListFiles catalogs = Settings::FindFiles( "translations", catalogFileName, false );
-#else
-        const ListFiles catalogs = Settings::FindFiles( System::concatPath( "files", "lang" ), catalogFileName, false );
-#endif
-
-        if ( catalogs.empty() ) {
-            ERROR_LOG( "Map object translation catalog " << catalogFileName << " was not found." )
-            return {};
-        }
-
-        std::ifstream input( catalogs.back(), std::ios::binary );
-        if ( !input ) {
-            ERROR_LOG( "Unable to open map object translation catalog '" << catalogs.back() << "'." )
-            return {};
-        }
-
-        std::vector<MapObjectTranslationRecord> records;
-        std::string line;
-        size_t lineNumber = 0;
-        while ( std::getline( input, line ) ) {
-            ++lineNumber;
-            if ( !line.empty() && line.back() == '\r' ) {
-                line.pop_back();
-            }
-            if ( line.empty() || line.front() == '#' ) {
-                continue;
-            }
-
-            std::array<std::string, 6> fields;
-            if ( !splitCatalogLine( line, fields ) ) {
-                ERROR_LOG( "Invalid map object translation catalog entry at line " << lineNumber << " in '" << catalogs.back() << "'." )
-                continue;
-            }
-            if ( std::any_of( fields.cbegin(), fields.cend(), []( const std::string & field ) { return field.empty(); } ) ) {
-                ERROR_LOG( "Empty map object translation catalog field at line " << lineNumber << " in '" << catalogs.back() << "'." )
-                continue;
-            }
-
-            const std::optional<Maps::MapObjectTextKind> textKind = parseMapObjectTextKind( fields[3] );
-            if ( !textKind ) {
-                ERROR_LOG( "Unknown map object text kind at line " << lineNumber << " in '" << catalogs.back() << "'." )
-                continue;
-            }
-
-            const bool duplicate = std::any_of( records.cbegin(), records.cend(), [&fields, textKind]( const MapObjectTranslationRecord & record ) {
-                return record.fileName == fields[0] && record.sourceName == fields[1] && record.sourceDescription == fields[2] && record.textKind == *textKind
-                       && record.sourceObjectText == fields[4];
-            } );
-            if ( duplicate ) {
-                ERROR_LOG( "Duplicate map object translation catalog entry at line " << lineNumber << " in '" << catalogs.back() << "'." )
-                continue;
-            }
-
-            records.push_back(
-                { std::move( fields[0] ), std::move( fields[1] ), std::move( fields[2] ), *textKind, std::move( fields[4] ), std::move( fields[5] ) } );
-        }
-
-        return records;
-    }
-
-    struct MapSphinxTranslationRecord
-    {
-        std::string fileName;
-        std::string sourceName;
-        std::string sourceDescription;
-        bool isAnswer;
-        std::string sourceText;
-        std::string translatedText;
-    };
-
-    // The loaders for the map, event and object catalogs above predate this helper and repeat the same reading logic.
     // Reads a Japanese sidecar catalog and passes every well-formed row to `addRecord`, which returns nullptr to accept the row
     // or the reason why the row must be rejected.
-    template<size_t fieldCount, typename AddRecord>
+    template <size_t fieldCount, typename AddRecord>
     void readCatalog( const char * catalogFileName, const char * label, AddRecord && addRecord )
     {
 #if defined( MACOS_APP_BUNDLE )
@@ -340,6 +104,125 @@ namespace
             }
         }
     }
+
+    struct MapTranslationRecord
+    {
+        std::string fileName;
+        std::string sourceName;
+        std::string sourceDescription;
+        std::string translatedName;
+        std::string translatedDescription;
+    };
+
+    struct MapEventTranslationRecord
+    {
+        std::string fileName;
+        std::string sourceName;
+        std::string sourceDescription;
+        std::string sourceEventText;
+        std::string translatedEventText;
+    };
+
+    struct MapObjectTranslationRecord
+    {
+        std::string fileName;
+        std::string sourceName;
+        std::string sourceDescription;
+        Maps::MapObjectTextKind textKind;
+        std::string sourceObjectText;
+        std::string translatedObjectText;
+    };
+
+    std::optional<Maps::MapObjectTextKind> parseMapObjectTextKind( const std::string & value )
+    {
+        if ( value == "castle-name" ) {
+            return Maps::MapObjectTextKind::CastleName;
+        }
+        if ( value == "hero-name" ) {
+            return Maps::MapObjectTextKind::HeroName;
+        }
+        if ( value == "sign-message" ) {
+            return Maps::MapObjectTextKind::SignMessage;
+        }
+        if ( value == "bottle-message" ) {
+            return Maps::MapObjectTextKind::BottleMessage;
+        }
+
+        return std::nullopt;
+    }
+
+    std::vector<MapTranslationRecord> loadJapaneseMapTranslations()
+    {
+        std::vector<MapTranslationRecord> records;
+
+        readCatalog<5>( "ja.map-translation.tsv", "Map translation", [&records]( std::array<std::string, 5> & fields ) -> const char * {
+            const bool duplicate = std::any_of( records.cbegin(), records.cend(), [&fields]( const MapTranslationRecord & record ) {
+                return record.fileName == fields[0] && record.sourceName == fields[1] && record.sourceDescription == fields[2];
+            } );
+            if ( duplicate ) {
+                return "Duplicate";
+            }
+
+            records.push_back( { std::move( fields[0] ), std::move( fields[1] ), std::move( fields[2] ), std::move( fields[3] ), std::move( fields[4] ) } );
+            return nullptr;
+        } );
+
+        return records;
+    }
+
+    std::vector<MapEventTranslationRecord> loadJapaneseMapEventTranslations()
+    {
+        std::vector<MapEventTranslationRecord> records;
+
+        readCatalog<5>( "ja.map-event-translation.tsv", "Map event translation", [&records]( std::array<std::string, 5> & fields ) -> const char * {
+            const bool duplicate = std::any_of( records.cbegin(), records.cend(), [&fields]( const MapEventTranslationRecord & record ) {
+                return record.fileName == fields[0] && record.sourceName == fields[1] && record.sourceDescription == fields[2] && record.sourceEventText == fields[3];
+            } );
+            if ( duplicate ) {
+                return "Duplicate";
+            }
+
+            records.push_back( { std::move( fields[0] ), std::move( fields[1] ), std::move( fields[2] ), std::move( fields[3] ), std::move( fields[4] ) } );
+            return nullptr;
+        } );
+
+        return records;
+    }
+
+    std::vector<MapObjectTranslationRecord> loadJapaneseMapObjectTranslations()
+    {
+        std::vector<MapObjectTranslationRecord> records;
+
+        readCatalog<6>( "ja.map-object-translation.tsv", "Map object translation", [&records]( std::array<std::string, 6> & fields ) -> const char * {
+            const std::optional<Maps::MapObjectTextKind> textKind = parseMapObjectTextKind( fields[3] );
+            if ( !textKind ) {
+                return "Unknown text kind in";
+            }
+
+            const bool duplicate = std::any_of( records.cbegin(), records.cend(), [&fields, textKind]( const MapObjectTranslationRecord & record ) {
+                return record.fileName == fields[0] && record.sourceName == fields[1] && record.sourceDescription == fields[2] && record.textKind == *textKind
+                       && record.sourceObjectText == fields[4];
+            } );
+            if ( duplicate ) {
+                return "Duplicate";
+            }
+
+            records.push_back( { std::move( fields[0] ), std::move( fields[1] ), std::move( fields[2] ), *textKind, std::move( fields[4] ), std::move( fields[5] ) } );
+            return nullptr;
+        } );
+
+        return records;
+    }
+
+    struct MapSphinxTranslationRecord
+    {
+        std::string fileName;
+        std::string sourceName;
+        std::string sourceDescription;
+        bool isAnswer;
+        std::string sourceText;
+        std::string translatedText;
+    };
 
     std::vector<MapEventTranslationRecord> loadJapaneseMapRumorTranslations()
     {
