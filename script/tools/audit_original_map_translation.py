@@ -235,14 +235,29 @@ def read_tsv(path: Path, expected_columns: int) -> list[list[str]]:
     return rows
 
 
-def catalog_keys(catalog_directory: Path) -> tuple[set[tuple[str, ...]], set[tuple[str, ...]], set[tuple[str, ...]]]:
+def catalog_keys(
+    catalog_directory: Path,
+) -> tuple[
+    set[tuple[str, ...]],
+    set[tuple[str, ...]],
+    set[tuple[str, ...]],
+    set[tuple[str, ...]],
+    set[tuple[str, ...]],
+    set[tuple[str, ...]],
+]:
     map_rows = read_tsv(catalog_directory / "ja.map-translation.tsv", 5)
     event_rows = read_tsv(catalog_directory / "ja.map-event-translation.tsv", 5)
     object_rows = read_tsv(catalog_directory / "ja.map-object-translation.tsv", 6)
+    rumor_rows = read_tsv(catalog_directory / "ja.map-rumor-translation.tsv", 5)
+    sphinx_rows = read_tsv(catalog_directory / "ja.map-sphinx-translation.tsv", 6)
 
     map_keys = {(row[0], row[1], row[2]) for row in map_rows}
     event_keys = {(row[0], row[1], row[2], row[3]) for row in event_rows}
     object_keys = {(row[0], row[1], row[2], row[3], row[4]) for row in object_rows}
+    rumor_keys = {(row[0], row[1], row[2], row[3]) for row in rumor_rows}
+    # An answer may have several additional answers, so only exact duplicate rows are rejected for answers.
+    sphinx_riddle_keys = {(row[0], row[1], row[2], row[4]) for row in sphinx_rows if row[3] == "sphinx-riddle"}
+    sphinx_answer_keys = {(row[0], row[1], row[2], row[4]) for row in sphinx_rows if row[3] == "sphinx-answer"}
 
     if len(map_keys) != len(map_rows):
         raise ValueError("ja.map-translation.tsv contains duplicate keys")
@@ -251,7 +266,16 @@ def catalog_keys(catalog_directory: Path) -> tuple[set[tuple[str, ...]], set[tup
     if len(object_keys) != len(object_rows):
         raise ValueError("ja.map-object-translation.tsv contains duplicate keys")
 
-    return map_keys, event_keys, object_keys
+    if len(rumor_keys) != len(rumor_rows):
+        raise ValueError("ja.map-rumor-translation.tsv contains duplicate keys")
+    if any(row[3] not in {"sphinx-riddle", "sphinx-answer"} for row in sphinx_rows):
+        raise ValueError("ja.map-sphinx-translation.tsv contains an unknown text kind")
+    if len({tuple(row) for row in sphinx_rows}) != len(sphinx_rows):
+        raise ValueError("ja.map-sphinx-translation.tsv contains duplicate rows")
+    if len(sphinx_riddle_keys) != sum(row[3] == "sphinx-riddle" for row in sphinx_rows):
+        raise ValueError("ja.map-sphinx-translation.tsv contains duplicate riddle keys")
+
+    return map_keys, event_keys, object_keys, rumor_keys, sphinx_riddle_keys, sphinx_answer_keys
 
 
 def is_translated(
@@ -260,12 +284,21 @@ def is_translated(
     map_keys: set[tuple[str, ...]],
     event_keys: set[tuple[str, ...]],
     object_keys: set[tuple[str, ...]],
+    rumor_keys: set[tuple[str, ...]],
+    sphinx_riddle_keys: set[tuple[str, ...]],
+    sphinx_answer_keys: set[tuple[str, ...]],
 ) -> bool | None:
     map_key = (identity.file_name, identity.source_name, identity.source_description)
     if entry.category in {"map-name", "map-description"}:
         return map_key in map_keys
     if entry.category in {"daily-event", "ground-event"}:
         return (*map_key, entry.source_text) in event_keys
+    if entry.category == "rumor":
+        return (*map_key, entry.source_text) in rumor_keys
+    if entry.category == "sphinx-riddle":
+        return (*map_key, entry.source_text) in sphinx_riddle_keys
+    if entry.category == "sphinx-answer":
+        return (*map_key, entry.source_text) in sphinx_answer_keys
     object_kind = OBJECT_KIND_BY_CATEGORY.get(entry.category)
     if object_kind is not None:
         return (*map_key, object_kind, entry.source_text) in object_keys
@@ -279,13 +312,15 @@ def main() -> int:
     arguments = parser.parse_args()
 
     identity, entries = extract_text_entries(arguments.map)
-    map_keys, event_keys, object_keys = catalog_keys(arguments.catalog_directory)
+    map_keys, event_keys, object_keys, rumor_keys, sphinx_riddle_keys, sphinx_answer_keys = catalog_keys(arguments.catalog_directory)
 
     coverage: Counter[str] = Counter()
     missing: list[TextEntry] = []
     unsupported: list[TextEntry] = []
     for entry in entries:
-        translated = is_translated(identity, entry, map_keys, event_keys, object_keys)
+        translated = is_translated(
+            identity, entry, map_keys, event_keys, object_keys, rumor_keys, sphinx_riddle_keys, sphinx_answer_keys
+        )
         coverage[f"{entry.category}:total"] += 1
         if translated is True:
             coverage[f"{entry.category}:translated"] += 1

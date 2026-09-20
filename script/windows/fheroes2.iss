@@ -33,6 +33,8 @@ Source: "..\..\files\lang\*.mo"; DestDir: "{app}\files\lang"
 Source: "..\..\files\lang\*.map-translation.tsv"; DestDir: "{app}\files\lang"
 Source: "..\..\files\lang\*.map-event-translation.tsv"; DestDir: "{app}\files\lang"
 Source: "..\..\files\lang\*.map-object-translation.tsv"; DestDir: "{app}\files\lang"
+Source: "..\..\files\lang\*.map-rumor-translation.tsv"; DestDir: "{app}\files\lang"
+Source: "..\..\files\lang\*.map-sphinx-translation.tsv"; DestDir: "{app}\files\lang"
 Source: "..\..\files\timidity\*"; DestDir: "{app}\files\timidity"; Flags: recursesubdirs
 Source: "..\..\maps\*.fh2m"; DestDir: "{app}\maps"
 Source: "..\demo\*.bat"; DestDir: "{app}"

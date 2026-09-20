@@ -3561,17 +3561,18 @@ namespace
                 return Outcome::Ignore;
             }
 
-            const auto language = Settings::Get().getCurrentMapInfo().getSupportedLanguage();
+            const Maps::FileInfo & mapInfo = Settings::Get().getCurrentMapInfo();
+            const Maps::MapSphinxRiddleForDisplay riddleText = Maps::resolveMapSphinxRiddleForDisplay( mapInfo, riddle->riddle );
 
             fheroes2::MultiFontText questionText;
             questionText.add( { _( "The Sphinx asks you the following riddle:\n\n'" ), fheroes2::FontType::normalWhite() } );
-            questionText.add( { riddle->riddle, fheroes2::FontType::normalWhite(), language } );
+            questionText.add( { riddleText.text, fheroes2::FontType::normalWhite(), riddleText.language } );
             questionText.add( { _( "sphinx|'\n\nYour answer?" ), fheroes2::FontType::normalWhite() } );
 
             std::string answer;
             Dialog::inputString( fheroes2::Text{ title, fheroes2::FontType::normalYellow() }, questionText, answer, 0, false, {} );
 
-            if ( !riddle->isCorrectAnswer( answer ) ) {
+            if ( !riddle->isCorrectAnswer( answer ) && !Maps::isAdditionalSphinxAnswerAccepted( mapInfo, riddle->answers, answer ) ) {
                 fheroes2::showStandardTextMessage(
                     title,
                     _( "\"You guessed incorrectly,\" the Sphinx says, smiling. The Sphinx swipes at you with a paw, knocking you to the ground. Another blow makes the world go black, and you know no more." ),

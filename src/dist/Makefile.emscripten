@@ -35,6 +35,8 @@ LDFLAGS := $(LDFLAGS) \
 	$(patsubst %, --preload-file ../%@/files/lang/, $(wildcard ../../files/lang/*.map-translation.tsv)) \
 	$(patsubst %, --preload-file ../%@/files/lang/, $(wildcard ../../files/lang/*.map-event-translation.tsv)) \
 	$(patsubst %, --preload-file ../%@/files/lang/, $(wildcard ../../files/lang/*.map-object-translation.tsv)) \
+	$(patsubst %, --preload-file ../%@/files/lang/, $(wildcard ../../files/lang/*.map-rumor-translation.tsv)) \
+	$(patsubst %, --preload-file ../%@/files/lang/, $(wildcard ../../files/lang/*.map-sphinx-translation.tsv)) \
 	--preload-file ../../../files/timidity/timidity.cfg@/files/timidity/ \
 	$(patsubst %, --preload-file ../%@/files/timidity/instruments/, $(wildcard ../../files/timidity/instruments/*.pat)) \
 	$(patsubst %, --preload-file ../%@/maps/, $(wildcard ../../maps/*.fh2m)) \

@@ -11,6 +11,7 @@
 #pragma once
 
 #include <cstdint>
+#include <list>
 #include <optional>
 #include <string>
 
@@ -47,6 +48,18 @@ namespace Maps
         std::optional<fheroes2::SupportedLanguage> language;
     };
 
+    struct MapRumorTextForDisplay
+    {
+        const std::string & text;
+        std::optional<fheroes2::SupportedLanguage> language;
+    };
+
+    struct MapSphinxRiddleForDisplay
+    {
+        const std::string & text;
+        std::optional<fheroes2::SupportedLanguage> language;
+    };
+
     // The canonical FileInfo strings are deliberately not replaced because persistence and map identity depend on them.
     MapTextForDisplay resolveMapTextForDisplay( const FileInfo & info );
 
@@ -55,4 +68,15 @@ namespace Maps
 
     // The canonical object text is deliberately not replaced because custom names and messages are persisted in save files.
     MapObjectTextForDisplay resolveMapObjectTextForDisplay( const FileInfo & info, MapObjectTextKind textKind, const std::string & sourceObjectText );
+
+    // The canonical custom rumor is deliberately not replaced because it is persisted in save files.
+    MapRumorTextForDisplay resolveMapRumorTextForDisplay( const FileInfo & info, const std::string & sourceRumorText );
+
+    // The canonical riddle is deliberately not replaced because it is persisted in save files.
+    MapSphinxRiddleForDisplay resolveMapSphinxRiddleForDisplay( const FileInfo & info, const std::string & sourceRiddleText );
+
+    // Returns true if the input matches an additional answer registered for one of the canonical answers. The canonical answers are not replaced.
+    // Additional answers are compared for equality after trimming whitespace and unifying full-width and half-width ASCII characters, and only while
+    // the Japanese UI language is active. The caller is still responsible for checking the canonical answers.
+    bool isAdditionalSphinxAnswerAccepted( const FileInfo & info, const std::list<std::string> & sourceAnswers, const std::string & input );
 }
