@@ -133,6 +133,16 @@ namespace
         std::string translatedObjectText;
     };
 
+    struct MapSphinxTranslationRecord
+    {
+        std::string fileName;
+        std::string sourceName;
+        std::string sourceDescription;
+        bool isAnswer;
+        std::string sourceText;
+        std::string translatedText;
+    };
+
     std::optional<Maps::MapObjectTextKind> parseMapObjectTextKind( const std::string & value )
     {
         if ( value == "castle-name" ) {
@@ -213,16 +223,6 @@ namespace
 
         return records;
     }
-
-    struct MapSphinxTranslationRecord
-    {
-        std::string fileName;
-        std::string sourceName;
-        std::string sourceDescription;
-        bool isAnswer;
-        std::string sourceText;
-        std::string translatedText;
-    };
 
     std::vector<MapEventTranslationRecord> loadJapaneseMapRumorTranslations()
     {
