@@ -344,7 +344,19 @@ def main() -> int:
             for entry in uncovered_entries:
                 print(f"- {entry.category} {entry.location}: {entry.source_text}")
 
-    return 1 if missing or unsupported else 0
+    # A catalog row for this map that matches none of the map's texts is never used at runtime, for example because of a misspelled source text.
+    map_key = (identity.file_name, identity.source_name, identity.source_description)
+    orphans: list[tuple[str, str]] = []
+    for category, keys in (("rumor", rumor_keys), ("sphinx-riddle", sphinx_riddle_keys), ("sphinx-answer", sphinx_answer_keys)):
+        source_texts = {entry.source_text for entry in entries if entry.category == category}
+        orphans.extend((category, key[3]) for key in sorted(keys) if key[:3] == map_key and key[3] not in source_texts)
+
+    if orphans:
+        print("\nUnused catalog rows (no matching text in this map):")
+        for category, source_text in orphans:
+            print(f"- {category}: {source_text}")
+
+    return 1 if missing or unsupported or orphans else 0
 
 
 if __name__ == "__main__":

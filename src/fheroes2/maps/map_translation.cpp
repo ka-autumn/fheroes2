@@ -291,6 +291,7 @@ namespace
         std::string translatedText;
     };
 
+    // The loaders for the map, event and object catalogs above predate this helper and repeat the same reading logic.
     // Reads a Japanese sidecar catalog and passes every well-formed row to `addRecord`, which returns nullptr to accept the row
     // or the reason why the row must be rejected.
     template<size_t fieldCount, typename AddRecord>
