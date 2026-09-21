@@ -80,3 +80,13 @@ MOUNT.MP2	Mountain king	It's windy at the top.  Defend, Divide, and Conquer.	sig
 SEASONS.MX2	Seasons Change	None of the four leaders like being stuck in a land that has only one season. 	sign-message	Slippery when wet.	注意！ 濡れると滑りやすい。
 SKIRMISH.MX2	Skirmish	You will clash quickly on this small head-to-head map, so stay on your toes!	sign-message	Keep Off The Grass!	芝生立入禁止！
 WARIORK.MP2	Warrior Knight	Pick one of four Knights in this large and inhospitable land.	sign-message	Lost Island.	失われた島
+DEATHG.MP2	Deathgate	Capture the necromancer's dreaded castle "Death Gate" and free the land from the undead plague.	castle-name	DeathGate	デスゲート
+KINGDTH.MX2	King of Death	Find and destroy the evil beings who rule the wastelands.	castle-name	Sherman	シャーマン
+KINGDTH.MX2	King of Death	Find and destroy the evil beings who rule the wastelands.	hero-name	Spector	スペクター
+VALLEY.MX2	Valley of Death	You have six months to destroy the Necromancer Stronghold in the heart of the valley.	castle-name	Vulcania	ヴァルカニア
+DRAGONW.MP2	Dragon Wars	Three Warlocks in the land of Dragons. Lose thy home and all will be lost. Conquer thy enemies and the land shall forever be yours!	bottle-message	Dragons Everywhere!	ドラゴンだらけだ！
+DRAGONW.MP2	Dragon Wars	Three Warlocks in the land of Dragons. Lose thy home and all will be lost. Conquer thy enemies and the land shall forever be yours!	sign-message	Stick to the road!	道から外れるな！
+FULLHSE.MX2	Full House	Start with five castles!  How could you lose!?  Oh yeah, everyone else starts with five, too.	sign-message	No Trespassing	立入禁止
+FULLHSE.MX2	Full House	Start with five castles!  How could you lose!?  Oh yeah, everyone else starts with five, too.	sign-message	No Fishing!	釣り禁止！
+HOTSPOT.MP2	Hot Spot	When you're ready, take the teleport to the Island's Hot Spot!	sign-message	Beyond the door, there be Dragons. BEWARE!	扉の向こうにはドラゴンがいる。気をつけろ！
+VALLEY.MX2	Valley of Death	You have six months to destroy the Necromancer Stronghold in the heart of the valley.	bottle-message	The edge of the world is your edge.  But prepare to be prepared.	世界の果ては君の強みだ。だが、備えに備えよ。
