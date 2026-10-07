@@ -336,7 +336,7 @@ namespace
         }
     }
 
-    void showSignMessage( const int32_t tileIndex )
+    void showSignMessage( const int32_t tileIndex, const MP2::MapObjectType objectType )
     {
         const MapSign * sign = dynamic_cast<MapSign *>( world.GetMapObject( tileIndex ) );
         if ( sign == nullptr ) {
@@ -344,7 +344,6 @@ namespace
             return;
         }
 
-        const MP2::MapObjectType objectType = world.getTile( tileIndex ).getMainObjectType();
         const Maps::MapObjectTextKind textKind
             = objectType == MP2::OBJ_BOTTLE ? Maps::MapObjectTextKind::BottleMessage : Maps::MapObjectTextKind::SignMessage;
         const Maps::MapObjectTextForDisplay message
@@ -763,7 +762,7 @@ namespace
         Maps::Tile & tile = world.getTile( dst_index );
 
         if ( objectType == MP2::OBJ_BOTTLE ) {
-            showSignMessage( dst_index );
+            showSignMessage( dst_index, objectType );
         }
         else {
             const Funds funds = getFundsFromTile( tile );
@@ -1254,7 +1253,7 @@ namespace
         (void)hero;
 #endif
 
-        showSignMessage( tileIndex );
+        showSignMessage( tileIndex, MP2::OBJ_SIGN );
     }
 
     void ActionToMagicWell( Heroes & hero, int32_t dst_index )

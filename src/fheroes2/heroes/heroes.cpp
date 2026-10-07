@@ -1889,7 +1889,7 @@ void Heroes::_levelUpSecondarySkill( const HeroSeedsForLevelUp & seeds, const in
     }
     else {
         AudioManager::PlaySound( M82::NWHEROLV );
-        const int result = Dialog::LevelUpSelectSkill( _name, primary, sec1, sec2, *this );
+        const int result = Dialog::LevelUpSelectSkill( GetName(), primary, sec1, sec2, *this );
 
         if ( Skill::Secondary::UNKNOWN != result ) {
             selected = ( result == sec2.Skill() ) ? sec2 : sec1;
