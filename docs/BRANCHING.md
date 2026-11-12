@@ -124,11 +124,13 @@ git diff master ja-engine -- <提出するファイル> | git apply
   あることを`git diff`で確認した。
 * 翻訳データが存在しなくてもビルドできるよう、`ja-engine`のビルド設定を修正した。
 * ADR-0001の見出しを、ADR-0002と同じ日本語の見出しへ揃えた。
+* リモート`upstream`を追加し、本家の2026-11-09時点までの更新を`master`、`ja-engine`、`ja-localized`の順に
+  取り込んだ。衝突はなかった。
+* `ja-engine`と`ja-localized`をビルドし、`ja-localized`で起動と日本語の表示、マップ翻訳の表示を確認した。
+* `master`、`ja-engine`、`ja-localized`を`origin`へpushした。
 
 残りの手順:
 
-1. `ja-localized`をビルドし、起動と日本語の表示、マップ翻訳の表示を確認する。
-2. リモート`upstream`を追加し、「本家の更新を取り込む」を行う。
-3. `ja-engine`と`ja-localized`を`origin`へpushする。
-4. 別の作業ツリーが`feature/standard-map-translation-sidecar`を開いているため、`ja-localized`へ切り替える。
+1. 取り込んだ本家の文言変更へ`ja.po`を追従させる。
+2. 別の作業ツリーが`feature/standard-map-translation-sidecar`を開いているため、`ja-localized`へ切り替える。
    確認が済んだ後、元のブランチと`backup/*`を削除する。
