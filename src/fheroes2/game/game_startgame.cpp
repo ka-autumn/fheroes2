@@ -67,6 +67,7 @@
 #include "localevent.h"
 #include "logging.h"
 #include "m82.h"
+#include "map_translation.h"
 #include "maps.h"
 #include "maps_fileinfo.h"
 #include "maps_tiles.h"
@@ -1037,15 +1038,16 @@ fheroes2::GameMode Interface::AdventureMap::HumanTurn( const bool isLoadedFromSa
         }
 
         myKingdom.ActionNewDayResourceUpdate( []( const EventDate & event, const Funds & funds ) {
-            const auto & language = Settings::Get().getCurrentMapInfo().getSupportedLanguage();
+            const Maps::FileInfo & mapInfo = Settings::Get().getCurrentMapInfo();
+            const Maps::MapEventTextForDisplay eventText = Maps::resolveMapEventTextForDisplay( mapInfo, event.message );
 
             if ( funds.GetValidItemsCount() ) {
-                fheroes2::showResourceMessage( fheroes2::Text( event.title, fheroes2::FontType::normalYellow(), language ),
-                                               fheroes2::Text( event.message, fheroes2::FontType::normalWhite(), language ), Dialog::OK, funds );
+                fheroes2::showResourceMessage( fheroes2::Text( event.title, fheroes2::FontType::normalYellow(), eventText.language ),
+                                               fheroes2::Text( eventText.text, fheroes2::FontType::normalWhite(), eventText.language ), Dialog::OK, funds );
             }
             else if ( !event.message.empty() ) {
-                const fheroes2::Text header( event.title, fheroes2::FontType::normalYellow(), language );
-                const fheroes2::Text body( event.message, fheroes2::FontType::normalWhite(), language );
+                const fheroes2::Text header( event.title, fheroes2::FontType::normalYellow(), eventText.language );
+                const fheroes2::Text body( eventText.text, fheroes2::FontType::normalWhite(), eventText.language );
                 fheroes2::showMessage( header, body, Dialog::OK );
             }
         } );

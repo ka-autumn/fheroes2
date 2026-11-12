@@ -46,6 +46,7 @@
 #include "ground.h"
 #include "heroes.h"
 #include "logging.h"
+#include "map_translation.h"
 #include "maps_fileinfo.h"
 #include "maps_objects.h"
 #include "maps_text.h"
@@ -699,7 +700,9 @@ fheroes2::LocalizedString World::getCurrentRumor() const
     }
 
     assert( chosenRumorId >= standardRumorCount && chosenRumorId < totalRumorCount );
-    return { _customRumors[chosenRumorId - standardRumorCount], Settings::Get().getCurrentMapInfo().getSupportedLanguage() };
+    const Maps::MapRumorTextForDisplay rumor
+        = Maps::resolveMapRumorTextForDisplay( Settings::Get().getCurrentMapInfo(), _customRumors[chosenRumorId - standardRumorCount] );
+    return { rumor.text, rumor.language };
 }
 
 MapsIndexes World::GetTeleportEndPoints( const int32_t index ) const

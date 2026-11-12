@@ -122,6 +122,11 @@ tasks.register('copyTimidity', Copy) {
 tasks.register('copyTranslations', Copy) {
     from('../../files/lang') {
         include '*.mo'
+        include '*.map-translation.tsv'
+        include '*.map-event-translation.tsv'
+        include '*.map-object-translation.tsv'
+        include '*.map-rumor-translation.tsv'
+        include '*.map-sphinx-translation.tsv'
     }
     into 'src/main/assets/files/lang'
 }

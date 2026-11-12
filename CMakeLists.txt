@@ -135,7 +135,7 @@ if(MACOS_APP_BUNDLE)
 		app_bundle_translations
 		ALL
 		COMMAND mkdir -p ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/${PROJECT_NAME}.app/Contents/Resources/translations
-		COMMAND cp *.mo ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/${PROJECT_NAME}.app/Contents/Resources/translations
+		COMMAND cp *.mo *.map-translation.tsv *.map-event-translation.tsv *.map-object-translation.tsv *.map-rumor-translation.tsv *.map-sphinx-translation.tsv ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/${PROJECT_NAME}.app/Contents/Resources/translations
 		DEPENDS translations
 		WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}/files/lang
 		)
@@ -242,6 +242,11 @@ if(NOT MACOS_APP_BUNDLE)
 			DESTINATION ${FHEROES2_DATA}/files/lang
 			FILES_MATCHING
 			PATTERN *.mo
+			PATTERN *.map-translation.tsv
+			PATTERN *.map-event-translation.tsv
+			PATTERN *.map-object-translation.tsv
+			PATTERN *.map-rumor-translation.tsv
+			PATTERN *.map-sphinx-translation.tsv
 			)
 		install(
 			FILES script/demo/download_demo_version.sh

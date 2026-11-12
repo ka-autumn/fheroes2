@@ -45,6 +45,7 @@
 #include "interface_list.h"
 #include "localevent.h"
 #include "logging.h"
+#include "map_translation.h"
 #include "maps_fileinfo.h"
 #include "math_base.h"
 #include "screen.h"
@@ -135,11 +136,12 @@ namespace
         void ActionListPressRight( Maps::FileInfo & info ) override
         {
             const fheroes2::Text header( System::GetStem( info.filename ), fheroes2::FontType::normalYellow() );
+            const Maps::MapTextForDisplay mapText = Maps::resolveMapTextForDisplay( info );
 
             fheroes2::MultiFontText body;
 
             body.add( { _( "Map: " ), fheroes2::FontType::normalYellow() } );
-            body.add( { info.name, fheroes2::FontType::normalWhite(), info.getSupportedLanguage() } );
+            body.add( { mapText.name, fheroes2::FontType::normalWhite(), mapText.language } );
 
             if ( info.worldDay > 0 || info.worldWeek > 0 || info.worldMonth > 0 ) {
                 body.add( { _( "\n\nMonth: " ), fheroes2::FontType::normalYellow() } );
