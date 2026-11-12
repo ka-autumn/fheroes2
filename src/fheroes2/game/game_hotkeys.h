@@ -44,6 +44,7 @@ namespace Game
         DEFAULT_RIGHT,
         DEFAULT_UP,
         DEFAULT_DOWN,
+        DEFAULT_DELETE,
 
         GLOBAL_TOGGLE_FULLSCREEN,
         GLOBAL_TOGGLE_TEXT_SUPPORT_MODE,
@@ -227,5 +228,6 @@ namespace Game
 
     void HotKeySave();
 
+    // The returned string is not translated.
     const char * getHotKeyCategoryName( const HotKeyCategory category );
 }

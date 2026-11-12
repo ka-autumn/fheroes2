@@ -127,7 +127,7 @@ namespace
         { gettext_noop( "Identify Hero" ), 3, 0, 0, 45, 0, gettext_noop( "Allows the caster to view detailed information on enemy Heroes." ) },
         { gettext_noop( "Summon Boat" ), 5, 0, 0, 46, 0,
           gettext_noop(
-              "Summons the nearest unoccupied, friendly boat to an adjacent shore location. A friendly boat is one which you just built or were the most recent player to occupy." ) },
+              "Summons the nearest unoccupied and either friendly or neutral boat to an adjacent shore location. A friendly boat is one which you just built or were the most recent player to occupy. A neutral boat is one which no player has occupied yet." ) },
         { gettext_noop( "Dimension Door" ), 10, 225, 69, 47, 0, gettext_noop( "Allows the caster to magically transport to a nearby location." ) },
         { gettext_noop( "Town Gate" ), 10, 225, 69, 48, 0,
           gettext_noop( "Returns the caster to the nearest town or castle currently owned. This spell cannot be cast if the hero is already in a town or a castle." ) },
@@ -779,6 +779,34 @@ int32_t Spell::CalculateDimensionDoorDistance()
 {
     // original h2 variant
     return 14;
+}
+
+uint32_t Spell::getTotalSpellsPerLevel( const int32_t level )
+{
+    static const std::array<uint32_t, 5> spellCount = []() {
+        std::array<uint32_t, 5> counts = { 0 };
+
+        for ( int32_t i = NONE; i < SPELL_COUNT; ++i ) {
+            const auto spell = Spell( i );
+            if ( !spell.isValid() ) {
+                continue;
+            }
+
+            const int32_t spellLevel = spell.Level();
+            if ( spellLevel == 0 ) {
+                continue;
+            }
+
+            assert( spellLevel >= 1 && spellLevel <= 5 );
+
+            ++counts[spellLevel - 1];
+        }
+
+        return counts;
+    }();
+
+    assert( level >= 1 && level <= 5 );
+    return spellCount[level - 1];
 }
 
 OStreamBase & operator<<( OStreamBase & stream, const Spell & spell )
