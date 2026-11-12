@@ -84,6 +84,16 @@ endif(ENABLE_CJK_TEXT)
 #
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
 
+#
+# Map translation catalogs are optional data: the build must work
+# no matter which languages provide them, including none at all
+#
+file(
+	GLOB FHEROES2_MAP_TRANSLATION_CATALOGS
+	CONFIGURE_DEPENDS
+	${CMAKE_SOURCE_DIR}/files/lang/*.map-*translation.tsv
+	)
+
 add_subdirectory(src)
 
 set(FHEROES2_FONT_FILES)
@@ -135,7 +145,7 @@ if(MACOS_APP_BUNDLE)
 		app_bundle_translations
 		ALL
 		COMMAND mkdir -p ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/${PROJECT_NAME}.app/Contents/Resources/translations
-		COMMAND cp *.mo *.map-translation.tsv *.map-event-translation.tsv *.map-object-translation.tsv *.map-rumor-translation.tsv *.map-sphinx-translation.tsv ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/${PROJECT_NAME}.app/Contents/Resources/translations
+		COMMAND cp *.mo ${FHEROES2_MAP_TRANSLATION_CATALOGS} ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/${PROJECT_NAME}.app/Contents/Resources/translations
 		DEPENDS translations
 		WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}/files/lang
 		)
