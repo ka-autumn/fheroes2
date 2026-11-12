@@ -30,11 +30,11 @@ Source: "..\..\changelog.txt"; DestDir: "{app}"
 Source: "..\..\docs\README.txt"; DestDir: "{app}"
 Source: "..\..\files\data\*.h2d"; DestDir: "{app}\files\data"
 Source: "..\..\files\lang\*.mo"; DestDir: "{app}\files\lang"
-Source: "..\..\files\lang\*.map-translation.tsv"; DestDir: "{app}\files\lang"
-Source: "..\..\files\lang\*.map-event-translation.tsv"; DestDir: "{app}\files\lang"
-Source: "..\..\files\lang\*.map-object-translation.tsv"; DestDir: "{app}\files\lang"
-Source: "..\..\files\lang\*.map-rumor-translation.tsv"; DestDir: "{app}\files\lang"
-Source: "..\..\files\lang\*.map-sphinx-translation.tsv"; DestDir: "{app}\files\lang"
+Source: "..\..\files\lang\*.map-translation.tsv"; DestDir: "{app}\files\lang"; Flags: skipifsourcedoesntexist
+Source: "..\..\files\lang\*.map-event-translation.tsv"; DestDir: "{app}\files\lang"; Flags: skipifsourcedoesntexist
+Source: "..\..\files\lang\*.map-object-translation.tsv"; DestDir: "{app}\files\lang"; Flags: skipifsourcedoesntexist
+Source: "..\..\files\lang\*.map-rumor-translation.tsv"; DestDir: "{app}\files\lang"; Flags: skipifsourcedoesntexist
+Source: "..\..\files\lang\*.map-sphinx-translation.tsv"; DestDir: "{app}\files\lang"; Flags: skipifsourcedoesntexist
 Source: "..\..\files\timidity\*"; DestDir: "{app}\files\timidity"; Flags: recursesubdirs
 Source: "..\..\maps\*.fh2m"; DestDir: "{app}\maps"
 Source: "..\demo\*.bat"; DestDir: "{app}"

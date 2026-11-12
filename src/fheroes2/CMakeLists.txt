@@ -113,27 +113,15 @@ target_link_libraries(
 	${USE_SDL_VERSION}::${USE_SDL_VERSION}main
 	)
 
-if(NOT MACOS_APP_BUNDLE)
+if(NOT MACOS_APP_BUNDLE AND FHEROES2_MAP_TRANSLATION_CATALOGS)
 	add_custom_command(
 		TARGET fheroes2 POST_BUILD
 		COMMAND ${CMAKE_COMMAND} -E make_directory "${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/files/lang"
 		COMMAND ${CMAKE_COMMAND} -E copy_if_different
-		"${PROJECT_SOURCE_DIR}/files/lang/ja.map-translation.tsv"
-		"${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/files/lang/ja.map-translation.tsv"
-		COMMAND ${CMAKE_COMMAND} -E copy_if_different
-		"${PROJECT_SOURCE_DIR}/files/lang/ja.map-event-translation.tsv"
-		"${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/files/lang/ja.map-event-translation.tsv"
-		COMMAND ${CMAKE_COMMAND} -E copy_if_different
-		"${PROJECT_SOURCE_DIR}/files/lang/ja.map-object-translation.tsv"
-		"${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/files/lang/ja.map-object-translation.tsv"
-		COMMAND ${CMAKE_COMMAND} -E copy_if_different
-		"${PROJECT_SOURCE_DIR}/files/lang/ja.map-rumor-translation.tsv"
-		"${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/files/lang/ja.map-rumor-translation.tsv"
-		COMMAND ${CMAKE_COMMAND} -E copy_if_different
-		"${PROJECT_SOURCE_DIR}/files/lang/ja.map-sphinx-translation.tsv"
-		"${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/files/lang/ja.map-sphinx-translation.tsv"
+		${FHEROES2_MAP_TRANSLATION_CATALOGS}
+		"${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/files/lang"
 		)
-endif(NOT MACOS_APP_BUNDLE)
+endif(NOT MACOS_APP_BUNDLE AND FHEROES2_MAP_TRANSLATION_CATALOGS)
 
 if(FHEROES2_CJK_TEXT_AVAILABLE)
 	target_compile_definitions(fheroes2 PRIVATE WITH_CJK_TEXT)
