@@ -200,10 +200,8 @@ msgstr ""
 
 msgid ""
 "AUTO\n"
-"PLAY-TEST"
-msgstr ""
-"AUTO\n"
-"PLAY-TEST"
+"PLAYTEST"
+msgstr "AUTO\nPLAYTEST"
 
 msgid ""
 "NEW\n"
@@ -1046,6 +1044,11 @@ msgstr "マウスカーソルがあるマスを示すハイライトのオンと
 
 msgid "Toggle showing the movement area of a highlighted creature on or off."
 msgstr "カーソルを合わせたユニットの移動エリア表示のオンとオフを切り替えます。"
+
+msgid ""
+"Toggle the hit points bar above each troop counter. The bar shows the "
+"remaining hit points of the top creature in the stack."
+msgstr "各ユニットの数の表示の上に、HPバーを表示するかどうかを切り替えます。バーは、ユニットのうち先頭の1体の残りHPを示します。"
 
 msgid ""
 "Through eagle-eyed observation, %{name} is able to learn the magic spell "
@@ -2838,9 +2841,6 @@ msgstr ""
 "%{monster}全%{offer}体が黄金%{gold}ポイントで部隊に加わります。\n"
 "受け入れますか？"
 
-msgid "(Rate: %{percent})"
-msgstr "(レート: %{percent})"
-
 msgid "off"
 msgstr "オフ"
 
@@ -3080,6 +3080,9 @@ msgstr "V-Syncを有効にすると、一部のモニターで発生するちら
 msgid "Show extra information such as FPS and current time."
 msgstr "FPSや現在時刻などの追加情報を表示します。"
 
+msgid "hotkeys|All Categories"
+msgstr "すべてのカテゴリ"
+
 msgid "Hotkey: "
 msgstr "ホットキー: "
 
@@ -3091,6 +3094,12 @@ msgstr "イベント： "
 
 msgid "Hot Keys:"
 msgstr "ホットキー:"
+
+msgid "Click here to select:\n"
+msgstr "次のカテゴリのホットキーを表示します：\n"
+
+msgid "Select hotkeys category"
+msgstr "ホットキーのカテゴリ選択"
 
 msgid "Hide"
 msgstr "非表示"
@@ -3174,6 +3183,25 @@ msgid "n/a"
 msgstr "該当なし"
 
 msgid ""
+"The Trading Post provides exchange rates equivalent to %{count} marketplaces."
+msgstr "交易所では、市場を%{count}つ所有している場合と同じ交換レートで取引できます。"
+
+msgid ""
+"You currently control 1 marketplace. The more marketplaces you control, the "
+"better the exchange rate."
+msgstr "現在、市場を1つ所有しています。市場を増やせば、それだけ交換レートが良くなります。"
+
+msgid ""
+"You currently control enough marketplaces that the exchange rate has peaked. "
+"Controlling additional marketplaces will not improve the exchange rate."
+msgstr "所有している市場の数が上限に達し、交換レートは最も良くなっています。これ以上市場を増やしても、交換レートは良くなりません。"
+
+msgid ""
+"You currently control %{count} marketplaces. The more marketplaces you "
+"control, the better the exchange rate."
+msgstr "現在、市場を%{count}つ所有しています。市場を増やせば、それだけ交換レートが良くなります。"
+
+msgid ""
 "Please inspect our fine wares. If you feel like offering a trade, click on "
 "the items you wish to trade with and for."
 msgstr "どれもいい品ばかりやで。\nじっくり選んでや。気に入ったのがあったら、その品とその代価としてあんたが差し出す品をクリックしたってや。"
@@ -3203,6 +3231,9 @@ msgstr "あなたの資源"
 
 msgid "Available Trades"
 msgstr "交換する資源"
+
+msgid "Exchange Rate"
+msgstr "交換レート"
 
 msgid "guarded by %{count} %{monster}"
 msgstr "%{count} %{monster} によって守られています"
@@ -4143,9 +4174,6 @@ msgid ""
 "the current map will be lost.)"
 msgstr "エディタを終了してマップを開始しますか？現在のマップへの未保存の変更は失われます。"
 
-msgid "Create a new map from scratch."
-msgstr "新しい空のマップを作成します。"
-
 msgid "New Map"
 msgstr "新しいマップ"
 
@@ -4241,6 +4269,9 @@ msgstr "マップの保存先："
 
 msgid "Failed to save the map."
 msgstr "マップの保存に失敗しました。"
+
+msgid "The selected object has been moved to the top layer."
+msgstr "選択したオブジェクトを最前面に移動しました。"
 
 msgid "Unsaved Changes"
 msgstr "未保存の変更"
@@ -4947,14 +4978,26 @@ msgstr "マップを自動テストプレイ用に準備できませんでした
 msgid "autoPlaytest|Number of playthroughs:"
 msgstr "プレイ回数:"
 
+msgid "Set the number of playthroughs."
+msgstr "プレイ回数を設定します。"
+
 msgid "autoPlaytest|Max days per playthrough:"
 msgstr "1プレイあたりの最大日数:"
+
+msgid "Set the maximum number of days that each playthrough is run for."
+msgstr "1回のプレイで進める最大日数を設定します。"
+
+msgid "autoPlaytest|Last day of playthrough:"
+msgstr "プレイの最終日:"
 
 msgid "autoPlaytest|Animation"
 msgstr "アニメーション"
 
 msgid "autoPlaytest|Animation speed:"
 msgstr "アニメーション速度:"
+
+msgid "Set animation speed during playthrough."
+msgstr "プレイ中のアニメーション速度を設定します。"
 
 msgid "autoPlaytest|Sound Effects"
 msgstr "効果音"
@@ -4964,6 +5007,12 @@ msgstr "自動テストプレイ中に画面を左クリックすると、中断
 
 msgid "Click to run an automated map playtest."
 msgstr "マップの自動テストプレイを実行します。"
+
+msgid "Toggle animation during playthroughs."
+msgstr "プレイ中のアニメーションのオンとオフを切り替えます。"
+
+msgid "Toggle sound effects during playthroughs."
+msgstr "プレイ中の効果音のオンとオフを切り替えます。"
 
 msgid ""
 "Auto playtest\n"
@@ -4980,32 +5029,35 @@ msgstr "自動テストプレイを中断しますか? 中断は次のターン�
 msgid "and more..."
 msgstr "他…"
 
-msgid "Easy"
-msgstr "簡単"
+msgid "campaignDifficulty|Decreased"
+msgstr "やや易しい"
+
+msgid "campaignDifficulty|Default"
+msgstr "標準"
+
+msgid "campaignDifficulty|Increased"
+msgstr "やや難しい"
+
+msgid ""
+"Choose this difficulty to experience the game's story with decreased "
+"challenge. The AI will be weaker than at the default difficulty."
+msgstr "難易度を抑えてゲームの物語を楽しみたい場合に選択します。AIは「標準」より弱くなります。"
+
+msgid ""
+"Choose this difficulty to experience the campaign as close to the original "
+"design as possible with the fheroes2 AI."
+msgstr "fheroes2のAIで、できるだけ本来の想定に近い形でキャンペーンをプレイする場合に選択します。"
+
+msgid ""
+"Choose this difficulty if you want more of a challenge. The AI will be "
+"stronger than at the default difficulty."
+msgstr "より難しい戦いを楽しみたい場合に選択します。AIは「標準」より強くなります。"
 
 msgid "Normal"
 msgstr "普通"
 
-msgid "Hard"
-msgstr "難しい"
-
 msgid "Campaign Difficulty"
 msgstr "キャンペーンの難易度"
-
-msgid ""
-"Choose this difficulty to experience the game's story with less challenge. "
-"The AI will be weaker than at Normal difficulty."
-msgstr "難易度を抑えてゲームの物語を楽しみたい場合に選択します。AIは「普通」より弱くなります。"
-
-msgid ""
-"Choose this difficulty to experience the campaign as per the original "
-"design."
-msgstr "本来の想定どおりにキャンペーンをプレイする場合に選択します。"
-
-msgid ""
-"Choose this difficulty if you want more challenge. The AI will be stronger "
-"than at Normal difficulty."
-msgstr "より難しい戦いを楽しみたい場合に選択します。AIは「普通」より強くなります。"
 
 msgid ""
 "Congratulations!\n"
@@ -5280,6 +5332,9 @@ msgstr "汎用の上操作"
 
 msgid "hotkey|default down"
 msgstr "汎用の下操作"
+
+msgid "hotkey|default delete"
+msgstr "汎用の削除操作"
 
 msgid "hotkey|toggle fullscreen"
 msgstr "全画面表示の切り替え"
@@ -6374,7 +6429,10 @@ msgid "Click to switch between keyboard types."
 msgstr "文字入力と数字・記号入力を切り替えます。"
 
 msgid "Keyboard|SPACE"
-msgstr "空白"
+msgstr "スペース"
+
+msgid "Keyboard|ENTER"
+msgstr "エンター"
 
 msgid "Change language"
 msgstr "言語の変更"
@@ -11096,8 +11154,10 @@ msgstr "対象の味方ユニットがドラゴンに攻撃する際の攻撃技
 msgid "Blood Lust"
 msgstr "アタックパワーアップ"
 
-msgid "Increases a unit's attack skill."
-msgstr "対象の味方ユニットの攻撃技能を上昇させます。"
+msgid ""
+"Increases a unit's attack skill by 3. The effect lasts for 3 rounds of "
+"combat, regardless of spell power."
+msgstr "対象の味方ユニットの攻撃技能を3上昇させます。効果は魔力に関係なく3ラウンド続きます。"
 
 msgid "Animate Dead"
 msgstr "アンデッド再生"
@@ -11203,10 +11263,11 @@ msgid "Summon Boat"
 msgstr "船召喚"
 
 msgid ""
-"Summons the nearest unoccupied, friendly boat to an adjacent shore location."
-" A friendly boat is one which you just built or were the most recent player "
-"to occupy."
-msgstr "最も近くにある誰も乗っていない友好的なボートを隣接する海岸に呼び出します。友好的なボートとは、あなたが建造したばかりのボート、またはあなたが直近で乗船したボートを指します。"
+"Summons the nearest unoccupied and either friendly or neutral boat to an "
+"adjacent shore location. A friendly boat is one which you just built or were "
+"the most recent player to occupy. A neutral boat is one which no player has "
+"occupied yet."
+msgstr "最も近くにある誰も乗っていない友好的または中立のボートを、隣接する海岸に呼び出します。友好的なボートとは、あなたが建造したばかりのボート、またはあなたが直近で乗船したボートを指します。中立のボートとは、まだどのプレイヤーも乗船していないボートを指します。"
 
 msgid "Allows the caster to magically transport to a nearby location."
 msgstr "近くの場所に移動できます。"
