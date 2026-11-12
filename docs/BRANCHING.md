@@ -127,10 +127,10 @@ git diff master ja-engine -- <提出するファイル> | git apply
 * リモート`upstream`を追加し、本家の2026-11-09時点までの更新を`master`、`ja-engine`、`ja-localized`の順に
   取り込んだ。衝突はなかった。
 * `ja-engine`と`ja-localized`をビルドし、`ja-localized`で起動と日本語の表示、マップ翻訳の表示を確認した。
-* `master`、`ja-engine`、`ja-localized`を`origin`へpushした。
 
 残りの手順:
 
-1. 取り込んだ本家の文言変更へ`ja.po`を追従させる。
-2. 別の作業ツリーが`feature/standard-map-translation-sidecar`を開いているため、`ja-localized`へ切り替える。
+1. `master`、`ja-engine`、`ja-localized`を`origin`へpushする。
+2. 取り込んだ本家の文言変更へ`ja.po`を追従させる。
+3. 別の作業ツリーが`feature/standard-map-translation-sidecar`を開いているため、`ja-localized`へ切り替える。
    確認が済んだ後、元のブランチと`backup/*`を削除する。
