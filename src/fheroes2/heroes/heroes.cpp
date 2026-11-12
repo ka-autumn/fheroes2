@@ -57,6 +57,7 @@
 #include "map_format_helper.h"
 #include "map_format_info.h"
 #include "map_object_info.h"
+#include "map_translation.h"
 #include "maps.h"
 #include "maps_fileinfo.h"
 #include "maps_tiles.h"
@@ -837,7 +838,7 @@ int Heroes::GetRace() const
 
 const std::string & Heroes::GetName() const
 {
-    return _name;
+    return Maps::resolveMapObjectTextForDisplay( Settings::Get().getCurrentMapInfo(), Maps::MapObjectTextKind::HeroName, _name ).text;
 }
 
 PlayerColor Heroes::GetColor() const
@@ -1888,7 +1889,7 @@ void Heroes::_levelUpSecondarySkill( const HeroSeedsForLevelUp & seeds, const in
     }
     else {
         AudioManager::PlaySound( M82::NWHEROLV );
-        const int result = Dialog::LevelUpSelectSkill( _name, primary, sec1, sec2, *this );
+        const int result = Dialog::LevelUpSelectSkill( GetName(), primary, sec1, sec2, *this );
 
         if ( Skill::Secondary::UNKNOWN != result ) {
             selected = ( result == sec2.Skill() ) ? sec2 : sec1;

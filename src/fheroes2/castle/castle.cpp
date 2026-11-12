@@ -54,6 +54,7 @@
 #include "m82.h"
 #include "map_format_helper.h"
 #include "map_format_info.h"
+#include "map_translation.h"
 #include "maps.h"
 #include "maps_fileinfo.h"
 #include "maps_tiles.h"
@@ -97,6 +98,11 @@ namespace
             gettext_noop( "Lankershire" ),  gettext_noop( "Lombard" ),     gettext_noop( "Timberhill" ),   gettext_noop( "Fenton" ),     gettext_noop( "Troy" ),
             gettext_noop( "Forder Oaks" ),  gettext_noop( "Meramec" ),     gettext_noop( "Quick Silver" ), gettext_noop( "Westmoor" ),   gettext_noop( "Willow" ),
             gettext_noop( "Sheltemburg" ),  gettext_noop( "Corackston" ) };
+}
+
+const std::string & Castle::GetName() const
+{
+    return Maps::resolveMapObjectTextForDisplay( Settings::Get().getCurrentMapInfo(), Maps::MapObjectTextKind::CastleName, _name ).text;
 }
 
 void Castle::LoadFromMP2( const std::vector<uint8_t> & data )

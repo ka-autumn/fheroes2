@@ -49,6 +49,7 @@
 #include "kingdom.h"
 #include "localevent.h"
 #include "map_format_info.h"
+#include "map_translation.h"
 #include "math_base.h"
 #include "pal.h"
 #include "race.h"
@@ -133,39 +134,43 @@ int Heroes::OpenDialog( const bool readonly, const bool fade, const bool disable
     // Dialog title.
     const fheroes2::Rect titleRoi( dialogRoi.x + 60, dialogRoi.y + 1, 519, 17 );
 
-    auto drawTitleText
-        = [&display, &titleRoi, &dialogRoi, &backgroundImage, language, this]( const std::string & heroName, const int heroRace, const bool restoreBackground ) {
-              if ( restoreBackground ) {
-                  fheroes2::Copy( backgroundImage, titleRoi.x - dialogRoi.x, titleRoi.y - dialogRoi.y, display, titleRoi );
-              }
+    auto drawTitleText = [&display, &titleRoi, &dialogRoi, &backgroundImage, language, isEditor, this]( const std::string & heroName, const int heroRace,
+                                                                                                        const bool restoreBackground ) {
+        if ( restoreBackground ) {
+            fheroes2::Copy( backgroundImage, titleRoi.x - dialogRoi.x, titleRoi.y - dialogRoi.y, display, titleRoi );
+        }
 
-              std::string titleText;
-              if ( !heroName.empty() ) {
-                  titleText = _( "%{name} the %{race} (Level %{level})" );
-                  StringReplace( titleText, "%{race}", Race::String( heroRace ) );
-                  StringReplace( titleText, "%{level}", GetLevel() );
+        std::string titleText;
+        if ( !heroName.empty() ) {
+            titleText = _( "%{name} the %{race} (Level %{level})" );
+            StringReplace( titleText, "%{race}", Race::String( heroRace ) );
+            StringReplace( titleText, "%{level}", GetLevel() );
 
-                  const fheroes2::SupportedLanguage gameLanguage = fheroes2::getLanguageFromAbbreviation( Settings::Get().getGameLanguage() );
+            const fheroes2::SupportedLanguage gameLanguage = fheroes2::getLanguageFromAbbreviation( Settings::Get().getGameLanguage() );
+            const Maps::MapObjectTextForDisplay displayName
+                = isEditor ? Maps::MapObjectTextForDisplay{ heroName, language }
+                           : Maps::resolveMapObjectTextForDisplay( Settings::Get().getCurrentMapInfo(), Maps::MapObjectTextKind::HeroName, heroName );
 
-                  auto title = fheroes2::getLocalizedText( fheroes2::getLocalizedStrings( std::move( titleText ), gameLanguage, "%{name}", heroName, language ),
-                                                           fheroes2::FontType::normalWhite() );
-                  title->drawInRoi( titleRoi.x + ( titleRoi.width - title->width() ) / 2, titleRoi.y + 2, display, titleRoi );
-                  return;
-              }
+            auto title = fheroes2::getLocalizedText( fheroes2::getLocalizedStrings( std::move( titleText ), gameLanguage, "%{name}", displayName.text,
+                                                                                    displayName.text == heroName ? language : displayName.language.value_or( language ) ),
+                                                     fheroes2::FontType::normalWhite() );
+            title->drawInRoi( titleRoi.x + ( titleRoi.width - title->width() ) / 2, titleRoi.y + 2, display, titleRoi );
+            return;
+        }
 
-              if ( heroRace == Race::RAND ) {
-                  // In Editor the empty name is a sign that the default random hero (with a random name) will be used on the game start.
-                  titleText = _( "Random hero (Level %{level})" );
-              }
-              else {
-                  titleText = _( "Random %{race} hero (Level %{level})" );
-              }
-              StringReplace( titleText, "%{race}", Race::String( heroRace ) );
-              StringReplace( titleText, "%{level}", GetLevel() );
+        if ( heroRace == Race::RAND ) {
+            // In Editor the empty name is a sign that the default random hero (with a random name) will be used on the game start.
+            titleText = _( "Random hero (Level %{level})" );
+        }
+        else {
+            titleText = _( "Random %{race} hero (Level %{level})" );
+        }
+        StringReplace( titleText, "%{race}", Race::String( heroRace ) );
+        StringReplace( titleText, "%{level}", GetLevel() );
 
-              const fheroes2::Text title( std::move( titleText ), fheroes2::FontType::normalWhite() );
-              title.drawInRoi( titleRoi.x + ( titleRoi.width - title.width() ) / 2, titleRoi.y + 2, display, titleRoi );
-          };
+        const fheroes2::Text title( std::move( titleText ), fheroes2::FontType::normalWhite() );
+        title.drawInRoi( titleRoi.x + ( titleRoi.width - title.width() ) / 2, titleRoi.y + 2, display, titleRoi );
+    };
 
     drawTitleText( _name, _race, false );
 
@@ -719,12 +724,12 @@ int Heroes::OpenDialog( const bool readonly, const bool fade, const bool disable
             }
             else if ( Modes( NOTDISMISS ) ) {
                 message = _( "Dismissal of %{name} the %{race} is prohibited by scenario" );
-                StringReplace( message, "%{name}", _name );
+                StringReplace( message, "%{name}", GetName() );
                 StringReplace( message, "%{race}", Race::String( _race ) );
             }
             else if ( buttonDismiss->isEnabled() ) {
                 message = _( "Dismiss %{name} the %{race}" );
-                StringReplace( message, "%{name}", _name );
+                StringReplace( message, "%{name}", GetName() );
                 StringReplace( message, "%{race}", Race::String( _race ) );
             }
         }

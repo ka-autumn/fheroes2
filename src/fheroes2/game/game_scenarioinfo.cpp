@@ -46,6 +46,7 @@
 #include "image.h"
 #include "localevent.h"
 #include "logging.h"
+#include "map_translation.h"
 #include "maps_fileinfo.h"
 #include "math_base.h"
 #include "math_tools.h"
@@ -127,7 +128,8 @@ namespace
     void RedrawMapTitle( const Settings & conf, const fheroes2::Rect & maxRoi, const fheroes2::Rect & centeredRoi )
     {
         const auto & info = conf.getCurrentMapInfo();
-        fheroes2::Text text{ info.name, fheroes2::FontType::normalWhite(), info.getSupportedLanguage() };
+        const Maps::MapTextForDisplay mapText = Maps::resolveMapTextForDisplay( info );
+        fheroes2::Text text{ mapText.name, fheroes2::FontType::normalWhite(), mapText.language };
 
         if ( text.width() > centeredRoi.width ) {
             text.fitToOneRow( maxRoi.width );

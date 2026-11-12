@@ -203,10 +203,7 @@ public:
         return _race;
     }
 
-    const std::string & GetName() const
-    {
-        return _name;
-    }
+    const std::string & GetName() const;
 
     // This method must be called only at the time of map loading and only for castles with empty names.
     void setName( const std::set<std::string, std::less<>> & usedNames );

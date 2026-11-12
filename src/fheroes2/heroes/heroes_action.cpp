@@ -65,6 +65,7 @@
 #include "logging.h"
 #include "m82.h"
 #include "map_object_info.h"
+#include "map_translation.h"
 #include "maps.h"
 #include "maps_fileinfo.h"
 #include "maps_objects.h"
@@ -335,7 +336,7 @@ namespace
         }
     }
 
-    void showSignMessage( const int32_t tileIndex )
+    void showSignMessage( const int32_t tileIndex, const MP2::MapObjectType objectType )
     {
         const MapSign * sign = dynamic_cast<MapSign *>( world.GetMapObject( tileIndex ) );
         if ( sign == nullptr ) {
@@ -343,8 +344,13 @@ namespace
             return;
         }
 
+        const Maps::MapObjectTextKind textKind
+            = objectType == MP2::OBJ_BOTTLE ? Maps::MapObjectTextKind::BottleMessage : Maps::MapObjectTextKind::SignMessage;
+        const Maps::MapObjectTextForDisplay message
+            = Maps::resolveMapObjectTextForDisplay( Settings::Get().getCurrentMapInfo(), textKind, sign->message.text );
+
         const fheroes2::Text title{ MP2::StringObject( MP2::OBJ_SIGN ), fheroes2::FontType::normalYellow() };
-        const fheroes2::Text body{ sign->message.text, fheroes2::FontType::normalWhite(), sign->message.language };
+        const fheroes2::Text body{ message.text, fheroes2::FontType::normalWhite(), message.language };
         fheroes2::showMessage( title, body, Dialog::OK );
     }
 
@@ -756,7 +762,7 @@ namespace
         Maps::Tile & tile = world.getTile( dst_index );
 
         if ( objectType == MP2::OBJ_BOTTLE ) {
-            showSignMessage( dst_index );
+            showSignMessage( dst_index, objectType );
         }
         else {
             const Funds funds = getFundsFromTile( tile );
@@ -1247,7 +1253,7 @@ namespace
         (void)hero;
 #endif
 
-        showSignMessage( tileIndex );
+        showSignMessage( tileIndex, MP2::OBJ_SIGN );
     }
 
     void ActionToMagicWell( Heroes & hero, int32_t dst_index )
@@ -2884,8 +2890,9 @@ namespace
             elementUI.emplace_back( experienceUI.get() );
         }
 
+        const Maps::MapEventTextForDisplay eventText = Maps::resolveMapEventTextForDisplay( Settings::Get().getCurrentMapInfo(), mapEvent->message );
         const fheroes2::Text emptyText;
-        const fheroes2::Text body( mapEvent->message, fheroes2::FontType::normalWhite(), Settings::Get().getCurrentMapInfo().getSupportedLanguage() );
+        const fheroes2::Text body( eventText.text, fheroes2::FontType::normalWhite(), eventText.language );
 
         int32_t dialogHeight = fheroes2::getDialogHeight( emptyText, body, Dialog::OK, elementUI );
         const int32_t displayHeight = fheroes2::Display::instance().height();
@@ -3553,17 +3560,18 @@ namespace
                 return Outcome::Ignore;
             }
 
-            const auto language = Settings::Get().getCurrentMapInfo().getSupportedLanguage();
+            const Maps::FileInfo & mapInfo = Settings::Get().getCurrentMapInfo();
+            const Maps::MapSphinxRiddleForDisplay riddleText = Maps::resolveMapSphinxRiddleForDisplay( mapInfo, riddle->riddle );
 
             fheroes2::MultiFontText questionText;
             questionText.add( { _( "The Sphinx asks you the following riddle:\n\n'" ), fheroes2::FontType::normalWhite() } );
-            questionText.add( { riddle->riddle, fheroes2::FontType::normalWhite(), language } );
+            questionText.add( { riddleText.text, fheroes2::FontType::normalWhite(), riddleText.language } );
             questionText.add( { _( "sphinx|'\n\nYour answer?" ), fheroes2::FontType::normalWhite() } );
 
             std::string answer;
             Dialog::inputString( fheroes2::Text{ title, fheroes2::FontType::normalYellow() }, questionText, answer, 0, false, {} );
 
-            if ( !riddle->isCorrectAnswer( answer ) ) {
+            if ( !riddle->isCorrectAnswer( answer ) && !Maps::isAdditionalSphinxAnswerAccepted( mapInfo, riddle->answers, answer ) ) {
                 fheroes2::showStandardTextMessage(
                     title,
                     _( "\"You guessed incorrectly,\" the Sphinx says, smiling. The Sphinx swipes at you with a paw, knocking you to the ground. Another blow makes the world go black, and you know no more." ),
