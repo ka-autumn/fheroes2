@@ -1665,8 +1665,9 @@ namespace
                 _icnVsSprite[id].resize( 24 );
             }
 
-            // German game resources are completed off with the engine's generated buttons.
-            if ( useOriginalResources() && ( fheroes2::getResourceLanguage() != fheroes2::SupportedLanguage::German ) ) {
+            // German and Czech game resources are completed off with the engine's generated buttons.
+            if ( useOriginalResources() && ( fheroes2::getResourceLanguage() != fheroes2::SupportedLanguage::German )
+                 && ( fheroes2::getResourceLanguage() != fheroes2::SupportedLanguage::Czech ) ) {
                 for ( size_t i = 0; i < 3; ++i ) {
                     _icnVsSprite[id][i * 2] = Assets::getImage( ICN::BTNNEWGM, static_cast<uint32_t>( i * 2 ) );
                     _icnVsSprite[id][i * 2 + 1] = Assets::getImage( ICN::BTNNEWGM, static_cast<uint32_t>( i * 2 + 1 ) );
@@ -1723,8 +1724,9 @@ namespace
         case ICN::BUTTONS_EDITOR_MENU_GOOD: {
             _icnVsSprite[id].resize( 20 );
 
-            // German game resources are completed off with the engine's generated buttons.
-            if ( useOriginalResources() && ( fheroes2::getResourceLanguage() != fheroes2::SupportedLanguage::German ) ) {
+            // German and Czech game resources are completed off with the engine's generated buttons.
+            if ( useOriginalResources() && ( fheroes2::getResourceLanguage() != fheroes2::SupportedLanguage::German )
+                 && ( fheroes2::getResourceLanguage() != fheroes2::SupportedLanguage::Czech ) ) {
                 for ( size_t i = 0; i < 2; ++i ) {
                     _icnVsSprite[id][i * 2] = Assets::getImage( ICN::BTNEMAIN, static_cast<uint32_t>( i * 2 ) );
                     _icnVsSprite[id][i * 2 + 1] = Assets::getImage( ICN::BTNEMAIN, static_cast<uint32_t>( i * 2 + 1 ) );
@@ -5185,12 +5187,19 @@ namespace
         case ICN::GAME_OPTION_ICON: {
             _icnVsSprite[id].resize( 4 );
 
-            // TODO: Cut the icons from the embedded background in resurrection.h2d and use the empty background ICN to make the icons instead.
             const fheroes2::Sprite & background = Assets::getImage( ICN::EMPTY_OPTION_ICON_BACKGROUND, 0 );
 
-            fheroes2::h2d::readImage( "hotkeys_icon.image", _icnVsSprite[id][0] );
+            fheroes2::Sprite icon;
+            fheroes2::h2d::readImage( "hotkeys_option_icon.image", icon );
+            _icnVsSprite[id][0] = background;
+            fheroes2::Blit( icon, 0, 0, _icnVsSprite[id][0], icon.x(), icon.y(), icon.width(), icon.height() );
+
             _icnVsSprite[id][0]._disableTransformLayer();
-            fheroes2::h2d::readImage( "graphics_icon.image", _icnVsSprite[id][1] );
+
+            fheroes2::h2d::readImage( "graphics_option_icon.image", icon );
+            _icnVsSprite[id][1] = background;
+            fheroes2::Blit( icon, 0, 0, _icnVsSprite[id][1], icon.x(), icon.y(), icon.width(), icon.height() );
+
             _icnVsSprite[id][1]._disableTransformLayer();
 
             fheroes2::Sprite monocle;
@@ -5230,7 +5239,14 @@ namespace
         case ICN::RESOLUTION_ICON: {
             _icnVsSprite[id].resize( 1 );
 
-            fheroes2::h2d::readImage( "resolution_icon.image", _icnVsSprite[id][0] );
+            const fheroes2::Sprite & background = Assets::getImage( ICN::EMPTY_OPTION_ICON_BACKGROUND, 0 );
+
+            fheroes2::Sprite icon;
+            fheroes2::h2d::readImage( "resolution_option_icon.image", icon );
+            _icnVsSprite[id][0] = background;
+            fheroes2::Blit( icon, 0, 0, _icnVsSprite[id][0], icon.x(), icon.y(), icon.width(), icon.height() );
+
+            _icnVsSprite[id][0]._disableTransformLayer();
 
             break;
         }
@@ -5649,6 +5665,11 @@ namespace
                 // We have to fix it in the resources.
                 std::swap( _icnVsSprite[id][20], _icnVsSprite[id][25] );
             }
+            break;
+        case ICN::MARKETPLACE_ICON:
+            _icnVsSprite[id].resize( 2 );
+            fheroes2::h2d::readImage( "market_icon_good.image", _icnVsSprite[id][0] );
+            fheroes2::h2d::readImage( "market_icon_evil.image", _icnVsSprite[id][1] );
             break;
         default:
             break;
