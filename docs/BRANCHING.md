@@ -109,21 +109,26 @@ git diff master ja-engine -- <提出するファイル> | git apply
 
 ## 現在の構成からの移行
 
-2026-11-12時点の構成から、次の順で移行する。各手順は開発者の了承を得てから行う。
+2026-11-12時点の構成からの移行は、次の状況である。残りの手順は開発者の了承を得てから行う。
 
-1. `feature/standard-map-translation-sidecar`の退避用のブランチを作成する。
-2. `feature/cjk-support`を`ja-engine`へ、`japanese-localization`を`ja-localized`へ名前を変更する。
-3. `feature/standard-map-translation-sidecar`の24コミットを、パスで2つに分け直す。
-   * `files/lang/ja.map-*.tsv`以外(コード、ビルド設定、スクリプト、文書)は`ja-engine`から切った作業ブランチへ載せる。
-   * `files/lang/ja.map-*.tsv`は翻訳データとして別に保持する。
-   * 片方が空になるコミットは、その側では省く。
-   * あわせて、ADR-0001の見出しをADR-0002と同じ日本語の見出しへ揃える。
-4. コードと文書の作業ブランチを`ja-engine`へ`--no-ff`で戻し、`ja-engine`を`ja-localized`へ`--no-ff`で取り込む。
-5. 翻訳データのコミットを`ja-localized`から切った作業ブランチへ載せ、`ja-localized`へ`--no-ff`で戻す。
-6. `ja-localized`から`ja.po`を除いた内容が、元の`feature/standard-map-translation-sidecar`と一致することを
-   `git diff`で確認する。
-7. ビルドし、起動と日本語の表示、マップ翻訳の表示を確認する。
-8. リモート`upstream`を追加し、「本家の更新を取り込む」を行う。
-9. `ja-engine`と`ja-localized`を`origin`へpushする。
-10. 別の作業ツリーが`feature/standard-map-translation-sidecar`を開いているため、`ja-localized`へ切り替える。
-    確認が済んだ後、元のブランチと`backup/*`を削除する。
+済んだ手順(2026-11-12):
+
+* `feature/standard-map-translation-sidecar`を
+  `backup/feature-standard-map-translation-sidecar-before-split-2026-11-12`へ退避した。
+* `feature/cjk-support`を`ja-engine`へ、`japanese-localization`を`ja-localized`へ名前を変更した。
+* `feature/standard-map-translation-sidecar`の24コミットを、パスで2つに分け直した。
+  `files/lang/ja.map-*.tsv`以外(コード、ビルド設定、スクリプト、文書)は11コミットとして`ja-engine`へ、
+  `files/lang/ja.map-*.tsv`は17コミットとして`ja-localized`へ取り込んだ。
+  誤ってコミットされていたPythonのキャッシュファイルは、分け直した履歴に含めていない。
+* `ja-localized`と元の`feature/standard-map-translation-sidecar`の差分が、`ja.po`とこの構成の文書だけで
+  あることを`git diff`で確認した。
+* 翻訳データが存在しなくてもビルドできるよう、`ja-engine`のビルド設定を修正した。
+* ADR-0001の見出しを、ADR-0002と同じ日本語の見出しへ揃えた。
+
+残りの手順:
+
+1. `ja-localized`をビルドし、起動と日本語の表示、マップ翻訳の表示を確認する。
+2. リモート`upstream`を追加し、「本家の更新を取り込む」を行う。
+3. `ja-engine`と`ja-localized`を`origin`へpushする。
+4. 別の作業ツリーが`feature/standard-map-translation-sidecar`を開いているため、`ja-localized`へ切り替える。
+   確認が済んだ後、元のブランチと`backup/*`を削除する。
